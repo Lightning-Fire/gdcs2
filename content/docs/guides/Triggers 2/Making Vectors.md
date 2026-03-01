@@ -32,7 +32,7 @@ Adding and multiplying vectors in Geometry Dash is best done with the Follow tri
 
 In order to follow the position of point A, you can use a follow trigger with A’s group as the follow group. In addition, you can multiply that vector A by the X and Y Mod values to change the vector’s values.
 
-None
+{{< youtube FkP4EF4QzFo >}}
 
 ## Following Several Vectors
 
