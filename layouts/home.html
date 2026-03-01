@@ -6,7 +6,7 @@
     </div>
     <div class="col-lg-9 col-xl-8 text-center">
       <p class="lead">{{ .Params.lead | safeHTML }}</p>
-      <a class="btn btn-primary btn-cta rounded-pill btn-lg my-3" href="/docs/{{ if site.Params.doks.docsVersioning }}{{ site.Params.doks.docsVersion }}/{{ end }}guides/the-editor/placing-objects/" role="button">{{ "Example Guide" }}</a>
+      <a class="btn btn-primary btn-cta rounded-pill btn-lg my-3" href="/docs/{{ if site.Params.doks.docsVersioning }}{{ site.Params.doks.docsVersion }}/{{ end }}guides/the-editor/placing-objects/" role="button">{{ "Start here!" }}</a>
       {{ .Content }}
     </div>
   </div>
@@ -24,6 +24,9 @@
     <div class="container">
       <div class="row justify-content-center text-center">
         <p>This is a free resource to help you make Geometry Dash levels! Check out the <strong>guides</strong> here, or join the Discord server for practice content.</p>
+        <div class="links">
+          <p style="color: red;"><a href="https://www.youtube.com/@GDCreatorSchool">Youtube</a></p>
+        </div>
         <div class="col-lg-5">
           {{partial "recently-edited.html"}}
         </div>
