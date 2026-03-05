@@ -1,6 +1,13 @@
 <h1>
-  {{ $fileName := printf "%s.png" (replace .Title " " "") }}
-  {{ $icon := resources.GetMatch (printf "**/%s" $fileName) }}
+  {{ $url := urlize .Title }}
+  {{ $fileKebab := printf "%s.png" (replace $url "/" "-") }}
+  {{ $filePascal := printf "%s.png" (replace .Title " " "") }}
+
+  {{ $icon := resources.GetMatch (printf "**/%s" $fileKebab) }}
+  {{ if not $icon }}
+    {{ $icon = resources.GetMatch (printf "**/%s" $filePascal) }}
+  {{ end }}
+
   {{ with $icon }}
     <img src="{{ .RelPermalink }}" class="headingemote">
   {{ end }}

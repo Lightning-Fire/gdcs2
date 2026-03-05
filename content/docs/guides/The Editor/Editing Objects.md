@@ -86,7 +86,7 @@ The two extra tabs give you more options to customize your objects.
 
 In addition, some objects can have more options, which include the following:
 - **Reverse**: __Reverses the gameplay direction as soon as you hit an orb or a pad__. *Orbs and Pads Only*.
-- **Single P Touch**: If one player touches an arrow trigger {{< img src="images/GDEmotes/Triggers/ArrowTrigger.png" class="emote" >}} in Dual Mode, the __trigger will only activate for the player that touches it__. *However, this feature is currently bugged as of Update 2.205.*
+- **Single P Touch**: If one player touches an arrow trigger {{< img src="images/GDEmotes/Triggers/Arrow.png" class="emote" >}} in Dual Mode, the __trigger will only activate for the player that touches it__. *However, this feature is currently bugged as of Update 2.205.*
 - **Center Effect**: __Touch Triggered triggers will only activate once the player touches the center of the trigger__.
 - **Smooth Ease**: __Moves the camera smoothly rather than instantly when using any kind of teleport.__
 

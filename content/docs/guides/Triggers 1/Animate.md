@@ -17,7 +17,7 @@ draft: false
 ** **
 # 1: Animate Trigger
 
-The **Animate Trigger** {{< img src="images/GDEmotes/Triggers/AnimateTrigger.png" class="emote">}} is a trigger that lets you __change the current animation of monsters__ shown in levels such as Deadlocked, Geometrical Dominator, Fingerdash, and the new 2.2 levels, along with a few custom levels.
+The **Animate Trigger** {{< img src="images/GDEmotes/Triggers/Animate.png" class="emote">}} is a trigger that lets you __change the current animation of monsters__ shown in levels such as Deadlocked, Geometrical Dominator, Fingerdash, and the new 2.2 levels, along with a few custom levels.
 
 {{< img src="https://lh3.googleusercontent.com/d/1TLGtixE79q7pSJoBGXuXvT3Tqo17Q5d0" >}}
 

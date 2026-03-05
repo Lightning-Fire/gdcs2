@@ -17,7 +17,7 @@ draft: false
 ** **
 # 1: BPM Trigger
 
-Place down the {{< img src="images/GDEmotes/Triggers/BPMTrigger.png" class="emote">}} BPM Trigger and go to {{< img src="images/GDEmotes/Buttons/EditObject.png" class="emote">}} Edit Object. You should see this menu:
+Place down the {{< img src="images/GDEmotes/Triggers/BPM.png" class="emote">}} BPM Trigger and go to {{< img src="images/GDEmotes/Buttons/EditObject.png" class="emote">}} Edit Object. You should see this menu:
 
 {{< img src="https://lh3.googleusercontent.com/d/1eXp_TaIdbOEhPRh5So0-VuSAS1KAxqeR" >}}
 

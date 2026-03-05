@@ -1,10 +1,10 @@
 ---
-title: BG_MG_G Change & BG_MG Speed
+title: BG/MG/G Change & BG/MG Speed
 weight: 347
 contributors:
 - koma5
 - EYZ
-draft: true
+draft: false
 ---
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}

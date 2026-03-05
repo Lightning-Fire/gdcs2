@@ -47,11 +47,11 @@ This is where you can change an object’s location. Click on any object to **se
 - {{< img src="images/GDEmotes/Buttons/MediumArrow.png" class="emote">}} The medium arrows move an object *1 block*.
 - {{< img src="images/GDEmotes/Buttons/LargeArrow.png" class="emote">}} The large arrows move objects by *5 blocks*.
 
-{{< img src="images/GDEmotes/Buttons/Rotate.png" class="emote">}} Use the **rotate buttons** to rotate an object. The arrow's direction shows which direction the object will rotate in, and the *number* shows how many degrees the object will rotate.
+{{< img src="images/GDEmotes/Buttons/RotateButton.png" class="emote">}} Use the **rotate buttons** to rotate an object. The arrow's direction shows which direction the object will rotate in, and the *number* shows how many degrees the object will rotate.
 
 {{< img src="images/GDEmotes/Buttons/Flip.png" class="emote">}} Use the **flip buttons** to flip an object. The button shown here flips objects horizontally, while the other flip button flips objects vertically.
 
-{{< img src="images/GDEmotes/Buttons/Scale.png" class="emote">}} Use the **scale buttons** to change an object's size. Objects can have any size between `0.25` and `4`. You can also modify an object's X and Y scale individually.
+{{< img src="images/GDEmotes/Buttons/ScaleButton.png" class="emote">}} Use the **scale buttons** to change an object's size. Objects can have any size between `0.25` and `4`. You can also modify an object's X and Y scale individually.
 
 {{< img src="images/GDEmotes/Buttons/Warp.png" class="emote">}} Use the **warp button** to change an object's size and skew. Unlike scaling, there is no size limit here. This is explained more in the [Transforming Objects](/docs/guides/the-editor/transforming-objects) guide.
 

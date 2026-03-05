@@ -17,7 +17,7 @@ draft: false
 ** **
 # 1: Time
 
-The **Time** trigger {{< img src="images/GDEmotes/Triggers/TimerTrigger.png" class="emote">}} looks like a white clock and is used to turn an item ID into a timer as well as specify any additional settings.
+The **Time** trigger {{< img src="images/GDEmotes/Triggers/Timer.png" class="emote">}} looks like a white clock and is used to turn an item ID into a timer as well as specify any additional settings.
 
 - **Item ID:** The Item ID of the counter label you want to serve as a timer.
 - **StartTime**: The time the timer starts at.

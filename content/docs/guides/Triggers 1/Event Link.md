@@ -13,7 +13,7 @@ draft: false
 {{< /callout >}}
 
 ** **
-The Event Link trigger {{< img src="images/GDEmotes/Triggers/EventLinkTrigger.png" class="emote">}} spawns a group if certain conditions are met. It allows you to detect up to 6 player inputs for building a controller. Before 2.2, we had to rely on quirky setups that were 3 times less efficient, but now we can achieve much more using only a few groups and little to no effort.
+The Event Link trigger {{< img src="images/GDEmotes/Triggers/EventLink.png" class="emote">}} spawns a group if certain conditions are met. It allows you to detect up to 6 player inputs for building a controller. Before 2.2, we had to rely on quirky setups that were 3 times less efficient, but now we can achieve much more using only a few groups and little to no effort.
 
 *NOTE: Event Link ONLY works as a Spawn trigger, not a Toggle trigger.*
 

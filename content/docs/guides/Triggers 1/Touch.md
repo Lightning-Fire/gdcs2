@@ -16,7 +16,7 @@ draft: false
 ** **
 # 1: Touch
 
-The **Touch trigger** {{< img src="images/GDEmotes/Triggers/TouchTrigger.png" class="emote">}} works as a Toggle trigger and a Spawn trigger; __it activates when the player clicks or touches the screen__.
+The **Touch trigger** {{< img src="images/GDEmotes/Triggers/Touch.png" class="emote">}} works as a Toggle trigger and a Spawn trigger; __it activates when the player clicks or touches the screen__.
 
 {{< img src="https://lh3.googleusercontent.com/d/1_eTmwMj75UfXvxED8iv7gpnSRn-f5KAs" >}}
 
@@ -25,7 +25,7 @@ Normally, the touch trigger toggles the group ID on and off when the player clic
 
 {{< youtube KvEsWa5Z8f0 >}}
 
-Unlike event triggers, touch triggers can still detect inputs when using the {{< img src="images/GDEmotes/Triggers/GPOptionsTrigger.png" class="emote">}} options trigger’s “Disable P1/P2 Controls”.
+Unlike event triggers, touch triggers can still detect inputs when using the {{< img src="images/GDEmotes/Triggers/GPOptions.png" class="emote">}} options trigger’s “Disable P1/P2 Controls”.
 
 {{< youtube G8sw0qp4Kc0 >}}
 

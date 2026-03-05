@@ -18,7 +18,7 @@ math: true
 
 # 1: SFX Trigger
 
-Sometimes, a GD level with a Newgrounds song just isn't enough to make your levels complete. You want to add in SFX to add details to your level. Imagine playing a Super Mario game, but without the iconic jump sound. It just doesn't hit the same. The new {{< img src="images/GDEmotes/Triggers/SFXTrigger.png" class="emote">}} SFX trigger completely changes that now, and here's how to utilize it to your advantage.
+Sometimes, a GD level with a Newgrounds song just isn't enough to make your levels complete. You want to add in SFX to add details to your level. Imagine playing a Super Mario game, but without the iconic jump sound. It just doesn't hit the same. The new {{< img src="images/GDEmotes/Triggers/SFX.png" class="emote">}} SFX trigger completely changes that now, and here's how to utilize it to your advantage.
 
 First place down the SFX trigger. When selected, click on the {{< img src="images/GDEmotes/Buttons/EditObject.png" class="emote">}} Edit Object button. The first page of the SFX Trigger is shown below:
 

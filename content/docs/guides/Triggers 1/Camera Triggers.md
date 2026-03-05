@@ -16,7 +16,7 @@ draft: false
 ** **
 # 1: Zoom
 
-Use the {{< img src="images/GDEmotes/Triggers/ZoomTrigger.png" class="emote">}} **Zoom** trigger to __simply zoom the camera in and out__:
+Use the {{< img src="images/GDEmotes/Triggers/CameraZoom.png" class="emote">}} **Zoom** trigger to __simply zoom the camera in and out__:
 - Numbers exceeding 1 zooms the camera in {{< img src="images/GDEmotes/Buttons/ZoomIn.png" class="emote">}}.
 - Numbers less than 1 zooms the camera out {{< img src="images/GDEmotes/Buttons/ZoomOut.png" class="emote">}}.
 
@@ -39,7 +39,7 @@ Here's a video demonstrating the Zoom trigger:
 
 # 2: Static Trigger
 
-The {{< img src="images/GDEmotes/Triggers/CamStaticTrigger.png" class="emote">}} **Static** trigger __fixes the camera to a selected point on the screen.__
+The {{< img src="images/GDEmotes/Triggers/CameraStatic.png" class="emote">}} **Static** trigger __fixes the camera to a selected point on the screen.__
 
 {{< img src="https://lh3.googleusercontent.com/d/1mFQJNItnStrFpd0ZAdsAOiEEmnqc327p" >}}
 
@@ -61,7 +61,7 @@ Here's a video demonstrating the Static trigger:
 
 # 3: Offset Trigger
 
-The {{< img src="images/GDEmotes/Triggers/OffsetTrigger.png" class="emote">}} **Offset** trigger __shifts the camera by a certain distance in the X and Y axes.__ You're essentially using a Move Trigger for the camera.
+The {{< img src="images/GDEmotes/Triggers/CameraOffset.png" class="emote">}} **Offset** trigger __shifts the camera by a certain distance in the X and Y axes.__ You're essentially using a Move Trigger for the camera.
 
 {{< img src="https://lh3.googleusercontent.com/d/1DWc0rHciyOREEzoBp1fW2Wtp1yeTbpX0" >}}
 
@@ -86,7 +86,7 @@ Here's a video demonstrating the Offset trigger:
 
 # 4: GP Offset Trigger
 
-Meanwhile, the {{< img src="images/GDEmotes/Triggers/GPOffsetTrigger.png" class="emote">}} **GP Offset** trigger __shifts the player’s position relative to the camera.__
+Meanwhile, the {{< img src="images/GDEmotes/Triggers/GPOffset.png" class="emote">}} **GP Offset** trigger __shifts the player’s position relative to the camera.__
 
 **X Only** and **Y Only** works exactly like the Offset trigger, where they ignore each other’s axes. Ticking **Don’t Zoom** doesn't seem to do anything even when combined with the zoom trigger. Either it lacks a function, or it will be expanded in a later update.
 
@@ -94,7 +94,7 @@ Pressing the **Default** button restores the original position between the playe
 
 # 5: Rotate Camera Trigger
 
-Not to be confused with the Rotate trigger, the {{< img src="images/GDEmotes/Triggers/RotateCamTrigger.png" class="emote">}} **Rotate Camera** trigger __rotates the camera up to a 360° angle.__
+Not to be confused with the Rotate trigger, the {{< img src="images/GDEmotes/Triggers/CameraRotate.png" class="emote">}} **Rotate Camera** trigger __rotates the camera up to a 360° angle.__
 
 {{< img src="https://lh3.googleusercontent.com/d/14KHzpiK6klNZAL1NmfBqDuIqmuoANhiF" >}}
 
@@ -114,7 +114,7 @@ Here's a video demonstrating the Rotate Camera trigger:
 
 # 6: Edge Trigger
 
-The {{< img src="images/GDEmotes/Triggers/CamEdgeTrigger.png" class="emote">}} **Edge** trigger __fixes the camera's edge to a certain group.__
+The {{< img src="images/GDEmotes/Triggers/CameraEdge.png" class="emote">}} **Edge** trigger __fixes the camera's edge to a certain group.__
 
 {{< img src="https://lh3.googleusercontent.com/d/1eBOFis9BqkGI_bscwHKBYmCmudN8w_UG" >}}
 
@@ -128,7 +128,7 @@ Here's a video demonstrating the Edge trigger:
 
 # 7: Mode Trigger
 
-Some gamemodes by default have borders at the top and bottom such as the ball, ship, UFO, wave, spider, and swing gamemode. With the {{< img src="images/GDEmotes/Triggers/CamModeTrigger.png" class="emote">}} **Mode trigger**, __you can remove these borders.__ It’s as simple as ticking **Free Mode**.
+Some gamemodes by default have borders at the top and bottom such as the ball, ship, UFO, wave, spider, and swing gamemode. With the {{< img src="images/GDEmotes/Triggers/CameraMode.png" class="emote">}} **Mode trigger**, __you can remove these borders.__ It’s as simple as ticking **Free Mode**.
 
 Ticking **Edit Camera Settings** leads you to two features that adjusts how the camera moves along the player:
 - Easing: changes how quickly the camera moves.
@@ -137,10 +137,10 @@ Normally, the camera center will snap to the closest grid space. With the Disabl
 
 # 8: Guide Trigger
 
-The {{< img src="images/GDEmotes/Triggers/CamGuideTrigger.png" class="emote">}} **Guide** trigger’s purpose is to __assist creators with camera layouts and aspect ratio, such as 19:6, 4:3, and 5:4.__
+The {{< img src="images/GDEmotes/Triggers/CameraGuide.png" class="emote">}} **Guide** trigger’s purpose is to __assist creators with camera layouts and aspect ratio, such as 19:6, 4:3, and 5:4.__
 The trigger provides a guideline for these ratios when placed.
 
-You can tweak the sliders in order to reflect the previous camera's state if you used the Zoom {{< img src="images/GDEmotes/Triggers/ZoomTrigger.png" class="emote">}} or Offset trigger {{< img src="images/GDEmotes/Triggers/OffsetTrigger.png" class="emote">}}.
+You can tweak the sliders in order to reflect the previous camera's state if you used the Zoom {{< img src="images/GDEmotes/Triggers/CameraZoom.png" class="emote">}} or Offset trigger {{< img src="images/GDEmotes/Triggers/CameraOffset.png" class="emote">}}.
 
 Here's a video demonstrating how a Guide trigger can be used:
 
@@ -148,7 +148,7 @@ Here's a video demonstrating how a Guide trigger can be used:
 
 # 9: Shake Trigger
 
-The {{< img src="images/GDEmotes/Triggers/ShakeTrigger.png" class="emote">}} **Shake** trigger is self-explanatory: __it shakes your screen__. These jitters in movement come with three variables: strength, interval and duration.
+The {{< img src="images/GDEmotes/Triggers/Shake.png" class="emote">}} **Shake** trigger is self-explanatory: __it shakes your screen__. These jitters in movement come with three variables: strength, interval and duration.
 
 **Strength** affects __how strong the shake will be__. While you can only use the slider to `5`, the highest strength you can input is `100` as of Update 2.2; anything higher than that will return back to `100`.
 
