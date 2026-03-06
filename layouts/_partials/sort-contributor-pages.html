@@ -1,0 +1,14 @@
+{{- /* this function receives a dictionary (dict) with:
+  .pages -> .Data.Pages
+  .context -> the page's context ($) to access .Site.Data
+*/ -}}
+
+{{- $pages := slice -}}
+{{- $context := .context -}}
+
+{{- range .pages -}}
+  {{- $displayname := partial "get-contributor-name.html" (dict "username" .Title "context" $context) -}}
+  {{- $pages = $pages | append (dict "page" . "displayname" $displayname) -}}
+{{- end -}}
+
+{{- return (sort $pages "displayname") -}}

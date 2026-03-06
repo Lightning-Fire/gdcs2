@@ -5,7 +5,7 @@
 <h1>Credits</h1>
 <p></p>
 Created by
-{{- $contributors := partial "get-sorted-contributors.html" (dict "collection" . "context" $) -}}
+{{- $contributors := partial "sort-contributor-strings.html" (dict "contributors" . "context" $) -}}
 
 {{- range $index, $contributor := $contributors -}}
   {{- if gt $index 0 -}}

@@ -1,0 +1,14 @@
+{{- /* this function receives a dictionary (dict) with:
+  .contributors -> .Params.contributors (strings)
+  .context -> the page's context ($) to access .Site.Data
+*/ -}}
+
+{{- $sorted := slice -}}
+{{- $context := .context -}}
+
+{{- range .contributors -}}
+  {{- $displayname := partial "get-contributor-name.html" (dict "username" . "context" $context) -}}
+  {{- $sorted = $sorted | append (dict "username" . "displayname" $displayname ) -}}
+{{- end -}}
+
+{{- return (sort $sorted "displayname" "asc") -}}
