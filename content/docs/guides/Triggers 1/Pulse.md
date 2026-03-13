@@ -1,9 +1,14 @@
 ---
 title: Pulse
 weight: 303
+date: 2024-01-08
+authors:
+- electrifyxd
+contributors:
+- electrifyxd
+- Unknown
 draft: false
 ---
-{{< img src="images/GDEmotes/Icons/Clock.png" class="emote">}} **Tiny** (1-3 minutes)
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 - Pulse triggers change the color of a certain color channel or group for a set amount of time using the "Fade In", "Hold", and "Fade Out" sliders.
@@ -34,9 +39,3 @@ The video below shows a basic use of the pulse trigger in practice.
 
 {{< youtube ohfPjXJIAbE >}}
 
-
-
-
-
-## Credits
-Created by @Electrify and @Unknown

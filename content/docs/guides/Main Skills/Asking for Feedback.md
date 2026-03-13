@@ -1,10 +1,13 @@
 ---
 title: Asking for Feedback
 weight: 204
+date: 2023-03-09
+authors:
+- komatic5
+contributors:
+- komatic5
 draft: false
 ---
-## Guide info
-Tiny: 2-4 minutes
 
 
 - **Summary**
@@ -29,7 +32,7 @@ Here are some sample questions you could use to describe your work. The more spe
 
 **2: Taking Feedback**
 
-It can be really irritating to give someone feedback and receive a rude response or a list of excuses for everything you pointed out. With this in mind, be polite when you receive feedback. 
+It can be really irritating to give someone feedback and receive a rude response or a list of excuses for everything you pointed out. With this in mind, be polite when you receive feedback.
 
 Try not to be defensive when someone points out issues in your work. If you see it as absolutely necessary, politely explain your intentions further.
 
@@ -37,30 +40,19 @@ Note that you don’t *have* to accept all the feedback you’re given. Sometime
 
 **3: Using Feedback**
 
-Finally, let’s move to the step of using the feedback you receive. The steps below provide an outline for how to best use feedback. 
+Finally, let’s move to the step of using the feedback you receive. The steps below provide an outline for how to best use feedback.
 
 > **1.** Make a list of suggestions and issues you’ve been given.
-> **2.** Evaluate how each suggestion or issue would change your work. 
-> **3.** Choose the changes you want to make, and change your work accordingly. 
+> **2.** Evaluate how each suggestion or issue would change your work.
+> **3.** Choose the changes you want to make, and change your work accordingly.
 
-Remember that feedback is a process of improving your work. If you’ve made changes to your work and would like more feedback, contact the people whom you spoke to before and get their thoughts! You’re only going to improve as a result. 
+Remember that feedback is a process of improving your work. If you’ve made changes to your work and would like more feedback, contact the people whom you spoke to before and get their thoughts! You’re only going to improve as a result.
 
 Ultimately, feedback should give you a lot of ideas and suggestions for what to add or improve in your work. *Ideas* are the first step of our creative process, meaning you’re back at the start. You get a bunch of ideas that you can use to make a plan, execute it, and get opinions accordingly. In this way, the creating process is a loop that gets easier once you start it.
 
 
-
-> • **Research**
-
-  @koma5
-
-> • **Proofreading**
-
-  @koma5
-
-**Sources:**
+# Sources
 
 > • <https://mattepaint.com/blog/how-to-ask-for-constructive-feedback/>
 > • <https://www.creativebloq.com/features/how-to-give-and-get-more-from-art-critiques>
-
-Changed the channel name: Asking for Feedback
 

@@ -1,10 +1,14 @@
 ---
 title: Solving Problems
 weight: 205
+date: 2024-07-31
+authors:
+- komatic5
+contributors:
+- komatic5
+- sparktwee
 draft: false
 ---
-## Guide info
-Medium: 12-14 minutes
 
 ## TLDR - What this guide covers
 - Problems will appear in your creating process; part of your ability to grow is in handling and overcoming them.
@@ -40,7 +44,7 @@ So to fully understand your issue, you need to know what exactly is occurring, a
 Here’s how one server member described their problem in the #bug-help channel. I’ve shortened their description here, but the essential details still remain.
 
 > “I’m using a Static Camera trigger to lock the camera to an object’s position infinitely, but the trigger stops working after a certain point in the gameplay. This is undesirable as I need the gameplay to remain readable for this segment, and moving the camera without the Static trigger would make it less enjoyable.
-> 
+>
 > This system uses a Static Camera trigger locked to one object, and a Move trigger to move that object over time. I know this works normally, so the issue must lie in the other triggers: Arrow triggers to change the channel of the player, Teleport triggers to move the player up, and a Speed portal at the very start.”
 
 With your info sorted like this, you’re ready to address the next step.
@@ -121,9 +125,9 @@ Using productive thinking and abstraction laddering should suffice for most prob
 
 This is where issue trees and first principles come into play. They let you break down problems into smaller parts, and arrange these parts into a “map” of each different factor. Think of these as a means of refining Steps 3-4 of productive thinking.
 
-**Issue trees** __map problems out into related factors.__ These factors need to be mutually exclusive, so they don’t have overlapping areas that they address. They also need to cover the entire problem, or be collectively exhaustive. If you’re familiar with management consulting this may sound familiar; it’s where the term “MECE” comes from. For example, if you want to identify why people don’t play your levels. you could break this into two factors: 
+**Issue trees** __map problems out into related factors.__ These factors need to be mutually exclusive, so they don’t have overlapping areas that they address. They also need to cover the entire problem, or be collectively exhaustive. If you’re familiar with management consulting this may sound familiar; it’s where the term “MECE” comes from. For example, if you want to identify why people don’t play your levels. you could break this into two factors:
 
-1. People don’t know your levels exist. 
+1. People don’t know your levels exist.
 2. People do know, but don’t like your levels.
 
 There are two types of issue trees: **problem trees** which __break a broad problem into smaller parts by repeatedly asking “Why”__, and **Solution Trees** that __break a broad solution into small parts by constantly asking “How”__. While this is useful, it’s more effective to ask a wider range of questions, which is where first principles come in.
@@ -164,12 +168,5 @@ This is similar to answering a multiple choice question: rather than finding the
 
 Referring back to the diagram above, many solutions are provided to improve in creating, but whether or not they work for you depends on your situation at the moment. Maybe you have been working hard in the editor but got burnt out along the way. If so, forcing yourself to work extra hours in the editor wouldn’t make much sense. Meanwhile, taking a break would be a more viable option to give yourself some time away from the editor and do other tasks.
 
-
-
-## Sources
+# Sources
 - [Tools for Better Thinking](<https://untools.co/>)
-
-
-
-## Credits
-Created by @Selena and @koma5

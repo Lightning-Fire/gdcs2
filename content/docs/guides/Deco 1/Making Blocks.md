@@ -1,9 +1,13 @@
 ---
 title: Making Blocks
 weight: 508
+date: 2023-03-18
+authors:
+- komatic5
+contributors:
+- komatic5
 draft: false
 ---
-{{< img src="images/GDEmotes/Icons/Clock.png" class="emote">}} **Short** (6-8 minutes)
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 - Blocks always start with a hitbox from the gameplay. You can leave the gameplay’s structures as they are, or you can remake them to suit your deco needs.
@@ -89,14 +93,3 @@ Here are some assets from my Emerald Realm part . After making the assets, espec
 One benefit of making custom assets is that you get a lot of freedom with your blocks, no matter what theme you’re working with. If you’re making glow designs, you can use them to the same degree that you would with custom art. Additionally, assets make it a lot easier to explore your ideas or make many versions of blocks, which’ll help you improve faster.
 
 Do be aware that optimization becomes crucial with assets. If you make one that uses a lot of objects, you’ll have to replace *every single one* when optimizing it. You could try to optimize them before putting them into use, but that’d also take up more time. Feel free to experiment with which you prefer most.
-
-
-
-> **Research** and **Examples**
-
-  @koma5
-
-> **Proofreading**
-
-  @koma5
-

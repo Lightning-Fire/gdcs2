@@ -1,10 +1,15 @@
 ---
 title: Getting Ideas
 weight: 201
+date: 2023-03-09
+authors:
+- sparktwee
+contributors:
+- sparktwee
+- vexilo5
+- komatic5
 draft: false
 ---
-## Guide info
-Short: 7-9 minutes
 
 ## TLDR - What this guide covers
 - As the first stage of creating, ideas are often crucial yet hard to come by. Many ideas simply aren't tangible enough to work for levels.
@@ -101,7 +106,7 @@ Ultimately, the methods described here focus on the number of ideas, rather than
 As long as someone can think and imagine, they have ideas, which constitutes most people. But that doesn't mean people will have the same *quality* of ideas. To evaluate what makes ideas good *in practice*, "Planning a Level" will be your next stop.
 
 
-## Sources
+# Sources
 
 - [GAMEDC Level 5: Generating Ideas](<https://learn.canvas.net/courses/3/pages/level-5-dot-0-generating-ideas?module_item_id=44545>)
 - [Gamedev: Four Basic Methods for Generating Ideas](<https://www.gamedev.net/tutorials/game-design/game-design-and-theory/four-basic-methods-for-generating-ideas-r4759/>)
@@ -109,9 +114,5 @@ As long as someone can think and imagine, they have ideas, which constitutes mos
 - [Conceptboard: The SCAMPER technique for brainstorming and creativity](<https://conceptboard.com/blog/scamper-technique-template/>)
 - [Lifehacker: Why Your Memory Sucks, and What You Can Do About It](<https://lifehacker.com/why-your-memory-sucks-and-what-you-can-do-about-it-596782066>)
 
+
 **Video:** [How To Make UNIQUE LEVELS in Geometry Dash](https://youtu.be/s8DIK6qT8TM)
-
-
-
-## Credits
-Created by @Selena and @Vexilo

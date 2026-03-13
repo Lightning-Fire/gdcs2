@@ -1,6 +1,12 @@
 ---
 title: Pathfinding
 weight: 911
+date: 2024-09-30
+authors:
+- furorem
+contributors:
+- furorem
+- komatic5
 draft: false
 math: true
 
@@ -10,8 +16,6 @@ seo:
   canonical: "" # custom canonical URL (optional)
   noindex: false # false (default) or true
 ---
-** **
-{{< img src="images/GDEmotes/Icons/Clock.png" class="emote">}} **Medium** (11-13 minutes)
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 
@@ -136,7 +140,7 @@ DFS is a general purpose algorithm, meaning you’re free to attach any extra da
 ```js
 fn DFS(graph: Graph, root_node: Node) {
 let discovered: Array<bool> = Array[graph.nb_nodes()] - Array of boolean (true/false) values
-let stack: Stack = Stack::with_capacity(graph.nb_nodes()]
+let stack: Stack = Stack::with_capacity(graph.nb_nodes())
 stack.push(root_node) - Push the root node onto the stack.
 while NOT stack.is_empty() {
     let next: Node = stack.pop() - The next node is popped from the stack.
@@ -193,7 +197,7 @@ In practice, it can be implemented the same way as DFS, but replaces the stack w
 ```js
 fn BFS(graph: Graph, root_node: Node) {
 let discovered: Array<bool> = Array[graph.nb_nodes()] - Array of boolean (true/false) values
-let queue: Queue = Queue::with_capacity(graph.nb_nodes()]
+let queue: Queue = Queue::with_capacity(graph.nb_nodes())
 stack.push(root_node) - Push the root node onto the queue.
 while NOT queue.is_empty() {
     let next: Node = queue.pop() - The next node is popped from the queue.
@@ -287,9 +291,7 @@ fn A*(g: Graph, start: Node, end: Node) {
 The time complexity is `O(graph.nb_nodes())`, though this is the case where no path has been found. Usually, it will take far fewer steps to discover a path, depending on the structure of your graph.
 
 
-## Sources
+# Sources
 
 [Example images taken from these slides (French)](https://docs.google.com/presentation/d/1eaGNyOmGUu7jj1dTxL_lqAdgGQcTkyovo-qQouRYWrw/edit?slide=id.g2de964e2c24_3_5#slide=id.g2de964e2c24_3_5).
 
-## Credits
-Created by **@Furorem** and **@koma5**

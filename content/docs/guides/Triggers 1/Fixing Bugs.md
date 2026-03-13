@@ -1,9 +1,14 @@
 ---
 title: Fixing Bugs
 weight: 347
-draft: true
+date: 2023-08-31
+authors:
+- illusion2
+contributors:
+- notamoderatr
+- illusion2
+draft: false
 ---
-{{< img src="images/GDEmotes/Icons/Clock.png" class="emote">}} **Short** (6-8 minutes)
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 - Bugs are errors that don’t match what you intended.
@@ -42,7 +47,7 @@ To make it easier to find mistakes, here’s a list of common mistakes that almo
 - There’s a chance that you forgot to change an alpha trigger’s opacity value to a different number, making it so your object's opacity won’t change.
 - When toggling on/off objects, make sure to correctly activate Toggle On/Toggle Off. These mistakes are easier to identify because toggle triggers turn red or green depending on their state.
 - Rotate triggers almost always require a center group ID. When building, make sure that your objects have 1 center. If your objects rotate awkwardly, the problem is most likely that you have the center group set wrong or you have more than one center binded to the same group.
-- When playtesting in the editor, rotate triggers tend to break whatever is rotating over time. Keep this in mind as it could ruin rotations. 
+- When playtesting in the editor, rotate triggers tend to break whatever is rotating over time. Keep this in mind as it could ruin rotations.
 - Pulse triggers that overlap tend to cancel eachother, so check that all pulse triggers are spaced apart correctly.
 Mixing up Count and Instant Count triggers is possible, but they have some distinct differences that can make a difference in your trigger-work. Instant Count triggers have 3 options: Equal, Larger, and Smaller, while Count triggers do not. Check if the correct one is selected.
 - Touch, Collision, On Death, Count, and Instant Count all have the option to select Activate Group. Make sure that you have this option correctly selected/unselected.
@@ -60,7 +65,7 @@ In the image above, we have a double click detector. When making a trigger setup
 
 <div style="width: fit-content; height: fit-content"><iframe src=https://drive.google.com/file/d/1K6pLGgUxUw25_xtHHnXTExKeNCPOGMjp/preview?usp=drivesdk></iframe></div>
 
-In this video, we see Block 1 moving too far to the left, which _goes against our vision_. We have now _identified_ the bug, which goes to the next step, which is to _examine_ the bug. 
+In this video, we see Block 1 moving too far to the left, which _goes against our vision_. We have now _identified_ the bug, which goes to the next step, which is to _examine_ the bug.
 
 To start, we analyze what happened; Block 1 moved too far to the left. However, looking closer shows that as soon as Block 1 moved onto Block 2, the collision trigger moved Block 1 to its starting position, and then soon after, Block 1 shifted left by 2 grid spaces with a small delay in between. With logical thinking, we can infer that the problem came from the stop trigger and the move trigger that shifts Block 1 to the left by 1 grid space.
 
@@ -71,10 +76,3 @@ In this video, we’re looking through the groups and triggers to find anything 
 <div><iframe src=https://drive.google.com/file/d/1JVGQU35qnNENoxMrdprd2Rt5vgiz_qBr/preview?usp=drivesdk></iframe></div>
 
 Now that we know the bug’s origin, we just have to fix it. This fix is as simple as adding a group to a spawn trigger, but most other setups would require an extra module in order to patch a bug. Now that we’ve implemented a fix, we need to playtest and make sure no further problems arise. On a double click detector, spamming is easy enough to make sure.
-
-
-
-
-
-## Credits
-Created by @NotAModerator and @ontos

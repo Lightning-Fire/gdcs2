@@ -1,9 +1,14 @@
 ---
 title: Parallax
 weight: 518
+date: 2024-01-15
+authors:
+- komatic5
+contributors:
+- komatic5
+- sparktwee
 draft: false
 ---
-{{< img src="images/GDEmotes/Icons/Clock.png" class="emote">}} **Short** (5-7 minutes)
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 - Objects further away from the reference point move faster and vice-versa.
@@ -88,9 +93,3 @@ Similarly, if you have objects that are moving freely, have multiple of them on 
  - In 2.2, you can tweak the multipliers in “Lock to Camera X” and “Lock to Camera Y” to this extent.
 3. Create your background and foreground, assigning these layers to the respective parallax groups.
 
-
-
-
-
-## Credits
-Created by @Selena and @koma5

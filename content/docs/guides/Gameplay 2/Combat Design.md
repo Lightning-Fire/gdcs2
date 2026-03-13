@@ -1,9 +1,14 @@
 ---
 title: Combat Design
 weight: 720
+date: 2024-09-06
+authors:
+- illusion2
+contributors:
+- chuckolate
+- illusion2
 draft: false
 ---
-{{< img src="images/GDEmotes/Icons/Clock.png" class="emote">}} **Long** (51-55 minutes)
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 - Defining the role of your combat system within the game and its importance relative to other systems will help you determine its complexity and design all related mechanics and aspects.
@@ -298,9 +303,3 @@ The next method depends on **how players can interact with enemies outside of co
 
 The last and the most important concept is **giving your enemies a personality**. Walking back and forth repeatedly makes your enemies lifeless, but having let’s say a dog enemy jump around and dig holes is a great way to show it’s personality, and maybe when it digs something up it can give the player a collectible too. The thing with personality is that enemies can interact with other enemies too. In XC3, Volffs (the equivalent of wolves) tend to group together around a Feris (a big Volff), and they attack other enemies in the wild like Bunnits and even other Volffs. Tirkin, which are basically big chickens that can speak, have forts and villages and even have alliances with other species like humans and Ignas, which is why you can find them commonly together. BotW and TotK have Bokoblin camps, where groups of Bokoblin gather together around a fort with various protections like rolling spike balls and barrels of explosives. You can easily find enemies fighting each other throughout TotK too. **Having life in your world makes your game feel lived in, and that there are other creatures other than you which have their own lives and interactions, important to establishing an economy and atmosphere**.
 
-
-
-
-
-## Credits
-Created by @ChuckOlate and @ontos

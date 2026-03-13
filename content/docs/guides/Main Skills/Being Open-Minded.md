@@ -1,11 +1,14 @@
 ---
 title: Being Open-Minded
 weight: 210
+date: 2023-03-16
+authors:
+- halfcookedramen
+contributors:
+- halfcookedramen
+- kde__
 draft: false
 ---
-## Guide info
-Short: 3-5 minutes
-
 
 - **Summary**
 - > • Being open-minded and objective will allow you to better accept the shortcomings of your work, which will help you avoid those mistakes in the future and improve
@@ -19,7 +22,7 @@ Short: 3-5 minutes
 
 Having an open mind starts by keeping objectivity when you get feedback. It is natural to be proud of your work (in fact, you should be), but you should not let your pride get in the way when you see a way to improve.
 
-Being objective about your creations isn’t a concept specific to Geometry Dash. Popular American author Stephen King puts it nicely, ‘Kill your darlings, kill your darlings, even when it breaks your egocentric little scribbler’s heart, kill your darlings.’ 
+Being objective about your creations isn’t a concept specific to Geometry Dash. Popular American author Stephen King puts it nicely, ‘Kill your darlings, kill your darlings, even when it breaks your egocentric little scribbler’s heart, kill your darlings.’
 
 While the concept of ‘killing your darlings’ might sound strange, there is real value in understanding how to accurately evaluate your work. There is a huge gray area between being overconfident and being overly harsh on your work, so let’s go over what ‘killing your darlings’ does and doesn’t mean.
 
@@ -46,18 +49,6 @@ Exploring your ideas takes a lot of perseverance and grit. It can be hard to per
 It is hard to change the way you think about criticism. It is important to be patient with yourself; developing an open mind won’t happen overnight. Much like creating itself, improving won’t be a convenient or streamlined process, and it can take a while before any sign of progress appears. What matters most is to frequently practice open-mindedness simply by asking for feedback more often from creators who can give you useful criticism.
 
 
-    
-> **Research**
-
-  @Half-Cooked Ramen
-
-> **Proofreading**
-
-  @KDE
-
-**Sources**
+# Sources
 
 > • <https://writingcooperative.com/what-kill-your-darlings-does-and-doesn-t-mean-cd8d533dd627>
-
-**-=[ Lesson End ]=-**
-

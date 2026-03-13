@@ -1,0 +1,24 @@
+{{ $page := .Page }}
+{{ with $page.Params.contributors }}
+  <br>
+  {{ "** **" | $page.RenderString }}
+  <h1>Credits</h1>
+  <p></p>
+  Created by
+  {{- $contributors := partial "sort-contributor-strings.html" (dict "contributors" . "context" $) -}}
+
+  {{- range $index, $contributor := $contributors -}}
+    {{- if gt $index 0 -}}
+      {{- if eq $index (sub (len $contributors) 1) }} and {{ else }}, {{ end -}}
+    {{- end }}
+
+    <a href='/contributors/{{- $contributor.username | lower -}}' target='_blank' rel='noopener'>{{- $contributor.displayname -}}</a>
+
+    {{- if in $page.Params.authors $contributor.username -}}
+      {{- $writerIcon := resources.Get "images/GDEmotes/Badges/writer.png" -}}
+      <img src="{{ $writerIcon.RelPermalink }}" class="smallemote hover-scale" title="Main Writer">
+    {{- end -}}
+
+  {{- end -}}.
+  </p>
+{{ end }}

@@ -1,9 +1,14 @@
 ---
 title: Basic Sound Design
 weight: 714
+date: 2025-03-01
+authors:
+- electrifyxd
+contributors:
+- electrifyxd
+- notamoderatr
 draft: false
 ---
-{{< img src="images/GDEmotes/Icons/Clock.png" class="emote">}} **Short** (5-7 minutes)
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 - Using DAW software, you can create a variety of sounds to use in your level, making use of free plugins such as Vital for FL Studio.
@@ -71,7 +76,7 @@ Only one waveform playing sounds pretty empty. Lets use unison to create more sp
 
 <div><iframe src=https://drive.google.com/file/d/14v76l3eYf9abH0T6Sp7Hikz1lvjRYXpt/preview?usp=drivesdk></iframe></div>
 
-There are two sliders which we can utilize called Voices and Detuning. Voices are the main aspect of Unison; voices allow you to create multiple sounds of the same waveform playing with the same pitch by multiplying the signal that’s produced by the oscillator. 
+There are two sliders which we can utilize called Voices and Detuning. Voices are the main aspect of Unison; voices allow you to create multiple sounds of the same waveform playing with the same pitch by multiplying the signal that’s produced by the oscillator.
 
 Detuning allows voices to separate from each other, creating off-pitch voices that make a  chorus-like effect.
 
@@ -83,7 +88,7 @@ In this clip below, different combined sine waves are demonstrated in an oscillo
 
 https://cdn.discordapp.com/attachments/396504131088547842/1304489208680943617/2024-11-08_11-52-32.mp4?ex=672f93bf&is=672e423f&hm=037fb2577d028d480c4631deaa393c6968479529d634427803b829a89df0f370&
 
-**Subtractive Synthesis** works in the opposite way of Additive Synthesis. Instead of adding new waveshapes to an existing waveshape, we can take frequencies away from that one waveshape to create new waveshapes. You can accomplish this with a filter on a synth. 
+**Subtractive Synthesis** works in the opposite way of Additive Synthesis. Instead of adding new waveshapes to an existing waveshape, we can take frequencies away from that one waveshape to create new waveshapes. You can accomplish this with a filter on a synth.
 
 The example below showcases taking away the high end of a frequency with an oscilloscope. Pay attention to the waveshape taking form on the oscilloscope.
 
@@ -91,9 +96,9 @@ https://cdn.discordapp.com/attachments/396504131088547842/1304490189866926212/20
 
 # 4:  Noise / Samplers
 
-**Samplers**, or SMP for short, is __a playback mode for your synth to add texture to the  sound.__ The most common forms of SMP are different forms of white noise. 
+**Samplers**, or SMP for short, is __a playback mode for your synth to add texture to the  sound.__ The most common forms of SMP are different forms of white noise.
 
-White noise usually covers the high end frequencies of sound, and are generally made to fill out more space. A good analogy to this is cooking something with salt. You obviously want to add salt to bring in more flavors to your food, and it works the same way in sound design. 
+White noise usually covers the high end frequencies of sound, and are generally made to fill out more space. A good analogy to this is cooking something with salt. You obviously want to add salt to bring in more flavors to your food, and it works the same way in sound design.
 
 White noise has many practical uses. For instance, we can layer white noise with a sine wave to create a sick bass. (We can use EQ to improve the sound, but this will be covered in a later section.) You can layer white noise with a snare drum to create a wider snare, etc. White noise is commonly used with post processing effects to create a distinct grainy texture used for layering in with other sounds.
 
@@ -105,9 +110,3 @@ Another example demonstrates white noise to create a riser and downlifter by mov
 
 https://cdn.discordapp.com/attachments/396504131088547842/1330604468072353823/2025-01-19_13-24-18.mp4?ex=678e957a&is=678d43fa&hm=9c48f2f02f27397835611277c29de715e509d90935a28527f47a65656a0100c7&
 
-
-
-
-
-## Credits
-Created by @Electrify and @NotAModerator

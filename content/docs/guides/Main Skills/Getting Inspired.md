@@ -1,11 +1,14 @@
 ---
 title: Getting Inspired
 weight: 208
+date: 2023-04-19
+authors:
+- tdp9
+contributors:
+- komatic5
+- tdp9
 draft: false
 ---
-## Guide info
-Short: 4-6 minutes
-
 
 - **Summary**
 - > • Inspiration is a type of creative drive to do things. It's often useful to get ideas for your levels.
@@ -73,27 +76,14 @@ None
 
 **4: Final Tips**
 
-Keep your mind healthy. Take care of your body and mind, whether it is through exercise or by doing strategy-heavy tasks. Good mental health helps a lot when taking in sources of inspiration. 
+Keep your mind healthy. Take care of your body and mind, whether it is through exercise or by doing strategy-heavy tasks. Good mental health helps a lot when taking in sources of inspiration.
 
 Be flexible. Sometimes you won't always find exactly what you want, and that's okay. Keeping your standards flexible will help you be more receptive to inspiration. Some of the most iconic levels and ideas were formed because the inspiration came from completely unexpected places.
 
 Be patient. Inspiration isn't guaranteed to be instantaneous. It really can come at any time. If you stay calm and patient, inspiration will be easier to come by. It may take a while, but eventually it will happen.
 
 
-
-> **Research**
-
-  @TDP9
-
-> **Examples**
-
-  @koma5
-
-> **Proofreading**
-
-  @koma5
-
-**Sources:**
+# Sources
 
 > • <https://www.pluralsight.com/blog/film-games/look-favorite-video-game-creative-inspiration>
 > • <https://fineartshippers.com/best-sources-of-inspiration-for-an-artist/>

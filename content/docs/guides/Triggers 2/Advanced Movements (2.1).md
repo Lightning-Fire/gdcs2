@@ -1,9 +1,13 @@
 ---
 title: Advanced Movements (2.1)
 weight: 621
+date: 2024-04-19
+authors:
+- komatic5
+contributors:
+- komatic5
 draft: true
 ---
-{{< img src="images/GDEmotes/Icons/Clock.png" class="emote">}} **Short** (4-6 minutes)
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 - Many trigger setups let you use movements in unique and interesting ways.
@@ -14,7 +18,7 @@ draft: true
 ** **
 # 1: Movement Tracing
 
-Movement tracing is useful to create complex or precise shapes, primarily for decoration. The best way to make these complex shapes is to plot out points which you can connect using various objects, and move triggers are the easiest method of accurately creating these shapes. 
+Movement tracing is useful to create complex or precise shapes, primarily for decoration. The best way to make these complex shapes is to plot out points which you can connect using various objects, and move triggers are the easiest method of accurately creating these shapes.
 
 However, it is difficult to precisely plot points along a move trigger’s path unless you have a method like Movement Tracing. This lets you automatically plot points on an object’s movement path, and is fairly easy to use.
 
@@ -64,9 +68,3 @@ Here's a [video](https://cdn.discordapp.com/attachments/1108884718440693850/1126
 
 Here's a [video](https://cdn.discordapp.com/attachments/1108884718440693850/1126658528367628388/8_TranslatePlayerYtoX.mp4) of this being fully applied.
 
-
-
-
-
-## Credits
-Created by @koma5

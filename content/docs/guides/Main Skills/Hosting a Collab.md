@@ -1,10 +1,13 @@
 ---
 title: Hosting a Collab
 weight: 214
+date: 2023-09-30
+authors:
+- komatic5
+contributors:
+- komatic5
 draft: false
 ---
-## Guide info
-Short: 7-9 minutes
 
 ## TLDR - What this guide covers
 - Most collabs fail because of poor management. If you want to make one, it’s crucial for you to manage it properly.
@@ -102,13 +105,6 @@ First, encourage your members to communicate with you. Set up regular progress c
 
 Second, make sure people who slack off are handled accordingly. Don’t be afraid to replace people if they fail to respond or show satisfactory progress. At the same time, make sure you lead by example. Put in the effort to conduct progress checks and show your passion for your level, otherwise people won’t be interested in building at all. Nobody wants to work for a lazy host, so don’t be one.
 
-And finally, just try to have fun and know your members well. Many collabs do well because the members have strong relationships and can enjoy working with each other. 
+And finally, just try to have fun and know your members well. Many collabs do well because the members have strong relationships and can enjoy working with each other.
 
 With these tips in mind, you should be well on your way to making a good Geometry Dash collab. There will be challenges and roadblocks over time, but you’ll succeed with the right management skills. Best of luck!
-
-
-
-
-
-## Credits
-Created by @koma5

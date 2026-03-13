@@ -1,10 +1,14 @@
 ---
 title: Polishing
 weight: 508
+date: 2023-03-10
+authors:
+- matty2003
+contributors:
+- matty2003
+- Unknown
 draft: false
 ---
-## Guide info
-Short: 4-6 minutes
 
 ## TLDR - What this guide covers
 - Polishing your level allows you to fix visual errors in your decoration.
@@ -86,8 +90,3 @@ None
 Of course, sometimes this spastic, random look is desirable, seen in levels such as False Horizon by lumpy. Only use this if it directly works with what you want.
 
 None
-
-
-
-## Credits
-Created by @Unknown and @matty2003

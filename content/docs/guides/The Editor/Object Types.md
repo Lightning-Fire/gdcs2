@@ -1,17 +1,29 @@
 ---
 title: Object Types
 weight: 108
+date: 2024-04-28
+authors:
+- illusion2
+contributors:
+- sparktwee
+- illusion2
 draft: false
----
-## Guide info
-Short: 5-7 minutes
 
-## TLDR - What this guide covers
-- The Build Tab has 14 different tabs that contain lots of different object types
-- These object types can be divided into 6 categories that have different uses
-- Most objects can be put into general tilesets, especially blocks
-- Out of the 6 categories, Detail Objects contain the most objects
-- It’s easy to get intimidated by the amount of detail objects when you decorate, so take things slowly
+seo:
+  title: "Every Type of Object in Geometry Dash" # custom title (optional)
+  description: "Do you struggle to find objects in the Geometry Dash editor? This guide explains how to find them faster." # custom description (recommended)
+  canonical: "" # custom canonical URL (optional)
+  noindex: false # false (default) or true
+---
+
+{{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
+- The Build Tab has 14 different tabs that contain lots of different object types.
+- These object types can be divided into 6 categories that have different uses.
+- Most objects can be put into general tilesets, especially blocks.
+- Out of the 6 categories, Detail Objects contain the most objects.
+- It’s easy to get intimidated by the amount of detail objects when you decorate, so take things slowly.
+
+{{< /callout >}}
 
 ** **
 
@@ -47,61 +59,62 @@ Some tilesets might differ from this, but most tilesets consist of those objects
 
 This tab consists of outlines; they have mostly the same functions as the blocks in the first tab, except that they dont have any details inside of them. There are loads of outline variations: slab outlines, smaller block outlines, and slope outlines; they also come with different thicknesses. Some of these other outlines may have weird hitboxes, so keep that in mind.
 
-<div style="width: fit-content; height: fit-content"><iframe src=https://drive.google.com/file/d/1BUm8cRZGtyreqQZOttV0xgEcQjaTbvQp/preview?usp=drivesdk></iframe></div>
+{{< img src="https://lh3.googleusercontent.com/d/1BUm8cRZGtyreqQZOttV0xgEcQjaTbvQp" >}}
 
 # 4: Slopes
 
 The third tab consists of slope-related objects; it’s basically the first tab but for slopes. Slopes are divided into 45° slopes, and for some reason, 26.6° slopes. Remember that some of the slope textures might still be in the first tab.
 
-<div style="width: fit-content; height: fit-content"><iframe src=https://drive.google.com/file/d/1VyZedVeVc64Y0jpYY2M1v2hTBhmw-60H/preview?usp=drivesdk></iframe></div>
+{{< img src="https://lh3.googleusercontent.com/d/1VyZedVeVc64Y0jpYY2M1v2hTBhmw-60H">}}
 
 # 5: Hazards
 
 **Hazards** are __static objects that kill the player__. This includes different types of spikes and ground spikes. There are obviously other hazards, like saws and monsters. However, they aren’t covered in this tab. Unlike blocks, these hazards come with a killing hitbox.
 
-<div style="width: fit-content; height: fit-content"><iframe src=https://drive.google.com/file/d/1yTjX0DY5U2R2RnTG6tqtUeFDeRWTumiO/preview?usp=drivesdk></iframe></div>
+{{< img src="https://lh3.googleusercontent.com/d/1yTjX0DY5U2R2RnTG6tqtUeFDeRWTumiO">}}
 
 # 6: 3D Lines
 
 **3D objects** are __pre-made objects meant to help your structures become 3D__. Most of the 3D objects come in tilesets that differ from the usual block tilesets. As detail objects, they don’t have a hitbox, so they can be used for art as well. Keep in mind that all the vanishing points of these objects are infinitely far away, which can break down some immersion. Perspective will be covered more in-depth in [Grade 2 guides](/docs/guides/deco-2/).
 
-<div style="width: fit-content; height: fit-content"><iframe src=https://drive.google.com/file/d/1fwHzsXw9wraRV1pHgerikqm5BoIGfKdi/preview?usp=drivesdk></iframe></div>
+{{< img src="https://lh3.googleusercontent.com/d/1yTjX0DY5U2R2RnTG6tqtUeFDeRWTumiO">}}
 
 # 7: Orbs, Pads, and Portals
 
 This tab features orbs, pads, portals, and some other miscellaneous gameplay objects. There are also some other miscellaneous objects like text objects here as well. Most of the objects here aren’t immediately self-explanatory, but they’re useful for making gameplay. For more info, check the [Gameplay Objects](/docs/guides/gameplay-1/gameplay-objects/) guide.
 
-<div style="width: fit-content; height: fit-content"><iframe src=https://drive.google.com/file/d/1fPt43RAwMlEYD6mAfV-qrRWPeRLN8bTt/preview?usp=drivesdk></iframe></div>
+{{< img src="https://lh3.googleusercontent.com/d/1fwHzsXw9wraRV1pHgerikqm5BoIGfKdi" >}}
 
 # 8: Animated Objects
 
 Almost all of the animated objects are in this tab such as: 2.0 monsters, electricity, fire, particles, and pretty much anything you can think of. Most of these objects don’t have hitboxes, so keep that in mind if you want to use them as obstacles. There is a whole separate menu for animated objects, which you can find in the [Animated Objects](/docs/guides/deco-1/animated-objects/) guide.
 
-<div style="width: fit-content; height: fit-content"><iframe src=https://drive.google.com/file/d/1fEgOrcVjrY3lm16Iu_roB7akg6H6My1W/preview?usp=drivesdk></iframe></div>
+{{< img src="https://lh3.googleusercontent.com/d/1fEgOrcVjrY3lm16Iu_roB7akg6H6My1W">}}
 
 # 9: Pixel Objects
 
 This tab consists of almost ALL pixel-art objects, excluding some collectable pixel art objects. Most of them follow the usual tileset, and all of them are detail objects, meaning they don’t have a hitbox. Note that it’s hard to see what most of the pixel objects are when you're in the build tab because the base colors are nearly white.
 
-<div style="width: fit-content; height: fit-content"><iframe src=https://drive.google.com/file/d/1hwHUUV_lKWuq7--PnOooX_0OLXf6b12p/preview?usp=drivesdk></iframe></div>
+{{< img src="https://lh3.googleusercontent.com/d/1hwHUUV_lKWuq7--PnOooX_0OLXf6b12p">}}
 
 # 10: Collectable Objects
 
 Collectable objects are objects that you can collect in-game, like keys, coins, or various other objects, but for some reason RobTop also included some pixel art objects into this tab at the end. The basis of collectable objects is that when you walk over them, it disappears and activates something. More detail on these can be found in the [Collectable Objects](/docs/guides/the-editor/collectable-objects/) guide.
 
-<div style="width: fit-content; height: fit-content"><iframe src=https://drive.google.com/file/d/1iaZ90mUS3I-R7XNRb-3MYdPnPfu8WtF_/preview?usp=drivesdk></iframe></div>
+{{< img src="https://lh3.googleusercontent.com/d/1iaZ90mUS3I-R7XNRb-3MYdPnPfu8WtF_" >}}
 
 # 11: Miscellaneous Objects
 
 This tab consists of miscellaneous detail objects, like small circles, stars, and some other various details. Most of these objects are kind of random and don’t have anywhere else to be, so they’re in this tab, so feel free to use them for whatever you want. Note that ALL of these objects are also usable in the particle editor object.
 
-<div style="width: fit-content; height: fit-content"><iframe src=https://drive.google.com/file/d/1pLR5JsT_sGQXKd29cTP0RPo3CaaicP1C/preview?usp=drivesdk></iframe></div>
+{{< img src="https://lh3.googleusercontent.com/d/1pLR5JsT_sGQXKd29cTP0RPo3CaaicP1C" >}}
 
 # 12: Detail Objects
 
 This tab is full of detail objects that you can use for decorating or any other purpose. It’s somewhat similar to the miscellaneous tab, where there are lots of unrelated objects, however they all share the same purpose as a detail object. At this point, you may have noticed that [detail objects](/docs/guides/deco-1/detail-objects/) as a category contains the most objects in the build tab. It’s easy to get intimidated by the sheer amount of them, so it’s ok to take your time exploring them.
 
-<div style="width: fit-content; height: fit-content"><iframe src=https://drive.google.com/file/d/1gyITednOWOvQNnr-mN6839Wk2ffZ7P0z/preview?usp=drivesdk></iframe></div>
+{{< img src="https://lh3.googleusercontent.com/d/1gyITednOWOvQNnr-mN6839Wk2ffZ7P0z" >}}
+
 
 # 13: Saws and Round Details
 
@@ -113,19 +126,12 @@ None
 
 This tab consists of basically every trigger in the game. ALL of these triggers are covered in #triggers-1.
 
-<div style="width: fit-content; height: fit-content"><iframe src=https://drive.google.com/file/d/1VxerRkvB5OUH0F3qOGf1OIgFRTVM-IHs/preview?usp=drivesdk></iframe></div>
+{{< img src="https://lh3.googleusercontent.com/d/1VxerRkvB5OUH0F3qOGf1OIgFRTVM-IHs" >}}
 
 # 15: Custom Tab
 
 The custom tab allows you to combine lots of other objects into one singular custom asset. This can be used to simplify a lot of things, and also transfer things across levels. More information about the custom tab can be found in the [Custom Objects & Autobuild](/docs/guides/the-editor/custom-objects-autobuild/) guide.
 
-<div><iframe src=https://drive.google.com/file/d/1ghSJ-1QYzs21H8jsfZVXI_dSN37Z5st-/preview?usp=drivesdk></iframe></div>
+{{< img src="https://lh3.googleusercontent.com/d/1ghSJ-1QYzs21H8jsfZVXI_dSN37Z5st-" >}}
 
 > **```*Note: these are just my saved assets, yours will probably look different```**
-
-
-
-
-
-## Credits
-Created by @Selena and @sovereign

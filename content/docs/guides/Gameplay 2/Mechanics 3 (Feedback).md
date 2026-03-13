@@ -1,9 +1,14 @@
 ---
 title: Mechanics 3 (Feedback)
 weight: 703
+date: 2025-03-01
+authors:
+- illusion2
+contributors:
+- illusion2
+- sparktwee
 draft: false
 ---
-{{< img src="images/GDEmotes/Icons/Clock.png" class="emote">}} **Short** (8-10 minutes)
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 - Feedback in games or levels encompasses how information is conveyed to the player.
@@ -100,10 +105,3 @@ Finally, keep in mind that different games require different types of feedback. 
 Another point to mention here is cutscenes. Single player games such as Ori would use them while removing player controls since the player isn’t supposed to die in these sequences, but implementing this exact system to competitive multiplayer games such as Fortnite? Taking away player controls becomes incredibly frustrating, creating this “animation lock”.
 
 Know your game mechanics first and the feedback will follow suit.
-
-
-
-
-
-## Credits
-Created by @Selena and @ontos

@@ -1,0 +1,14 @@
+{{- /* this function receives a dictionary (dict) with:
+    .username -> contributor's username
+    .context -> the page's context ($) to access .Site.Data
+*/ -}}
+
+{{- $username := .username | lower -}}
+{{- $userYAML := index (where .context.Site.Data.contributors "username" "==" $username) 0 -}}
+{{- $displayname := .username -}}
+
+{{- if and $userYAML $userYAML.useDisplay -}}
+  {{- $displayname = $userYAML.displayname -}}
+{{- end -}}
+
+{{- return $displayname -}}

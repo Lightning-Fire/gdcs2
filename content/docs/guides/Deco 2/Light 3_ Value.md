@@ -1,9 +1,14 @@
 ---
 title: Light 3 (Value)
 weight: 808
+date: 2023-12-15
+authors:
+- lifecheck
+contributors:
+- lifecheck
+- notamoderatr
 draft: false
 ---
-{{< img src="images/GDEmotes/Icons/Clock.png" class="emote">}} **Short** (5-7 minutes)
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 - The concept of value is how light is distributed and placed in a scene, and is integral to making designs legible while also looking clean.
@@ -52,13 +57,13 @@ The foreground is high contrast whilst the background is low contrast. This is a
 
 # 3: Value Range
 
-When creating gets chaotic or complex it can be hard to keep value in mind all the time, especially when you go to add details to your decoration. This is where value range can help. 
+When creating gets chaotic or complex it can be hard to keep value in mind all the time, especially when you go to add details to your decoration. This is where value range can help.
 
 **Value range** is like any other range: it is __the difference between brightest and darkest areas in designs, and those which create high contrast.__ And like all aspects of light, the object that the light falls upon matters. A bright block of marble under intense lighting will have a fairly large light value range, while a block of obsidian or any other naturally dark object will have a very small range.
 
 <div style="width: fit-content; height: fit-content"><iframe src=https://drive.google.com/file/d/1u22lDx6puEU3wx0L4SBwbt_mS4-NblSW/preview?usp=drivesdk></iframe></div>
 
-When detailing your work, it’s best to keep your value ranges in mind. Even when you’ve laid out a strong value structure, ignoring value ranges in that structure when decorating your work will clutter the design. One way to prevent this from happening between the foreground and background is to use atmospheric perspective; Objects in the foreground should contain high contrast and a large value range, while background details should contain a relatively low contrast and smaller range. 
+When detailing your work, it’s best to keep your value ranges in mind. Even when you’ve laid out a strong value structure, ignoring value ranges in that structure when decorating your work will clutter the design. One way to prevent this from happening between the foreground and background is to use atmospheric perspective; Objects in the foreground should contain high contrast and a large value range, while background details should contain a relatively low contrast and smaller range.
 
 We can quickly discuss how to actually find the values you’d choose after using a shadow construction using the chart above. The first step would be to find the **true value** of an object, which is __the actual color of a structure or shape without anything added to it__. Then to find the value range of the object you would simply find the midpoint between that true value and black. From there you can do whatever you please as you now have the value range in which you should pick from.
 
@@ -68,19 +73,10 @@ Before diving into assigning values, you should understand the relationship betw
 
 <div><iframe src=https://drive.google.com/file/d/1V0D3EGYWi0w405SA9lJLz2FhSsRHWXGU/preview?usp=drivesdk></iframe></div>
 
-As you can see, the drawing begins with the “123” grayscale color value chart to map colors to their respective areas. More variations of values are added, then the first bits of colors are introduced using our method of color blending mode and matching the true shade to its greyscale counterpart. 
+As you can see, the drawing begins with the “123” grayscale color value chart to map colors to their respective areas. More variations of values are added, then the first bits of colors are introduced using our method of color blending mode and matching the true shade to its greyscale counterpart.
 
 This video goes more in-depth on how Lit Form and other light properties covered in this guide works, so it would be best to watch if this is still difficult to understand. [In-depth Lighting Video](<https://youtu.be/ad20_nSuYYM>) by LifeCheck.
 
-
-
-## Sources
+# Sources
 
 Scott Robertson: How to Render,  Ch.3
-
-Changed the channel name: Light 3: Value
-
-
-
-## Credits
-Created by @LifeCheck and @NotAModerator

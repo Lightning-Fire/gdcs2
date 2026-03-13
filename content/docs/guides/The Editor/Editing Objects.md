@@ -1,6 +1,16 @@
 ---
 title: Editing Objects
 weight: 102
+date: 2024-02-25
+authors:
+- komatic5
+- illusion2
+- psytrancegd
+contributors:
+- komatic5
+- illusion2
+- psytrancegd
+- sparktwee
 draft: false
 
 seo:
@@ -9,7 +19,6 @@ seo:
   canonical: "" # custom canonical URL (optional)
   noindex: false # false (default) or true
 ---
-{{< img src="images/GDEmotes/Icons/Clock.png" class="emote">}} **Short** (7-9 minutes)
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 - Z layer and Z order let you place objects on top of or behind each other.
@@ -55,7 +64,7 @@ Here’s how to add groups:
 4. Alternatively, click P to make the object the Parent Group, which will once again be covered in the Groups guide.
 5. To delete a group, click its number in the Group Box. To remove an object from Parent Group, click its number once.
 
-{{< youtube KokRk54 >}}
+{{< youtube 6gg-KokRk54>}}
 
 # 3: Extra Tabs
 
@@ -87,7 +96,7 @@ The two extra tabs give you more options to customize your objects.
 
 In addition, some objects can have more options, which include the following:
 - **Reverse**: __Reverses the gameplay direction as soon as you hit an orb or a pad__. *Orbs and Pads Only*.
-- **Single P Touch**: If one player touches an arrow trigger {{< img src="images/GDEmotes/Triggers/ArrowTrigger.png" class="emote" >}} in Dual Mode, the __trigger will only activate for the player that touches it__. *However, this feature is currently bugged as of Update 2.205.*
+- **Single P Touch**: If one player touches an arrow trigger {{< img src="images/GDEmotes/Triggers/Arrow.png" class="emote" >}} in Dual Mode, the __trigger will only activate for the player that touches it__. *However, this feature is currently bugged as of Update 2.205.*
 - **Center Effect**: __Touch Triggered triggers will only activate once the player touches the center of the trigger__.
 - **Smooth Ease**: __Moves the camera smoothly rather than instantly when using any kind of teleport.__
 

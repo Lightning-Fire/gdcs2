@@ -1,9 +1,14 @@
 ---
 title: Making Structures
 weight: 418
+date: 2023-07-12
+authors:
+- komatic5
+contributors:
+- etherail
+- komatic5
 draft: false
 ---
-{{< img src="images/GDEmotes/Icons/Clock.png" class="emote">}} **Tiny** (2-4 minutes)
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 - Structuring affects both the gameplay and the decoration of a level. Creating good structures makes a level more readable and more intuitive to play. You can do this by directing the player towards essential points, which are platforms and hazards they need to be aware of.
@@ -51,10 +56,3 @@ If all else fails, put a wall of spikes at the floor and ceiling of your level. 
 Avoid structuring using :FreeMove: Free Move, as this can be quite annoying for decorators. Try :Snap: snapping your structures to the grid, or aligning them with the half or quarter sized grids.
 
 Additionally, try to make your structures using simple shapes, like blocks and slopes. Leave more complex details up to the decorator.
-
-
-
-
-
-## Credits
-Created by @etherail and @koma5

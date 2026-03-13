@@ -1,9 +1,14 @@
 ---
 title: Blending Masks
 weight: 516
+date: 2023-10-13
+authors:
+- Unknown
+contributors:
+- kde__
+- Unknown
 draft: false
 ---
-{{< img src="images/GDEmotes/Icons/Clock.png" class="emote">}} **Short** (5-7 minutes)
 
 # 1: How Blending Works
 
@@ -181,7 +186,3 @@ It's important the blending colors are semi-transparent, because if they were fu
 
 **Video:** [Everything About Colors Explained in 28 Minutes (Geometry Dash)](https://youtu.be/P2r4Z5kbx7M?si=OXRptoIaYPXfi597&t=1274)
 
-
-
-## Credits
-Created by @KDE and @Unknown

@@ -1,9 +1,14 @@
 ---
 title: Animate
 weight: 319
+date: 2024-01-25
+authors:
+- naem.less
+contributors:
+- naem.less
+- notamoderatr
 draft: false
 ---
-{{< img src="images/GDEmotes/Icons/Clock.png" class="emote">}} **Short** (4-6 minutes)
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 - The Animate trigger can change the currently playing animation of the monster objects in the orbs tab.
@@ -15,11 +20,11 @@ draft: false
 ** **
 # 1: Animate Trigger
 
-The **Animate Trigger** :Animate: is a trigger that lets you __change the current animation of monsters__ shown in levels such as Deadlocked, Geometrical Dominator, Fingerdash, and the new 2.2 levels, along with a few custom levels.
+The **Animate Trigger** {{< img src="images/GDEmotes/Triggers/Animate.png" class="emote">}} is a trigger that lets you __change the current animation of monsters__ shown in levels such as Deadlocked, Geometrical Dominator, Fingerdash, and the new 2.2 levels, along with a few custom levels.
 
-<div style="width: fit-content; height: fit-content"><iframe src=https://drive.google.com/file/d/1TLGtixE79q7pSJoBGXuXvT3Tqo17Q5d0/preview?usp=drivesdk></iframe></div>
+{{< img src="https://lh3.googleusercontent.com/d/1TLGtixE79q7pSJoBGXuXvT3Tqo17Q5d0" >}}
 
-The Group ID Box specifies the group the monster is set to, and the Animation ID specifies which animation the monster will use, based on an index table provided in the help menu :Info:.
+The Group ID Box specifies the group the monster is set to, and the Animation ID specifies which animation the monster will use, based on an index table provided in the help menu {{< img src="images/GDEmotes/Buttons/Info.png" class="emote">}}.
 
 ## Setup
 
@@ -33,7 +38,7 @@ You can have multiple Animate triggers affect the same monster with different ID
 
 # 2: Animations
 
-## Big Beast:
+## Big Beast
 
 - **0 - bite:** This is the default animation where it is constantly biting down.
 - **1 - attack01:** This makes the beast’s mouth stay open constantly.
@@ -42,9 +47,9 @@ You can have multiple Animate triggers affect the same monster with different ID
 
 This video shows each animation at work.
 
-<div style="width: fit-content; height: fit-content"><iframe src=https://drive.google.com/file/d/1N--z7U1neZfAGJyN33PCY5glNnF_sdhR/preview?usp=drivesdk></iframe></div>
+{{< youtube VAZNDsv-OIk >}}
 
-## Bat:
+## Bat
 
 - **0 - idle01:** This is the default animation where it’s constantly flapping and bites at intervals but will sometimes not bite down.
 - **1 - idle02:** The head of the bat will be lifted up and the bat will blink once before returning to idle01.
@@ -58,7 +63,7 @@ This video shows each animation at work.
 
 This video shows each animation at work.
 
-<div style="width: fit-content; height: fit-content"><iframe src=https://drive.google.com/file/d/1-6eqgtu5TtZGeGnpdjnkRPFwnAXY5GgL/preview?usp=drivesdk></iframe></div>
+{{< youtube Ht_IgX6Kl9g >}}
 
 ## Spikeball
 
@@ -71,9 +76,9 @@ Just after the 2.2 Beta was made, which is the name given to an exploit in GD Wo
 
 This video shows each animation at work.
 
-<div style="width: fit-content; height: fit-content"><iframe src=https://drive.google.com/file/d/1mUHeV9xnCsYasWy3N8qZ51LyjHSD4O-c/preview?usp=drivesdk></iframe></div>
+{{< youtube sDERKoZ-OQM >}}
 
-If you ever forget what each animation ID does, look in the help menu :Info: for the trigger as the IDs with their names are listed there.
+If you ever forget what each animation ID does, look in the help menu {{< img src="images/GDEmotes/Buttons/Info.png" class="emote">}} for the trigger as the IDs with their names are listed there.
 
 # 3: Particle Animation
 
@@ -88,9 +93,4 @@ All the other settings in the particle menu can be tweaked to what you desire. O
 
 Here is an example of the setup and final product, compared to a particle that isn't animated:
 
-<div><iframe src=https://drive.google.com/file/d/1mT7o3_jYfZ6b8CcqF2bSaIcF8gC-P8Zq/preview?usp=drivesdk></iframe></div>
-
-
-
-## Credits
-Created by @NotAModerator and @naem
+{{< youtube dXoohYiYBXU >}}

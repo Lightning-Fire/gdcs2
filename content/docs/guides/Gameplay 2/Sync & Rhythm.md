@@ -1,9 +1,14 @@
 ---
 title: Sync & Rhythm
 weight: 708
-draft: false
+date: 2025-11-15
+authors:
+- kde__
+contributors:
+- kde__
+- komatic5
+draft: true
 ---
-{{< img src="images/GDEmotes/Icons/Clock.png" class="emote">}} **Short** (4-6 minutes)
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 - Sync is making two different aspects of your level happen at the same time
@@ -53,23 +58,13 @@ Just like in the prior part, a good balance of impacts is important here. Too ma
 
 **3: Rhythm and Flow State**
 
-Rhythm is the repetition of specific patterns. It is a usage of sync where you create click patterns to the song, and it’s typically accompanied by repeating the same gameplay elements. 
+Rhythm is the repetition of specific patterns. It is a usage of sync where you create click patterns to the song, and it’s typically accompanied by repeating the same gameplay elements.
 
 This is incredibly important for flow because rhythm naturally creates the patterns which induce it in the short-term. When combined with high-impact sync, this is what makes so many popular gameplay segments popular.
 
-**Rebix’s** part in `Overthinker`  is a good example of this sort of rhythm. The part itself has many elements - such as the first three orb clicks, or the ball parts with slopes in them - that repeat in conjunction with the music. Note that most of the time, what’s repeating is the *click pattern* itself, not necessarily the visuals; this helps make the part less repetitive, something that also matters for the flow state.
+**Rebix’s** part in `Overthinker` is a good example of this sort of rhythm. The part itself has many elements - such as the first three orb clicks, or the ball parts with slopes in them - that repeat in conjunction with the music. Note that most of the time, what’s repeating is the *click pattern* itself, not necessarily the visuals; this helps make the part less repetitive, something that also matters for the flow state.
 
 {{< youtube 98gHB1WYXas >}}
 
 Keep in mind that with rhythm, the impact it’ll have will once again depend on the same factors as sync’s impact. Moreover, the higher the impact, the more variety you’ll need in between the rhythmic parts. Most players will be able to tolerate small deco changes or movements, but many will quickly get bored of clicking at the exact same speed over and over again.
-
-
-
-> **Research** and **Examples**
-
-@koma5
-
-> **Proofreading**
-
-  @KDE
 

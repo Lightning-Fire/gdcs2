@@ -1,9 +1,16 @@
 ---
 title: Making Duals
 weight: 421
-draft: true
+date: 2024-10-14
+authors:
+- e.clypse.
+- naem.less
+contributors:
+- chuckolate
+- e.clypse.
+- naem.less
+draft: false
 ---
-{{< img src="images/GDEmotes/Icons/Clock.png" class="emote">}} **Medium** (10-12 minutes)
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 - The Dual gamemode lets you play as two icons at the same time.
@@ -18,7 +25,7 @@ Dual is a unique gamemode that opens up a slew of new gameplay ideas and mechani
 
 # 2: How Duals Work
 
-Duals function much the same as single gamemode play. The moment you enter the dual portal, _two icons will appear, and both icons will react when you click_. By default, each icon’s gravity is the inverse of the other; that is, one icon has normal gravity while the other one has inverted gravity. Also, when one icon changes its gravity, the other will automatically do as well. This gravity dependency can be changed, but that will be discussed in a later section. 
+Duals function much the same as single gamemode play. The moment you enter the dual portal, _two icons will appear, and both icons will react when you click_. By default, each icon’s gravity is the inverse of the other; that is, one icon has normal gravity while the other one has inverted gravity. Also, when one icon changes its gravity, the other will automatically do as well. This gravity dependency can be changed, but that will be discussed in a later section.
 
 Now, the two icons don’t need to be on the same gamemode necessarily, *each one can be a different gamemode as well!* This is where the real fun starts when building duals. This also means that each icon can now have its own independent gravity. For example, you could have a ship and cube dual where both icons can have the same gravity, but you could also have two cubes in a dual where they have opposite gravity of each other. Do note however that only cube and wave still share their gravity because Robtop somehow coded it that way. All other gamemode combinations will have independent gravity.
 
@@ -40,7 +47,7 @@ Now, the two icons don’t need to be on the same gamemode necessarily, *each on
 
 **2-player mode** is a configuration you can enable in your level settings that _allows each dual icon to be controlled independently of each other_. Also, with this setting enabled, the icons will always have independent gravity, no matter the gamemode the icons are in.
 
-The 2-player mode is mostly used for minigames that require multiple inputs, especially in 2.1. For instance, levels like Floating Outskirts by YoReid, Area Tracer by GDvesuvius, and Geo Kart by Incidius utilize this mechanic. 
+The 2-player mode is mostly used for minigames that require multiple inputs, especially in 2.1. For instance, levels like Floating Outskirts by YoReid, Area Tracer by GDvesuvius, and Geo Kart by Incidius utilize this mechanic.
 You can also use 2 player controls in a more conventional way and make (a)symmetrical duals if you don't fancy yourself a trigger person. An example of a level like this is Codependence by TCTeam, where each icon is controlled individually.
 
 {{< youtube lYswi_4FrcM >}}
@@ -53,7 +60,7 @@ You can also use 2 player controls in a more conventional way and make (a)symmet
 
 # 4: Building Dual Gameplay
 
-Now that we have gone over the basics of the 3 main dual types, it is time we go over how to build dual gameplay. 
+Now that we have gone over the basics of the 3 main dual types, it is time we go over how to build dual gameplay.
 
 Building **symmetrical duals** is easy; you just have to mirror the bottom/top icon’s gameplay to the other side/icon, as discussed before.
 
@@ -103,7 +110,7 @@ With the introduction of the Options trigger, Gravity trigger, Teleport trigger 
 
 At first these gimmicks may not seem useful, but once you start experimenting you will see how helpful they are for creating advanced duals.
 
-## Control Gimmicks 
+## Control Gimmicks
 
 Starting off with **Unlink Dual Gravity** on the second page of the Options trigger, this does exactly as it says. _Each icon has its own gravity irrespective of if they’re the same gamemode or not_. This is a small change but opens up the possibility for more gameplay using the same icon.
 
@@ -138,10 +145,3 @@ Working with this gimmick is quite complicated due to them going in different di
 Probably the most popular level that uses Arrow trigger duals is Out Of This World by Perox08. Another example but with different gamemodes is [Magic Touch](https://cdn.discordapp.com/attachments/1195352304136749087/1281069228962873416/youtube-KW7tPgRYz0M.mp4?ex=66dc5a71&is=66db08f1&hm=37759352e73db15d5b7fe9696955eba13905b6887f8e825496e2f4be8b01ab68&) by DawuU.
 
 {{< youtube 9AuptH4fElM >}}
-
-
-
-
-
-## Credits
-Created by @ChuckOlate and @naem

@@ -1,9 +1,14 @@
 ---
 title: Reset
 weight: 347
-draft: true
+date: 2024-01-16
+authors:
+- delts1550
+contributors:
+- delts1550
+- sparktwee
+draft: false
 ---
-{{< img src="images/GDEmotes/Icons/Clock.png" class="emote">}} **Tiny** (0-2 minutes)
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 - The reset trigger resets any collectibles and checkpoints under an ID of your choosing.
@@ -11,13 +16,12 @@ draft: true
 {{< /callout >}}
 
 ** **
-The example above has a checkpoint and six coin collectables assigned to group ID `1`. Touching the reset trigger resets everything under that group ID.
+
+The **Reset Trigger** {{< img src="images/GDEmotes/Triggers/Reset.png" class="emote">}} is useful in platformer mode if you want to __reuse a checkpoint or collectable that has been picked up by the player.__ In order to reset these, you need to have them on a group ID that matches the ID used in the reset trigger.
+
+The example below has a checkpoint and six coin collectables assigned to group ID `1`. Touching the reset trigger resets everything under that group ID.
+
+{{< youtube iBg8esgphGE >}}
 
 The Reset trigger also works on breakable blocks too.
 
-
-
-
-
-## Credits
-Created by @Dimstack and @Selena

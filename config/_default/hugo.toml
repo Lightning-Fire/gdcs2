@@ -1,4 +1,4 @@
-title = "GDCS"
+title = "GD Creator School"
 baseurl = "http://localhost/"
 disableAliases = true
 disableHugoGeneratorInject = true
@@ -20,13 +20,26 @@ copyRight = "Copyright (c) 2026 Geometry Dash Creator School"
 [build.buildStats]
   enable = true
 
+[params.logo]
+  path = 'favicon.png' # in assets directory
+  alt = 'Geometry Dash Creator School'
+
+[mediaTypes."text/netlify"]
+  suffixes = [""]
+
 [outputs]
-  home = ["HTML", "RSS", "searchIndex"]
+  home = ["HTML", "RSS", "searchIndex", "redirects"]
   section = ["HTML", "RSS", "SITEMAP"]
 
 [outputFormats.searchIndex]
   mediaType = "application/json"
   baseName = "search-index"
+  isPlainText = true
+  notAlternative = true
+
+[outputFormats.redirects]
+  mediaType = "text/netlify"
+  baseName = "_redirects"
   isPlainText = true
   notAlternative = true
 
@@ -45,7 +58,7 @@ copyRight = "Copyright (c) 2026 Geometry Dash Creator School"
   priority = 0.5
 
 [caches]
-  [caches.getjson]
+  [caches.getresource]
     dir = ":cacheDir/:project"
     maxAge = -1 # "30m"
 
@@ -60,7 +73,7 @@ copyRight = "Copyright (c) 2026 Geometry Dash Creator School"
 # docs = "/docs/1.0/:sections[1:]/:slug/"
 
 [frontmatter]
-  lastmod = ["lastmod", ":git", "date", "publishDate"]
+  lastmod = ["lastmod", ":git", ":fileModTime", "date", "publishDate"]
 
 [minify.tdewolff.html]
   keepWhitespace = false

@@ -1,9 +1,14 @@
 ---
 title: Making Loops
 weight: 607
+date: 2024-11-30
+authors:
+- tdp9
+contributors:
+- psytrancegd
+- tdp9
 draft: false
 ---
-{{< img src="images/GDEmotes/Icons/Clock.png" class="emote">}} **Medium** (15-17 minutes)
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 - Using loops is a great way to accurately and repeatedly use a set of triggers.
@@ -14,8 +19,7 @@ draft: false
 
 ** **
 # 1: Spawn Loop
-
-A spawn loop is the most well-known and common loop. It uses a sequence of spawn triggers that activate other spawn triggers. 
+A spawn loop is the most well-known and common loop. It uses a sequence of spawn triggers that activate other spawn triggers.
 
 The setup consists of three main parts: the activator, the steppers, and the looper. The **activator** is the __spawn trigger that initially activates the loop__. The **steppers** are the __spawn triggers that activate the next “steps” or sets of triggers in the loop__. The **looper** __reactivates the first set in the loop so that the loop can repeat__. If the loop only contains one set of triggers that activates itself, that set acts as both the stepper and the looper.
 
@@ -66,7 +70,7 @@ This saves both groups and time, with a drawback being accuracy. The looper also
 <div style="width: fit-content; height: fit-content"><iframe src=https://drive.google.com/file/d/17SrVANy69xlq-klK2dIh1ee7ObXb4sri/preview?usp=drivesdk></iframe></div>
 
 ## Setup
-1. Place down a spawn trigger and have it target the next free group. Make sure the “Spawn Ordered” option is enabled. 
+1. Place down a spawn trigger and have it target the next free group. Make sure the “Spawn Ordered” option is enabled.
 2. Place down your triggers in a line as if they activate normally through the editor.
 3. Place down a spawn trigger with Spawn Ordered at the end of your trigger line, reactivating the group.
 4. Select all triggers in the line and make them spawn-triggered and multi-triggered. Give them the group activated for the loop.
@@ -122,13 +126,13 @@ From then on, keep adding as many loopers as necessary for your setup, creating 
 <div style="width: fit-content; height: fit-content"><iframe src=https://drive.google.com/file/d/1veuEo198qkCb4oSTde6AhZ3_7wxtTchv/preview?usp=drivesdk></iframe></div>
 
 ## Setup
-1. Place down your activator to start the loop. Have it target a new GroupID. 
+1. Place down your activator to start the loop. Have it target a new GroupID.
 2. Place down a spawn trigger that gets activated by this GroupID. This is the buffer trigger. Make sure it is spawn-triggered and multi-triggered and have it activate a new GroupID. This buffer trigger will have the group remap.
 3. Set up the rest of your steppers in the loop, activating them with the GroupID in the buffer trigger.
 4. Identify which value in the steppers you want to remap. In the buffer trigger, add a remap with the OriginalID being an unused group and the NewID being the value to be remapped.
 5. Add your looper. Have it target the buffer trigger. The loopers should have reset remap enabled.
 6. Add the first remap to the looper. It should remap the GroupID spawning the looper to a new GroupID. If applicable, any other triggers with this GroupID that aren’t this spawn trigger should have the remapped GroupID as well.
-7. Add the second remap to the looper. This is the value you want to remap from the steppers (aka the value in the original buffer trigger). 
+7. Add the second remap to the looper. This is the value you want to remap from the steppers (aka the value in the original buffer trigger).
 8. Repeat steps 5-7 as necessary.
 9. For the final looper, do not add any remap values so that the loop can go back to the original looper.
 
@@ -153,7 +157,7 @@ A collision loop is made up of collision blocks. A main collision block moves th
 2. Have a move trigger move the main block to the right for a large amount of time (alternatively you can spawn another move trigger to move it again when the block hits the looper, make sure to stop the previous movement before you do so).
 3. Place down a collision block to the right of the previous block(s) and give it a new Collision ID. This will be your stepper.
 4. Set up the triggers you want to be activated and have them be spawn and multi-triggered. Give the triggers a new group.
-5. Place down a collision trigger before the loop would have been activated and have it spawn the group of your desired triggers when the ID of the main block and the stepper collide. 
+5. Place down a collision trigger before the loop would have been activated and have it spawn the group of your desired triggers when the ID of the main block and the stepper collide.
 6. Repeat steps 3-5 as much as necessary.
 7. Once the final stepper is placed, include a move trigger in the activated triggers to move the main block back to its original position (this can be done by manually putting an amount to push it back or using target mode to move it to the position of a different object.)
 
@@ -177,7 +181,7 @@ Video: https://cdn.discordapp.com/attachments/827766936762056705/128801560118034
 
 # 5: TPS Loop
 
-2.2 changed how a lot of physics calculations have been done. Instead of relying on FPS to update things, it now uses a Ticks Per Second (TPS) system to run these checks. The game runs on 240 TPS, meaning things like physics and collisions are checked 240 times per second. These checks also include collisions between collision blocks, so we can use this to make a loop every time a collision is registered in the game. 
+2.2 changed how a lot of physics calculations have been done. Instead of relying on FPS to update things, it now uses a Ticks Per Second (TPS) system to run these checks. The game runs on 240 TPS, meaning things like physics and collisions are checked 240 times per second. These checks also include collisions between collision blocks, so we can use this to make a loop every time a collision is registered in the game.
 
 For this loop, we take two touching collision blocks and one of them toggle off once a collision is detected. Then a separate collision trigger will toggle it back on the next tick once it notices the two *aren’t* touching. This will create a loop that will trigger every 1/240th of a second.
 ## Setup
@@ -206,7 +210,7 @@ The time event loop makes use of the time and time event triggers. Time triggers
 <div style="width: fit-content; height: fit-content"><iframe src=https://drive.google.com/file/d/1Zy50nY61xprmHg4i1GZSjF72YlebhgAD/preview?usp=drivesdk></iframe></div>
 
 ## Setup
-1. Place down a time trigger to start the timer. Assign it to a unique Item ID. This is the activator. 
+1. Place down a time trigger to start the timer. Assign it to a unique Item ID. This is the activator.
 2. Place a time event trigger at or before the same x-position as the activator. Have the Item ID be the same as the timer, set your desired target time you want your action to activate on, and have it be multi-activate. This is your stepper.
 3. Place down the triggers you want to be activated by the stepper. Have them be spawn and multi-triggered, give them a group, and have the time event trigger target that group.
 4. Repeat steps 2 and 3 as necessary for your loop.
@@ -222,13 +226,13 @@ If only one stepper is needed in the loop, the time trigger’s “Stop Time” 
 1. Have your desired activator spawn a new Group ID.
 2. Place down a time trigger and give it the Group ID. Make sure it’s spawn and multi-triggered.
 3. Set the Item ID to the one you want the timer to run on. Enable “stop time” and set it to the duration between each loop. Have the Target ID activate a new group.
-4. Add the triggers you want to be activated on the loop and give it the Target ID group. 
+4. Add the triggers you want to be activated on the loop and give it the Target ID group.
 5. Add a spawn trigger to the other triggers to activate the time trigger again.
 
 Video: https://cdn.discordapp.com/attachments/827766936762056705/1283582061247987722/2024-09-11_17-15-07.mp4?ex=66e38473&is=66e232f3&hm=e52d46261a88076e0d83591f36d2aceb9a87f8421592eaabab9c7537b1cc375d&
 
 ## Breaking the Loop
-To stop the loop, use the time control trigger to stop the timer. To restart it, activate a time trigger for the timer. 
+To stop the loop, use the time control trigger to stop the timer. To restart it, activate a time trigger for the timer.
 
 Video: https://cdn.discordapp.com/attachments/827766936762056705/1288020969830486117/2024-09-23_23-14-11.mp4?ex=66f3aa81&is=66f25901&hm=cc320b27702d8a4f902ca40ef061aeed789911f60d910488124a2a8911ac5a14&
 
@@ -270,7 +274,7 @@ The for loop will repeat a loop *for* a specified amount of times. A for loop is
 Video: https://cdn.discordapp.com/attachments/827766936762056705/1281372093732360232/2024-09-05_14-54-00.mp4?ex=66db7a41&is=66da28c1&hm=74074efab6684c8fc577f375ce82704b775e28f77ebbfcf8cb5a14c8473fe701&
 
 ## Setup
-1. Place down an instant count trigger and make it spawn and multi-triggered. Give it a group and have it activate another group when your desired Item ID is larger than 0. 
+1. Place down an instant count trigger and make it spawn and multi-triggered. Give it a group and have it activate another group when your desired Item ID is larger than 0.
 2. Configure the loop that you want to run, having the first stepper in the sequence activated by the instant count trigger. Include a pickup trigger in the first stepper that decrements the tracked Item ID by one.
 3. Have the looper target the instant count trigger to activate the for loop again.
 4. Give the tracked Item ID a value larger than 0, then spawn the instant count trigger to begin the loop.
@@ -287,10 +291,3 @@ Use the method for breaking and resetting the loop for whichever condition or lo
 
 - Slightly complicated setup
 - Have to specify the loop amount before activation
-
-
-
-
-
-## Credits
-Created by @TDP9 and @kyouki

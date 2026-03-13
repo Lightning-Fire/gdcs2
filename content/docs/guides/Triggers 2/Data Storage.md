@@ -1,10 +1,14 @@
 ---
 title: Data Storage
 weight: 614
+date: 2024-07-31
+authors:
+- v1ewsh0t
+contributors:
+- komatic5
+- v1ewsh0t
 draft: false
 ---
-## Guide info
-Medium: 10-12 minutes
 
 ## TLDR - What this guide covers
 - Data Storage systems detect and store various types of data, such as player telemetry.
@@ -179,10 +183,3 @@ While having all these different ways of data storage is useful on their own, he
 4. You could use the In-Editor Detector in conjunction with the Save Code System to allow for a cheats/dev-mode system that only works in the editor.
 
 These are just some out of many ways you can use these systems, so play around with the info you learned to make new things. Happy creating!
-
-
-
-
-
-## Credits
-Created by @V1ewsh0t and @koma5

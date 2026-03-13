@@ -1,6 +1,16 @@
 ---
 title: Choosing a Song
 weight: 105
+date: 2024-01-30
+authors:
+- tdp9
+- print6165
+contributors:
+- tdp9
+- .tv_box.
+- print6165
+- halfcookedramen
+- komatic5
 draft: false
 
 seo:
@@ -9,7 +19,6 @@ seo:
   canonical: "" # custom canonical URL (optional)
   noindex: false # false (default) or true
 ---
-{{< img src="images/GDEmotes/Icons/Clock.png" class="emote">}} **Short** (7-9 minutes)
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 - There are 3 main ways to use songs in GD: Newgrounds, the music library and NONGs.
@@ -32,7 +41,7 @@ Newgrounds is the official website RobTop endorses for songs that aren’t in th
 
 2. By the **Select Song** text, click "Custom" instead of "Normal". Then, click "Select Custom Song".
 
-3. You can choose a Newgrounds song using its ID, or by using your saved songs. If you download custom songs used in levels, the songs should be saved to your device. Clicking the "Saved" button in the bottom right will open a list of your saved songs to choose from and use. 
+3. You can choose a Newgrounds song using its ID, or by using your saved songs. If you download custom songs used in levels, the songs should be saved to your device. Clicking the "Saved" button in the bottom right will open a list of your saved songs to choose from and use.
  - To check which artists are whitelisted, click the blue "Artists" button.
  - To launch Newgrounds, click the green "Newgrounds" button.
 
@@ -111,7 +120,7 @@ When downloading and using a NONG song, you’re basically tricking GD into thin
 
 ## Mac (On Steam)
 
-The process for using a NONG song on Mac is basically the same as on windows. 
+The process for using a NONG song on Mac is basically the same as on windows.
 
 1.Open a new finder window and press Command + Shift + G
 
@@ -129,17 +138,17 @@ The process for using a NONG song on Mac is basically the same as on windows.
 
 Using NONG songs on Android is a bit different than on Windows or Mac. For this to work, you need to install a mod menu (a bit like MegaHack) for Android.
 
-1. Download the Android Mod Menu from Italian APK Downloader 
+1. Download the Android Mod Menu from Italian APK Downloader
 
 {{< youtube YNF_wk7uMuA >}}
 
 2. Install the APK. On newer phones, locating the file and pressing on it should automatically update GD.
 
-3. In your level, load a newgrounds ID of the song you’re going to replace. It can be any ID, but it should generally be a song you’re never going to actually use (like Chilled 1). 
+3. In your level, load a newgrounds ID of the song you’re going to replace. It can be any ID, but it should generally be a song you’re never going to actually use (like Chilled 1).
 
 4. Download the .mp3 file of the song you wish to use. The format has to be **MP3**, and any other file type won’t work. If your song isn’t an mp3, then you can use a file converter (like CloudConvert). Make sure you trust the converter you are using, as some are malicious, and can give viruses.
 
-5. In your files app, navigate to the `GD Mods` and then `Songs` folders. 
+5. In your files app, navigate to the `GD Mods` and then `Songs` folders.
 
 6. Move the song file you’ve downloaded into that folder, and rename it to the newgrounds ID from step **3**.
 
@@ -157,7 +166,7 @@ A song’s **offset** is __where it starts playing in game__. For instance, Bloo
 
 3. There should be a box labeled "Start Offset" In this box, the song will skip forward `X` seconds ahead in the song - `X` being any number with one decimal point.
 
-- e.g. 142.2 will skip 2 minutes and 22.2 seconds ahead in the song. 
+- e.g. 142.2 will skip 2 minutes and 22.2 seconds ahead in the song.
 - To test if it is the exact offset you want, click the {{< img src="images/GDEmotes/Buttons/MusicPlaytest.png" class="emote">}} music play button (the start button with a music note next to it). If the song starts too far in, decrease `X`. If it doesn't start far enough in, increase `X`.
 
 {{< img src="https://lh3.googleusercontent.com/d/10IGXIh2nSKv7NYfAKQtWAZvWX0W5u0yG" >}}
@@ -165,6 +174,3 @@ A song’s **offset** is __where it starts playing in game__. For instance, Bloo
 4. The "Fade In" and "Fade Out" buttons at the bottom allow for the song to fade in to the level, and fade out once the last block has been passed respectively.
 
 {{< youtube ZFZiChCyjHA >}}
-
-## Credits
-Created by @Half and @koma5

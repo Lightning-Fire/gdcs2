@@ -1,9 +1,14 @@
 ---
 title: Event Link
 weight: 338
+date: 2024-01-25
+authors:
+- .eyz.
+contributors:
+- .eyz.
+- sparktwee
 draft: false
 ---
-{{< img src="images/GDEmotes/Icons/Clock.png" class="emote">}} **Tiny** (1-3 minutes)
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 - The Event Link trigger is used to detect player inputs and activate a group based on what the player does.
@@ -11,11 +16,11 @@ draft: false
 {{< /callout >}}
 
 ** **
-The Event Link trigger :EventLinkTrigger: spawns a group if certain conditions are met. It allows you to detect up to 6 player inputs for building a controller. Before 2.2, we had to rely on quirky setups that were 3 times less efficient, but now we can achieve much more using only a few groups and little to no effort.
+The Event Link trigger {{< img src="images/GDEmotes/Triggers/EventLink.png" class="emote">}} spawns a group if certain conditions are met. It allows you to detect up to 6 player inputs for building a controller. Before 2.2, we had to rely on quirky setups that were 3 times less efficient, but now we can achieve much more using only a few groups and little to no effort.
 
 *NOTE: Event Link ONLY works as a Spawn trigger, not a Toggle trigger.*
 
-None
+{{< img src="https://lh3.googleusercontent.com/d/1NVPiP8oIrishMVNT5kGQOXkizjP068Ko" >}}
 
 Its features are as follows:
 
@@ -27,7 +32,7 @@ Its features are as follows:
  - 2 = Activated by P2
 - Select Event Menu:
 
-None
+{{< img src="https://lh3.googleusercontent.com/d/1ObGU6j7MxJKgOUBCmmFKMsoeYvZIJ-BX" >}}
 
 In the top right corner of the menu, there's a tablelist button that leads to another menu.
 
@@ -40,10 +45,3 @@ Here is an example of what you can make with this trigger:
 {{< youtube q_29LgSGSM4 >}}
 
 In this particular level, the player always moves forward at a certain speed. By pressing a corresponding key we either turn left or right. Upon pressing W or ^ we dash forward. This trigger is also used at a start to choose between different set of controls: **A W D** or **< ^ >**.
-
-
-
-
-
-## Credits
-Created by @EYZ and @Selena

@@ -1,9 +1,14 @@
 ---
 title: Refresh Rates
 weight: 421
+date: 2023-03-18
+authors:
+- Unknown
+contributors:
+- graylasagna
+- Unknown
 draft: false
 ---
-{{< img src="images/GDEmotes/Icons/Clock.png" class="emote">}} **Short** (3-5 minutes)
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 
@@ -47,16 +52,7 @@ Slope physics, even on 60Hz, are slightly inconsistent and prone to bugs, and hi
 These seem to vary between refresh rates, making one person’s bug-tested and consistent gameplay another person’s bug-ridden and inconsistent gameplay. Always make sure to playtest your levels using multiple refresh rates, including 60Hz, 144Hz, 240Hz, and 360Hz.
 
 
-
-**Research** and **Examples**
-
-  @Unknown
-
-**Proofreading**
-
-  @Lasang
-
-Sources:
+# Sources
 
 > • <https://www.youtube.com/watch?v=BiWtvKl0VCQ&ab_channel=KugelBlitZ>
 > • <https://www.youtube.com/watch?v=hhBnSJx-0-k&ab_channel=Stormy>

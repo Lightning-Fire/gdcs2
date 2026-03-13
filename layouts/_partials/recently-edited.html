@@ -1,9 +1,16 @@
-<h2 class="h4">Recent Page Edits</h2>
+<h2 class="h2">Recent Page Edits</h2>
 
-    {{ $byLastMod :=  .Site.RegularPages.ByLastmod.Reverse  }}
-    {{if $byLastMod }}
-        {{ $recent := $byLastMod | first (math.Min 5 (len $byLastMod)) }}
-        {{ partial "recently-edited-item" $recent }}
-    {{else}}
-        <p>None - consider <a href="https://github.com/komatic5/gdcs2/tree/main/content/docs/guides">adding content</a> to the site!</p>
-    {{end}}
+{{ $byLastMod :=  .Site.RegularPages.ByLastmod.Reverse  }}
+
+{{if $byLastMod }}
+<div class="row row-cols-1 row-cols-md-3 g-3">
+    {{ range first 3 $byLastMod }}
+        <div class="col">
+            {{ partial "recently-edited-item" . }}
+        </div>
+    {{ end }}
+</div>
+
+{{else}}
+    <p>None - consider <a href="https://github.com/komatic5/gdcs2/tree/main/content/docs/guides">adding content</a> to the site!</p>
+{{end}}

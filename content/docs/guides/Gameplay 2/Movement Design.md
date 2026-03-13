@@ -1,9 +1,15 @@
 ---
 title: Movement Design
 weight: 719
+date: 2024-11-30
+authors:
+- Interestex
+contributors:
+- Interestex
+- illusion2
+- psytrancegd
 draft: false
 ---
-{{< img src="images/GDEmotes/Icons/Clock.png" class="emote">}} **Short** (7-9 minutes)
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 - Movement is the core of most systems and can make something as simple as traversing feel fun.
@@ -91,11 +97,3 @@ Here’s another example; a basic wall jump that you see in lots of levels. It g
 
 To fix the player feedback, we can just simply add more **cues** (__visual/audio effects for the player to see__). Particles now appear when you wall jump, and a sound effect plays when you grab a wall, helping the player know that they *can* wall jump. The wall jump also now bounces the player out a bit, making the jump feel smoother (and actually like a jump) instead of weird sliding, while adding another visual cue to the wall jump. The player can also now slide down the wall rather than just fall, giving more overall freedom and making it more obvious (and noticeable) that the player can wall jump.
 
-
-
-- **Research:**  @❱❱ Interestex
-
-
-
-## Credits
-Created by @kyouki and @ontos

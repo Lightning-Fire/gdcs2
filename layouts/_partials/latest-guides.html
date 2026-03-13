@@ -1,0 +1,13 @@
+<h2 class="h2">Latest Guides</h2>
+
+{{ $latest := .Site.RegularPages.ByDate.Reverse }}
+{{ with $latest }}
+<div class="row row-cols-1 row-cols-md-2 gx-5 gy-2 justify-content-center">
+    {{ range first 4 $latest }}
+        <div class="col">
+            {{ partial "latest-guide-item" . }}
+        </div>
+    {{ end }}
+</div>
+
+{{ end }}

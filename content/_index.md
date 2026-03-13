@@ -1,5 +1,5 @@
 ---
-title: "Geometry Dash Creating Help"
+title: "Geometry Dash Creator School"
 description: "Learn to make Geometry Dash levels here!"
 lead: "Reference documentation and guides for Geometry Dash."
 date: 2025-12-18T16:33:54+02:00

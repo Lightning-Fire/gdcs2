@@ -1,6 +1,12 @@
 ---
 title: Organizing Objects
 weight: 103
+date: 2024-04-03
+authors:
+- tdp9
+contributors:
+- tdp9
+- .tv_box.
 draft: false
 
 seo:
@@ -9,7 +15,6 @@ seo:
   canonical: "" # custom canonical URL (optional)
   noindex: false # false (default) or true
 ---
-{{< img src="images/GDEmotes/Icons/Clock.png" class="emote">}} **Short** (4-6 minutes)
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 - Editor layers are separate layers in a level. You can use these to sort and organize objects and easily select specific objects.
@@ -37,7 +42,7 @@ The "All" section shows you every single layer. Every layer after that is number
 {{< youtube QkLNQI_M8qo>}}
 
 ## Changing Editor Layers
-You can change what editor layer objects are on by selecting the objects and going to the "Edit Group" {{< img src="images/GDEmotes/Buttons/EditGroup.png" class="emote">}} menu. At the top, there are two options for "Editor L" and "Editor L2". Here, you can assign two different editor layers for an object to be in. Pressing the blue plus {{< img src="images/GDEmotes/Buttons/+2.png" class="emote">}} next to the labels will assign the object to the next unused layer. 
+You can change what editor layer objects are on by selecting the objects and going to the "Edit Group" {{< img src="images/GDEmotes/Buttons/EditGroup.png" class="emote">}} menu. At the top, there are two options for "Editor L" and "Editor L2". Here, you can assign two different editor layers for an object to be in. Pressing the blue plus {{< img src="images/GDEmotes/Buttons/+2.png" class="emote">}} next to the labels will assign the object to the next unused layer.
 0 is the default layer for Editor L2 and will be ignored as a value, meaning if Editor L is set to 5 and Editor L2 is at 0, the object will only appear on Editor Layer 5. If you want the object to be on Editor Layer 0, you must keep Editor L at 0.
 If an object has more than two layers on it and you press {{< img src="images/GDEmotes/Buttons/GoToLayer.png" class="emote">}} "Go To Layer," the layers will cycle between the two, starting with the value in Editor L2.
 
@@ -60,7 +65,7 @@ The top left button is the **Find GroupID** button. It doesn’t have anything t
 
 The top button with a number is for filtering out GroupIDs, and the button below is for filtering out Color Channels. The Color Filter has extra options to select Special Colors by pressing the blue plus button: Obj, Lighter, 3DL, P1, and P2. The select filter will only target objects that have those GroupIDs and/or Color Channels. The value of zero means the filter is off. The trash button in the top right of the filter menus resets the current filter.
 
-The trash button to the left of these filters resets the GroupID and Color Channel filters back to 0.   
+The trash button to the left of these filters resets the GroupID and Color Channel filters back to 0.
 
 Out of the four right buttons, the bottom right button is the only one that works with the select filter. It allows you to select objects of the same object type as your currently selected object. Choosing "None" will revert the selection to normal. Static deletes static objects like blocks. Details target everything else.
 

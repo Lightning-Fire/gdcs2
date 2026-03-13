@@ -1,9 +1,14 @@
 ---
 title: Attempt-Based Data 1 (2.1)
 weight: 617
+date: 2024-04-19
+authors:
+- typexleta
+contributors:
+- soondslash
+- typexleta
 draft: false
 ---
-{{< img src="images/GDEmotes/Icons/Clock.png" class="emote">}} **Tiny** (2-4 minutes)
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 - You can save data between attempts by changing the **priority order** of Collision blocks.
@@ -71,14 +76,3 @@ it to be set to 0.
 You can freely change these values during a level as long as the Collision triggers are active. These values will remain constant between attempts.
 
 <div><iframe src=https://drive.google.com/file/d/1OQpfTAx3R1hgSBzWOccsVZ5cmkzgGuBU/preview?usp=drivesdk></iframe></div>
-
-
-
-> **Research** and **Examples**
-
-  @𝕋ypexleta
-
-> **Proofreading**
-
-  @soondslash
-

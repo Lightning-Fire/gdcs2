@@ -1,11 +1,16 @@
 ---
 title: Having a Growth Mindset
 weight: 211
+date: 2023-03-09
+authors:
+- creeperiv
+- leotorol
+contributors:
+- creeperiv
+- leotorol
+- sparktwee
 draft: false
 ---
-## Guide info
-Short: 8-10 minutes
-
 
 - **Summary**
 - > • The Fixed Mindset means you take your current mistakes as a sign that you'll never be good, while the Growth Mindset treats those mistakes as learning opportunities.
@@ -49,16 +54,16 @@ If you relate with the previous section, you must be wondering if using the grow
 Regardless of how good you think you are, your task will always be to *get better and improve constantly*. Your job is to utilize your experiences and leverage your failures so that you can perform better next time: avoid giving in to failure and accept it for what it is. *Acknowledge that failure*.
 
 Second, note that constant improvement doesn’t mean linear improvement. There are some days when life catches up to you, and other days when all you have in store is Geometry Dash. So avoid pressuring yourself to improve all the time at the same rate.
-    
+
 Third, your abilities are almost entirely up to how you choose to learn, perceive and behave. It’s alright if you have a slower or more unconventional way of learning that no one else would use. *You do you to progress*. If you seek wisdom, reach out to someone.
-    
+
 Achieving a goal takes time, the growth mindset is set for small increases over time which builds up into significant results. Initial efforts will mostly yield disappointing results, so patience is needed to keep going. This isn’t a “get rich quick scheme” where just learning one thing drastically yields change. You must be willing to work hard and smart to get to where you want to be.
-    
+
 The sky’s the limit! You will always be able to create new goals to guide you. The results of your hard work will naturally pay off, and it will be something to be proud of.
 
 **4: Using the Growth Mindset**
 
-There are several ways to apply the growth mindset to your creating journey, and no single specific way will work for everyone. Ultimately, it is up to you to decide how you want to progress. Nevertheless, there are some basic fundamentals to follow as a baseline when applying this mindset properly: 
+There are several ways to apply the growth mindset to your creating journey, and no single specific way will work for everyone. Ultimately, it is up to you to decide how you want to progress. Nevertheless, there are some basic fundamentals to follow as a baseline when applying this mindset properly:
 
 > • **Consistency**: __How much time will you spend practicing Geometry Dash? __ There are many forms of practice, but it is key to do it consistently. As mentioned by the previous lesson, you are here to learn, explore, discover new things, concepts and ideas, AND make mistakes. As bad as making mistakes sounds, *each one is a learning experience*.
 
@@ -83,21 +88,9 @@ Before concluding this lesson, there’s a disclaimer that needs to be said: Lik
 > • **As you pursue to improve, also appreciate where you’re standing right now** - It’s easy to fall into this tunnel vision where you are fixated on perfection, that you downplay the levels and milestones that you’ve already made. This is because from your perspective as a creator, you'd see the level’s potential, the could haves and would haves. From someone else's perspective, you've built a level! If that level looks interesting and fun to play, they wouldn't care less about the full potential that you're seeing. In essence, be kind to yourself when you fall short.
 
 
-
-> **Research**
-
-  @C4 @leotorol
-
-> **Proofreading**
-
-  @Selena 🦄
-
-Sources:
+# Sources
 
 > • <https://blog.prepscholar.com/how-to-get-a-4-0-gpa-and-get-better-grades-by-a-harvard-alum#section1>
 > • <https://high5test.com/fixed-mindset-vs-growth-mindset/>
 > • <https://www.sec-ed.co.uk/blog/the-danger-of-growth-mindset/>
-> > • <https://kevinquinn.fun/blog/creator-tunnel-vision/>
-
-**-=[ Lesson End ]=-**
-
+> • <https://kevinquinn.fun/blog/creator-tunnel-vision/>

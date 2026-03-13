@@ -1,9 +1,14 @@
 ---
 title: The Trigger Process
 weight: 347
+date: 2023-03-14
+authors:
+- komatic5
+contributors:
+- komatic5
+- sparktwee
 draft: false
 ---
-{{< img src="images/GDEmotes/Icons/Clock.png" class="emote">}} **Short** (5-7 minutes)
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 - Your trigger workflow needs to have three things: functions, modules, and truth conditions.
@@ -17,7 +22,7 @@ draft: false
 ** **
 # 1: Functions
 
-A **function** is a __set of triggers that performs a certain task.__ What do you want your triggers to do? Make the background pulse? Move text onto the screen? It's essential to specify your function in the beginning, because it sets your workflow's end goal. *The more specifications you give to a function, the more complex the trigger setup.* 
+A **function** is a __set of triggers that performs a certain task.__ What do you want your triggers to do? Make the background pulse? Move text onto the screen? It's essential to specify your function in the beginning, because it sets your workflow's end goal. *The more specifications you give to a function, the more complex the trigger setup.*
 
 For example, let's say you want a system that increases a number when the player clicks. If you decide to add double clicks to this system by increasing a seperate number, the trigger setup becomes more complex.
 
@@ -35,9 +40,9 @@ Like language, there are many ways to paraphrase a function. These truth conditi
 
 You can:
 
-- Use count/instant count triggers with a pickup that activates on touch 
+- Use count/instant count triggers with a pickup that activates on touch
 - Combine a collision trigger with a move trigger that activates on touch
-- Place a toggle orb with multi-activate that follows the player. 
+- Place a toggle orb with multi-activate that follows the player.
 
 Each has its own benefits and drawbacks to consider for an efficient function.
 
@@ -79,11 +84,11 @@ Here’s a flowchart which shows how this function works:
 
 Here, we'll use three modules in total:
 
-- __Touch trigger__ that sets off the whole mechanism when the player clicks for the first time. 
+- __Touch trigger__ that sets off the whole mechanism when the player clicks for the first time.
 
-- Module that __detects when they click a second time__, 
+- Module that __detects when they click a second time__,
 
-- and a __Timer__ that can be easily reset. 
+- and a __Timer__ that can be easily reset.
 
 To make this work, you can use a collision trigger & move triggers in conjunction. When the player clicks, the touch trigger activates a move trigger which moves a collision block instantly. If the player clicks twice, the block will therefore move into another collision.
 
@@ -106,5 +111,3 @@ Know the specifics of what you want. If you list out what should happen under ce
 Relating to **Minimum Viable Products**, use placeholders to test if a module works. Having a piece of text show up or making a block pulse are both easy ways to test a module out. It doesn't have to look good, it just needs to work.
 
 Know the benefits and costs of each method. We will go through the benefits and costs of each truth condition in the future, but for now, know that each way of doing something will have its costs. You can use a Collision Trigger to implement something, but that could mean it's harder to perform an action than using Instant Count triggers.
-
-Created by **@koma5** and **@Selena**

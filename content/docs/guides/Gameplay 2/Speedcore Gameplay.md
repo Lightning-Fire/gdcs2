@@ -1,9 +1,14 @@
 ---
 title: Speedcore Gameplay
 weight: 722
+date: 2024-05-15
+authors:
+- illusion2
+contributors:
+- __madzz__
+- illusion2
 draft: true
 ---
-{{< img src="images/GDEmotes/Icons/Clock.png" class="emote">}} **Short** (9-11 minutes)
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 - Speedcore is a genre of gameplay that’s focused on speed, intensity, and ordered chaos (at the sacrifice of readability and simplicity).
@@ -29,15 +34,15 @@ Remember that you do not always have to follow this rule exactly. The gameplay c
 
 ## Click Emphasis
 
-In high BPM songs, it can be hard to decide which beats to click to. An obvious answer is to just find a consistent and satisfying click pattern, but you should remember some other stuff as well. One of the other things to remember is to **click on the stronger notes;** There are always some beats that have more power than others. You can determine if a note is strong or not by its sound (e.g., if there's a kick in the background that most of the other notes don’t have). 
+In high BPM songs, it can be hard to decide which beats to click to. An obvious answer is to just find a consistent and satisfying click pattern, but you should remember some other stuff as well. One of the other things to remember is to **click on the stronger notes;** There are always some beats that have more power than others. You can determine if a note is strong or not by its sound (e.g., if there's a kick in the background that most of the other notes don’t have).
 
 You can also click on the first note of a measure (a phrase of a song), although this is harder to understand if you don’t have prior knowledge about music. You can split up songs into measures, and measures into beats. Usually the strongest beat of a measure is the 1st beat; followed by the 3rd, after that the 2nd, and then the 4th; however, you can also use the half-beat (aka an 8th note) right before the 1st or the 3rd note to enhance it. *This is important to know when choosing which beats to sync to.* There are some other notable ways you can induce movement, aka holds. In the image below, you can see a measure, the beats (also known as the count), and the notes that accompany it.
 
 <div style="width: fit-content; height: fit-content"><iframe src=https://drive.google.com/file/d/1ZNMZ3er2fQMnNMNKniIDmmP_MhXd3Zym/preview?usp=drivesdk></iframe></div>
 
-There are also notable “techniques” in speedcore that you can use to your advantage, being holds. **Holds** __allow for more variation in click pattern__ and also enable the opportunity to induce vertical motion, as stated before. For example, you can use miniwave holds into an array of portals so that a zigzagging pattern appears, or you can have the player hold and buffer cube clicks or spider clicks. 
+There are also notable “techniques” in speedcore that you can use to your advantage, being holds. **Holds** __allow for more variation in click pattern__ and also enable the opportunity to induce vertical motion, as stated before. For example, you can use miniwave holds into an array of portals so that a zigzagging pattern appears, or you can have the player hold and buffer cube clicks or spider clicks.
 
-## Creating Speed 
+## Creating Speed
 
 Speed obviously plays a big part in speedcore. Rather than just putting down a speed change, you can use other tactics to increase speed like moving the level towards the player. Speed is the change in distance over time, so therefore if the player moves farther relative to the gameplay in the same amount of time, you would feel faster. Most importantly, however, you can use contrast to enhance the impact of speed. **Contrast** is the __difference between two things__; the greater the difference, the more the impact. For example, to enhance a speedcore part to the max, you can have the gameplay around it be slow. Once you get into a speedcore part, the change in speed is abrupt and noticeable, and you subconsciously feel as if the part is a lot faster. This is why 2x speed can feel fast in a level primarily in 0.5x speed, and why it can feel slow in a level primarily in 4x speed. The best example is with color contrast. In the image below, you can see a yellow square put on top of a variety of different colored backgrounds. The yellow square blends in more on the yellow BG, white BG, and green BG because those colors are very similar, whereas it’s more obvious on the red BG, blue BG, and black BG.
 
@@ -45,7 +50,7 @@ Speed obviously plays a big part in speedcore. Rather than just putting down a s
 
 ## Duals and Waves
 
-You’ll notice that a lot of speedcore layouts online have duals and waves, because those ones are the most dynamic. Duals offer 2 icons and therefore 2x the amount of chaos. However, you can use duals as another tool for variation or the main focus of a part, but you still shouldn’t force a dual just for the sake of it. 
+You’ll notice that a lot of speedcore layouts online have duals and waves, because those ones are the most dynamic. Duals offer 2 icons and therefore 2x the amount of chaos. However, you can use duals as another tool for variation or the main focus of a part, but you still shouldn’t force a dual just for the sake of it.
 
 Waves on the other hand are a lot more fun because they are snappy like the spider, but it doesn’t require player input to do so. The waves have solid trails, which creators often abuse to make dynamic patterns. Combine these two traits and you can understand that wave is one of the most versatile gamemodes for speedcore. You should still be careful with them, however. If you plan to click in them, it should be a buffer into the wave portal or a setup where the player is in the same spot on all attempts. If you’re going to be doing cool stuff with the wave, things can easily break if the player’s location isn’t consistent.
 
@@ -102,12 +107,3 @@ MAXIMUS MACHINEGUN by ‘WillyGD’
 This is an obvious pick. The creator expertly uses artificial speed here, by moving the level towards the player. There are constant teleport portals, mini portals, and pads, ensuring chaos 100% of the time. Click pattern-wise, it’s quite simple, being a satisfying metronome on certain beats.
 
 {{< youtube qkjKaxzEHLM >}}
-
-
-
-## Return to the [Table of Contents](<https://discord.com/channels/414295025883545600/1099913988831182888/1099913988831182888>) here
-
-
-
-## Credits
-Created by @Madzz and @ontos

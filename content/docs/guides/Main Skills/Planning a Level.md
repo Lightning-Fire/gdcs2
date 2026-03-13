@@ -1,10 +1,13 @@
 ---
 title: Planning a Level
 weight: 202
+date: 2025-03-25
+authors:
+- komatic5
+contributors:
+- komatic5
 draft: false
 ---
-## Guide info
-Short: 8-10 minutes
 
 ## TLDR - What this guide covers
 - Planning your level beforehand will help you implement, organize, and execute your ideas more efficiently.
@@ -96,12 +99,8 @@ In Geometry Dash, "road closures" occur when an idea you had turns out to be muc
 Whatever the detour, it's important to note that *plans aren't set in stone*. It's important to adjust how you'll make your level based on your circumstances, including if you'll finish it at all. Give yourself enough wiggle room to adjust and be flexible when you create, especially if your ideas aren't 100% pinned down or you don't have tons of experience. This is also why I don't leave specific implementation steps for in the guides, like tutorials do – after all, your journey through creating is a path only you can take.
 
 
-## Sources
+# Sources
 
 - [Inc: 5 Things You Must Do Immediately After Any Brainstorming Session](<https://www.inc.com/rohini-venkatraman/so-you-led-a-brainstorm-now-what.html>)
 - [Indeed: SMART Goals: an Acronym for Success](<https://www.indeed.com/hire/c/info/smart-goals?gclid=Cj0KCQiAnNacBhDvARIsABnDa69ZNrqrrsnrfVwS-ZKp1pYsZxPIfbeBFr1R9D-8N440v4z_LnyoXUsaAroAEALw_wcB&gbraid=0AAAAADfh6_vKbSPPynBGcYi2h9lgFCTum&aceid=&gclsrc=aw.ds>)
 
-
-
-## Credits
-Created by @koma5

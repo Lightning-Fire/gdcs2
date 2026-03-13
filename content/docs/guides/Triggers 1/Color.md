@@ -1,9 +1,13 @@
 ---
 title: Color
 weight: 302
+date: 2024-01-24
+authors:
+- komatic5
+contributors:
+- komatic5
 draft: false
 ---
-{{< img src="images/GDEmotes/Icons/Clock.png" class="emote">}} **Tiny** (0-2 minutes)
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 - The Color Trigger changes the color of objects.
@@ -26,8 +30,3 @@ Blending adds colors together, while P1 and P2 colors are the player colors.
 The {{< img src="images/GDEmotes/Buttons/+2.png" class="emote">}} lets you target special color channels, like the background.
 
 {{< youtube WjK-kQcy0N0 >}}
-
-
-
-## Credits
-Created by @koma5

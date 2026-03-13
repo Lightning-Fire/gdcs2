@@ -1,10 +1,14 @@
 ---
 title: Deco Styles
 weight: 111
+date: 2023-11-01
+authors:
+- komatic5
+contributors:
+- kde__
+- komatic5
 draft: true
 ---
-## Guide info
-Short: 4-6 minutes
 
 ## TLDR - What this guide covers
 - A set of surface-level creating choices form a style.
@@ -22,8 +26,8 @@ During the pre-1.9 era, tools like free move and scale were not available for cr
 
 This is the general definition of classic design; __levels with tilemapped decoration that use default objects as assets__. This technical limitation is visible in every Robtop level, and levels from older creators like Hinds.
 
-Geometry Dash Subzero by Robtop: 
-Psychosis by Hinds: 
+Geometry Dash Subzero by Robtop:
+Psychosis by Hinds:
 FFFFFF by Vlacc:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4nzU5v1Iw7Q" frameborder="0" allowfullscreen></iframe>
@@ -36,8 +40,8 @@ FFFFFF by Vlacc:
 
 Once the 2.0 update was released, it became possible to make simpler designs and rely on other things like visual effects to make levels look more interesting. This made it easier to make modern levels, which __rely more on visual effects than intricate textures to look interesting, and tend to be less heavy on details__. Works from creators like Echonox, Optical, and (more recently) Knots and Xender Game are great examples of this style.
 
-Comatose Dreamscape by Knots:  
-Revere II by Abstort and more:  
+Comatose Dreamscape by Knots:
+Revere II by Abstort and more:
 Avid by Optical:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/gZZ3GhvqytI" frameborder="0" allowfullscreen></iframe>
@@ -48,10 +52,10 @@ Avid by Optical:
 
 # 3: Custom Art
 
-With custom art, the focus is __using in-game objects to make new custom assets and art.__ While custom art has long been used for backgrounds, endscreens, and the like, only recently has it been incorporated in the foreground of the level. This is often used in a specific environment like a forest, where custom assets can play a great role. The act of decorating itself is art so we will refer to this as custom art to distinguish. You will see this done by creators like Culuc, Vulna, and me. 
+With custom art, the focus is __using in-game objects to make new custom assets and art.__ While custom art has long been used for backgrounds, endscreens, and the like, only recently has it been incorporated in the foreground of the level. This is often used in a specific environment like a forest, where custom assets can play a great role. The act of decorating itself is art so we will refer to this as custom art to distinguish. You will see this done by creators like Culuc, Vulna, and me.
 
-Culuc’s part in Emerald Realm: 
-HellCore by Vulna: 
+Culuc’s part in Emerald Realm:
+HellCore by Vulna:
 My old part in Plummet:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/fMAYifajDac" frameborder="0" allowfullscreen></iframe>
@@ -77,7 +81,7 @@ So how do you actually make a style? Ultimately, it is composed of many surface-
 
 - *Assets*: Do I use in-game objects as assets, or make my own custom ones? These skills are the ones you learned in the prior deco guides; how to use objects to create custom shapes and fill them in.
 
-**Default Assets:** Mastermind by Hinds 
+**Default Assets:** Mastermind by Hinds
 **Custom Assets:** Mzero’s part in Night Rider
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/M-uoTtLRqRA" frameborder="0" allowfullscreen></iframe>
@@ -86,7 +90,7 @@ So how do you actually make a style? Ultimately, it is composed of many surface-
 
 • *Details*: Do I rely more on intricate details and textures, or on visual effects? You'll learn how to make details and animations/visual effects in Deco 1.
 
-**Details:** Old Valley by Vulna 
+**Details:** Old Valley by Vulna
 **Visual Effects:** Key by Ilrell and Swirl
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3a45heWkwac" frameborder="0" allowfullscreen></iframe>
@@ -95,7 +99,7 @@ So how do you actually make a style? Ultimately, it is composed of many surface-
 
 - *Backgrounds*: Do I need a custom background? You'll learn how to make a custom background in Deco 1 as well.
 
-**Custom Background:** Shards of Siberia by Xender Game 
+**Custom Background:** Shards of Siberia by Xender Game
 **No Custom Background:** Fusion II by Manix648
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lSAu5YE3TgI" frameborder="0" allowfullscreen></iframe>
@@ -109,11 +113,3 @@ While this entire guide has been on what style categories exist and how you can 
 **Treating your style as anything more than a surface-level thing will hurt your ability to take feedback, and it also tends to be short-term thinking.** Like you and your skills, styles grow and change. You do not need to limit yourself to one, nor should you really care at this stage.
 
 It is helpful to know that styles exist and what they are, but do not let it get in the way of your growth. Once you have attained mastery, you will be able to answer the question “Do Styles Matter?” with far more certainty than you can now.
-
-
-## Return To The [Table of Contents](https://discord.com/channels/414295025883545600/1166262908158758982/1166262908158758982) Here
-
-
-
-## Credits
-Created by @KDE and @koma5

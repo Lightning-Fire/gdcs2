@@ -1,9 +1,17 @@
 ---
 title: Start Pos & End
 weight: 327
+date: 2024-03-11
+authors:
+- calibratorworks
+- print6165
+contributors:
+- calibratorworks
+- komatic5
+- naem.less
+- print6165
 draft: false
 ---
-{{< img src="images/GDEmotes/Icons/Clock.png" class="emote">}} **Tiny** (2-4 minutes)
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 - The Start Position trigger sets where you start in a level. You cannot verify a level with an active Start Position in it.
@@ -12,7 +20,7 @@ draft: false
 {{< /callout >}}
 
 ** **
-# :StartPos: 1: Start Position Trigger
+# 1: Start Position Trigger
 
 The **Start Pos** trigger is one that allows custom starting locations in a level, and is the first trigger you see in the triggers tab. It’s very useful for playtesting, and / or starting later in a level for faster build testing. However, verifications will not allow any number of Start Pos triggers to be present in the level if you are attempting to upload.
 
@@ -24,9 +32,9 @@ Now, these next few options may require some prior trigger knowledge:
 - **Reset Camera:** This option takes into account any previous camera effects that you may have added close to the Start Pos placement that are still in effect. Reset Camera will, as you guessed it, reset any offsets, rotations, or zooms, to make the Start Pos location less annoying to deal with when playtesting. I recommend reading the [camera triggers](/docs/guides/triggers-1/camera-triggers/) guide if you need help here.
 - **Target Order and Target Channel:** Target Order and Channel set the [target order and channels](/docs/guides/the-editor/using-channels/) for the start position. Triggers will only activate if they're on the right channel, and on Order, will be activated in the order that was set for them beforehand.
 
-<div style="width: fit-content; height: fit-content"><iframe src=https://drive.google.com/file/d/1tGeCSw7w48Xk_xo48bODucdCjkoQhQLN/preview?usp=drivesdk></iframe></div>
+{{< youtube By0xWHMS-mo >}}
 
-# :EndLevelTrigger: 2: End Trigger
+# 2: End Trigger
 
 The **End** trigger sets where the level will end. By default, activating the trigger will end the level, although there are additional options you can use.
 
@@ -35,11 +43,5 @@ The **End** trigger sets where the level will end. By default, activating the tr
 - **No Effects:** Removes the visual effects at the end of the level.
 - **No SFX:** Removes level end sound effects.
 
-<div><iframe src=https://drive.google.com/file/d/1gCnxihyCBI6GGe26oYaDUBG9fgfx8aMZ/preview?usp=drivesdk></iframe></div>
+{{< youtube iANBfqCz7JA >}}
 
-
-
-
-
-## Credits
-Created by @koma5, @naem and @print

@@ -1,9 +1,23 @@
 ---
 title: Sequence
 weight: 339
+date: 2023-12-30
+authors:
+- naem.less
+contributors:
+- proerazer
+- naem.less
 draft: false
 ---
-{{< img src="images/GDEmotes/Icons/Clock.png" class="emote">}} **Short** (4-6 minutes)
+
+{{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
+- The Sequence Trigger activates groups in a certain sequence.
+- You can make it require a certain time to reactivate, loop or activate the last step continuously. It can reset one step back or to the beginning after a certain time.
+- You can make a remap of a sequence, and make T Flip Flops with it.
+
+{{< /callout >}}
+
+** **
 
 # 1: Adding & Removing Steps
 
@@ -16,11 +30,11 @@ For example if you have 2 groups (1,2), where Group 1 has a count of 2 and Group
 
 In the example given above, it would be 2+1 = 3 times. Together these two numbers form a “step” in the trigger, with the group id being on the left and the count on the right.
 
-- **The green :GreenPlus: icon:** Adds a group with its respective count value to the end of the sequence.
+- **The green + icon:** Adds a group with its respective count value to the end of the sequence.
 - **The red - icon:** Removes a selected step from the list. You select a step by clicking it.
 - **The two grayed out arrows** will move a selected step to the left or to the right to make it spawn earlier in the sequence or later.
 
-<div style="width: fit-content; height: fit-content"><iframe src=https://drive.google.com/file/d/1GCmfnIZkhUoX_n6qUEOZwfPcyGq5zesT/preview?usp=drivesdk></iframe></div>
+{{< youtube -akqvBDfZtA >}}
 
 # 2: MinInt & Changing Sequence Ends
 
@@ -31,7 +45,7 @@ In the example given above, it would be 2+1 = 3 times. Together these two number
 
 In the video below you can see that when MinInt has been set to 1 second, the next step in the sequence can be spawned after 1 second has passed. Mode stop only spawns the sequence once, mode loop loops over the sequence infinitely and mode last spawns group 4 over and over once you reach the end.
 
-<div style="width: fit-content; height: fit-content"><iframe src=https://drive.google.com/file/d/1NX15WbAGgnTWC5Xh32HErtCHtaSGulBF/preview?usp=drivesdk></iframe></div>
+{{< youtube HLrJObr08m0 >}}
 
 # 3: Resetting a Sequence
 
@@ -47,7 +61,7 @@ In the video below you can see that when the sequence trigger isn’t triggered 
 
 When Reset Step is selected, the more time is spent waiting to trigger the sequence again, the closer to the beginning of the sequence you’ll start.
 
-<div style="width: fit-content; height: fit-content"><iframe src=https://drive.google.com/file/d/13nqbvArxoz-urpoYfAW5d35Oulv2sZng/preview?usp=drivesdk></iframe></div>
+{{< youtube pQ0s7flxJu4 >}}
 
 Note that you cannot disable both Reset Full and Reset Step simultaneously as well as mode stop/loop/last. Only one can be selected of the two groups of options at a time, meaning you can’t have mode step and mode loop on at the same time or all of them off.
 
@@ -61,21 +75,11 @@ Enabling unique remap will make both sequences act on their own. So now, if you 
 
 In the example below you can see what happens when unique remap is off compared to it being on.
 
-<div style="width: fit-content; height: fit-content"><iframe src=https://drive.google.com/file/d/1iYvZrjZT7y_Am46gQ7pVJsDPQdXbud9K/preview?usp=drivesdk></iframe></div>
+{{< youtube owb5bwpQzhc >}}
 
 - Finally, this trigger also makes T Flip Flops very easily, requiring only 2 groups and the “Mode Loop” option.
 
 A **T Flip Flop** *(Toggle flip flop)* is a logic circuit that takes only one input and holds or toggles its output, meaning if you enable it once, it will switch on and stay on and if you pulse it again it will turn off and stay off.
 
-<div><iframe src=https://drive.google.com/file/d/1NjpbgXmJ8LHwNtIW2jZzbLc0dHfVEvAJ/preview?usp=drivesdk></iframe></div>
+{{< youtube 9fSX8ijhR0E >}}
 
-## Summary
-
-- The Sequence Trigger activates groups in a certain sequence.
-- You can make it require a certain time to reactivate, loop or activate the last step continuously. It can reset one step back or to the beginning after a certain time.
-- You can make a remap of a sequence, and make T Flip Flops with it.
-
-
-
-## Credits
-Created by @Erazer and @naem

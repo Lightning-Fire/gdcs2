@@ -1,9 +1,14 @@
 ---
 title: Light 2 (Making Shadows)
 weight: 807
+date: 2025-06-30
+authors:
+- komatic5
+contributors:
+- alexunam_777
+- komatic5
 draft: false
 ---
-{{< img src="images/GDEmotes/Icons/Clock.png" class="emote">}} **Medium** (11-13 minutes)
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 - Shadow constructions are essential for determining where light shines and is obscured, primarily in 3D scenarios. The most basic construction involves casting line shadows from a light source onto a "stick" to create a "light plane".
@@ -167,15 +172,10 @@ Light doesn’t just sit still—it bounces off objects and the ground constantl
 Reflected light is what makes ambient occlusion possible, and it also makes shadows softer as well. Without it, such as in space, shadows are harsh and absolute; with it, you can describe more of a form.
 
 
-
-## Sources
+# Sources
 - How to Render (Scott Robertson), chapters 2 & 4
 - [Why are shadows sharp close to the object but blurry farther](https://physics.stackexchange.com/questions/690831/why-are-shadows-sharp-close-to-the-object-but-blurry-farther)
 - [Eclipses](https://www.astronomy.ohio-state.edu/pogge.1/Ast161/Unit2/eclipses.html)
 - [Sphere Lighting Reference](https://sketchfab.com/3d-models/sphere-lighting-reference-f6c6fcf7a7594b7698a206813f412c58)
 - [A Short Introduction to Light](https://jeffsearle.blogspot.com/2016/08/a-short-introduction-to-light.html)
 
-
-
-## Credits
-Created by @ALEUNAM_777 and @koma5

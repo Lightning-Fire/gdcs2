@@ -1,9 +1,14 @@
 ---
 title: Frame Perfects & Alignment
 weight: 410
+date: 2024-01-01
+authors:
+- mateussdev
+contributors:
+- mateussdev
+- notamoderatr
 draft: false
 ---
-{{< img src="images/GDEmotes/Icons/Clock.png" class="emote">}} **Short** (6-8 minutes)
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 - We described the different types of frame-perfects and how to construct them.
@@ -81,7 +86,7 @@ This is a more complex method which can be used with macro recording software to
 
 # 4: Alignment
 
-Sometimes you’ll notice your frame-perfect you copied is physically impossible in your level, even though it's possible in the level you copied it from. This is usually **Alignment** to blame. 
+Sometimes you’ll notice your frame-perfect you copied is physically impossible in your level, even though it's possible in the level you copied it from. This is usually **Alignment** to blame.
 
 **Alignment** is the __value in the player’s position, rotation or location of subframes that is smaller than the distance in units the player takes in one step, causing it to persist until another event happens that causes it to change.__
 
@@ -90,7 +95,7 @@ Let’s imagine the player is running the game at 60 frames per second, and the 
 The player’s location will change like this:
 1.0 → 2.0 → 3.0 → 4.0 → 5.0 → 6.0 → 7.0 → 8.0 → 9.0 …
 
-Now imagine that a mirror portal offset the player by 0.1 units. 0.1 is smaller than the player’s speed, so it will persist. 
+Now imagine that a mirror portal offset the player by 0.1 units. 0.1 is smaller than the player’s speed, so it will persist.
 
 Now our X position will look like this:
 1.0 → 2.0 → 3.0 → 4.1 *(entered mirror portal)* → 5.1 → 6.1 → 7.1 → 8.1 → 9.1 …
@@ -124,10 +129,3 @@ Since 120 is a multiple of 60 the positions at certain frames match, you can mat
 However FPS values that are not multiples have a different outcome: They won’t match, only having certain frames that match the given FPS. This explains why levels are possible on FPS values that are not a multiple of N FPS (eg: VSC is possible both on 60FPS and likely on 144FPS)
 
 <div><iframe src=https://drive.google.com/file/d/1iDNq7WqgACRmhtrCTWJjUp4iOX-g8ixg/preview?usp=drivesdk></iframe></div>
-
-
-
-
-
-## Credits
-Created by @MateussDev and @NotAModerator

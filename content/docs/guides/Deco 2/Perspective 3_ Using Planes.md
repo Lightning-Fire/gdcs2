@@ -1,9 +1,15 @@
 ---
 title: Perspective 3 (Using Planes)
 weight: 822
+date: 2024-05-31
+authors:
+- komatic5
+contributors:
+- komatic5
+- sparktwee
+- vayulenagd
 draft: false
 ---
-{{< img src="images/GDEmotes/Icons/Clock.png" class="emote">}} **Medium** (11-13 minutes)
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 - Planes are needed to divide or multiply forms; they are 2D shapes that are located in a 3D space.
@@ -146,11 +152,5 @@ Once you’ve built a 3D curve, follow these instructions to mirror it across a 
 
 <div><iframe src=https://drive.google.com/file/d/1ZT2B9h_UPrCX9Z3aVy4BUDgIU-cuGLNc/preview?usp=drivesdk></iframe></div>
 
-
-## Sources
+# Sources
 - Scott Robertson: How to Draw, Chapters 3 & 5
-
-
-
-## Credits
-Created by @Selena and @koma5

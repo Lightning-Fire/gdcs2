@@ -1,0 +1,22 @@
+<div class="d-flex flex-grow-0 align-items-center justify-content-inherit" >
+
+  <div class="flex-shrink-0 flex-grow-0">
+    {{ $url := urlize . }}
+    {{ $fileKebab := printf "%s.png" (replace $url "/" "-") }}
+    {{ $filePascal := printf "%s.png" (replace . " " "") }}
+
+    {{ $icon := resources.GetMatch (printf "**/%s" $fileKebab) }}
+    {{ if not $icon }}
+      {{ $icon = resources.GetMatch (printf "**/%s" $filePascal) }}
+    {{ end }}
+
+    {{ with $icon }}
+      <img src="{{ .RelPermalink }}" class="headingemote flex-shrink-0 lazyload blur-up me-3">
+    {{ end }}
+  </div>
+
+  <div class="min-wrap-width" style="text-align: left;">
+    {{ . -}}
+  </div>
+
+</div>

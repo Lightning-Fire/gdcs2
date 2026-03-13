@@ -1,0 +1,21 @@
+{{ $parent := .Parent }}
+{{ $container := printf "image-%d" $parent.Ordinal }}
+
+{{- $tlbr := split .Params.tlbr " " -}}
+{{- $top := index $tlbr 0 -}}
+{{- $left := index $tlbr 1 -}}
+{{- $bottom := index $tlbr 2 -}}
+{{- $right := index $tlbr 3 -}}
+
+{{ $tooltip := .Get "tooltip" }}
+
+<div class="{{ $container }}-buttons"
+     style="position:absolute;
+            top:{{ $top }}%;
+            left:{{ $left }}%;
+            width:{{ $right }}%;
+            height:{{ $bottom }}%;
+            z-index:10;"
+    title="{{ $tooltip }}"
+       >
+</div>

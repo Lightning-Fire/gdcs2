@@ -1,9 +1,14 @@
 ---
 title: BPM
 weight: 316
+date: 2024-01-21
+authors:
+- myceliumdev
+contributors:
+- komatic5
+- myceliumdev
 draft: false
 ---
-{{< img src="images/GDEmotes/Icons/Clock.png" class="emote">}} **Tiny** (1-3 minutes)
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 - The BPM trigger lets you accurately make guidelines for your song, which is helpful for syncing gameplay properly.
@@ -14,14 +19,14 @@ draft: false
 ** **
 # 1: BPM Trigger
 
-Place down the {{< img src="images/GDEmotes/Triggers/BPMTrigger.png" class="emote">}} BPM Trigger and go to {{< img src="images/GDEmotes/Buttons/EditObject.png" class="emote">}} Edit Object. You should see this menu:
+Place down the {{< img src="images/GDEmotes/Triggers/BPM.png" class="emote">}} BPM Trigger and go to {{< img src="images/GDEmotes/Buttons/EditObject.png" class="emote">}} Edit Object. You should see this menu:
 
 {{< img src="https://lh3.googleusercontent.com/d/1eXp_TaIdbOEhPRh5So0-VuSAS1KAxqeR" >}}
 
 - **BPM** - the number of major beats per minute in your song. You can usually tell the song's BPM based on the percussion, but there are other means to determine it as you'll see later. Using this will add yellow guidelines at the appropriate time in your level.
 - **BPB** - the number of secondary beats in between each major beat. Setting this anything larger than 1 will add orange guidelines which are used to indicate the frequency of the secondary beats.
 - **Duration** - the number of seconds that the trigger will draw guidelines for.
-- **Speed** - lets you adjust the guidelines' position based on the player's speed. You can click on the button to change the speed, as with the {{< img src="images/GDEmotes/Triggers/StartPos.png" class="emote">}} trigger.
+- **Speed** - lets you adjust the guidelines' position based on the player's speed. You can click on the button to change the speed, as with the {{< img src="images/GDEmotes/Triggers/StartPos.png" class="largeemote">}} trigger.
 - **Disable** - lets you hide the guidelines as necessary.
 
 # 2: Finding Song BPM
@@ -48,8 +53,3 @@ In my case the song's BPM is 146, so I configure the BPM trigger accordingly and
 
 {{< img src="https://lh3.googleusercontent.com/d/1HCnGzLVr5AaS6V6PwTxpbQvbRPMkxg-s" >}}
 
-
-
-
-## Credits
-Created by @Mycelium and @koma5

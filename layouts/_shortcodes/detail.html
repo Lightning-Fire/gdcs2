@@ -1,0 +1,30 @@
+{{ $src := .Get "src" }}
+{{ $name := .Get "name" }}
+{{ $parent := .Parent }}
+{{ $container := printf "image-%d" $parent.Ordinal }}
+{{ $imageId := printf "%s-%s" $container $name }}
+
+{{- $tlbr := split .Params.tlbr " " -}}
+{{- $top := index $tlbr 0 -}}
+{{- $left := index $tlbr 1 -}}
+{{- $bottom := index $tlbr 2 -}}
+{{- $right := index $tlbr 3 -}}
+
+{{ $tooltip := .Get "tooltip" }}
+
+<img id="{{ $imageId }}"
+     src="{{ $src }}"
+     style="width:100%; position:relative; display:none;">
+
+<div class="{{ $container }}-buttons"
+     onclick="showImage('{{ $container }}', '{{ $imageId }}')"
+     style="position:absolute;
+            top:{{ $top }}%;
+            left:{{ $left }}%;
+            width:{{ $right }}%;
+            height:{{ $bottom }}%;
+            cursor:pointer;
+            z-index:10;"
+    title="{{ $tooltip }}"
+       >
+</div>

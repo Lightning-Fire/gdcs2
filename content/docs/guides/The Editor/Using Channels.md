@@ -1,15 +1,27 @@
 ---
 title: Using Channels
 weight: 118
+date: 2024-01-15
+authors:
+- illusion2
+contributors:
+- illusion2
+- vexilo5
 draft: false
----
-## Guide info
-Short: 8-10 minutes
 
-## TLDR - What this guide covers
-- Color channels are important devices to color objects. You can edit your object’s colors by clicking :EditObject:.
+seo:
+  title: "How to Use Channels in Geometry Dash" # custom title (optional)
+  description: "Trigger Order, Trigger Channels, and Color Channels are often misunderstood. This guide explains what they do and how to use them properly." # custom description (recommended)
+  canonical: "" # custom canonical URL (optional)
+  noindex: false # false (default) or true
+---
+
+{{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
+- Color channels are important devices to color objects. You can edit your object’s colors by clicking on Edit Object.
 - Trigger Order is an important mechanic used to make your gameplay go in order when working with arrow triggers, speed changes, and more.
 - Trigger Channels are used in order to make sure your triggers activate correctly if you’re using arrow triggers.
+
+{{< /callout >}}
 
 ** **
 
@@ -19,11 +31,11 @@ A **color channel** is a __unique identifier that can be assigned a color__, whi
 
 One way to edit your color channels is by clicking on the blue gear icon in the top right corner of the editor. The background (BG), ground (G/G2), ground line (Line), middleground (MG/MG2), default objects (Obj), and 3D lines (3DL) all have specific color channels assigned to them. Obj and 3DL are not in this particular menu, but can be changed using triggers.
 
-<div style="width: fit-content; height: fit-content"><iframe src=https://drive.google.com/file/d/1depe43hc-oSOm62RvqvNbyEd29fc2rbp/preview?usp=drivesdk></iframe></div>
+{{< img src="https://lh3.googleusercontent.com/d/1depe43hc-oSOm62RvqvNbyEd29fc2rbp" >}}
 
 If you click on a color channel, you will see a menu for changing its color, as well as other settings about the channel.
 
-<div style="width: fit-content; height: fit-content"><iframe src=https://drive.google.com/file/d/1XEJuWFxbmVdoWVGICc5z0wTyvpRG4yRo/preview?usp=drivesdk></iframe></div>
+{{< img src="https://lh3.googleusercontent.com/d/1XEJuWFxbmVdoWVGICc5z0wTyvpRG4yRo" >}}
 
 Here is a list of all the features and their uses:
 
@@ -42,7 +54,7 @@ Here is a list of all the features and their uses:
 
 > Note: The checkboxes next to the saturation and brightness sliders let you use the full range of colors, instead of simply multiplying the colors. For example, while x0.70 and -0.30 do the exact same thing, using x2.00 on white will do nothing while using +1.00 saturation will make it fully saturated.
 
-<div style="width: fit-content; height: fit-content"><iframe src=https://drive.google.com/file/d/1dVSXl63CbaEKthC64jcwLIPKXXCofVVK/preview?usp=drivesdk></iframe></div>
+{{< img src="https://lh3.googleusercontent.com/d/1dVSXl63CbaEKthC64jcwLIPKXXCofVVK" >}}
 
 The **blending** option will cause objects on that color channel to __add their color on top of any other color behind the object__. For example, a red object on top of a blue object both with blending enabled will cause the overlap to turn magenta. This is also known as **additive** blending because the HEX codes of the two colors are added together.
 
@@ -50,11 +62,11 @@ Blending colors are not visible when on top of white objects, as white is the �
 
 However, black blending can still be a very useful color channel because pulse triggers are unable to affect opacity, so black blending can act as transparent until pulsed.
 
-<div style="width: fit-content; height: fit-content"><iframe src=https://drive.google.com/file/d/1VZry1K6A_Dr3eC9YvGbXeO4asST58wS-/preview?usp=drivesdk></iframe></div>
+{{< img src="https://lh3.googleusercontent.com/d/1VZry1K6A_Dr3eC9YvGbXeO4asST58wS-" >}}
 
 To assign an object to a color channel, select the object and click :EditObject:. The following menu will open.
 
-<div style="width: fit-content; height: fit-content"><iframe src=https://drive.google.com/file/d/1v7JcZCHilUD95ktQTT8l6Zk7O354d8vj/preview?usp=drivesdk></iframe></div>
+{{< img src="https://lh3.googleusercontent.com/d/1v7JcZCHilUD95ktQTT8l6Zk7O354d8vj" >}}
 
 Once again, here is a list of all the features.
 
@@ -70,7 +82,7 @@ Once again, here is a list of all the features.
 
 When selecting an object in the editor, there is a color button in the cluster of colored buttons on the right of the screen (it looks exactly like the color trigger). Clicking it will open a small menu to the left, where you can __change a selected color channel while looking at the editor__. This is useful when you need constant adjustments to find the perfect color, but keep in mind this affects the *whole color channel* and not just the selected object.
 
-<div style="width: fit-content; height: fit-content"><iframe src=https://drive.google.com/file/d/1MqJCpcuHiYUryHhhOU_9yxxdTrifhMv2/preview?usp=drivesdk></iframe></div>
+{{< img src="https://lh3.googleusercontent.com/d/1MqJCpcuHiYUryHhhOU_9yxxdTrifhMv2" >}}
 
 While active, clicking that same button again turns it into an HSV button which changes the side menu into the HSV sliders, which now only affect the *selected object* rather than the whole channel.
 
@@ -83,33 +95,28 @@ While active, clicking that same button again turns it into an HSV button which 
 
 When selecting a trigger and clicking on :EditGroup:, a menu appears. We only need to pay attention to the two counters below the Z layer buttons.
 
-<div style="width: fit-content; height: fit-content"><iframe src=https://drive.google.com/file/d/1RZ3ho1phswAgN7KSBZYFjIIuBpS4XTZ8/preview?usp=drivesdk></iframe></div>
+{{< img src="https://lh3.googleusercontent.com/d/1RZ3ho1phswAgN7KSBZYFjIIuBpS4XTZ8" >}}
 
 The “ORD” counter refers to the trigger order. The number in the counter dictates the order that object will activate in. For example, an arrow trigger with order 1 will go first, then 2, and lastly 3. However, your numbers don’t have to go strictly one after another; you could use orders 1, 4, 5, and 8 and it would still work, provided that the numbers keep increasing.
 
 Keep in mind that reversed orbs and teleport orbs all affect the music line but are heavily player-dependent, which might desync your gameplay despite being ordered.
 
-<div style="width: fit-content; height: fit-content"><iframe src=https://drive.google.com/file/d/1gvfsOnmIimptXYTC4N_Ggzn_CiEyPGKW/preview?usp=drivesdk></iframe></div>
+{{< youtube 0soHKShq800 >}}
 
 > **IMPORTANT**: Using trigger order on :ArrowTrigger: arrow triggers only works if you enable “Change Channel.” Select the arrow trigger, click :EditObject:, and check the corresponding box. We don’t know why you need to enable this, but the level will break otherwise.
 
-<div style="width: fit-content; height: fit-content"><iframe src=https://drive.google.com/file/d/1g_eZCvV6P8ZfTyyalsQn2AM6VOJGYaDY/preview?usp=drivesdk></iframe></div>
+{{< img src="https://lh3.googleusercontent.com/d/1g_eZCvV6P8ZfTyyalsQn2AM6VOJGYaDY" >}}
 
 ## Trigger Channels
 
-Using the menu above in the :ArrowTrigger:, you can change the target channel of the level. The level constantly runs on a certain channel, and triggers will only be able to activate *if their channel matches the current channel*. 
+Using the menu above in the :ArrowTrigger:, you can change the target channel of the level. The level constantly runs on a certain channel, and triggers will only be able to activate *if their channel matches the current channel*.
 
 To change the level’s channel, open the menu of the arrow trigger, enable “Change Channel,” and select your channel using the counter that appears below.
 
 You can set the channel of triggers with the “CH” counter in the :EditGroup: menu, next to the “ORD” counter. If you ever wonder why your triggers aren’t activating, check to make sure they’re on the correct channel. *Only arrow triggers can change the level’s channel*, not reverse triggers or reversed orbs.
 
-<div><iframe src=https://drive.google.com/file/d/1KqFlr-_a3Ch2R5MOuMmEdnqZtceD5o5t/preview?usp=drivesdk></iframe></div>
+{{< youtube OZnDpqJ8T0M >}}
 
 > Note: Both orders and channels require the “EDP” or "Playtest" box checked in the :EditGroup: menu.
 
 
-
-
-
-## Credits
-Created by @Vexilo and @sovereign

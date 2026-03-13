@@ -1,19 +1,69 @@
 // Put your custom SCSS code here
 
+.hover-scale {
+  transition: transform 0.2s;
+}
+
+.hover-scale:hover {
+  transform: scale(1.05);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
 img.emote {
     display: inline;
     width: 1.55rem;
     height: auto;
+    margin-bottom: 0.15rem;
 }
 
 img.smallemote {
     display: inline;
-    width: 1rem;
-    height: auto;
+    height: 1.35rem;
+    width: auto;
+    margin-left: 2px;
+    margin-bottom: 0.15rem;
 }
 
 img.largeemote {
     display: inline;
-    width: 4rem;
+    width: 2.15rem;
     height: auto;
 }
+
+img.headingemote {
+    display: inline-flex;
+    height: 4rem;
+    width: auto;
+    vertical-align: middle;
+}
+
+h2 img.headingemote {
+    height: 3rem;
+}
+
+.latest-guide-item h2 img.headingemote {
+    height: 3rem;
+    vertical-align: sub;
+    margin: -3rem auto 0 auto;
+    transform: translateY(0.5rem);
+}
+
+h4 img.headingemote {
+    height: 2rem;
+    transform: translateY(-0.05rem);
+}
+
+.new-badge {
+  display: none;
+}
+
+.justify-content-inherit {
+    text-align: inherit;
+    justify-content: inherit;
+}
+

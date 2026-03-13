@@ -1,0 +1,31 @@
+{{ $main := .Get "src" }}
+{{ $id := printf "image-%d" .Ordinal }}
+
+{{- $tlbr := split .Params.tlbr " " -}}
+{{- $top := index $tlbr 0 -}}
+{{- $left := index $tlbr 1 -}}
+{{- $bottom := index $tlbr 2 -}}
+{{- $right := index $tlbr 3 -}}
+
+<div id="{{ $id }}"
+     style="position:relative; max-width:800px;">
+
+  <img id="{{ $id }}-main"
+       src="{{ $main }}"
+       style="width:100%; position:relative; z-index:1; display:block;">
+
+  <div id="{{ $id }}-back"
+       onclick="showMain('{{ $id }}')"
+       style="position:absolute;
+              top:{{ $top }}%;
+              left:{{ $left }}%;
+              width:{{ $right }}%;
+              height:{{ $bottom }}%;
+              cursor:pointer;
+              z-index:10;"
+       display="none"
+       title="Back to setup"></div>
+
+  {{ .Inner }}
+
+</div>

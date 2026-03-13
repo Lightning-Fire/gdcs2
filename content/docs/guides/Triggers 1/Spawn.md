@@ -1,9 +1,24 @@
 ---
 title: Spawn
 weight: 334
+date: 2023-03-14
+authors:
+- komatic5
+- naem.less
+contributors:
+- komatic5
+- naem.less
 draft: false
 ---
-{{< img src="images/GDEmotes/Icons/Clock.png" class="emote">}} **Short** (4-6 minutes)
+
+{{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
+- The Spawn Trigger lets you activate triggers which are marked as “Spawn Triggered” and added to a group. This lets you create trigger setups that you can reuse as necessary.
+- Delay lets you delay the triggers’ activation by a time range, while Spawn Ordered lets you activate triggers based on their placement in the editor.
+- Spawn Remapping lets you copy a spawn setup from one group to another.
+
+{{< /callout >}}
+
+** **
 
 # 1: Activating Triggers
 
@@ -11,15 +26,15 @@ To understand why the Spawn trigger is important, we have to first discuss how t
 
 You may have also noticed that every trigger has a “Touch Triggered” checkbox somewhere in their setup menu. This makes triggers only activate when the player directly touches them.
 
-<div style="width: fit-content; height: fit-content"><iframe src=https://drive.google.com/file/d/1KpFA4CHlKMCqYGWVHQcMJYRhKFfpMPOe/preview?usp=drivesdk></iframe></div>
+{{< youtube zPhhtrYQLA8 >}}
 
 To work with a spawn trigger, a trigger should first be marked as “Spawn Triggered”. It must also be added to a group so the Spawn knows which triggers to activate, and it must obviously be toggled on.
 
-<div style="width: fit-content; height: fit-content"><iframe src=https://drive.google.com/file/d/1MnXpPeVbi-GjOLuesS2zl-WLHSki4s3E/preview?usp=drivesdk></iframe></div>
+{{< youtube jo1Xw5XtO9w >}}
 
 You can also make a trigger activate multiple times with the Multi Activate checkbox. This is what makes spawn triggers so useful.
 
-<div style="width: fit-content; height: fit-content"><iframe src=https://drive.google.com/file/d/1FETy9leB_W--grL7r2sT5sQw4goG5M7Y/preview?usp=drivesdk></iframe></div>
+{{< youtube RUVsIgeyowg >}}
 
 # 2: Spawn Trigger
 
@@ -27,19 +42,19 @@ Spawn triggers have a few features that make them unique from other condition tr
 
 In 2.2, the Delay option lets you have 4 decimals after it for timings in the milliseconds, making it more precise. Variance was also added to the delay option; the +- slider adds or subtracts a random value between 0 and your delay variance, so having a delay of 3 with a slider of 2 means you can have 1-5 seconds of delay.
 
-None
+{{< youtube caDW6mK8x0o >}}
 
 Additionally, the **Editor Disable** checkbox __disables spawn triggers when you’re not playtesting__ your level. They’ll still work if you playtest in the editor or in-game.
 
-None
+{{< youtube c7y50CHgAr4 >}}
 
 Spawn triggers activate triggers instantly from left to right. This is a feature known as Spawn Order, and it’ll be discussed more in a [later guide](/docs/guides/triggers-2/spawn-order/). Do not confuse this with “Spawn Ordered”.
 
-None
+{{< youtube 4OggbYHQEvY >}}
 
 The **Spawn Ordered** checkbox __lets you spawn triggers in order from left to right, with the same timing that they’d have if you passed them in classic mode at 1x speed__. This means triggers won’t activate instantly and the distance between them matters.
 
-<div style="width: fit-content; height: fit-content"><iframe src=https://drive.google.com/file/d/1gAV3puv0eTeZxtheen4NFp_6klB9UZdH/preview?usp=drivesdk></iframe></div>
+{{< youtube mZG69G2X7Jo >}}
 
 # 3: Spawn Remapping
 
@@ -63,7 +78,7 @@ Next you need to configure the spawn trigger setup.
 5. Head to the second page. In the “Origin Group ID” box, input the group you identified in Step 2. In “New Group ID”, input your group from Step 3. For me, these are Groups 1 and 3.
 6. Once you're done click the green + button to add the remap. And that’s it!
 
-<div><iframe src=https://drive.google.com/file/d/1xtQMX3hE-agDLrKI_V_keTJjGvq0lgaV/preview?usp=drivesdk></iframe></div>
+{{< youtube 6VvZ1L0UQ8U >}}
 
 Spawn remapping may seem a bit complicated to understand, but once you can identify which groups should be remapped to others it becomes incredibly easy to use it properly.
 
@@ -73,13 +88,3 @@ You can remap up to 20 groups per spawn trigger. To remap another group, simply 
 
 If you want to remap the same group twice you can do that, but the group it remaps to must be different or you won't be able to add it.
 
-## Summary
-
-- The Spawn Trigger lets you activate triggers which are marked as “Spawn Triggered” and added to a group. This lets you create trigger setups that you can reuse as necessary.
-- Delay lets you delay the triggers’ activation by a time range, while Spawn Ordered lets you activate triggers based on their placement in the editor.
-- Spawn Remapping lets you copy a spawn setup from one group to another.
-
-
-
-## Credits
-Created by @koma5

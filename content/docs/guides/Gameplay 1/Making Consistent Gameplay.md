@@ -1,9 +1,14 @@
 ---
 title: Making Consistent Gameplay
 weight: 415
+date: 2025-01-16
+authors:
+- e.clypse.
+contributors:
+- e.clypse.
+- psytrancegd
 draft: false
 ---
-{{< img src="images/GDEmotes/Icons/Clock.png" class="emote">}} **Medium** (10-12 minutes)
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 - Consistency is an integral part of creating a good and fair player experience in a level
@@ -46,7 +51,7 @@ There are several ways to fix gameplay errors. Implementing gameplay objects to 
 
 ## Adding Other Gameplay Objects.
 
-There are many different types of gameplay objects such as slopes, pads, portals, and certain triggers that can be used to correct the player's path. 
+There are many different types of gameplay objects such as slopes, pads, portals, and certain triggers that can be used to correct the player's path.
 - **Slopes** can be used to fix the player's path by leaving a gridblock space to reset the player’s Y position during transitions.
 
 <div style="width: fit-content; height: fit-content"><iframe src=https://drive.google.com/file/d/1hErNpe-EnsSHcOos6QjWkLgwLCRkrmW-/preview?usp=drivesdk></iframe></div>
@@ -64,7 +69,7 @@ There are many different types of gameplay objects such as slopes, pads, portals
 Using this method could make the rest of the gameplay different than originally planned since you are resetting the player's momentum. Using other gameplay objects could increase the risk of encountering new bugs right after the fixed part. You need to consider which objects to use based on the gameplay that follows afterwards. The gameplay might feel unnatural due to sudden changes in the gameplay. These changes may be visually unpleasant and can make the gameplay feel forced. The player might not expect the sudden changes which might cause confusion, making the gameplay feel unfair. With any method you use to fix the player's trajectory you might need to move around a few structures to keep the gameplay consistent throughout.
 
 ## Using game physics
-By carefully crafting your gameplay, you can use the game physics to force the player to go through unavoidable pathways. This method gives the best outcomes, but it is the hardest to pull off. You must be knowledgeable of how the game modes behave when interacting with other gameplay objects. 
+By carefully crafting your gameplay, you can use the game physics to force the player to go through unavoidable pathways. This method gives the best outcomes, but it is the hardest to pull off. You must be knowledgeable of how the game modes behave when interacting with other gameplay objects.
 
 Platforms and structures are essential. When jumping or falling off platforms, there is almost no possibility for inconsistencies. Keeping this in mind, it is important to add structures and not depend on orbs in your gameplay too much. Structures act as a reset to your momentum and behave exactly the same every time.
 
@@ -81,7 +86,7 @@ There are some cases where you can use orbs in order to fix issues and make the 
 <div><iframe src=https://drive.google.com/file/d/1TP5D79mHyfi-_BAuigKiZKJwAcOItk_q/preview?usp=drivesdk></iframe></div>
 
 ## Drawbacks
-As stated before, using this method might require you to rework a whole section to make it consistent. In order to fix inconsistent sections you need to consider what the player is doing before getting to that specific part. You might need to rework gameplay after the part as well to account for any bugs your changes may have caused. Playtesting a level requires checking every click and part in a level for bugs or inconsistencies. This can be a difficult process for inexperienced creators, but it is absolutely necessary. 
+As stated before, using this method might require you to rework a whole section to make it consistent. In order to fix inconsistent sections you need to consider what the player is doing before getting to that specific part. You might need to rework gameplay after the part as well to account for any bugs your changes may have caused. Playtesting a level requires checking every click and part in a level for bugs or inconsistencies. This can be a difficult process for inexperienced creators, but it is absolutely necessary.
 
 ## Using Options Trigger.
 The options trigger can be very beneficial to fix different types of gameplay. Whether you are fixing transitions, dual gameplay, or fast/sudden player movements, you can modify how the player behaves by using the options trigger.
@@ -92,7 +97,7 @@ The options trigger can be very beneficial to fix different types of gameplay. W
 
 ** **
 
-**Fast and sudden changes** can be confusing for the player, and they won't have enough time to react. You can enable and disable player controls accordingly so the player can hold and continue the gameplay. The gamemodes you will find this more useful in are wave, ship, and cube. 
+**Fast and sudden changes** can be confusing for the player, and they won't have enough time to react. You can enable and disable player controls accordingly so the player can hold and continue the gameplay. The gamemodes you will find this more useful in are wave, ship, and cube.
 
 Landing after a blue or black orb can make you jump immediately after, and though **J** blocks are used to fix this, they aren’t perfect. You can guarantee the player doesn’t jump afterwards by disabling their controls for a short amount of time.
 
@@ -103,9 +108,3 @@ Many players are more used to seeing the icon's movement rather than focusing on
 
 Consistency is a key aspect of the enjoyment and quality of a level. The techniques described above are great ways to keep your gameplay consistent and fix bugs. However, the best strategy will always be to playtest your levels. Study parts in other levels you’ve played that feel inconsistent or consistent and apply those principles to your own gameplay. Finally, getting playtesters for your levels is a great way to get outside opinions on the consistency and fairness of your gameplay.
 
-
-
-
-
-## Credits
-Created by @Eclypse and @kyouki

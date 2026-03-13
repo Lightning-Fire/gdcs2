@@ -2,3 +2,40 @@
 {{ if .Params.math }}
   {{ partial "math.html" . }}
 {{ end }}
+
+<!-- Used for image-details shortcode -->
+{{ if .HasShortcode "image-details" }}
+<script>
+function showImage(containerId, imageId) {
+  const container = document.getElementById(containerId);
+  const images = container.querySelectorAll("img");
+
+  images.forEach(img => {
+    img.style.display = "none";
+  });
+
+  const buttons = document.getElementsByClassName(containerId + "-buttons");
+  for (let btn of buttons) {
+    btn.style.display = "none";
+  };
+
+  const back = document.getElementById(containerId + "-back");
+  back.style.display = "block";
+
+
+  container.querySelector("#" + imageId).style.display = "block";
+}
+
+function showMain(containerId) {
+  showImage(containerId, containerId + "-main");
+
+  const buttons = document.getElementsByClassName(containerId + "-buttons");
+  for (let btn of buttons) {
+    btn.style.display = "block";
+  };
+
+  const back = document.getElementById(containerId + "-back");
+  back.style.display = "none";
+}
+</script>
+{{ end }}

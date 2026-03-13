@@ -1,9 +1,14 @@
 ---
 title: Progression
 weight: 722
+date: 2023-06-26
+authors:
+- komatic5
+contributors:
+- halfcookedramen
+- komatic5
 draft: true
 ---
-{{< img src="images/GDEmotes/Icons/Clock.png" class="emote">}} **Short** (5-7 minutes)
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 - To keep the player interested in a level, it should progress over the long-run. For gameplay, this means varying the difficulty and intensity throughout the level.
@@ -17,7 +22,7 @@ draft: true
 
 Macro flow is a part of pacing that covers the long-term ways to make your level engaging. In order to keep the player's focus, the level should make larger changes that develop a central theme or idea. The idea of macro flow explains why some levels feel underwhelming at the drop, or why certain game modes or speed portals "fit" better than others.
 
-The most important thing to look at is how the player will respond to your level over a long time period. When they’re first learning the gameplay, they’ll have to become familiar with how the level’s gameplay works, but once that process is complete it just becomes a matter of muscle memory. If you keep the rest of the level the same afterwards, that muscle memory will kick in and prevent the experience from becoming memorable. 
+The most important thing to look at is how the player will respond to your level over a long time period. When they’re first learning the gameplay, they’ll have to become familiar with how the level’s gameplay works, but once that process is complete it just becomes a matter of muscle memory. If you keep the rest of the level the same afterwards, that muscle memory will kick in and prevent the experience from becoming memorable.
 
 In short, keeping the player interested means giving the player new obstacles. These obstacles should still be fair, but switching them up a bit can keep the player’s focus.
 
@@ -27,7 +32,7 @@ The main factors you use to develop muscle memory are more long-term than the sp
 
 While keeping the player focused seems like a highly abstract concept, progression and macro flow can be achieved using difficulty and intensity. When used correctly, difficulty and intensity can add depth to gameplay.
 
-However, more difficulty or intensity doesn’t always mean a better level. Extremely difficult levels can be deemed frustrating, and an excess of intensity can be read as overbearing or overwhelming. Both of these cases cause a lack of interest and should be avoided. 
+However, more difficulty or intensity doesn’t always mean a better level. Extremely difficult levels can be deemed frustrating, and an excess of intensity can be read as overbearing or overwhelming. Both of these cases cause a lack of interest and should be avoided.
 
 This first example shows gameplay that's too intense for the song it's paired with: https://fxtwitter.com/gpcreatorimages/status/1646182457593544708?s=20
 While this level is simply too difficult to be enjoyable at all: https://www.youtube.com/watch?v=Q7AyAB0JKZ0
@@ -38,7 +43,7 @@ The diagram below shows the general idea behind progression, or *change*. If a l
 
 None
 
-As player skill increases, so can the difficulty. Good levels should be able to challenge the player, but not enough to make the player give up. 
+As player skill increases, so can the difficulty. Good levels should be able to challenge the player, but not enough to make the player give up.
 
 *This means you need to do a bit of planning before you start making your level.* Planning can involve a target difficulty and a general audience for the level. Using a chart to plan out your level’s difficulty and intensity on a part-by-part basis can be extremely beneficial. You can also use this when playtesting to match these factors to your level plans, but make sure to keep the amount of change in mind. Too much change can lead to a disorienting feel to the level.
 
@@ -56,14 +61,4 @@ If you’re working with a song that remains calm throughout, your level should 
 `Duplication` by `Zeptoz` and more: https://youtu.be/KXTyr7ybFC4
 
 Following this process forces players to use their prior knowledge to pass new parts of your level. It also encourages them to notice changes to its difficulty and intensity, which creates a feeling of progress. That’s the entire essence of progression; to ensure that the player feels that they’re taking meaningful steps forward as they play, and using that to make your level interesting over the long run.
-
-
-
-> **Research** and **Examples**
-
-  @koma5
-
-> **Proofreading**
-
-  @Half-Cooked Ramen
 

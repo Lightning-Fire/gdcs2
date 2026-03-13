@@ -1,9 +1,14 @@
 ---
 title: Attempt-Based Data 2 (2.1)
 weight: 618
+date: 2024-04-19
+authors:
+- typexleta
+contributors:
+- soondslash
+- typexleta
 draft: false
 ---
-{{< img src="images/GDEmotes/Icons/Clock.png" class="emote">}} **Short** (8-10 minutes)
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 - As we explored in the prior lesson, there is a way to save binary data between attempts by exploiting the game’s Priority Order mechanic.
@@ -16,7 +21,7 @@ draft: false
 ** **
 **1: Binary Numbers**
 
-When we refer to the base of a counting system, we mean the maximum number of values we can put into a single column of digits. For **binary**, that base is 2, and the __only values that numbers can use are 0 and 1__. Counting in binary would go like 0, 1, 10, 11, 100, 101, 110, 111 and so on. Counting in **decimal**, or __base-10, is what we’re used to; 0, 1, 2, 3, 4, 5, and so on__. 
+When we refer to the base of a counting system, we mean the maximum number of values we can put into a single column of digits. For **binary**, that base is 2, and the __only values that numbers can use are 0 and 1__. Counting in binary would go like 0, 1, 10, 11, 100, 101, 110, 111 and so on. Counting in **decimal**, or __base-10, is what we’re used to; 0, 1, 2, 3, 4, 5, and so on__.
 
 > • **Binary numbers**
 
@@ -47,10 +52,10 @@ The setup for the save consists of four modules: the binary saves that save and 
 To save decimal values, you’ll need to have a clear maximum value in mind, because you can’t do it without making binary saves (and you can’t save infinite binary values). Once you choose your maximum value, convert it to binary and keep the number of bits in mind.
 
 >  **1. **Begin by creating a binary save system (refer to **Attempt-Based Data 1** for instructions), but make sure you leave out the four Move triggers that save the value. If you want, you can assign the Pickup trigger and Collision Block `C` to the same Group; this saves one Group per digit and make future steps easier._
->  **2. **Make both of the Collision triggers Spawn-triggered and assign them to a new Group `A`. 
+>  **2. **Make both of the Collision triggers Spawn-triggered and assign them to a new Group `A`.
 >  **3. **Place down a Spawn trigger at the very start of the level and make it target Group `A`.
 >  **4. **Copy-paste the entire system, excluding the new Spawn trigger. Move it at least four grid spaces away on the X-axis (as the Y-axis is irrelevant to the Blocks’ priority order) and use Build Helper to update all the Groups.
->  **5. **Select the Pickup trigger and open the Edit Object menu. There, click the :BluePlus: icon next to the Item ID field to target the next free Item ID. 
+>  **5. **Select the Pickup trigger and open the Edit Object menu. There, click the :BluePlus: icon next to the Item ID field to target the next free Item ID.
 >  **6. **Do the same for all of the Collision blocks’ Block ID fields, and update the Collision triggers accordingly.
 >  **7. **Repeat steps `4` to `6` until the number of binary saves matches the number of bits for your maximum value.
 
@@ -81,7 +86,7 @@ Your result should resemble this (but potentially expanded to include however ma
 > • **Resetting Binary Saves**
 
 This part of the system will reset all saved binary digits to 0. We’re doing this so that we can save new values every attempt without interference from the previous attempts.
- 
+
 > **1. **Place down a Spawn trigger and set its Target Group to a new Group `D`.
 > **2.** Place down a Move trigger and set its Target Group ID to the Group for Collision block `B` (or whichever block corresponds to it in the binary saves’ duplicates). Set its Move Time to 0, its Move X value to -40, and enable “Spawn triggered”.
 > **3. **Duplicate this trigger and change the new trigger’s Move Time to 0.03 and its Move X value to 40.
@@ -123,19 +128,3 @@ None
 Here's an example of what you can do with this setup; here, the counter increases by 1111 each attempt.
 
 None
-
-
-
-> **Research**
-
-  @𝕋ypexleta
-
-> **Examples**
-
-  @𝕋ypexleta
-  @soondslash
-
-> **Proofreading**
-
-  @soondslash
-

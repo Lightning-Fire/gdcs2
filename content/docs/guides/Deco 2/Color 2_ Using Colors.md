@@ -1,9 +1,14 @@
 ---
 title: Color 2 (Using Colors)
 weight: 802
+date: 2023-11-30
+authors:
+- kde__
+contributors:
+- .tv_box.
+- kde__
 draft: false
 ---
-{{< img src="images/GDEmotes/Icons/Clock.png" class="emote">}} **Short** (6-8 minutes)
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 - Using gray colors can create contrast and can also be used to transition between warm colors and cool colors.
@@ -110,14 +115,9 @@ An example in GD is Magdalene by Lyriaki. This part uses light blue accents to c
 {{< youtube QG4uT-s985w >}}
 
 
-## Sources
+# Sources
 - James Gurney: *Color and Light*, Pages 79-86
 
-Changed the channel name: Color 2: Using Colors
 
 **Video:** {{< youtube P2r4Z5kbx7M >}}
 
-
-
-## Credits
-Created by @DangerChampion and @KDE

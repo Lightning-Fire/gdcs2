@@ -1,9 +1,16 @@
 ---
 title: Level Design
 weight: 718
+date: 2025-01-14
+authors:
+- intercomprehensible
+contributors:
+- everedeck
+- komatic5
+- illusion2
+- intercomprehensible
 draft: false
 ---
-{{< img src="images/GDEmotes/Icons/Clock.png" class="emote">}} **Long** (26-30 minutes)
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 - Level Design is divided into two parts: Room Design and World Design.
@@ -259,8 +266,7 @@ When decorating, we suggest learning about color theory via the Deco 2 guides. D
 
 Finally, it’s helpful to keep **dynamism** in mind when making environments. Just because environments should feel tangible doesn’t mean the player’s actions aren’t impactful. For instance, an area may look ruined after an intense fight with an enemy, or a building may look renovated after completing a quest. This can even occur on a small scale; in *Hollow Knight* some decoration elements can be destroyed by the player, changing the environment in small but noticeable ways.
 
-
-## Sources
+# Sources
 
 - [The Level Design Book: What is level design](https://book.leveldesignbook.com/introduction)
 - [Epic Developer Community: Level Design Fundamentals](https://dev.epicgames.com/community/learning/tutorials/3VKJ/unreal-engine-fortnite-level-design-fundamentals)
@@ -269,7 +275,3 @@ Finally, it’s helpful to keep **dynamism** in mind when making environments. J
 
 {{< youtube dVjibdYG4bs >}}
 
-
-
-## Credits
-Created by @Evere, @koma5 and @pneuma

@@ -1,0 +1,15 @@
+<div class="h-100 px-1.2 border rounded shadow-sm hover-scale">
+    <h4 class="h5 px-2">
+        <a class="d-inline-flex" href="{{ .RelPermalink }}">
+            {{ partial "main/title.html" .Title }}
+        </a>
+    </h4>
+    <p class="">
+        Last Edited on {{ .Lastmod.Format "2 January" }} in commit
+    <i><a href="https://github.com/komatic5/gdcs2/commit/{{.GitInfo.Hash}}" target="_blank">
+        {{ with .GitInfo }}{{ .Subject }}{{ else }}[Commit description]{{ end }} by
+        {{ with .GitInfo }}<strong>{{ .AuthorName }}</strong>{{ end }}
+
+    </a></i>
+    </p>
+</div>

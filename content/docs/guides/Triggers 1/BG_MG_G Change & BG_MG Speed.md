@@ -1,9 +1,14 @@
 ---
-title: BG_MG_G Change & BG_MG Speed
+title: BG/MG/G Change & BG/MG Speed
 weight: 347
-draft: true
+date: 2024-01-21
+authors:
+- .eyz.
+contributors:
+- komatic5
+- .eyz.
+draft: false
 ---
-{{< img src="images/GDEmotes/Icons/Clock.png" class="emote">}} **Tiny** (2-4 minutes)
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 - The BG, MG, and G Change Triggers let you change the Background, Midground, and Ground in your level. You may also change the defaults for these through the Level Settings menu.
@@ -56,10 +61,3 @@ You may also change the position of your level's MG using this trigger. As with 
 # 5: Additional BG Changes
 
 If you are bored with the backgrounds that GD offers, you can make your own custom ones. I won't go into detail here as it's outside of this guide's scope, but there is [another guide](https://discord.com/channels/414295025883545600/1086730133169262766/1086730133169262766) here which you can read for that.
-
-
-
-
-
-## Credits
-Created by @EYZ and @koma5

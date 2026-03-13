@@ -1,9 +1,14 @@
 ---
 title: Gradient
 weight: 320
+date: 2024-01-08
+authors:
+- themilkcat_tmc
+contributors:
+- __madzz__
+- themilkcat_tmc
 draft: false
 ---
-{{< img src="images/GDEmotes/Icons/Clock.png" class="emote">}} **Tiny** (2-4 minutes)
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 - The gradient trigger lets you create gradients in a certain range. It also has four different blending modes.
@@ -29,7 +34,7 @@ You can change which layer the gradient is rendered - the gradient is always ren
 
 To change the gradient color, you have to change the color of the color channels that the gradient trigger uses. HSV and pulse don't work on gradient triggers.
 
-<div style="width: fit-content; height: fit-content"><iframe src=https://drive.google.com/file/d/1s-IDJuWTFygLRulgQwFMF_P5FlsjDDAN/preview?usp=drivesdk></iframe></div>
+{{< youtube kY235f8itAI >}}
 
 # 2: Vertex Mode
 
@@ -37,11 +42,11 @@ Vertex mode allows you to draw a mesh between 4 points in the editor. *Enabling 
 
 These parameters use one-object groups, just like the center group on a Rotate trigger. This allows you to make 2D meshes, as moving the points changes the gradient's shape. If you want to make a triangle instead of a square, you can use the same group for two parameters, like TL and TR.
 
-<div style="width: fit-content; height: fit-content"><iframe src=https://drive.google.com/file/d/1V9RqjXyiZ6haSa0YUh-KnJH5NHLMRwDY/preview?usp=drivesdk></iframe></div>
+{{< youtube hEOZwE7cSSI >}}
 
-Let's take an effect and see how it uses the gradient trigger.
+Let's take an effect and see how it uses the gradient trigger:
 
-<div><iframe src=https://drive.google.com/file/d/1Q05DFn9ybIrLeq-BOQZsmye9ExSwPRY-/preview?usp=drivesdk></iframe></div>
+{{< youtube kQuh9B64IBE >}}
 
 This effect is created by using a lot of vertex triggers to make trapezoids. Moving the individual points also moves the mesh. Furthermore, the mesh will stay connected because some of the gradients share the same groups.
 
@@ -51,7 +56,3 @@ The curves here are created by using the Area Move trigger to smoothly move the 
 
 **Video:** [Geometry Dash 2.2’s OP Gradient Trigger! (Tutorial)](https://youtu.be/jhP4Tt_OpA0?si=VUeBGlPy1806EiqA)
 
-
-
-## Credits
-Created by @Madzz and @TheMilkCat

@@ -1,9 +1,16 @@
 ---
 title: Making Fast Gameplay
 weight: 416
+date: 2024-11-30
+authors:
+- kbtrains
+- illusion2
+contributors:
+- kbtrains
+- illusion2
+- notamoderatr
 draft: false
 ---
-{{< img src="images/GDEmotes/Icons/Clock.png" class="emote">}} **Short** (4-6 minutes)
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 - Fast Gameplay can be used to create intensity or help match the energy of a song.
@@ -58,10 +65,3 @@ Timewarp lets you change the game’s speed, which affects more than just the ho
 You can increase the speed of the player by moving the entire level towards the player, even though the actual speed is stagnant. Problems with this are that playtesting in the editor will look weird, and building a part becomes harder. Teleport triggers can also be used to achieve the same effect in reverse by teleporting the player forwards each frame, but it comes with potential desync, making start positions unusable. dropdead by Quitora moves the gameplay around to artificially increase the speed, but it also uses it to slow down the level as well.
 
 {{< youtube 6yD-Szx4Nmo >}}
-
-
-
-
-
-## Credits
-Created by @Kb and @NotAModerator

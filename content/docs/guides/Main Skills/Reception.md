@@ -1,10 +1,15 @@
 ---
 title: Reception
 weight: 217
-draft: true
+date: 2024-08-30
+authors:
+- sparktwee
+contributors:
+- sparktwee
+- psytrancegd
+- colon
+draft: false
 ---
-## Guide info
-Long: 21-25 minutes
 
 ## TLDR - What this guide covers
 - Attention is when someone else is noticing your work; its power tends to be more obvious in large numbers.
@@ -19,15 +24,15 @@ Long: 21-25 minutes
 
 Let's start by discussing what an audience watching or playing your level really is: **attention**. __If your level is being noticed by another person, they are giving you their attention__. The more attention something receives, the more powerful its influence is. We can think of it this way: on a highway, the headlights of one car are just dots in the distance. When you're in a traffic jam, however, the light pools together with greater and greater intensity, becoming blinding. Similarly, attention snowballs, with popular levels becoming increasingly popular over time.
 
-Even you reading this guide counts as you giving your attention to the ideas that are being presented. Whether you agree or disagree with them is a different story, but right now you are noticing and paying attention to this guide. 
+Even you reading this guide counts as you giving your attention to the ideas that are being presented. Whether you agree or disagree with them is a different story, but right now you are noticing and paying attention to this guide.
 
 On average, most of your audience tend to be practical, skeptical, and risk-averse when presented with new ideas, fresh perspectives, or new creators with zero reputation, which lines up with E.M. Rogers’ Diffusion of Innovations Theory (1962). If you immediately go after these players and give them a call to action, for example, to share or play a level, they’ll be more hesitant to do so. Their main thought process typically goes like this:
 
-- Who are you? 
+- Who are you?
 - How are you someone that I should consider important?
 - Ah, you’re new; why should I trust you?
 - How will your ideas, perspectives, or levels benefit me?
-- Am I going to have fun playing this? 
+- Am I going to have fun playing this?
 
 Keep in mind that attention is also scarce. With one day consisting of 24 hours, I hope you’ve spent 8 of these hours sleeping. That leaves 16 disposable hours where your mind can wander and explore and focus on whatever the world has to offer. Watch a movie? Read a book? Listen to a podcast? Play games? Scroll through another Instagram post? Chat in Discord? Regardless of the medium, others will be just as stingy and careful with their limited attention as you are with yours.
 
@@ -45,7 +50,7 @@ I can blabber about what you might want out of your level all day, but the point
 
 At the end of the day, you are the one building the level, seeking feedback, playtesting for quality control, establishing its selling point, [creating those details](<https://discord.com/channels/414295025883545600/1233710767895740456/1233710767895740456>), and polishing them.
 
-While you get to decide the level’s value, you can’t decide other players’ values. As a result, your level can’t please everyone, *so target accordingly*. Is this level made for a specific player or group of players? Or is it for yourself? 
+While you get to decide the level’s value, you can’t decide other players’ values. As a result, your level can’t please everyone, *so target accordingly*. Is this level made for a specific player or group of players? Or is it for yourself?
 
 You might say,
 > “No, I want to target everyone!”
@@ -60,13 +65,13 @@ Also, while it’s ideal to build a high-quality and aesthetically pleasing prod
 
 Promotion comes in two categories depending on when you upload the level: pre-promotion and post-promotion.
 
-**Pre-promotion** is when __you promote the level before it is completed and uploaded publicly__. 
+**Pre-promotion** is when __you promote the level before it is completed and uploaded publicly__.
 
 This usually comes in the form of [previews](<https://youtu.be/xuyFDEJjmMQ?si=Up3zxurFWz_usMAO>), [trailers](<https://youtu.be/UgW7Rm99DuQ?si=76IWzRzB9EDCHrZI>), [building streams](<https://www.youtube.com/live/ekaiCOwOBfI?si=UaG87Q5TETdOXD7L>), and [progress logs](<https://youtu.be/7D6qhrAlsG8?si=W_nnXZAzw2fs7FcP>). This is excellent for generating hype for your level. It gives players something to look forward to which inevitably hooks them until the level’s eventual release; ask Robtop regarding his pre-promotion for Update 2.2. HOWEVER, be aware that once you make a pre-promotion, there’s now an expectation from others for you to finish what you started, so if you want to hype your level in this manner, make sure you finish it and follow through with your words.
 
 Meanwhile, **post-promotion** is when __you promote a level that is already uploaded publicly__.
 
-This comes in the form of [full showcases](<https://youtu.be/Dlclr2FAEwM?si=UoOQAEsyCjus4bOb>), [creator commentaries](<https://youtu.be/Bm28Y1ZOpLk?si=gZNQIoAzIWuWFyGG>), and [retrospectives](<https://youtu.be/ZXDsODvWEic?si=euus1lHQywutjssz>). If you're a beginner and just starting, your main focus is to practice building and get used to the editor. This means you're better off using post-promotion than pre-promotion to avoid disappointing the hype you've set up and relieve yourself of public pressure to finish your level. *The last thing you want to show to an audience is desperation*. 
+This comes in the form of [full showcases](<https://youtu.be/Dlclr2FAEwM?si=UoOQAEsyCjus4bOb>), [creator commentaries](<https://youtu.be/Bm28Y1ZOpLk?si=gZNQIoAzIWuWFyGG>), and [retrospectives](<https://youtu.be/ZXDsODvWEic?si=euus1lHQywutjssz>). If you're a beginner and just starting, your main focus is to practice building and get used to the editor. This means you're better off using post-promotion than pre-promotion to avoid disappointing the hype you've set up and relieve yourself of public pressure to finish your level. *The last thing you want to show to an audience is desperation*.
 
 With that said, sometimes you don’t need to promote at all and let the level be found naturally.
 
@@ -80,7 +85,7 @@ However, going back to the target market and their preferences, enjoyability bec
 
 ## 4. Place - How is the Level Distributed?
 
-This last element is probably the least talked about when it comes to a level’s reception: How is the level distributed and spread around the community? This can happen in the forms of Nexus and Viprin uploads, level request streams, and mod discord servers to submit IDs. In other words, like job hunting, be relentless in this area. This is especially true for creators who wish to get their first creator points. 
+This last element is probably the least talked about when it comes to a level’s reception: How is the level distributed and spread around the community? This can happen in the forms of Nexus and Viprin uploads, level request streams, and mod discord servers to submit IDs. In other words, like job hunting, be relentless in this area. This is especially true for creators who wish to get their first creator points.
 
 Within the eyes of Robtop, collecting your first creator points will be your hardest battle compared to the creator points that come after. This is because with 0 Creator Points, you have neither exposure nor any significant reputation in Rob’s and the community’s eyes just yet. If you have been creating for a long time and haven’t received a rate nor the subsequent recognition despite the quality provided in the other 3 elements of the marketing mix, this missing element is probably why: a lack of distribution. When nobody knows your name, nobody knows whether you can provide something of value.
 
@@ -145,14 +150,14 @@ If performance is below set expectations, that results in a letdown. Let’s see
 <div style="width: fit-content; height: fit-content"><iframe src=https://drive.google.com/file/d/1ZmH96ZL-Q-uryvJnfMcuS8CkCTfqEt3P/preview?usp=drivesdk></iframe></div>
 
 > LET ME TELL YOU ABOUT MY UPCOMING TOP 1 MASTERPIECE THAT IS GUARANTEED TO HAVE A MYTHIC RATING BECAUSE I AM GOING TO MAKE THE BEST LEVEL IN EXISTENCE. YOU ALL WILL BOW DOWN TO ME BECAUSE UNDER 40K OBJECTS, I AM GONNA BLOW… YOUR… MIND!
-> 
+>
 > I WILL PERSONALLY VERIFY THIS LEVEL ON MOBILE, AND ON STREAM. IT WILL BE A LEGENDARY MASTERPIECE OF A STREAM WHERE THOUSANDS OF VIEWERS WILL SHOW UP TO SEE HISTORY BEING MADE. IF YOU LIKE WHAT YOU’RE READING, SHOW YOUR APPRECIATION BY SUBSCRIBING TO MY CHANNEL, *OR ELSE…*
 
 <div><iframe src=https://drive.google.com/file/d/1G5oBwEz5XGcDIMY1yGyia3frWdlznkS-/preview?usp=drivesdk></iframe></div>
 
 If you felt annoyed by what you just read, then you’ve just been on the receiving end of **overhype**. You can promote so much that it comes off as annoying, or you can give such lofty, vague expectations like “perfect masterpiece” that it’ll look like a flop no matter how much polish is given.
 
-One notable example is [Emerald Realm](<https://youtu.be/MCXTkGU30pc?si=XrIHyNHGhYquLZJb>). After [Culuc’s part](<https://youtu.be/fMAYifajDac?si=GGVHC_hLSdf0Lnxw>) was uploaded publicly, it got a showcase from Viprin, and then still didn’t come out for months after. It effectively died out because the community moved on from the hype before the level could even make an appearance. 
+One notable example is [Emerald Realm](<https://youtu.be/MCXTkGU30pc?si=XrIHyNHGhYquLZJb>). After [Culuc’s part](<https://youtu.be/fMAYifajDac?si=GGVHC_hLSdf0Lnxw>) was uploaded publicly, it got a showcase from Viprin, and then still didn’t come out for months after. It effectively died out because the community moved on from the hype before the level could even make an appearance.
 
 > “Hold It! White Space also had that same behavior where a Viprin showcase was made before the level itself came out months later and yet that did not die out.”
 
@@ -162,7 +167,7 @@ Here’s another notable example of overhype: Update 2.2. Of course, the hype fo
 
 ## 2. Undersell
 
-In contrast, there are those who don’t promote their levels enough when they upload, to the extent that they fall to obscurity. Albeit, this is less severe than overhype, because when a level is in this category, they tend to be referred to as “underrated” or “hidden gems,” the connotations of which tend to be more positive and mysterious in nature. A large majority of levels in GD fall into this trap simply because they lack a strong presence. 
+In contrast, there are those who don’t promote their levels enough when they upload, to the extent that they fall to obscurity. Albeit, this is less severe than overhype, because when a level is in this category, they tend to be referred to as “underrated” or “hidden gems,” the connotations of which tend to be more positive and mysterious in nature. A large majority of levels in GD fall into this trap simply because they lack a strong presence.
 ## Rating System’s Influence
 
 While Rob gets to finalize the rate of a level, that doesn’t mean the community will agree with it. As a result, rate tiers and difficulty can get misclassified. This is especially severe for the difficulty aspect, because you could potentially be playing a challenging and difficult level, but have its “official” difficulty to be 3-4 stars.
@@ -173,7 +178,7 @@ In the case of Lilas by ILRELL, RNBW, and Oras, it was mislabeled as a 6 star le
 
 Another case where difficulty misclassification is prevalent is when it comes to 1-star Auto rated levels that are not actually auto. The typical expectation is that auto levels can be watched without making a single input; even if you did, that is usually for a coin route. These levels often get dislike bombed, receiving severely negative reception. With this in mind, especially when the rating system is mostly beyond the creator’s control, it does make one wonder if reception boils down to luck:
 
-> “My level is only popular because I got lucky.” 
+> “My level is only popular because I got lucky.”
 
 To an extent that’s true. While the performance vs expectation equation provides a framework, it heavily oversimplifies how reception works in the real world because it is much more complex than just the two categories I have placed. The marketing mix provides a foothold for the creator to control how they share their levels, but in the end no one can control the audience and their demands once the level is released. The only one factor that you can control is how you respond to the audiences’ reception, but this will be further explained in a later section.
 
@@ -212,11 +217,11 @@ July 20th, 2024 marked the release of a level that was fitting for the summer se
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Tns-PzgD3Cw" frameborder="0" allowfullscreen></iframe>
 
-2. **Promotion:** While iSpy was built in secrecy, LIMEADE heavily used pre-promotion through public youtube streaming and Twitter. Audieo regularly made building progress videos for this level, and the live chat viewers gave their inputs as the level was made. 
+2. **Promotion:** While iSpy was built in secrecy, LIMEADE heavily used pre-promotion through public youtube streaming and Twitter. Audieo regularly made building progress videos for this level, and the live chat viewers gave their inputs as the level was made.
 
 3. **Price:** This level is an 8-star through the normal route. However, going for the coin route leads to the SUOM chamber where inputs get finicky.
 
-4. **Place:** Witnessing the release stream first-hand, the live chat commenters went crazy, serving as the hype men for the level. Added by the fact that a GD Moderator was also tuning in to that stream, its distribution was seamless being filled with memorable quotes: 
+4. **Place:** Witnessing the release stream first-hand, the live chat commenters went crazy, serving as the hype men for the level. Added by the fact that a GD Moderator was also tuning in to that stream, its distribution was seamless being filled with memorable quotes:
 > “Level of the summer!”
 > “Sweet and sour makes your body feel numb”
 > “Lemonade was a popular drink and it still is.”
@@ -225,8 +230,8 @@ July 20th, 2024 marked the release of a level that was fitting for the summer se
 
 While this guide so far has discussed the different tools that a creator has to influence community reception, I would like to dedicate this section to give a heads up on the disadvantages of garnering high reception and critical acclaim.
 
-For starters, if your level becomes massively received, you may receive attention… *too much attention*. In regards to the new Legendary and Mythic ratings, once one of your levels receive that type of rate, there will come those who will vehemently disagree with its placement: 
-> “HOW DARE THIS TRASH RECEIVE THE LEGENDARY RATE?!” 
+For starters, if your level becomes massively received, you may receive attention… *too much attention*. In regards to the new Legendary and Mythic ratings, once one of your levels receive that type of rate, there will come those who will vehemently disagree with its placement:
+> “HOW DARE THIS TRASH RECEIVE THE LEGENDARY RATE?!”
 There may also be those who love your levels so much that they overly obsess over you and want you to teach them so that they can become famous just like you… and this diverse cast of audiences that you’re going to meet can get intimidating.
 
 Another potential cost of this type of mass reception is turning into a **one-trick pony**: __you end up being known solely because of your most critically acclaimed work and nothing else__. This can make it more difficult for you to release successful new works and can also prove discouraging to you when people put you into a box as “the creator who made this one level.”
@@ -243,16 +248,10 @@ With all of this said thus far, I’d like to conclude with three points:
 2. If you like a level that is poorly received, good for you! Don’t let this guide convince you that a level has to garner mass reception in order to earn your attention; sometimes you just love what you love. ❤️
 3. You get to control how you build your levels. However, whether or not someone else likes them or holds you in high regard is beyond your control. Hence, stop focusing on what is out there, and focus on building and improving yourself and your levels.
 
-
-
-## Sources
+# Sources
 - [The Economics of Getting Attention](<https://explorewhatworks.com/economics-getting-paying-attention/>)
 - [Diffusion of Innovations Theory](<https://sphweb.bumc.bu.edu/otlt/mph-modules/sb/behavioralchangetheories/behavioralchangetheories4.html>)
 - [Marketing Mix](<https://squareup.com/au/en/the-bottom-line/reaching-customers/how-to-use-7ps-of-marketing>)
 - [What Happened to Easy Geometry Dash Levels?](<https://youtu.be/OrEeeVzs67w?si=anNzirIG6kl51cIL>)
 - [How does a Steam game get the OVERWHELMINGLY NEGATIVE rating?](<https://youtu.be/afsRCBhLVZc?si=qQ_z4vewfoJOET_F>)
 
-
-
-## Credits
-Created by @Selena and @psy

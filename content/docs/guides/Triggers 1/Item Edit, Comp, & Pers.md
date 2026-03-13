@@ -1,6 +1,12 @@
 ---
 title: Item Edit, Comp, & Pers
 weight: 345
+date: 2023-12-30
+authors:
+- komatic5
+contributors:
+- komatic5
+- vexilo5
 draft: false
 
 seo:
@@ -9,7 +15,6 @@ seo:
   canonical: "" # custom canonical URL (optional)
   noindex: false # false (default) or true
 ---
-{{< img src="images/GDEmotes/Icons/Clock.png" class="emote">}} **Short** (4-6 minutes)
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 - Item Edit lets you form simple or complex equations using two Item ID values and store the result.
@@ -115,5 +120,3 @@ The checkboxes provide options for the Item ID:
 **Video:**
 {{< youtube BT8PyW4iG0s >}}
 
-## Credits
-Created by @Vexilo and @koma5

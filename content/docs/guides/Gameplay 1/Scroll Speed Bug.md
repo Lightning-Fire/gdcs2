@@ -1,9 +1,16 @@
 ---
 title: Scroll Speed Bug
 weight: 411
+date: 2023-12-16
+authors:
+- mateussdev
+- Unknown
+contributors:
+- .tv_box.
+- mateussdev
+- Unknown
 draft: false
 ---
-{{< img src="images/GDEmotes/Icons/Clock.png" class="emote">}} **Short** (6-8 minutes)
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 - The Scroll Speed Bug (SSB) is a bug in the game that is unfixable.
@@ -90,10 +97,3 @@ Blast processing but on 75000 fps (Recording by Aligned)
 Thanks level by FancyEX but on 80000 fps (Recording by PhiPan)
 
 <div><iframe src=https://drive.google.com/file/d/1ouTeYbSvYmoiU-eO8dFn38kq5rdD9nij/preview?usp=drivesdk></iframe></div>
-
-
-
-
-
-## Credits
-Created by @DangerChampion and @Unknown

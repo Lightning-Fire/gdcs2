@@ -1,9 +1,14 @@
 ---
 title: Groups
 weight: 304
+date: 2024-02-11
+authors:
+- tdp9
+contributors:
+- __madzz__
+- tdp9
 draft: false
 ---
-{{< img src="images/GDEmotes/Icons/Clock.png" class="emote">}} **Short** (5-7 minutes)
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 - Group IDs (when placed on an object) can contain an array of features that can enable certain functions to take place.
@@ -128,9 +133,3 @@ The Parent ID object will be used for the UI Target for reference in the UI.
 
 *Concerning the Spawn Particle, Static, Edge, Song/Edit Song/SFX/Edit SFX (proximity targets), End, Gradient, and shader triggers w/ target: The Parent ID object will be used as the target.*
 
-
-
-
-
-## Credits
-Created by @Madzz and @TDP9

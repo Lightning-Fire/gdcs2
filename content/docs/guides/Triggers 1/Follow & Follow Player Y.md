@@ -1,9 +1,13 @@
 ---
 title: Follow & Follow Player Y
 weight: 309
+date: 2024-01-08
+authors:
+- komatic5
+contributors:
+- komatic5
 draft: false
 ---
-{{< img src="images/GDEmotes/Icons/Clock.png" class="emote">}} **Tiny** (1-3 minutes)
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 - The Follow Trigger copies one object’s movements to a group. You can use X/Y mod to multiply the X and Y movements accordingly.
@@ -55,9 +59,3 @@ You’ll notice that when multiple objects are involved in the trigger, they’l
 
 Follow Player Y triggers stack normally, just like Move triggers do. You don't need to do anything additional to get them to stack.
 
-
-
-
-
-## Credits
-Created by @koma5

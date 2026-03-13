@@ -1,9 +1,16 @@
 ---
 title: Camera Simulation (2.1)
 weight: 619
+date: 2024-04-20
+authors:
+- "?"
+contributors:
+- chunlv1
+- komatic5
+- sparktwee
+- zvleus1487
 draft: false
 ---
-{{< img src="images/GDEmotes/Icons/Clock.png" class="emote">}} **Short** (8-10 minutes)
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 - The rectangular field that you can see on screen is the camera.
@@ -53,10 +60,10 @@ However, refresh rates complicate things. Depending on your game’s refresh rat
 ## Hitbox Issues
 
 Different gamemodes can shrink or expand the player’s hitbox, causing inaccuracies in the camera’s movement. For example, going from ship to wave, the hitbox will shrink; additional corrections need to be made for your setup. With modding apps such as Megahack, you can align these triggers with the respective hitboxes.
-    
+
 ## Overlaps in Camera Duration
 
-Sometimes, you may place your gamemode portals too closely, that the previous camera movement gets interrupted by the next. How would the setup simulate that? The issue is they won’t run at the same time, because they are exclusive. 
+Sometimes, you may place your gamemode portals too closely, that the previous camera movement gets interrupted by the next. How would the setup simulate that? The issue is they won’t run at the same time, because they are exclusive.
 
 Starting a camera movement will automatically negate all camera movements before it. This is an issue because previously, you can merely type your Y-units and the camera will move accordingly. In the case of overlaps, your move triggers need Use Target while also stopping the previous triggers using a stop trigger.
 
@@ -169,7 +176,7 @@ Adding this setup costs two extra groups for the touch-triggered spawn triggers 
 
 Triggers on the right side are activated when the player goes upside-down. For the move triggers, they shift the collision blocks and following pins downwards by `10` units; they move instantly by `0` seconds. They move back up by ‘10’ units to their original position when the player is right side up.
 
-Triggers at the centre activate by either spawn triggers. Think of it as an OR gate. The stop trigger is activated so that the Follow Player Y trigger doesn’t interrupt the move triggers. 
+Triggers at the centre activate by either spawn triggers. Think of it as an OR gate. The stop trigger is activated so that the Follow Player Y trigger doesn’t interrupt the move triggers.
 
 The toggle triggers at the bottom acts as a calibration sequence for the camera module. You know how when your laptop suddenly has problems, you turn the laptop off and then on again? That’s what the toggle triggers are doing for the gravity change.
 
@@ -182,8 +189,4 @@ None
 None
 
 As a precaution, stick to building either the bordered or borderless setup separately.
-
-
-
-> **Research and Examples:** @Chunlv1 @Unknown @Selena 🦄 @koma5
 

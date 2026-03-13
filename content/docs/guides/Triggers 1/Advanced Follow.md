@@ -1,9 +1,14 @@
 ---
 title: Advanced Follow
 weight: 312
+date: 2024-01-08
+authors:
+- naem.less
+contributors:
+- etherail
+- naem.less
 draft: false
 ---
-{{< img src="images/GDEmotes/Icons/Clock.png" class="emote">}} **Short** (9-11 minutes)
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 - The Adv. Follow trigger allows you to create more complex movements for objects that regular Follow triggers can't do.
@@ -140,10 +145,3 @@ In this video, you can see the particle trails collide with the player, re-targe
 # 5: Stacking
 
 Advanced follow triggers are stackable. Activating two at the same time, or one after the other adds the values together and the object will receive a stacked movement. *Note that triggers with different follow types cannot be stacked.* It's simply ignored.
-
-
-
-
-
-## Credits
-Created by @etherail and @naem

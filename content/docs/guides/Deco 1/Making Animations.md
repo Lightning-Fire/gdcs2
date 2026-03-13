@@ -1,9 +1,14 @@
 ---
 title: Making Animations
 weight: 511
+date: 2023-08-05
+authors:
+- komatic5
+contributors:
+- komatic5
+- yoreid
 draft: false
 ---
-{{< img src="images/GDEmotes/Icons/Clock.png" class="emote">}} **Short** (7-9 minutes)
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 - Animation in GD can be divided into four different parts; X movement, Y movement, Rotation, and Frame-by-frame.
@@ -32,7 +37,7 @@ Although these two forms of movement are essentially the same, it is very useful
 
 - **Exponential In/Out:** A very fast paced easing, mostly best for motion that either has a large distance or long duration
 
-- **Sine In/Out:** This is a perfect representation of a sine wave, making it work well for movement that repeats itself back and forth. Anything that moves in a wave-like way should use this. 
+- **Sine In/Out:** This is a perfect representation of a sine wave, making it work well for movement that repeats itself back and forth. Anything that moves in a wave-like way should use this.
 
 - **Back In/Out:** Great for fast paced motion to make an object look like it has force behind it.
 
@@ -85,10 +90,3 @@ Here is the finished product:
 Notice how the design for the boss is very simple, yet is the most iconic part of the level due to the execution of its animation. One of the best ways to get the most out of your animations is to make the animation the entire theme of the level.
 
 Getting easing and frame by frame right on the first try is near impossible, even if you have excellent mental imaging skills when setting up triggers. So always remember an animation can be turned from terrible to very natural with only small tweaks to the values of your move triggers. If something in the movement seems off, try to picture what you want it to look like and contrast that with what you have, then translate that to tweaking triggers. Another way to improve a lifeless animation is to simply add more; small additions of impact frames, particles, and pulses can be excellent finishing touches when done well.
-
-
-
-
-
-## Credits
-Created by @YoReid and @koma5

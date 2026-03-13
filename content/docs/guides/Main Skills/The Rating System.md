@@ -1,10 +1,14 @@
 ---
 title: The Rating System
 weight: 217
-draft: true
+date: 2024-05-31
+authors:
+- sparktwee
+contributors:
+- notamoderatr
+- sparktwee
+draft: false
 ---
-## Guide info
-Medium: 10-12 minutes
 
 ## TLDR - What this guide covers
 - Geometry Dash has a rating system that classifies levels from one another in order to control the quality and set the game’s standards.
@@ -28,13 +32,13 @@ Let’s start off this topic by answering: Who participates in the rating system
  - **Leaderboard Moderators**: __Enforces the Top 100 and Global Leaderboards__
  - **Standard Moderators**: __Enforces the rating standards__, and sends levels to be noticed by Robtop.
  - **Elder Moderators**: Has the same perks as standard moderators, and are at the forefront for beta testing for future updates. They also handle whitelisting from Newgrounds, and __enforce moderating standards.__
- 
+
 4. **Executive** (Robtop): Develops the game, and __holds the authority, discretion and final say to rate levels.__
-With these main participants in mind, there are two possible reasons why a rating system exists: quality control and setting standards. 
+With these main participants in mind, there are two possible reasons why a rating system exists: quality control and setting standards.
 
 Super Mario Maker is a good example of quality control. Super Mario Maker provides the same issue in regards to “Little Timmy” levels, in which a level was poorly made, almost as if a 9 year old sprawled their tablet all over. Within the sea of online levels, how can players navigate through a consistent collection of levels of the same quality? As a result, Mario Maker has its own version of creator points, incentivizing the pursuit of this quality control. As a result, *some levels will just never get rated no matter what.*
 
-Now you might be saying, “Wait, what are you on about? Robtop doesn’t always keep a consistent rating of quality levels. The fact that [Insert Level Name] got rated means that Rob doesn’t focus much on quality control.” That’s a fair point; this is more prevalent especially in previous updates when the editor had less objects and features to go with; not to mention the joke levels for April Fools. 
+Now you might be saying, “Wait, what are you on about? Robtop doesn’t always keep a consistent rating of quality levels. The fact that [Insert Level Name] got rated means that Rob doesn’t focus much on quality control.” That’s a fair point; this is more prevalent especially in previous updates when the editor had less objects and features to go with; not to mention the joke levels for April Fools.
 
 However, that’s where the second reason comes in. Albeit, it gets more subjective.
 
@@ -119,15 +123,8 @@ Treat the editor like a game/exercise. It’s meant to be fun. If it’s not, tr
 
 The creating process is difficult. It’s just work with extra bells and whistles than a typical job would have. Not everyone wants to deal with it. And for those who enjoy it, cherish it. Don’t sell your passion for the sake of creator points. If you have a vision bubbling in your head and you want to bring that to life through the editor, go for it.
 
-
-
-## Sources
+# Sources
 - [Official Geometry Dash Editor Guide](<https://www.robtopgames.com/files/GDEditor.pdf>)
 - [List of Every Rated Level in Geometry Dash](<https://docs.google.com/spreadsheets/d/1BBx9X8IYBtr7dA5cWu_smM2XBkLZzCXy7TjeEWRgag0/edit#gid=1407055905>)
 - [GD Rating System Guide](<https://www.robtopgames.com/files/GDRating.pdf>)
 - [How to Find the Person Who Can Help You Get Ahead at Work](<https://www.youtube.com/watch?v=gpE_W50OTUc>)
-
-
-
-## Credits
-Created by @NotAModerator and @Selena

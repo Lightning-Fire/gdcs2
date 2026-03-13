@@ -1,10 +1,16 @@
 ---
 title: Fill 1
 weight: 504
+date: 2023-03-10
+authors:
+- artaire
+- komatic5
+contributors:
+- artaire
+- exotron1352
+- komatic5
 draft: false
 ---
-## Guide info
-Short: 4-6 minutes
 
 ## TLDR - What this guide covers
 - There are several different types of assets which you can use to fill shapes, including but not limited to lines and rectangles, circles and curves, and specific assets.
@@ -111,7 +117,3 @@ In this section, we’ll cover some important principles you should bear in mind
 
 <div><iframe src=https://drive.google.com/file/d/1rp8eE0jnHGCJg5rJHZgzgEyN9DnG3CL1/preview?usp=drivesdk></iframe></div>
 
-
-
-## Credits
-Created by @Artaire and @Exotron

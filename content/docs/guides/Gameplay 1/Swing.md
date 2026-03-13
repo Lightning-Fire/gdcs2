@@ -1,10 +1,14 @@
 ---
 title: Swing
 weight: 421
+date: 2024-10-31
+authors:
+- kriticsoul
+contributors:
+- chuckolate
+- kriticsoul
 draft: true
 ---
-{{< img src="images/GDEmotes/Icons/Clock.png" class="emote">}} **Short** (6-8 minutes)
-
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 - When clicked, the Swing gradually inverts its gravity, following a curved path.
 - The Swing is best used in slow, calm, open or wavy sections due to its floaty nature and characteristic trajectory.
@@ -86,13 +90,7 @@ When using a Dash Orb while on the Swing gamemode, the final result will be the 
 
 The Cyan Orb when interacted with, the gravity change begins with a very small curvature instead of instantly going diagonal.
 
-Gravity Trigger is maybe hard to get used to, but as with every vehicle, it helps to set the pace, and so it should be something to have in mind. 
+Gravity Trigger is maybe hard to get used to, but as with every vehicle, it helps to set the pace, and so it should be something to have in mind.
 
 Dual Swing with different properties on each player can produce a lot of variety in a gameplay, whether one is smaller or has a different gravity, or both.
 
-
-
-
-
-## Credits
-Created by @ChuckOlate and @Kritic

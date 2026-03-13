@@ -6,7 +6,7 @@
     </div>
     <div class="col-lg-9 col-xl-8 text-center">
       <p class="lead">{{ .Params.lead | safeHTML }}</p>
-      <a class="btn btn-primary btn-cta rounded-pill btn-lg my-3" href="/docs/{{ if site.Params.doks.docsVersioning }}{{ site.Params.doks.docsVersion }}/{{ end }}guides/the-editor/placing-objects/" role="button">{{ "Example Guide" }}</a>
+      <a class="btn btn-primary btn-cta rounded-pill btn-lg my-3 hover-scale" href="/docs/{{ if site.Params.doks.docsVersioning }}{{ site.Params.doks.docsVersion }}/{{ end }}guides/the-editor/placing-objects/" role="button">{{ "Start here!" }}</a>
       {{ .Content }}
     </div>
   </div>
@@ -26,6 +26,20 @@
         <p>This is a free resource to help you make Geometry Dash levels! Check out the <strong>guides</strong> here, or join the <strong>[Discord server](https://discord.com/invite/gdlevels)</strong>{{<img src="images/GDEmotes/Icons/Discord.png" class="emote">}} for practice content.</p>
         <div class="col-lg-5">
           {{partial "recently-edited.html"}}
+        <p>This is a free resource to help you make Geometry Dash levels! Check out the guides here, or join the Discord server for practice content.</p>
+
+        <div class="col-lg-14">
+          {{ partial "latest-guides.html" . }}
+        </div>
+
+        <div class="col-lg-14">
+          {{ partial "recently-edited.html" . }}
+        </div>
+
+        <div class="col-lg-14">
+          <h2 class="h2">Contributing</h2>
+          Want to help us build the website? Consider
+          <span class="links"><a href="https://github.com/komatic5/gdcs2/blob/main/CONTRIBUTING.md" target="_blank" rel="noopener">contributing</a></span>!
         </div>
       </div>
     </div>

@@ -1,9 +1,14 @@
 ---
 title: Color 5 (Human Perception)
 weight: 805
+date: 2024-05-31
+authors:
+- skytriz
+contributors:
+- etherail
+- skytriz
 draft: false
 ---
-{{< img src="images/GDEmotes/Icons/Clock.png" class="emote">}} **Short** (6-8 minutes)
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 - Our eyes contain rods and cones which let us perceive color. Color blindness occurs when a cone malfunctions.
@@ -119,3 +124,4 @@ Changed the channel name: Color 5: Human Perception
 
 ## Credits
 Created by @etherail and @sku
+**Video:** https://youtu.be/P2r4Z5kbx7M?si=P8PvmVByUQ6W_Ocy&t=478

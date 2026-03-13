@@ -1,9 +1,14 @@
 ---
 title: Making Backgrounds
 weight: 509
+date: 2023-06-22
+authors:
+- kde__
+contributors:
+- kde__
+- komatic5
 draft: false
 ---
-{{< img src="images/GDEmotes/Icons/Clock.png" class="emote">}} **Short** (7-9 minutes)
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 - Backgrounds should express a slightly different interpretation of your main ideas compared to the blocks.
@@ -37,7 +42,7 @@ The human eye is naturally attracted to detail. As such, by placing more detail 
 
 A common mistake is to stuff both the foreground and background with high amounts of detail. This makes it difficult to identify the focus and will make your work messy. It also ruins the sense of depth.
 
-One thing you can do is make less important details contrast less. For example, in many open scenes, the background often has less contrast in hue and brightness than the foreground. (This is due to a concept called atmospheric perspective, which will not be elaborated on here.) On the other hand, some works choose to make the foreground a plain solid color silhouette to draw attention to a starkly contrasting background. 
+One thing you can do is make less important details contrast less. For example, in many open scenes, the background often has less contrast in hue and brightness than the foreground. (This is due to a concept called atmospheric perspective, which will not be elaborated on here.) On the other hand, some works choose to make the foreground a plain solid color silhouette to draw attention to a starkly contrasting background.
 
 Here are some levels which use detail contrast effectively.
 
@@ -102,14 +107,4 @@ Making shapes smaller as they move further back in the background layers isn't a
 From the figure below, there are two pairs of rectangles. In the left pair, the blue rectangle appears to be in front in space despite being smaller than the red rectangle. This is because there is a clear overlap of the blue rectangle over the red rectangle. However, once the overlap is removed as it is in the right pair, the relationship between the two rectangles in space becomes ambiguous, making it harder to create depth.
 
 <div><iframe src=https://drive.google.com/file/d/1F6HLzpcoNGWK1h_Of5MYWAsTCxkXgEZY/preview?usp=drivesdk></iframe></div>
-
-
-
-> **Research** and **Examples**
-
-  @KDE
-
-> **Proofreading**
-
-  @koma5
 

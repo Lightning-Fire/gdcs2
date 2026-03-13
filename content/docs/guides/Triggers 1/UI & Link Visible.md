@@ -1,9 +1,15 @@
 ---
 title: UI & Link Visible
 weight: 347
-draft: true
+date: 2024-01-21
+authors:
+- delts1550
+contributors:
+- delts1550
+- .eyz.
+- komatic5
+draft: false
 ---
-{{< img src="images/GDEmotes/Icons/Clock.png" class="emote">}} **Tiny** (2-4 minutes)
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 - The UI Trigger lets you create a UI that stays on screen at all times.
@@ -32,9 +38,9 @@ In the video above, you can see that using the relative option on multiple objec
 ## Extra Options
 If you ever want the objects in your UI to be oriented in a certain way automatically, you can select that option under the XRef and YRef as shown in the video.
 
-For XRef, if “Center” is selected it will orientate the object in the center of the UI relative to the x-axis, the same rule applies for selecting “Left” and “Right”. 
+For XRef, if “Center” is selected it will orientate the object in the center of the UI relative to the x-axis, the same rule applies for selecting “Left” and “Right”.
 
-YRef works similarly to XRef but only orientates objects on the y-axis and has slightly different options, that being “Bottom” and “Top”. 
+YRef works similarly to XRef but only orientates objects on the y-axis and has slightly different options, that being “Bottom” and “Top”.
 
 For Auto, the object is orientated based on the camera’s edge of the “UI Target Object.”
 
@@ -56,9 +62,3 @@ For this to work you must have an object that can be rendered at all times actin
 
 The scaled-up object will remain rendered until the reference block goes off the screen. You can add more reference blocks to continue rendering the scaled object. __Once the trigger is activated it cannot be stopped. __
 
-
-
-
-
-## Credits
-Created by @Dimstack and @koma5

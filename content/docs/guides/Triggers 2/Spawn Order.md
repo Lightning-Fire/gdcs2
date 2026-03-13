@@ -1,9 +1,14 @@
 ---
 title: Spawn Order
 weight: 602
+date: 2024-04-18
+authors:
+- typexleta
+contributors:
+- komatic5
+- typexleta
 draft: false
 ---
-{{< img src="images/GDEmotes/Icons/Clock.png" class="emote">}} **Short** (3-5 minutes)
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 - Triggers activate from left to right when spawned by a Spawn trigger, in a process called Spawn Order.
@@ -51,10 +56,3 @@ None
 
 This is most useful when making OR gates, which you’ll learn more about in a later guide.
 
-
-## Return to the Table of Contents [here](https://discord.com/channels/414295025883545600/1230610140940730479/1230610140940730479)
-
-
-
-## Credits
-Created by @koma5 and @𝕋ypexleta

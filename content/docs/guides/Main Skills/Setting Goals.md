@@ -1,11 +1,14 @@
 ---
 title: Setting Goals
 weight: 207
+date: 2023-09-30
+authors:
+- nikobik0
+contributors:
+- nikobik0
+- notamoderatr
 draft: false
 ---
-## Guide info
-Short: 5-7 minutes
-
 ## TLDR - What this guide covers
 - Make sure to set realistic Goals as doing this and accomplishing these goals will keep you motivated.
 - Use the SMART goal setting method in order to set realistic and achievable goals.
@@ -62,12 +65,7 @@ This mindset is unhealthy and can lead to mass burnout. That's why you'd rather 
 
 Doing this can give you significantly more time to work on big goals or having small short term goals can help you take the little steps you need to slowly but surely make progress towards bigger goals.
 
-
-## Sources
+# Sources
 - [The Importance, Benefits, and Value of Goal Setting](<https://positivepsychology.com/benefits-goal-setting/>)
 - [The Science of Setting Goals - and How to Achieve Them](<https://www.icslearn.co.uk/blog/study-advice/the-science-of-setting-goals-and-how-to-achieve-them/#:~:text=Dopamine%20is%20considered%20a%20%27reward,of%20motivation%2C%20satisfaction%20and%20productivity.>)
 
-
-
-## Credits
-Created by @NotAModerator and @niko

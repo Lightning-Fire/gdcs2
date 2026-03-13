@@ -1,9 +1,16 @@
 ---
 title: Mechanics 4 (Decision-Making)
 weight: 704
+date: 2025-03-01
+authors:
+- intercomprehensible
+contributors:
+- intercomprehensible
+- illusion2
+- psytrancegd
+- komatic5
 draft: false
 ---
-{{< img src="images/GDEmotes/Icons/Clock.png" class="emote">}} **Short** (9-11 minutes)
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 - Choices are an integral part of game design, making a game strategic and interesting
@@ -13,7 +20,6 @@ draft: false
 {{< /callout >}}
 
 ** **
-Changed the channel name: Mechanics 4 (Decision-Making)
 
 Have you ever wondered how game designers make compelling decisions that leave you thinking for hours on end? Maybe you’ve spent a lot of time carefully optimizing your gear and accessories, or maybe you were stumped by a puzzle that ended up clicking in a satisfying way. These are examples of decision making, which we’ll cover the fundamentals of in this guide.
 
@@ -46,7 +52,7 @@ After looking at uninformed and obvious choices, the next sensible step is to tr
 Interested choices don’t have to be exactly in the middle between uninformed and obvious choices. Sometimes, if you want the player to think through their options thoroughly before making a choice, you can lean towards giving more limited information. If you want a choice that requires some strategy, but can be done quickly, you can lean towards giving more extensive information.
 
 As another example, imagine a forest with a path that splits into two. One path leads into a barren field, while the other into a dense part of the forest. Which one seems more appealing to you?
- 
+
 Both of these examples are interesting prospects, and they don’t really have a single “correct” choice. Because of this, the choice may be based more on specific preferences the players might have.
 
 # 2: Tradeoffs
@@ -59,7 +65,7 @@ Note that we still need to figure out what preferences a player might have in a 
 
 What if we don’t test to find the preferences a player might have? What if we assume specific things about the player?
 
-One thing that might happen is that the tradeoffs we design wouldn’t really create interested choices. Some preferences we take for granted may actually be unappealing to the average player, and may create a tradeoff leaning obviously one way over the other. 
+One thing that might happen is that the tradeoffs we design wouldn’t really create interested choices. Some preferences we take for granted may actually be unappealing to the average player, and may create a tradeoff leaning obviously one way over the other.
 
 To solidify the concept of tradeoffs, we’ll go through two broader examples.
 
@@ -77,7 +83,7 @@ As a more complex example, we can look at chess. Even with its simple rules, it 
 
 From here, a very obvious tradeoff emerges. **The question of if you should play aggressively or defensively is a tradeoff itself.** However, there is a lot more nuance to this than it may seem; chess grandmasters adapt through these styles as needed and don’t just stick to one for the entirety of a game or even their career. They instead pick the choices that best fit their situation.
 
-A more nuanced example we’ll touch on is the concept of openings. Openings are a predefined set of moves that are traditionally played by most chess players. They should provide some sort of advantage to the player, be it a positional advantage or a material lead. 
+A more nuanced example we’ll touch on is the concept of openings. Openings are a predefined set of moves that are traditionally played by most chess players. They should provide some sort of advantage to the player, be it a positional advantage or a material lead.
 
 The key tradeoff here is **choosing to open defensively or aggressively**. Aggressive openings usually sacrifice pieces for a greater positional advantage, while defensive openings usually value defending the king and avoiding captures.
 
@@ -131,9 +137,3 @@ However, I'd like to state that Risk vs Reward is one of those concepts that is 
 
 Adding on to this, it’s definitely worth knowing that not every game needs risk vs reward mechanics. As with a lot of other concepts, it’s important to have your target audience in mind when choosing to implement or exclude them.
 
-
-
-
-
-## Credits
-Created by @kyouki and @pneuma

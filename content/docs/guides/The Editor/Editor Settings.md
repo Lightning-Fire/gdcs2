@@ -1,6 +1,12 @@
 ---
 title: Editor Settings
 weight: 104
+date: 2024-05-15
+authors:
+- tdp9
+contributors:
+- tdp9
+- sparktwee
 draft: false
 
 seo:
@@ -9,7 +15,6 @@ seo:
   canonical: "" # custom canonical URL (optional)
   noindex: false # false (default) or true
 ---
-{{< img src="images/GDEmotes/Icons/Clock.png" class="emote">}} **Medium** (10-12 minutes)
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 - Level Settings help you customize how your level will start.
@@ -88,7 +93,7 @@ Within the options menu is another gear icon which leads to the legacy options m
 
 {{< img src="https://lh3.googleusercontent.com/d/1xsVBXjHq9fAaUk_h8AHatNtDXbg6f76I" >}}
 
-- **Reverse Sync**: __Speeds up or slows down the player so that the music can stay in sync whenever a direction change occurs.__ 
+- **Reverse Sync**: __Speeds up or slows down the player so that the music can stay in sync whenever a direction change occurs.__
 - **Decrease Boost Slide**: __Lessens how much the player slides after being launched by a dash orb or moving objects.__
 
 {{< youtube uT4GVrRlYfk>}}
@@ -100,13 +105,13 @@ Meanwhile, the **editor settings** can be accessed on the main editor screen by 
 {{< img src="https://lh3.googleusercontent.com/d/13VOHpks5xqZxgyVU-6uJnt8KSz9ardki" >}}
 
 ## Left Screen Options
-- **Show Hitboxes**: __Shows the hitboxes of objects that have them.__ Blue hitboxes are solid objects, red ones are hazards, and green ones are interactable objects. 
+- **Show Hitboxes**: __Shows the hitboxes of objects that have them.__ Blue hitboxes are solid objects, red ones are hazards, and green ones are interactable objects.
 
 > Note: Some objects do not have their hitboxes shown, even though they do have one. HItboxes are removed when an object has “No Touch” enabled.
 
 {{< img src="https://lh3.googleusercontent.com/d/12eF7PgY7BdFJgxadEcOMg0vqdiD8NrPj" >}}
 
-- **Hide Invisible**: __Makes all objects with the “Hide” option enabled invisible.__ 
+- **Hide Invisible**: __Makes all objects with the “Hide” option enabled invisible.__
 - **Preview Mode**: __Changes the editor to look more like how everything is displayed normally is.__ When disabled, all objects are shown regardless of opacity or if they are toggled and all objects are colored based on what color channel they are on instead of the color of the color channel itself.
 - **Preview Animations**: __Plays animations while in the editor for animated objects.__
 - **Preview Particles**: __Animates particles from the custom particle system.__
@@ -184,6 +189,3 @@ These settings can be found by clicking the button with a gear on it in the top 
 - **Save/Load Editor Pos**: __Saves the screen position of the editor camera which can be loaded to go to later.__ You can save a position using using Ctrl+[0-9], and load it using Alt+[0-9].
 
 {{< youtube tLYwWL07GMo>}}
-
-## Credits
-Created by @Selena

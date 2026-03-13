@@ -1,9 +1,14 @@
 ---
 title: Mechanics 1 (Intro)
 weight: 701
+date: 2023-04-24
+authors:
+- komatic5
+contributors:
+- komatic5
+- notamoderatr
 draft: false
 ---
-{{< img src="images/GDEmotes/Icons/Clock.png" class="emote">}} **Short** (6-8 minutes)
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 - Effective mechanics generally follow these 3 principles: Extensiveness, Immersion, and Engagement.
@@ -55,13 +60,8 @@ None
 
 Making a flowchart like this makes identifying the pre-existing skills players need to start playing your level, which ones they need to beat your level, and which skills need to have explicit feedback such as a UI, visual changes, and so on easier. However, it won’t tell you how players may actually respond to your mechanics. For that, you must get playtesters and use your skill chain framework to determine where playtesters enjoy the learning curve, and where they’re getting burnout. This requires documenting their behavior as they play, and being aware of when mechanics go unused. For example, a player may enjoy learning how each gamemode responds to a swimming mechanic you made, but if they get burnout shortly after the introduction, you may need to look at how you first introduced it. If they get burnout later but enjoyed learning the mechanic, you should look at how you used it later on in the level. This can be a long process to truly perfect a mechanic, but it’ll ensure that your gameplay can be easily approached and will remain interesting over time.
 
-
-## Sources
+# Sources
 
 - [Adapting Cognitive Task Analysis to Elicit the Skill Chain of a Game](<https://www.researchgate.net/publication/319537800_Adapting_Cognitive_Task_Analysis_to_Elicit_the_Skill_Chain_of_a_Game>)
 - [The Chemistry of Game Design](<https://lostgarden.home.blog/2021/03/13/the-chemistry-of-game-design-2/>)
 
-
-
-## Credits
-Created by @NotAModerator and @koma5

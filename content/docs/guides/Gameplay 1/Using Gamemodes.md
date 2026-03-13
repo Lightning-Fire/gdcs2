@@ -1,9 +1,14 @@
 ---
 title: Using Gamemodes
 weight: 401
+date: 2025-03-01
+authors:
+- illusion2
+contributors:
+- komatic5
+- illusion2
 draft: false
 ---
-{{< img src="images/GDEmotes/Icons/Clock.png" class="emote">}} **Long** (20-24 minutes)
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 - Everything you do in gameplay, especially your gamemode choices, should be with a purpose.
@@ -158,20 +163,11 @@ The Swing is the least responsive of all the gamemodes; it will take a while for
 
 # 3: Techniques & Interactions
 
-Last section covered where you should use these gamemodes and why; this section will cover how. However, first I need to talk about something much more important to using your gamemode right; actually utilizing them.
+Last section covered where you should use these gamemodes and why; this section will cover how. However, first I need to talk about something much more important to using your gamemode right: actually utilizing them.
 
-To utilize a gamemode is to use it for the reason that you chose it. If you want the player to have a certain amount of control over their position, you’ll choose a gamemode that works best with that. As a result, if you’re filling your gameplay with lots of orbs, pads, and portals without using each gamemode’s unique properties, your gameplay will come off as purposeless.
+To utilize a gamemode is to use it for the reason that you chose it. If you want the player to have a certain amount of control over their position, you’ll choose a gamemode that works best with that. As a result, if you’re filling your gameplay with lots of orbs, pads, and portals without using each gamemode’s unique properties, your gameplay will come off as _purposeless_.
 
-For example, in a very fast part that swaps gamemodes twice a second after each click, your gamemodes won’t have any time to shine – they’ll blend together, and then none of them will stand out. Another example is if you have a Robot part, which you chose to emphasize long clicks. In the actual part, only 2 of your clicks are Robot clicks; the rest are all orbs. Once again, there’s no point inusing Robot to emphasize long clicks when you only do two of them.
-
-Ultimately, the *how* is a lot more nuanced as there are a nearly limitless amount of ways to use gamemodes. A lot of these uses will come down to experience and the inspiration sources you use. The rest of this section will go over common techniques, unique interactions, some tips, and some examples for how to use each gamemode.
-Last section covered where you should use these gamemodes and why; this section will cover how. However, first I need to talk about something much more important to using your gamemode right; actually utilizing them.
-
-To utilize a gamemode is to use it for the reason that you chose it. If you want the player to have a certain amount of control over their position, you’ll choose a gamemode that works best with that. As a result, if you’re filling your gameplay with lots of orbs, pads, and portals without using each gamemode’s unique properties, your gameplay will come off as purposeless.
-
-** **
-
-For example, in a very fast part that swaps gamemodes twice a second after each click, your gamemodes won’t have any time to shine – they’ll blend together, and then none of them will stand out. Another example is if you have a Robot part, which you chose to emphasize long clicks. In the actual part, only 2 of your clicks are Robot clicks; the rest are all orbs. Once again, there’s no point inusing Robot to emphasize long clicks when you only do two of them.
+For example, in a very fast part that swaps gamemodes twice a second after each click, your gamemodes won’t have any time to shine: they’ll blend together, and then none of them will stand out. Another example is if you have a Robot part, which you chose to emphasize long clicks. In the actual part, only 2 of your clicks are Robot clicks; the rest are all orbs. Once again, there’s no point in using Robot to emphasize long clicks when you only do two of them.
 
 Ultimately, the *how* is a lot more nuanced as there are a nearly limitless amount of ways to use gamemodes. A lot of these uses will come down to experience and the inspiration sources you use. The rest of this section will go over common techniques, unique interactions, some tips, and some examples for how to use each gamemode.
 
@@ -277,11 +273,5 @@ Lastly, here’s a video of the entire level if you’re interested in seeing ho
 
 {{< youtube FGAftuAcquM >}}
 
-
-
 **Video:** https://youtu.be/Se2KWB1XgfE?si=tkpneccEJD-VfMcv
 
-
-
-## Credits
-Created by @koma5 and @ontos

@@ -1,1 +1,10 @@
 // Put your custom SCSS variables here
+.lightdark {
+  background: var(--bs-primary);
+  color: var(--bs-white);
+}
+
+[data-bs-theme="dark"] .lightdark {
+  background: #b3c7ff; // I couldn't find the native darkmode color variable
+  color: var(--bs-black);
+}

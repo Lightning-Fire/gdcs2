@@ -1,9 +1,14 @@
 ---
 title: Layering Masks
 weight: 515
+date: 2023-10-13
+authors:
+- Unknown
+contributors:
+- .thunderbat
+- Unknown
 draft: false
 ---
-{{< img src="images/GDEmotes/Icons/Clock.png" class="emote">}} **Short** (6-8 minutes)
 
 # 1: Background Mask
 
@@ -256,7 +261,3 @@ Although outdated, it’s an interesting method of masking.
 - Layering masks make use of how Z layers work to make certain visual effects easily.
 - It is certainly a wise decision to take note of these masks and attempt to use them in projects, especially beyond the uses shown here.
 
-
-
-## Credits
-Created by @ThunderBat and @Unknown

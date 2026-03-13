@@ -1,11 +1,14 @@
 ---
 title: Giving & Taking Feedback
 weight: 215
+date: 2023-03-14
+authors:
+- Unknown
+contributors:
+- etherail
+- Unknown
 draft: false
 ---
-## Guide info
-Short: 4-6 minutes
-
 
 - **Summary**
 - > • Feedback helps you connect with the community and make sure your goals resonate with people. If you don't ever get second opinions, your project may flop entirely.
@@ -45,17 +48,7 @@ Getting feedback is another issue entirely, but not an impossible one to fix. So
 
 Once you find where you'll ask for feedback, *knowing what to get feedback on is a very important skill.* Do you want feedback on the gameplay? Ask for that then! Do you want feedback on the design? Go ahead! Once you've gotten a few responses, compile them and decide how they'll affect your level. If you're really unsure about a change, you can test it out on a copy. However, you do *not* have to implement every change that's suggested to you.
 
-
-
-> **Research** and **Examples**
-
-@Unknown
-
-> **Proofreading**
-
-@etherail
-
-Sources:
+# Sources
 
 > • <https://habr.com/ru/post/556326/>
 > • <https://www.unisender.com/ru/blog/idei/fidbek-chto-eto-takoe-i-kak-davat-obratnuyu-svyaz/>

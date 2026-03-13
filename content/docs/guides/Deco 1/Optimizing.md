@@ -1,9 +1,14 @@
 ---
 title: Optimizing
 weight: 519
+date: 2023-06-26
+authors:
+- komatic5
+contributors:
+- creeperiv
+- komatic5
 draft: false
 ---
-{{< img src="images/GDEmotes/Icons/Clock.png" class="emote">}} **Tiny** (2-4 minutes)
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 - Optimizing refers to reducing the amount of objects used without affecting appearance, important for creating less lag when playing levels.
@@ -44,14 +49,3 @@ Note that this works significantly better if you use a lot of Editor layers. Thi
 Here is an example of this process. This video shows all of the efficiency techniques, as well as the object reduction algorithm.
 
 {{< youtube NMwzuKoi3Nk >}}
-
-
-
- **Research** and **Examples**
-
-  @koma5
-
-**Proofreading**
-
-  @C4
-

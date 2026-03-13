@@ -1,9 +1,14 @@
 ---
 title: Making Platformer Gameplay
 weight: 419
+date: 2025-03-31
+authors:
+- styphontv
+contributors:
+- notamoderatr
+- styphontv
 draft: false
 ---
-{{< img src="images/GDEmotes/Icons/Clock.png" class="emote">}} **Short** (8-10 minutes)
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 - Platformer mode is a new level type introduced in 2.2 that allows free horizontal movement of the player.
@@ -74,7 +79,7 @@ When making the level you’ll likely have the bias that nothing is wrong becaus
 
 After understanding what principles make up basic platformer gameplay, we can cover different genres of gameplay.
 
-## Standard 
+## Standard
 
 This is usually the most common gameplay type for levels. It’s known for being straightforward and is something anyone can pick up. They usually don't include too many gimmicks and stick to the vanilla experience.
 
@@ -136,10 +141,3 @@ Many other gameplay types exist that weren’t listed previously, which are eith
 <div><iframe src=https://drive.google.com/file/d/1DglwQWnoLvo4nnaT2-1OXgNaBifuHiUa/preview?usp=drivesdk></iframe></div>
 
 These are only a few examples of platformer gameplay you may see or use in your own levels, which should give you a better understanding of how you can structure your gameplay.
-
-
-
-
-
-## Credits
-Created by @NotAModerator and @those

@@ -1,9 +1,14 @@
 ---
 title: Bossfight Design
 weight: 721
+date: 2024-09-18
+authors:
+- illusion2
+contributors:
+- illusion2
+- psytrancegd
 draft: false
 ---
-{{< img src="images/GDEmotes/Icons/Clock.png" class="emote">}} **Long** (30-34 minutes)
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 - Bossfights have three main goals: provide thrilling action, make the player think critically, and help the player learn the boss effectively.
@@ -223,9 +228,7 @@ In addition to that, Sweetheart has a variety of strong attacks that hit every p
 
 {{< youtube 2D1VBDjamoA >}}
 
-
-
-## Sources
+# Sources
 - https://www.thegamer.com/afterimage-loss-the-galefeather-boss-battle-unlock-double-jump-ability-guide/
 - https://www.youtube.com/watch?v=Lfof1rrtTY8
 - https://www.thegamer.com/afterimage-lush-wolf-boss-battle-guide/
@@ -233,7 +236,3 @@ In addition to that, Sweetheart has a variety of strong attacks that hit every p
 - https://www.youtube.com/watch?v=Z3McXAS65L0
 - https://hollowknight.fandom.com/wiki/Hollow_Knight_Wiki
 
-
-
-## Credits
-Created by @kyouki and @ontos

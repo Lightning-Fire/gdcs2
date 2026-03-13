@@ -1,9 +1,14 @@
 ---
 title: Animated Objects
 weight: 502
+date: 2024-01-01
+authors:
+- print6165
+contributors:
+- komatic5
+- print6165
 draft: false
 ---
-{{< img src="images/GDEmotes/Icons/Clock.png" class="emote">}} **Tiny** (1-3 minutes)
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 - Animated Objects have a variety of features you can control them with.
@@ -55,9 +60,3 @@ Finally, the monster animated objects at the start of the tab can be controlled 
 
 <div><iframe src=https://drive.google.com/file/d/1jbgRDc6COJWsEl7EoI9fnGjuCkcHTGnV/preview?usp=drivesdk></iframe></div>
 
-
-
-
-
-## Credits
-Created by @koma5 and @print

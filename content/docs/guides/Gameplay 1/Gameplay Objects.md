@@ -1,10 +1,15 @@
 ---
 title: Gameplay Objects
 weight: 402
+date: 2025-01-16
+authors:
+- xplode09
+- sparktwee
+contributors:
+- sparktwee
+- xplode09
 draft: false
 ---
-## Guide info
-Short: 9-11 minutes
 
 ## TLDR - What this guide covers
 - Gameplay objects spice up how your level plays.
@@ -212,9 +217,3 @@ With all of this variety in gameplay objects, it can get intimidating to read an
 
 <div><iframe src=https://drive.google.com/file/d/1au-83dc96f43c3oRBeiwF-jA-JU0Gpp2/preview?usp=drivesdk></iframe></div>
 
-
-
-
-
-## Credits
-Created by @Selena and @Xplode

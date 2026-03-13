@@ -1,9 +1,14 @@
 ---
 title: Sound Design in GD
 weight: 713
+date: 2024-09-06
+authors:
+- electrifyxd
+contributors:
+- electrifyxd
+- psytrancegd
 draft: false
 ---
-{{< img src="images/GDEmotes/Icons/Clock.png" class="emote">}} **Short** (4-6 minutes)
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 - Sound design is an important concept behind making custom sounds for levels
@@ -13,7 +18,7 @@ draft: false
 {{< /callout >}}
 
 ** **
-What not a lot of people know is that the song was specially made to accomplish this. This level uses a custom song with various sound effects to incorporate layers of atmosphere into the level, and it does that wonderfully. This isn't the only level to use sound design to its advantage, as there are plenty of other levels that use custom sound effects and songs, such as Apeirophobia by Ph4lip and Anarchy Road by komatic5. But what exactly IS sound design? 
+What not a lot of people know is that the song was specially made to accomplish this. This level uses a custom song with various sound effects to incorporate layers of atmosphere into the level, and it does that wonderfully. This isn't the only level to use sound design to its advantage, as there are plenty of other levels that use custom sound effects and songs, such as Apeirophobia by Ph4lip and Anarchy Road by komatic5. But what exactly IS sound design?
 
 Well, to put it simply, **sound design** is __the art of making sounds for any kind of audio and visual media, such as film, music, and in this case, video games__!
 
@@ -57,11 +62,11 @@ Now, whenever you need to play your soundbyte, activate the appropriate song tri
 
 # 2: Selecting Pre-Made Sounds
 
-In Geometry Dash 2.2, players now have access to the SFX trigger, which comes with the SFX library. This library comes with over 10,000 sounds to choose from. You'll usually be able to find a soundbite that fits what you want for your level. If for some reason you can't seem to find audio that appropriately fits in your level, consider using sampling. 
+In Geometry Dash 2.2, players now have access to the SFX trigger, which comes with the SFX library. This library comes with over 10,000 sounds to choose from. You'll usually be able to find a soundbite that fits what you want for your level. If for some reason you can't seem to find audio that appropriately fits in your level, consider using sampling.
 
-In audio engineering, disk jockeying (DJing), and music production, **sampling** is __the process of taking audio from another source, and using it in a new audio recording__. These sources can vary from sound effects, music, or any recording from any audio-based media. 
+In audio engineering, disk jockeying (DJing), and music production, **sampling** is __the process of taking audio from another source, and using it in a new audio recording__. These sources can vary from sound effects, music, or any recording from any audio-based media.
 
-Geometry Dash has limited options to play around with sound effects, but sometimes it can be enough to change into a new sound. 
+Geometry Dash has limited options to play around with sound effects, but sometimes it can be enough to change into a new sound.
 
 Let's say I want to find a bald eagle’s calling or screech sound for my level. Well, nothing shows up when I look for “Eagle” and none of the bird sounds available are EXACTLY what I'm looking for…
 
@@ -84,10 +89,3 @@ Furthermore, I can enable FFT to stretch the audio without having it sound digit
 <div><iframe src=https://drive.google.com/file/d/1o1ApAT2sJk2ELDqcsH5d5h7G5O1RPNkK/preview?usp=drivesdk></iframe></div>
 
 And… voila! Now this sounds precisely like what I wanted out of my “Bald Eagle” calling sound effect, and I can finally use it for my [**TOTALLY AMERICAN-THEMED GD LEVEL!!!**](https://cdn.discordapp.com/attachments/396504131088547842/1273911990607417365/2024-08-16_03-50-29.mp4?ex=66c0567e&is=66bf04fe&hm=09e2779be1acde45f65795f6f8c73015ba9deab1c5b7f0c13e4ddeaca2d44f47&)
-
-
-
-
-
-## Credits
-Created by @Electrify and @kyouki

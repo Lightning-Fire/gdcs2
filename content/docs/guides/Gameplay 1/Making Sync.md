@@ -1,9 +1,14 @@
 ---
 title: Making Sync
 weight: 414
+date: 2025-01-14
+authors:
+- e.clypse.
+contributors:
+- e.clypse.
+- notamoderatr
 draft: false
 ---
-{{< img src="images/GDEmotes/Icons/Clock.png" class="emote">}} **Short** (5-7 minutes)
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 - Implementing sync into your level helps keep the level engaging for the player, and gives them a “foundation” for their clicks.
@@ -79,9 +84,3 @@ This problem is common for mobile devices due to bad polling rate from the devic
 
 Using only one method of playtesting is generally not a good idea since many factors can affect the sync in noticeable ways. Using multiple methods to check for consistency helps greatly. Speed portals are one of the most important cases to use this, since the point where the player collides can drastically change the sync of the song.
 
-
-
-
-
-## Credits
-Created by @Eclypse and @NotAModerator

@@ -1,9 +1,14 @@
 ---
 title: Stacking
 weight: 347
+date: 2023-04-04
+authors:
+- komatic5
+contributors:
+- komatic5
+- kde__
 draft: false
 ---
-{{< img src="images/GDEmotes/Icons/Clock.png" class="emote">}} **Tiny** (2-4 minutes)
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 - Trigger stacking is how different triggers with overlapping durations combine their effects together.
@@ -85,14 +90,3 @@ The exact formula is as follows: When the top object’s opacity is `o₁`, and 
 > • Stacking three colors with 0.5 opacity gives you 0.88 opacity.
 
 <div><iframe src=https://drive.google.com/file/d/1ArfUCp9eq9G-Ty41ctoJ9spZFGjsILoQ/preview?usp=drivesdk></iframe></div>
-
-
-
-**Research** and **Examples**
-﻿
-  @koma5
-﻿
-**Proofreading**
-﻿
-  @KDE
-

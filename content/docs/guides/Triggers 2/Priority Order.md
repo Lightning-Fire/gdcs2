@@ -1,9 +1,16 @@
 ---
 title: Priority Order
 weight: 603
+date: 2024-09-17
+authors:
+- theibra
+- typexleta
+contributors:
+- notamoderatr
+- theibra
+- typexleta
 draft: false
 ---
-{{< img src="images/GDEmotes/Icons/Clock.png" class="emote">}} **Short** (5-7 minutes)
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 - Ordering of triggers is important, as it prevents possible randomness in the way they fire.
@@ -25,7 +32,7 @@ The rules for Priority Order are as follows:
 - Priority order is determined within a section. Think of it as a “list” detailing all the objects in a section and where they stand on the game’s priority.
 - When an object is added to a section or moved in from a different one, it’ll have the lowest priority of that section.
 - When an object is deleted or moved out of a section, the object with the lowest priority will take its place on the priority list. For example: If the list is `1, 2, 3, 4`, and object `2` is removed, then the new priority is `1, 4, 3`.
-- In **Update 2.1,** priority order is saved between attempts. 
+- In **Update 2.1,** priority order is saved between attempts.
 
 Remember that Priority Order doesn’t care about an object’s X position, as long as it’s within the same section.
 
@@ -82,7 +89,7 @@ Be aware that *Priority Order does NOT save between attempts in 2.2, only in 2.1
 
 In most cases, triggers aren’t commutative, meaning that the result can vary drastically depending on the order they activate at. Setting up when triggers activate ensures you get the wanted results.
 
-<div style="width: fit-content; height: fit-content"><iframe src=https://drive.google.com/file/d/1lm3i9O7tO8LkgIBDe2HcaC8CwuauGQFF/preview?usp=drivesdk></iframe></div>
+{{< youtube RecbfdJFl9Q >}}
 
 # 3: Simultaneous Ordering in 2.2
 
@@ -93,28 +100,21 @@ In order to eliminate randomness, triggers activated on the same frame happen in
 ## Left to Right Priority
 If "spawn triggered" is enabled, triggers will be activated from left to right, meaning the leftmost triggers will activate first, cascading until the last trigger is activated.
 
-<div style="width: fit-content; height: fit-content"><iframe src=https://drive.google.com/file/d/1AIcDUWLsr-DMH_zoYzhk0-NCkkYOE33L/preview?usp=drivesdk></iframe></div>
+{{< youtube Wy4kVg7cxmA >}}
 
 ## Order Value Priority:
 **As of 2.206, this feature suffers from multiple bugs, and should be avoided when possible until it’s fixed.** This can trigger on portals, pads, and orbs but has no visible effects. This can also break triggers if they aren’t set up properly.
 
-This feature is only used for regular or touch-enabled triggers. Their order values are compared in ascending order, meaning the triggers with the lowest value activate first. You can change a trigger’s order value in the bottom left of :EditGroup:, and a trigger’s value must be larger than all other triggers before it in order to prevent breaking.
+This feature is only used for regular or touch-enabled triggers. Their order values are compared in ascending order, meaning the triggers with the lowest value activate first. You can change a trigger’s order value in the bottom left of EditGroup , and a trigger’s value must be larger than all other triggers before it in order to prevent breaking.
 
-<div style="width: fit-content; height: fit-content"><iframe src=https://drive.google.com/file/d/1YA2-6TemcOYSchI5TcjdrLDRRvxbKRAR/preview?usp=drivesdk></iframe></div>
+{{< youtube 07Ras4igAMs >}}
 
 ## Placement Priority:
 In the case of 2 or more triggers having the same X position and the same order value, the most recently created trigger will activate first, with the oldest activating last. For example, copy + pasting a trigger means the copy will activate before the original.
 
-<div style="width: fit-content; height: fit-content"><iframe src=https://drive.google.com/file/d/1-rB2P-jHWF8MdOLk3OSquluQ0xbosQnR/preview?usp=drivesdk></iframe></div>
+{{< youtube Kvk8a-bfHxM >}}
 
 ## Order Inheritance:
 An important thing to note is that a trigger’s priority depends on the previous triggers’ priority, so the order of 2 triggers activated by different spawn triggers is based on the order of these spawn triggers.
 
-<div><iframe src=https://drive.google.com/file/d/156OvgVeq67cOymS_k4FDVTaCTbZbwlkL/preview?usp=drivesdk></iframe></div>
-
-
-
-
-
-## Credits
-Created by @NotAModerator and @𝕋ypexleta
+{{< youtube bI8iyrOKVnc >}}

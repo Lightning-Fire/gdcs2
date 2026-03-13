@@ -1,9 +1,14 @@
 ---
 title: Pacing & Progression
 weight: 707
+date: 2023-06-26
+authors:
+- komatic5
+contributors:
+- creeperiv
+- komatic5
 draft: false
 ---
-{{< img src="images/GDEmotes/Icons/Clock.png" class="emote">}} **Tiny** (2-4 minutes)
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 - Pacing refers to the manner in which the player's attention is grabbed and maintained. Closely related to pacing is the flow state which refers to the state of extreme concentration maintained on one task.
@@ -41,21 +46,8 @@ As you may expect, the prior factors – clear goals, rapid feedback, and adequa
 
 > **Positive Feedback:** Making the player feel good will keep them coming back in the short term. In your level, you can use visuals like decorations that respond to the player and encourage them. This will once again be discussed in-depth in the future.
 
-
-
- **Research** and **Examples**
-
-  @koma5
-
-**Proofreading**
-
-  @C4
-
-**Sources**
+# Sources
 
 > • <https://www.gamedeveloper.com/design/the-flow-applied-to-game-design>
 > • <https://www.gamedeveloper.com/blogs/rational-design-part-1---the-player>
 > • <https://www.medicalnewstoday.com/articles/flow-state#effects-on-brain>
-
-Changed the channel name: Pacing & Progression
-

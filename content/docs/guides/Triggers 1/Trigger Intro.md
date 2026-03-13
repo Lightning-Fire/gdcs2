@@ -1,9 +1,14 @@
 ---
 title: Trigger Intro
 weight: 301
+date: 2025-06-05
+authors:
+- komatic5
+contributors:
+- komatic5
+- Unknown
 draft: false
 ---
-{{< img src="images/GDEmotes/Icons/Clock.png" class="emote">}} **Tiny** (2-4 minutes)
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 - Triggers are objects that change the properties of other objects.
@@ -46,8 +51,3 @@ First, decide what you will do with the trigger. If you want to change an object
 Next, place down the trigger and set it up. Each trigger lets you choose what objects it will target and how it will affect them. We’ll show you how each of the triggers works in each guide.
 
 Finally, test if the trigger did what you want. Remember that some triggers don’t work without playtesting in the editor or in-game. You may need to adjust its options before getting a satisfying result.
-
-
-
-## Credits
-Created by @Unknown and @koma5

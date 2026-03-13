@@ -1,9 +1,14 @@
 ---
 title: Color 4 (Color Grading)
 weight: 804
+date: 2024-08-15
+authors:
+- galofuf
+contributors:
+- .tv_box.
+- galofuf
 draft: false
 ---
-{{< img src="images/GDEmotes/Icons/Clock.png" class="emote">}} **Short** (8-10 minutes)
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 - There are numerous ideas regarding color grading, like gradual transitions between colors when there are changes of scenes. However, that is up to the creator to ideate themselves, and seeing what they can come up with.
@@ -126,7 +131,7 @@ While this trigger focuses more on color correction, it is still effective as it
 
 
 
-## Sources
+# Sources
 - [Adobe: What is color grading and how do I use it?](<https://www.adobe.com/creativecloud/photography/hub/guides/what-is-color-grading-in-photography.html>)
 - [Film Supply: Understanding the Basics of Cinematic Color Grading](<https://www.filmsupply.com/articles/cinematic-color-grading/>)
 - [London Image Institute: Color Psychology: How Do Colors Affect Mood & Emotions?](<https://londonimageinstitute.com/how-to-empower-yourself-with-color-psychology/>)
@@ -134,6 +139,3 @@ While this trigger focuses more on color correction, it is still effective as it
 **Video:** <iframe width="560" height="315" src="https://www.youtube.com/embed/P2r4Z5kbx7M?si=RLe39Em16goCB5si&amp;start=1116" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
-
-## Credits
-Created by @DangerChampion and @galofuf

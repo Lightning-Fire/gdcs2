@@ -1,0 +1,6 @@
+
+{{- range .Site.Data.contributors -}}
+  {{- if and .useDisplay .displayname }}
+    /contributors/{{ .displayname }}  /contributors/{{ .username }}  301
+  {{- end -}}
+{{- end -}}

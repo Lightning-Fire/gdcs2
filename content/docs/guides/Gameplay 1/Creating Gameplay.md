@@ -1,9 +1,14 @@
 ---
 title: Creating Gameplay
 weight: 406
+date: 2024-11-30
+authors:
+- mesoionosphere
+contributors:
+- chuckolate
+- mesoionosphere
 draft: false
 ---
-{{< img src="images/GDEmotes/Icons/Clock.png" class="emote">}} **Short** (9-11 minutes)
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 - Before starting, clarify the layout’s purpose and mood. Decide if it’s meant to be standalone or decorated, and identify the style you want to achieve.
@@ -131,11 +136,5 @@ Gameplay is about having fun, visualizing what you have in your head, and puttin
 
 With that said, have fun, and happy layouting!
 
-
-
 **Video:** https://youtu.be/Se2KWB1XgfE?si=tkpneccEJD-VfMcv
 
-
-
-## Credits
-Created by @ChuckOlate and @ionosphere

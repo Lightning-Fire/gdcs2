@@ -1,9 +1,16 @@
 ---
 title: Making Effects
 weight: 512
+date: 2024-09-18
+authors:
+- illusion2
+contributors:
+- chuckolate
+- illusion2
+- silvow.
+- sparktwee
 draft: false
 ---
-{{< img src="images/GDEmotes/Icons/Clock.png" class="emote">}} **Medium** (12-14 minutes)
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 - By taking full advantage of all the editor features, you can create a wide range of visual effects.
@@ -171,14 +178,9 @@ Now that you know what your effect does and how it works, you should start brain
 
 - **Stay patient**. If your effect breaks either during the process or later on, just stay patient. It is not the end of the world if you slowly figure out the cause of the problem, and if the problem ends up being something unfixable, just move onto the next effect. It probably won’t always work the first time. In case you want more tips on fixing your problem, head to the [Solving Problems](/docs/guides/main-skills/solving-problems/) guide.
 
-
-## Sources
+# Sources
 
 - https://en.wikipedia.org/wiki/Barberpole_illusion
 - https://en.wikipedia.org/wiki/Spinning_dancer
 - https://apalmanac.com/commentary/the-simple-way-i-deal-with-sun-flare-using-canons-17mm-tilt-shift-lens-17587
 
-
-
-## Credits
-Created by @ChuckOlate and @ontos

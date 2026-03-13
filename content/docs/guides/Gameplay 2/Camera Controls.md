@@ -1,9 +1,14 @@
 ---
 title: Camera Controls
 weight: 722
+date: 2026-02-27
+authors:
+- zek.1612.
+contributors:
+- zek.1612.
+- averageundertalefan
 draft: false
 ---
-{{< img src="images/GDEmotes/Icons/Clock.png" class="emote">}} **Short** (9-11 minutes)
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 - The camera is a tool you can use to your advantage to enhance your gameplay.
@@ -60,7 +65,3 @@ The last camera control worth pointing out is the standard GD camera system. Wit
 To better understand how the second factor added in 2.2 works, we need to first understand what deadzones are. As shown in the video *How to Make a Good 2D Camera*, **deadzones** are a term used for a specific area where the camera doesn’t follow the player constantly. The camera’s center is pulled toward a specific target, similar to the static trigger, shifting the focus onto a locked target, often being the center of a room, rather than the actions made by the player. Stepping out of that box makes the camera ease back into following the player directly. This is a primary tool in directing the player’s attention towards what the creator desires.
 
 With that in mind, the last aspect worth talking about is **padding**. It is similar to the deadzone aspect, but in a more active way. It does this by preventing constant and abrupt movement only letting the camera move when the player gets into a configurable proximity within the camera borders. Using padding helps remove visual jitter and make the camera feel reactive and not entirely bound to what the player does.
-
-
-## Credits
-Created by @zek.1612. and @averageundertalefan

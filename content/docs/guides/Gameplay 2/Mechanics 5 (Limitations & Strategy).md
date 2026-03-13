@@ -1,10 +1,16 @@
 ---
 title: Mechanics 5 (Limitations & Strategy)
 weight: 705
+date: 2024-10-15
+authors:
+- illusion2
+contributors:
+- illusion2
+- psytrancegd
+- everedeck
+- themilkcat_tmc
 draft: false
 ---
-## Guide info
-Long: 20-24 minutes
 
 ## TLDR - What this guide covers
 - Limitations are a great way to make players think about their approach to certain obstacles
@@ -12,8 +18,6 @@ Long: 20-24 minutes
 - Strategic freedom is when you allow the player to go unbounded; it makes them play around with your system to find the most optimal setup
 
 ** **
-
-Changed the channel name: Mechanics 5 (Limitations & Strategy)
 
 Designing mechanics involves heavy nuance behind connecting major principles of strategic gameplay. This guide will help you apply the concept of limitations to creating strategic mechanics and gameplay.
 
@@ -39,7 +43,7 @@ Let's go over an example of this real quick: Tears of the Kingdom. A problem wit
 
 Now hold your horses, this doesn’t mean that freedom is absolutely horrible and you should restrict your player whenever possible, because if you use freedom right it can create incredible strategies and experiences. The main takeaway is that creating limitations matters, and you should always set boundaries on your mechanics.
 ## Lock & Key
-The reason why you’re learning about limitations is because of the **lock & key** concept. This concept is pretty simple: __you need to perform an action to progress, like getting a key to open a lock__. When designing your mechanic, you should always think about how it can either be a lock or a key. Now, how do I create locks and keys within my gameplay? Having a literal key is always a good option; it shows the player the solution while also forcing the player to find a path to the key. In most circumstances you’ll be able to have the player backtrack through the path, using old gameplay in a different context as well. 
+The reason why you’re learning about limitations is because of the **lock & key** concept. This concept is pretty simple: __you need to perform an action to progress, like getting a key to open a lock__. When designing your mechanic, you should always think about how it can either be a lock or a key. Now, how do I create locks and keys within my gameplay? Having a literal key is always a good option; it shows the player the solution while also forcing the player to find a path to the key. In most circumstances you’ll be able to have the player backtrack through the path, using old gameplay in a different context as well.
 
 However, having 7 different keys per room would be overbearing and hard to incorporate into other mechanics related to level design. That’s why it’s always good to mix lock & key into your mechanics themselves. Doing this is extremely simple: just make action A required to progress. If action A is a dash, then make dashing required to beat the room; if action A is a strong attack, then make the attack required to defeat the enemy.
 
@@ -93,13 +97,13 @@ Congratulations, we now have our path to both collectibles!
 
 <div style="width: fit-content; height: fit-content"><iframe src=https://drive.google.com/file/d/1jnkBoMcH8oRTvuL_pS7CpCMs0ADqwW0l/preview?usp=drivesdk></iframe></div>
 
-The strategy or puzzle in this comes from how we have only one resource, yet we have to think about how to use that resource to get a path to both of these collectibles. The player can’t just look at the section and instantly know what to do because the problem isn’t linear and involves taking advantage of something in multiple ways. Speaking of using something in multiple ways, using existing gameplay in a different context is extremely useful in making the player think about what they’re doing. This is because they have to erase their preconceived image of the section and then figure out how to complete the puzzle. The section above is a good example of this because I’m using the red hook in different contexts and angles, but you can apply this on a larger scale too. 
+The strategy or puzzle in this comes from how we have only one resource, yet we have to think about how to use that resource to get a path to both of these collectibles. The player can’t just look at the section and instantly know what to do because the problem isn’t linear and involves taking advantage of something in multiple ways. Speaking of using something in multiple ways, using existing gameplay in a different context is extremely useful in making the player think about what they’re doing. This is because they have to erase their preconceived image of the section and then figure out how to complete the puzzle. The section above is a good example of this because I’m using the red hook in different contexts and angles, but you can apply this on a larger scale too.
 
 Here's an example where the player has to go through the section, but later they have to backtrack through it, making them think about it in a new way. On the topic of this video, notice how it has locks and keys as well, but it’s made in a linear way where the player doesn’t have to think too hard about how to get through.
 
 <div style="width: fit-content; height: fit-content"><iframe src=https://drive.google.com/file/d/1tYAgp1R1GWzgmlNQ-wtw9eX4_QPkBuVg/preview?usp=drivesdk></iframe></div>
 
-Let's also talk about one key opening up two different locks. You can do this in many different ways; for example, using the double-dashes in my level to reach two different places. The reason this is useful is because, once again, it makes your player think about something in different ways. In this case that is how a key can be used to open two different locks. You can hide the other lock within your critical path, which rewards the player for thinking about how to circumvent your limitations creatively. You may see the pattern here: things that make the player think in different ways have a plethora of strategic possibilities. 
+Let's also talk about one key opening up two different locks. You can do this in many different ways; for example, using the double-dashes in my level to reach two different places. The reason this is useful is because, once again, it makes your player think about something in different ways. In this case that is how a key can be used to open two different locks. You can hide the other lock within your critical path, which rewards the player for thinking about how to circumvent your limitations creatively. You may see the pattern here: things that make the player think in different ways have a plethora of strategic possibilities.
 
 Let’s look at another example. Everedeck and TheMilkCat’s pylon system, a system where you can enter and switch between diamonds, creates a lot of lock & key possibilities. The unique part is that, when you enter a certain type of pylon, you store the momentum you have. That momentum then gets released when you exit the pylon. This offers many different keys (getting a certain amount of momentum to complete the section), which can open up many different locks (exiting different pylons with the same momentum allows you to reach different places). Here’s some gameplay I made with the pylon system; pay attention to the coin at the start and how I used one dash orb to access multiple paths.
 
@@ -114,7 +118,7 @@ Even if your gameplay is extremely restrictive, you can keep the gameplay engagi
 
 ** **
 
-A general rule of thumb with creating harsh limitations or any form of tradeoff in general is to still keep it stimulating. Rewarding the player for doing nothing is hardly ever a good thing. Let’s look at cooldowns for example. Cooldowns are a popular way of limiting the player; after using a powerful ability, you get a cooldown which stops you from using it again right away. Usually, the stronger an ability is, the longer its cooldown is. The problem with this is that it doesn’t promote strategic thinking and ends up being a boring wait. Punishing the player with boredom is a horrible idea. Because you can just sit still and your cooldown will eventually refresh, it hardly serves as a limitation unless time is of the essence. 
+A general rule of thumb with creating harsh limitations or any form of tradeoff in general is to still keep it stimulating. Rewarding the player for doing nothing is hardly ever a good thing. Let’s look at cooldowns for example. Cooldowns are a popular way of limiting the player; after using a powerful ability, you get a cooldown which stops you from using it again right away. Usually, the stronger an ability is, the longer its cooldown is. The problem with this is that it doesn’t promote strategic thinking and ends up being a boring wait. Punishing the player with boredom is a horrible idea. Because you can just sit still and your cooldown will eventually refresh, it hardly serves as a limitation unless time is of the essence.
 
 To better understand making your limitations fun, let’s look at a couple examples, starting with Brawl Stars. In this game, Supers are a player’s most powerful abilities. After you use them, you need to deal damage for them to recharge. This forces you to engage with your enemies to recharge your Super. This also makes dodging attacks way more important, as even if you can heal the damage easily, you may charge the enemy’s Super a little bit. This also puts more risk in just running headfirst into the enemy to kill them, as it’ll charge their Super a lot. This is why brawlers who can charge their Super over time without engaging enemies are extremely strong. This turns matches into a camping game because your enemies are gaining rewards for going off and hiding. However, since matches involve constant engagements with enemies, every brawler has a chance to use one or even several Supers per game.
 
@@ -146,7 +150,7 @@ As always, we’ll start with an example, this time bringing up XC3 again. Not e
 
 <div style="width: fit-content; height: fit-content"><iframe src=https://drive.google.com/file/d/1crjZZywRJPRraC3-Qp-rtToivb8RXgBB/preview?usp=drivesdk></iframe></div>
 
-Now let’s look at what you’ve all been waiting for, TotK. How come something like strategic freedom works with XC3 but not TotK? This is because breaking the game is so easy that even a beginning player could do it right after leaving the tutorial area. With XC3, not only is it difficult to rank up every relevant class to get a specific setup, you can’t access most of those classes while playing through the game. With TotK, there are 3 things that matter to making machines: effectiveness (how well it does its job), cost (how many materials + battery it uses), and how cool it looks. However, not only can you instantly create the best flying machine with a single google search, it only costs 3 materials (which is barely anything, and it uses very little battery), and it flies better than any other flying machine. This makes optimizing and creating cooler transportation machines much less useful, and they basically only function as eye candy (omg look i made a flying mech!). 
+Now let’s look at what you’ve all been waiting for, TotK. How come something like strategic freedom works with XC3 but not TotK? This is because breaking the game is so easy that even a beginning player could do it right after leaving the tutorial area. With XC3, not only is it difficult to rank up every relevant class to get a specific setup, you can’t access most of those classes while playing through the game. With TotK, there are 3 things that matter to making machines: effectiveness (how well it does its job), cost (how many materials + battery it uses), and how cool it looks. However, not only can you instantly create the best flying machine with a single google search, it only costs 3 materials (which is barely anything, and it uses very little battery), and it flies better than any other flying machine. This makes optimizing and creating cooler transportation machines much less useful, and they basically only function as eye candy (omg look i made a flying mech!).
 
 Now that we’ve seen the issues with TotK, let’s consider how it could be better. At the beginning of the guide, I mentioned how TotK had a brilliant solution for this whole debacle in the Lightning Temple. The way the temples work is by having you navigate through a big dungeon with your partner, using their abilities to activate terminals and get to the dungeon boss. The problem is that in 3 out of the 4 dungeons, you can simply just *fly around* and get to the terminals without any trouble at all. Your partner is able to magically teleport to wherever you are, but the Lightning Temple removes this ability. You need to find a way to create a path for your partner to move through, meaning you actually need to solve the puzzles. Not only does this solve the problem, it also lets the player survey the entire dungeon by flying around, while forcing them to return and actually experience the temple.
 
@@ -156,14 +160,8 @@ This doesn’t solve the exploration aspect though, because you can still just f
 
 <div><iframe src=https://drive.google.com/file/d/1vjnacB3eSlZq0ehV2f9PrzXPSzLsy4r3/preview?usp=drivesdk></iframe></div>
 
-
-
-## Sources
+# Sources
 - <https://www.reddit.com/r/tearsofthekingdom/comments/14z0g1q/how_do_you_guys_think_the_devs_feel_about_this/>
 - <https://xenoblade.fandom.com/wiki/Class_(XC3)>
 - <https://www.youtube.com/watch?v=mz0lwVi6ioY>
 
-
-
-## Credits
-Created by @kyouki and @ontos

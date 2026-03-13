@@ -1,9 +1,16 @@
 ---
 title: Perspective 2 (Making Forms)
 weight: 821
+date: 2023-11-01
+authors:
+- komatic5
+- chunlv1
+contributors:
+- komatic5
+- chunlv1
+- notamoderatr
 draft: false
 ---
-{{< img src="images/GDEmotes/Icons/Clock.png" class="emote">}} **Short** (5-7 minutes)
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 - We learned how to create stencils for our 3D shapes, and the ways you can easily create ellipses.
@@ -44,7 +51,7 @@ Alternative method: (convenient for Steam users)
 
 Ellipses are a mess in-game, no matter which update you’re playing on. Even in Geometry Dash 2.2, where you can create a circle and transform the objects to be wider, you won’t get an ellipse with consistent line thickness without doing more work.
 
-The simplest way to make an optimized ellipse is by using an ellipse helper. There are two types you can make; one which uses Follow and Rotate triggers, along with movement tracing, and another which uses the circular saw objects. Both ellipse helpers are available using the ID ‘96013135’. 
+The simplest way to make an optimized ellipse is by using an ellipse helper. There are two types you can make; one which uses Follow and Rotate triggers, along with movement tracing, and another which uses the circular saw objects. Both ellipse helpers are available using the ID ‘96013135’.
 
 There is also a special tool catered to this very process called the ‘Circle Tool’, which can change the angle, amount of compression, and the amount of units each object steps. [Circle Tool](https://matcool.github.io/mods)
 
@@ -82,9 +89,9 @@ To ensure that your construction is correct, place a point at the center of the 
 
 ## Cylinders
 
-Cylinders combine the practices from rectangular prisms and spheres. Start by drawing two lines – in perspective, of course – to determine the top and bottom of the cylinder. 
+Cylinders combine the practices from rectangular prisms and spheres. Start by drawing two lines – in perspective, of course – to determine the top and bottom of the cylinder.
 
-Next, construct ellipses at the front and back of the cylinder. Remember that ellipses are circles being viewed in perspective, so their width will change depending on the camera’s viewpoint. 
+Next, construct ellipses at the front and back of the cylinder. Remember that ellipses are circles being viewed in perspective, so their width will change depending on the camera’s viewpoint.
 This is something that requires practice to gain intuition for where exactly each ellipse will be placed.
 
 <div style="width: fit-content; height: fit-content"><iframe src=https://drive.google.com/file/d/1vmR8i-39jWtvE8wWqu0I2Z-fJJEEHt-w/preview?usp=drivesdk></iframe></div>
@@ -111,14 +118,6 @@ Here are some examples from Chunlv1 which demonstrate this process.
 
 <div><iframe src=https://drive.google.com/file/d/1YI2Ui_-5M-nXWX8e9m2ZX_If6ahBYhLW/preview?usp=drivesdk></iframe></div>
 
-
-## Sources
+# Sources
 
 - [Proko: Structure Basics](<https://youtu.be/3uEtdDvK6Xo>)
-
-Changed the channel name: Perspective 2: Making Forms
-
-
-
-## Credits
-Created by @NotAModerator and @koma5

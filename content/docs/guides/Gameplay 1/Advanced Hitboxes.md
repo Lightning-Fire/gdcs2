@@ -1,9 +1,14 @@
 ---
 title: Advanced Hitboxes
 weight: 409
+date: 2023-11-01
+authors:
+- mateussdev
+contributors:
+- mateussdev
+- notamoderatr
 draft: false
 ---
-{{< img src="images/GDEmotes/Icons/Clock.png" class="emote">}} **Short** (7-9 minutes)
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 - The game uses hitboxes that are not the same as the sprites that they represent.
@@ -132,6 +137,3 @@ Dynamic blocks detect collisions under the condition that they are moving, which
 Moving platforms use the hitboxes of the group they affect and apply the math assigned to it every frame until the movement ends. Since this is the case, moving objects do not need subframes, it would be unnecessary processing that could lead to performance issues.
 
 A way to use this mechanic is to move objects within one frame. To do this, place any object with a hazard or platform hitbox and assign a group to it. Then, place a move trigger set to move a large distance with 0 duration. The result should be that the player is not flung or killed from the moving obstacle.
-
-## Credits
-Created by @MateussDev and @NotAModerator

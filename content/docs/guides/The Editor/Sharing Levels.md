@@ -1,16 +1,28 @@
 ---
 title: Sharing Levels
 weight: 106
+date: 2023-03-20
+authors:
+- sparktwee
+contributors:
+- komatic5
+- sparktwee
 draft: false
----
-## Guide info
-Short: 4-6 minutes
 
-## TLDR - What this guide covers
-- > • When you’re on the main level page, you can use the rightmost button to upload your level.
-- > • The level name and description can be set on this main page. Once you complete this, you must verify your level and all its coins.
-- > • You can set your level so everyone can view it, or only people with the level ID. You can also request a difficulty for the level.
-- > • Levels that were copied from other levels have a C tag, while high-object levels have a :RedPlus: tag.
+seo:
+  title: "How to Upload a Geometry Dash Level" # custom title (optional)
+  description: "An explanation of every feature you can use when uploading a GD level." # custom description (recommended)
+  canonical: "" # custom canonical URL (optional)
+  noindex: false # false (default) or true
+---
+
+{{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
+- When you’re on the main level page, you can use the rightmost button to upload your level.
+- The level name and description can be set on this main page. Once you complete this, you must verify your level and all its coins.
+- You can set your level so everyone can view it, or only people with the level ID. You can also request a difficulty for the level.
+- Levels that were copied from other levels have a C tag, while high-object levels have a red Plus tag.
+
+{{< /callout >}}
 
 ** **
 
@@ -32,7 +44,7 @@ Leaving the level name empty will give you its default name "Unnamed". For Descr
 
 Once that is settled, delete any start pos triggers, and verify your level. If you have user coins, you’ll need to collect them too before uploading your level.
 
-<div><iframe src=https://drive.google.com/file/d/1BGtQTyejX5or7TQkoWUaOUqz5rb0mrem/preview?usp=drivesdk></iframe></div>
+{{< img src="https://lh3.googleusercontent.com/d/1BGtQTyejX5or7TQkoWUaOUqz5rb0mrem" >}}
 
 # 3: Public vs Unlisted
 
@@ -57,6 +69,7 @@ If you successfully upload your level, you will receive the official level ID th
 # 4: Copied Level and Red Plus stickers
 
 You might have noticed that some levels have the {{< img src="images/GDEmotes/Icons/CopiedLevel.png" class="emote">}} (Copied Level) and {{< img src="images/GDEmotes/Icons/RedPlus.png" class="emote">}} (Red Plus) sticker placed on the right of the level name.
+You might have noticed that some levels have the :CopiedLevel: and :RedPlus: sticker placed on the right of the level name.
 
 If a level has a Copied Level sticker, it means it was originally copied from an existing level in the server. The original ID will also be displayed alongside the new copied ID. Many would assume that a level with C means it is stolen. And you’d be correct sometimes, but other times it's used for collabs. In order to merge collab parts together, creators will need to share the level as unlisted and copying these parts will give you that C sticker too.
 

@@ -1,9 +1,14 @@
 ---
 title: Light 1 (Basics)
 weight: 806
+date: 2023-05-21
+authors:
+- print6165
+contributors:
+- komatic5
+- print6165
 draft: false
 ---
-{{< img src="images/GDEmotes/Icons/Clock.png" class="emote">}} **Short** (4-6 minutes)
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 - Light and Shadow are an important way to make your deco more convincing. They’re two sides of the same coin; shadows are created in the absence of light.
@@ -76,13 +81,6 @@ Another example is this sphere shown below.  The light bounces off of the ground
 <div><iframe src=https://drive.google.com/file/d/1pfl5iVsOKiKedivoQS7Y2IvOHfDmaxto/preview?usp=drivesdk></iframe></div>
 
 
-## Sources
+# Sources
 
 - Scott Robertson: *How to Render*, Pages 17-26
-
-Changed the channel name: Light 1: Basics
-
-
-
-## Credits
-Created by @koma5 and @print

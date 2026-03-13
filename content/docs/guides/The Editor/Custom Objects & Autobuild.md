@@ -1,10 +1,20 @@
 ---
 title: Custom Objects & Autobuild
 weight: 114
+date: 2024-07-16
+authors:
+- tdp9
+contributors:
+- notamoderatr
+- tdp9
 draft: false
+
+seo:
+  title: "Custom Objects and Autobuild in Geometry Dash" # custom title (optional)
+  description: "How to use the Custom Object tab and the Autobuild system in Geometry Dash." # custom description (recommended)
+  canonical: "" # custom canonical URL (optional)
+  noindex: false # false (default) or true
 ---
-## Guide info
-Short: 5-7 minutes
 
 ## TLDR - What this guide covers
 - Custom objects are groups of objects that can be placed as a whole anywhere in a level. These can be useful for merging collab parts or speeding up the designing process.
@@ -18,20 +28,20 @@ Short: 5-7 minutes
 
 Custom objects do have their limits, though. Currently as of 2.206, each custom object can only have a maximum of 1,000 objects. With hacks this can be increased to infinity.
 
-<div style="width: fit-content; height: fit-content"><iframe src=https://drive.google.com/file/d/1nTJ26Q5UkB44CEIyaiDKwU_IybTKmmPb/preview?usp=drivesdk></iframe></div>
+{{< youtube _nEovdRdU1c >}}
 
 While having an object in the tab selected, you can press the arrow buttons to move the position of the object up or down the object list. You can also press the red minus button to remove the object from the list entirely.
 
-<div style="width: fit-content; height: fit-content"><iframe src=https://drive.google.com/file/d/1bsTuBAV-Oo-GGa_uMY7imbWAp14BiRPI/preview?usp=drivesdk></iframe></div>
+{{< youtube dSveF6KysXA>}}
 
 When placing down custom objects, they are placed on an anchor point. By default, this anchor point is in the approximate center of the objects. However, if you enable group parent on one of the objects, the anchor point is overwritten to that point. If multiple objects have group parent enabled, the object with the highest y-position will take priority. If multiple objects have the same height, the object on the farthest left takes priority.
 
-<div style="width: fit-content; height: fit-content"><iframe src=https://drive.google.com/file/d/1cEVj5PudspGhmXV4fQh4svLz879qTVSr/preview?usp=drivesdk></iframe></div>
+{{< youtube sYhB2zh_p_k >}}
 
 ## Merging In Collabs
 Custom objects can be used to merge parts of a level together for collabs. However, due to the 1000 object limit the base game has, hacks are needed to bypass this limit. The copy & paste buttons also work between levels in Update 2.2, without the object limit. To merge a part, select the part you want to merge and add it as a custom object, including a group parent object to merge parts easier, then go to your collab and place the part in the correct position. Be sure to make changes if the part doesn’t work correctly; for instance, teleport portals may not appear with the correct offsets.
 
-<div style="width: fit-content; height: fit-content"><iframe src=https://drive.google.com/file/d/16gJOV-SzTYLYGJQpV9d5mY35JJySx3B5/preview?usp=drivesdk></iframe></div>
+{{< youtube 4BP4HcsuHew >}}
 
 # 2: Autobuild
 
@@ -43,25 +53,25 @@ Templates act as tilesets that autobuild uses in order to create your desired st
 
 To create decoration for the template, go back to the main menu of the autobuild and click the “Paste Template” button in the bottom right. This will place down a template for you to place your decoration on. Decorate the template carefully and consistently; all structures should abide by the same “rules” so the autobuild has the highest accuracy. The diagram below shows some examples of things you should avoid.
 
-<div style="width: fit-content; height: fit-content"><iframe src=https://drive.google.com/file/d/1Gi3IJXkmV6nT1px9CtWPGHNzEvajU9OV/preview?usp=drivesdk></iframe></div>
+{{< img src="https://lh3.googleusercontent.com/d/1Gi3IJXkmV6nT1px9CtWPGHNzEvajU9OV" >}}
 
 Once you have your template filled, select the entire template and press Edit Special, then press the “Template” button to copy the decoration into your desired smart template. From there, you can place empty template blocks into structures, select them, and then press the “Create” button in the main menu for the autobuild to fill out the structures with your decoration. As of now, slopes and steep slopes do not have an autobuild template, meaning you have to create one from scratch to use them. Even then, there is a likelihood of the template not working.
 
-<div style="width: fit-content; height: fit-content"><iframe src=https://drive.google.com/file/d/1YDC7jQEq9uyFAzsDVaw5goO_i-uJxe7z/preview?usp=drivesdk></iframe></div>
+{{< youtube SrgnLuIisfM >}}
 
 The “Special” button is meant to automatically create decorations using blocks with more complicated patterns. This does not need a smart template in order to function. As of now, if you select any block in the “Special” menu and press “Create”, only the wavy-rock structures are built.
 
-<div style="width: fit-content; height: fit-content"><iframe src=https://drive.google.com/file/d/10y6pfgKcQ2nDOABENAtHwN6OQenEcY3N/preview?usp=drivesdk></iframe></div>
+{{< youtube IqBMXLnk6CI >}}
 
 ## Smart Template Designs and Variations
 
-Upon filling a template, the designs added can be browsed and edited when you press the “Edit” button on a template in the smart template page. There, you can press “Browse” to view the designs. 
+Upon filling a template, the designs added can be browsed and edited when you press the “Edit” button on a template in the smart template page. There, you can press “Browse” to view the designs.
 
 The number on the top right of the designs shows how many variations it has. Clicking on empty designs will paste them into the editor, allowing you to fill them out. Clicking on filled out designs will bring you to a menu that shows all variations of the design present. You can paste selected designs into the editor using the “Create” button, delete variations, or change the chance for variations to occur.
 
 Any decoration within an autoblock will count as a variation, with any changes across the same design will add a new variation. By default, the first decorated variation in the variations list will be used in the autobuild. To make designs vary in autobuilds, select the desired designs and click the “Add” button to add them to the variation list. Clicking “Add” on designs will increase the probability of the design being used, while “Zero” removes the design from the variations list.
 
-<div><iframe src=https://drive.google.com/file/d/1wrSb5pvV5PwU8x5PT4qIzfz1V1-CT7WH/preview?usp=drivesdk></iframe></div>
+{{< youtube LIpJk4QdSCg >}}
 
 ## Autobuild Settings
 
@@ -76,8 +86,3 @@ Any decoration within an autoblock will count as a variation, with any changes a
 - **Don’t Delete**: Keeps Autobuild blocks after pasting designs instead of deleting them from the editor. This is helpful for pasting multiple templates without the hassle of placing the blocks back.
 
 
-
-
-
-## Credits
-Created by @NotAModerator and @TDP9

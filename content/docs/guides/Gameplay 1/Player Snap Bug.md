@@ -1,9 +1,16 @@
 ---
 title: Player Snap Bug
 weight: 412
+date: 2023-11-30
+authors:
+- joe_white
+- mateussdev
+contributors:
+- .tv_box.
+- joe_white
+- mateussdev
 draft: false
 ---
-{{< img src="images/GDEmotes/Icons/Clock.png" class="emote">}} **Short** (4-6 minutes)
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 - The snap bug is a mechanic created by RobTop to make staircases like the ones from Stereo Madness work indefinitely without the player falling off them.
@@ -46,9 +53,9 @@ There are four common types of snaps: +1 snap, +2 snaps, -1 snap and -2 snaps. T
 
 4. The game picks 1 snap if the player’s speed is 0.5x, 1x or 4x, or 2 snaps if the player’s speed is above 1x except 4x speed. Let’s store this value in the variable `x_shift`.
 
-5. The game then checks if the previously calculated value of `x_shift` is less than the absolute value (aka positive value) of the difference between `predicted_x` and `old_x`. The difference indicates how far the player's current x position is to the player's old x position before leaving the object relative to the current object the player is touching.       
- - If that condition is false, the player's x position is set to `predicted_x`. 
- - Else, the game will check again if `predicted_x` is greater than `old_x`. If that's true, then `old_x` will be added to the `predicted_x`. Otherwise, `predicted_x` will become the difference between `old_x` and the previously calculated `x_shift` (no longer being a prediction of the player’s position). Finally, the player's x position is set to `predicted_x` and `old_diff` is updated to have the new player's x position and the new object's x position. 
+5. The game then checks if the previously calculated value of `x_shift` is less than the absolute value (aka positive value) of the difference between `predicted_x` and `old_x`. The difference indicates how far the player's current x position is to the player's old x position before leaving the object relative to the current object the player is touching.
+ - If that condition is false, the player's x position is set to `predicted_x`.
+ - Else, the game will check again if `predicted_x` is greater than `old_x`. If that's true, then `old_x` will be added to the `predicted_x`. Otherwise, `predicted_x` will become the difference between `old_x` and the previously calculated `x_shift` (no longer being a prediction of the player’s position). Finally, the player's x position is set to `predicted_x` and `old_diff` is updated to have the new player's x position and the new object's x position.
 
 The diagram below shows an example of a snap.
 
@@ -64,9 +71,9 @@ This is the simplest snap setup because if `old_x` is past the center of the blo
 
 <div style="width: fit-content; height: fit-content"><iframe src=https://drive.google.com/file/d/1kG8rWYcpMMQ4cLQsUn09AohAmwClZ8Xq/preview?usp=drivesdk></iframe></div>
 
-3. Now Copy+Paste this and move it right by one block. 
- - If the cube you want to move is in normal gravity, move the blocks down using the smallest arrow in the edit tab. 
- - If the cube is upside-down, move the blocks up using the smallest arrow in the edit tab. 
+3. Now Copy+Paste this and move it right by one block.
+ - If the cube you want to move is in normal gravity, move the blocks down using the smallest arrow in the edit tab.
+ - If the cube is upside-down, move the blocks up using the smallest arrow in the edit tab.
 
 4. Repeat step 3 until you are satisfied. Your setup should look like what is shown below.
 
@@ -88,10 +95,3 @@ The setup is shown below.
 
 ## Additional Resources
 If you don’t want to bother calculating everything by hand, MateussDev has created a [convenient calculator](https://www.geogebra.org/calculator/nzeyrb27) that calculates snaps like shown above, and has the ability to tweak values very fast.
-
-
-
-
-
-## Credits
-Created by @DangerChampion and @MateussDev

@@ -1,9 +1,15 @@
 ---
 title: Binary Stacking
 weight: 347
+date: 2023-08-14
+authors:
+- komatic5
+contributors:
+- komatic5
+- livelaughluvv
+- notamoderatr
 draft: true
 ---
-{{< img src="images/GDEmotes/Icons/Clock.png" class="emote">}} **Short** (5-7 minutes)
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 - You can use Binary Counting to your advantage to optimize groups in the form of Binary Stacking.
@@ -16,7 +22,7 @@ draft: true
 ** **
 # 0: What is Binary?
 
-Binary is a numeral system that is __composed of just 1s and 0s__, unlike the more commonly used decimal system which is __based on powers of 10__. Counting in **decimal** looks like this: 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10. Counting in **binary** looks like this: 0, 1, 10, 11, 101, and so on. 
+Binary is a numeral system that is __composed of just 1s and 0s__, unlike the more commonly used decimal system which is __based on powers of 10__. Counting in **decimal** looks like this: 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10. Counting in **binary** looks like this: 0, 1, 10, 11, 101, and so on.
 
 ## Numbers in Binary
 The 1s and 0s in binary are called binary digits, also known as **bits**. Each bit represents a power of 2, starting with 2⁰, and can increase in value indefinitely.
@@ -35,8 +41,8 @@ For example, the binary number 0010110 converts into 22.
 To convert from *decimal into binary*, start at the largest power of 2 that can fit into the number you are converting. If the number you are converting is larger than the selected power of 2, put a 1 in that column, and subtract that power of 2 from your number. If the number you are converting is smaller, put a 0 in that column and don’t subtract anything. Move on to the next highest column of 2 with your new number and repeat this for each of the following columns.
 
 For example, take 22 again, but this time convert it back into a binary number.
-1. The highest power 22 can fit into is 16, so put a 1 in the 16 column and subtract 16 from 22 to get 6. 
-2. 6 cannot fit into 8, so put a 0 in the 8 column. 
+1. The highest power 22 can fit into is 16, so put a 1 in the 16 column and subtract 16 from 22 to get 6.
+2. 6 cannot fit into 8, so put a 0 in the 8 column.
 3. 6 can fit into 4, so put a 1 in the 4 column and subtract 4 from 6 to get 2.
 4. 2 can fit into 2, so put a 1 in the 2 column and subtract 2 from 2 to get 0.
 5. 0 cannot fit into 1, so put a 0 in the 1 column and you're done.
@@ -88,12 +94,3 @@ Overall this will give you 2⁽*ⁿ*/²⁾ -1 possible states, where *n* is the 
 There are further examples of this kind of stacking, such as Ternary Stacking in Base 3, but their applications follow a similar set of principles to Binary Stacking. You should be able to deduce their rules in a similar fashion.
 
 If the math behind this stacking interests you then I would suggest you look into the closed-form summations behind trigger stacking – this’ll help you to optimize your group setups as much as possible. For example, if your stacking uses a base A then with n unique switches, you’ll be able to have A^(n/A) -1 possible states.
-
-                                            ~~
-
-> **Research:**  @koma5
-
-> **Examples:** @koma5 @NotAModerator
-
-> **Proofreading:** @nau. @NotAModerator
-

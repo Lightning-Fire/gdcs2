@@ -1,11 +1,14 @@
 ---
 title: Playtesting
 weight: 213
+date: 2023-03-14
+authors:
+- tdp9
+contributors:
+- sparktwee
+- tdp9
 draft: false
 ---
-## Guide info
-Short: 6-8 minutes
-
 
 - **Summary**
 - > • The goal of playtesting is to fix errors in a level's gameplay, decoration, or trigger usage.
@@ -18,7 +21,7 @@ Short: 6-8 minutes
 
 **1: Elements of Playtesting**
 
-Unlike proofreading, where the aim is to fix grammar, spelling, or content-related errors in a piece of writing, **playtesting** in Geometry Dash requires __fixing gameplay, decoration, or trigger-related issues in a level.__ 
+Unlike proofreading, where the aim is to fix grammar, spelling, or content-related errors in a piece of writing, **playtesting** in Geometry Dash requires __fixing gameplay, decoration, or trigger-related issues in a level.__
 
 Levels are diverse, so *they have their own assortment of errors*: playtesting a regular layout will differ greatly from playtesting a minigame due to the heavy differences in trigger work. As a result, there's no "proper" way to playtest. *The more errors you fix, the better*. Even so, there are elements that you can focus on when you playtest such as: **enjoyability**, **reliability**, **playability**, **balancing**, and **presentation**.
 
@@ -79,9 +82,9 @@ This is a good time to use the GDCS server to reach out and socialize, as it hel
 
 When looking for playtesters, search for experienced creators to play and give feedback to your level, then get other players to give their thoughts on the level.
 
-Arguably, players aren’t able to give as much detailed and valuable advice as creators. If you give them a level in a rougher work-in-progress state, they get fixated on the roughness and unfinished quality to give any good feedback. Furthermore, they might be unable to give solutions to any problems they find. 
+Arguably, players aren’t able to give as much detailed and valuable advice as creators. If you give them a level in a rougher work-in-progress state, they get fixated on the roughness and unfinished quality to give any good feedback. Furthermore, they might be unable to give solutions to any problems they find.
 
-Meanwhile, creators help you iron out any major issues that can be found, along with detailed solutions and feedback; after all, they're *familiar with the editor*. 
+Meanwhile, creators help you iron out any major issues that can be found, along with detailed solutions and feedback; after all, they're *familiar with the editor*.
 
 Afterwards, players can tell you the *general experience they had playing the level*, in which you can make changes from there. With having other people see and play your level, it helps them find flaws that you as the creator couldn’t find, especially when it comes to aesthetics and dynamics. This is either due to their playstyle, taste, skillset, or even the hardware itself.
 
@@ -89,29 +92,16 @@ Afterwards, players can tell you the *general experience they had playing the le
 
 Regardless of who the playtesters are, the key point is to listen to every piece of feedback they provide for you. You may disagree or feel hurt with some of them, but *drop your ego*. In the end, it's likely that others will think the same way, and a change can overall benefit the level. Plus, your priority is to *improve the level*, not to prove them wrong.
 
-Ask for detailed and constructive feedback. The conversation between you and the playtester should not be one-sided. To recap the **Getting Ideas** lesson, keep brainstorming about how they feel, how the level conveys its message, if the goals of the level were met. This way, you can recognize a lot of areas in your level to improve on. 
+Ask for detailed and constructive feedback. The conversation between you and the playtester should not be one-sided. To recap the **Getting Ideas** lesson, keep brainstorming about how they feel, how the level conveys its message, if the goals of the level were met. This way, you can recognize a lot of areas in your level to improve on.
 
-Don’t be afraid to ask them for specific parts of the level, its gameplay, its decoration, or just telling them to break the level in any way they can. 
+Don’t be afraid to ask them for specific parts of the level, its gameplay, its decoration, or just telling them to break the level in any way they can.
 
 > • **Appreciate these Playtesters**
 
 Speaking of listening, and dropping your ego, all of this ties back to respect. Be respectful to anyone who gives feedback; *you are taking time out of their day* to playtest your level. Thank them and be understanding of criticism. Also, consider giving them credit for their playtesting in the level or its description. It may seem small, but it's those little things that can make someone's day.
 
-
-
-> **Research**
-
-  @TDP9
-
-> **Proofreading**
-
-  @Selena 🦄
-
-Sources:
+# Sources
 
 > • <https://learn.canvas.net/courses/3/pages/level-11-dot-0-solo-testing?module_item_id=44601>
 > • <https://learn.canvas.net/courses/3/pages/level-11-dot-1-playing-with-designers?module_item_id=44602>
 > • <https://learn.canvas.net/courses/3/pages/level-11-dot-2-playing-with-non-designers?module_item_id=44603>
-
-**-=[ Lesson End ]=-**
-

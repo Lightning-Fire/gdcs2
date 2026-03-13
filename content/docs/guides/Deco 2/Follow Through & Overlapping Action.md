@@ -1,9 +1,14 @@
 ---
 title: Follow Through & Overlapping Action
 weight: 811
+date: 2025-04-30
+authors:
+- .asandboxer
+contributors:
+- .asandboxer
+- sparktwee
 draft: false
 ---
-{{< img src="images/GDEmotes/Icons/Clock.png" class="emote">}} **Short** (3-5 minutes)
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 - Follow Through shows how different parts of an object are affected by inertia.
@@ -64,19 +69,12 @@ A great example is found in the dragon’s movements in [Against the God](<https
 This is a strong example of Overlapping Action as the dragon’s limbs arc with different timings as it flaps its wings. Additionally, notice how the wingtips move faster than the rest of the dragon’s wings. This is because its main action starts from the shoulders then cascades to its wingtips to fly.
 ## Uses of Overlapping Action
 
-Using Overlapping Action works with Follow Through to create visual interest and give movements personality and purpose. It’s used to offset the individual speed of an object's limbs to mimic organic movement. 
+Using Overlapping Action works with Follow Through to create visual interest and give movements personality and purpose. It’s used to offset the individual speed of an object's limbs to mimic organic movement.
 
 It shouldn’t be used in objects you want to provide a sense of rigidity with, like metal or stone blocks, as Overlapping Action brings elasticity to your objects. These types of objects aren’t organic, so they should move stiffly instead. They should also be rarely used in snappy movements, since all parts of a moving object move so fast they appear to move simultaneously.
 
-
-
-## Sources
+# Sources
 - [Parsa Aminian: Follow-Through & Overlapping Action Principles in Animation](<https://pixune.com/blog/follow-through-and-overlapping-action/>)
 - [Drew Adams: Follow-through and Overlapping Action: The 12 Basic Principles of Animation](<https://www.animationmentor.com/blog/follow-through-and-overlapping-action-the-12-basic-principles-of-animation/>)
 - [Alan Becker: 5. Follow Through & Overlapping Action - 12 Principles of Animation](<https://www.youtube.com/watch?v=4OxphYV8W3E>)
 - [New Frame Plus: FOLLOW THROUGH & OVERLAPPING ACTION - The 12 Principles of Animation in Games](<https://www.youtube.com/watch?v=rYtrV1lChsA>)
-
-
-
-## Credits
-Created by @Sandboxer and @Selena

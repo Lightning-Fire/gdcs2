@@ -1,9 +1,14 @@
 ---
 title: Light 5 (Texture)
 weight: 810
+date: 2025-03-17
+authors:
+- skytriz
+contributors:
+- komatic5
+- skytriz
 draft: false
 ---
-{{< img src="images/GDEmotes/Icons/Clock.png" class="emote">}} **Medium** (14-16 minutes)
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 - Texture is a type of detail that communicates how an object might feel to touch.
@@ -215,11 +220,7 @@ It's good to know that almost everything follows the Fresnel effect, and not jus
 These three photos are of the same leaf, with just a change to the angle they were taken. You can see that the greens start getting bluer and reflecting the color of the sky.
 
 
-## Sources
+# Sources
 
 - Scott Robertson: How to Render, Chapter 10
 
-
-
-## Credits
-Created by @koma5 and @sku

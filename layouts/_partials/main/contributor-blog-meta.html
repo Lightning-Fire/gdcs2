@@ -1,0 +1,62 @@
+<p>
+  <small >
+    <div class="d-block mb-1">
+    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user-edit me-1" width="23" height="23" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"
+      style="vertical-align: -0.3rem; margin-bottom: 0.0rem;">
+      <path d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0"></path>
+      <path d="M6 21v-2a4 4 0 0 1 4 -4h3.5"></path>
+      <path d="M18.42 15.61a2.1 2.1 0 0 1 2.97 2.97l-3.39 3.42h-3v-3l3.42 -3.39z"></path>
+    </svg>
+
+    {{- with .Params.contributors -}}
+      {{- $contributors := partial "sort-contributor-strings.html" (dict "contributors" . "context" $) -}}
+      {{- $last := sub (len $contributors) 1 -}}
+      &nbsp;{{ i18n "byssss" }}
+      {{- range $index, $contributor := $contributors -}}
+        {{- if gt $index 0 }}{{ if eq $index $last }} & {{ else }}, {{ end }}{{ end -}}
+
+        {{- $username := $contributor.username -}}
+        {{- $displayname := $contributor.displayname -}}
+
+        {{- with $.Site.GetPage "taxonomyTerm" (printf "contributors/%s" (urlize $username)) -}}
+          {{ if $.Params.avatar -}}
+            {{ $image := .Resources.GetMatch (printf "**%s" .Params.avatar) -}}
+            {{ $imageLq := $image.Resize "15x15 webp q95" -}}
+            {{ $image = $image.Resize "60x60 webp q95" -}}
+            <img class="rounded-circle w-auto mx-1 lazyload blur-up" src="{{ $imageLq.RelPermalink }}" data-src="{{ $image.RelPermalink }}" alt="{{ .Title }}" width="30" height="30">
+          {{- end }}
+        {{- end -}}
+        <a class="stretched-link position-relative" href="{{ "/contributors/" | relLangURL }}{{ $username | urlize }}/">{{ $displayname }}</a>
+      {{- end }}
+    {{- end -}}
+    </div>
+
+    <div class="d-block">
+
+      <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"
+        style="vertical-align: -0.29rem; margin-bottom: 0.0rem;">
+        <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+        <line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+      &nbsp;{{- time.Format (default ":date_long" .Site.Params.dateFormat) .PublishDate -}}
+
+      {{- with .Params.categories -}}
+        &nbsp;{{ i18n "in" }}&nbsp;
+        {{- range $index, $category := . -}}
+          {{ if gt $index 0 }}, {{ end -}}
+          <a class="stretched-link position-relative link-muted" href="{{ "/categories/" | relLangURL }}{{ . | urlize }}/">{{ . }}</a>
+        {{- end }}
+      {{- end }}
+
+      {{- /* NOTE: classes 'stretched-link position-relative' are necessary to properly display the title attribute on hover */ -}}
+      <span class="stretched-link position-relative reading-time text-nowrap ms-3" title="{{ i18n "reading_time" }}">{{/* trim subsequent whitespace */ -}}
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="23" height="23" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+          <path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0"></path>
+          <path d="M12 7v5l3 3"></path>
+        </svg>
+        {{- .ReadingTime }}&nbsp;min
+      </span>{{/* trim subsequent whitespace */ -}}
+    </div>
+
+  </small>
+</p>

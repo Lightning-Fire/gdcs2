@@ -1,0 +1,36 @@
+{{ define "main" }}
+<div class="row justify-content-center">
+  <div class="col-md-12 col-lg-12 col-xl-10">
+    <h1 class="text-center">{{ .Title }}</h1>
+    {{ with .Params.summary }}<p class="lead text-center">{{ . }}</p>{{ end }}
+    <div class="text-center">{{ .Content }}</div>
+
+    {{ $sorted := partial "sort-contributor-pages.html" (dict "pages" .Data.Pages "context" $) }}
+
+    {{ $pagesSorted := slice }}
+    {{ range $sorted }}{{ $pagesSorted = $pagesSorted | append .page }}{{ end }}
+
+    {{ $paginator := .Paginate $pagesSorted 20 }}
+
+    <div class="row row-cols-5 row-cols-md-2 gx-5 gy-2 justify-content-center">
+      {{ range $paginator.Pages }}
+        <div class="col hover-scale">
+          {{ $displayname := partial "get-contributor-name.html" (dict "username" .Title "context" $) }}
+          <div class="card card-terms my-3 ">
+            <div class="card-body justify-content-center ">
+              <article>
+                <a class="stretched-link" href="{{ .RelPermalink }}">
+                  {{ $displayname }} ({{ len .Pages }}) &rarr;
+                </a>
+              </article>
+            </div>
+          </div>
+        </div>
+      {{ end }}
+    </div>
+
+    {{ template "_internal/pagination.html" . }}
+
+  </div>
+</div>
+{{ end }}

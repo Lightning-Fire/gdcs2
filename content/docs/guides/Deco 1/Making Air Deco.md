@@ -1,10 +1,13 @@
 ---
 title: Making Air Deco
 weight: 510
+date: 2023-03-18
+authors:
+- komatic5
+contributors:
+- komatic5
 draft: false
 ---
-{{< img src="images/GDEmotes/Icons/Clock.png" class="emote">}} **Short** (5-7 minutes)
-
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 - Air deco helps empty spaces feel less empty. Don’t use it to remove empty spaces, but to fill them a *bit*.
@@ -70,7 +73,7 @@ Here are some examples from other levels.
 
 `CuLuC`’s part in `Edge of Destiny:` https://youtu.be/qJYBhbJrQBY
 
-The most noticeable particles here are the small rocks that float by the player. However, some other small particles and effects show up in the part too. Notice that fire follows the player whenever they touch a block. It’s a very subtle effect because you’ll rarely be in contact with the ground, but it exists nonetheless. 
+The most noticeable particles here are the small rocks that float by the player. However, some other small particles and effects show up in the part too. Notice that fire follows the player whenever they touch a block. It’s a very subtle effect because you’ll rarely be in contact with the ground, but it exists nonetheless.
 
 Additionally, notice that the rocks tend to move and rotate at different speeds. This is also subtle but it makes the part feel a lot more dynamic than it otherwise would. Variety like this will make your particles look and feel a lot better, so be sure to use principles like trigger stacking to your advantage.
 
@@ -99,14 +102,4 @@ Twenty-nine seconds in, there’s a strong glow overlay on the screen. This is s
 `Bli`’s part in `Ascension to Heaven`: https://youtu.be/EmKT01hDUyY?t=7
 
 You most certainly can see the overlay in this part, but you may not be able to tell what it’s made of. Here, there’s a combination of gradient lines and large cloud objects, all of which are on low opacity. Occasionally a spiral saw object is also used on a pulse. Finally, there’s a glow overlay which makes the part feel very bright.
-
-
-
-> **Research** and **Examples**
-
-  @koma5
-
-> **Proofreading**
-
-  @koma5
 
