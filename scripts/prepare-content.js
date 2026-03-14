@@ -134,10 +134,11 @@ function processDir(dir) {
 /* ---------- prebuild pipeline ---------- */
 
 /**
- * Runs the content prebuild pipeline.
+ * Runs the content prebuild pipeline. It will execute scripts on the frontmatter and body
+ * of all markdown files specified in `src`.
  *
- * If a destination directory is provided, the source directory
- * is copied there before processing.
+ * If a destination directory is provided, the source directory is copied there before processing,
+ * and scripts will run there instead of directly in `src`.
  * @param {string} src Source content directory.
  * @param {string} [dst] Destination directory where content will be copied.
  * @param {object} [options]
@@ -148,9 +149,7 @@ function processContent(src, dst, options = {}) {
     throw new Error("Source and destination directories must be different.");
   };
 
-  const {
-    clean = false,
-  } = options;
+  const {clean = false} = options;
 
   let targetDir = src;
 
@@ -178,7 +177,8 @@ const TEST_OPTIONS = {
 };
 
 // MARK THIS AS TRUE WHILE TESTING NEW SCRIPTS
-const USE_TEST = true;
+// ONLY MARK AS FALSE WHEN YOU ARE 100% SURE THE SCRIPT IS WORKING AS INTENDED
+const USE_TEST = false;
 
 if (USE_TEST) {
   processContent(CONTENT_SRC, CONTENT_DST, TEST_OPTIONS);
