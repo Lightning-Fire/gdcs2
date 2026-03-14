@@ -5,9 +5,9 @@ date: 2023-03-20T00:00:00.000Z
 authors:
   - "sparktwee"
 contributors:
-- komatic5
-- sparktwee
-- lagwerious
+  - "komatic5"
+  - "sparktwee"
+  - "lagwerious"
 draft: false
 seo:
   title: "How to Upload a Geometry Dash Level"
@@ -73,7 +73,7 @@ You might have noticed that some levels have the {{< img src="images/GDEmotes/Ic
 
 If a level has a {{< img src="images/GDEmotes/Icons/CopiedLevel.png" class="emote">}} sticker, it means it was originally copied from an existing level in the server. The original ID will also be displayed alongside the new copied ID. Many would assume that a level with {{< img src="images/GDEmotes/Icons/CopiedLevel.png" class="emote">}} means it is stolen. And you’d be correct sometimes, but other times it's used for collabs. In order to merge collab parts together, creators will need to share the level as unlisted and copying these parts will give you that {{< img src="images/GDEmotes/Icons/CopiedLevel.png" class="emote">}} sticker too.
 
-The {{< img src="images/GDEmotes/Icons/RedPlus.png" class="emote">}} sticker deals with Object count. If your level has more than 40, 000 objects, this sticker will show up. Many levels have very high object counts for a variety of reasons. They range from poor optimization to visual details to effects.
+The {{< img src="images/GDEmotes/Icons/RedPlus.png" class="emote">}} sticker deals with Object count. If your level has more than 40,000 objects, this sticker will show up. Many levels have very high object counts for a variety of reasons. They range from poor optimization to visual details to effects.
 
 # 5: Misc. Features
 
@@ -90,17 +90,15 @@ If you decide to update your level and make some changes, the level will become 
 
 If you create a new level with a name that already exists in your list of levels, a revision label will appear showing “Rev 1”.
 
-Here’s another wacky thing about descriptions: you can add color to the text by putting them in between these symbols. Depending on the color you want, here is the list.
+Here’s another wacky thing about descriptions: you can add color to the text by putting them in between the symbols `<c>` and `</c>`. Depending on the color you want, the `<c>` string can be replaced with the following symbols:
 
-Formatted as `<c> Your text here </c>`
-
-Example: <cr>Hello level!</c>
-
-`cr` for Red (#FF0000)
-`cb` for Blue (#0000FF)
-`cg` for Green (#00FF00)
-`cj` for Cyan (#00FFFF)
-`co` for Orange (#FF7F00)
-`cp` for Purple (#CC8899)
+- `<cr>` for <span style="color: #FF0000"> Red (#FF0000) </span>
+- `<cb>` for <span style="color: #0000FF">Blue (#0000FF) </span>
+- `<cg>` for <span style="color: #00FF00">Green (#00FF00)</span>
+- `<cj>` for <span style="color: #00FFFF">Cyan (#00FFFF)</span>
+- `<co>` for <span style="color: #FF7F00">Orange (#FF7F00)</span>
+- `<cp>` for <span style="color: #CC8899">Purple (#CC8899)</span>
 
 {{< img src="https://lh3.googleusercontent.com/d/1RsYDyh7MMiL8N_0XrafLP-8Dmoy_Y_9o" >}}
+
+For example, the text `<cr>Hello level!</c>` will output <span style="color: #FF0000">Hello level!</span>.

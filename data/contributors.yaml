@@ -1,9 +1,10 @@
-- ID: "767427137421443112"
+- ID: '767427137421443112'
   username: lagwerious
-  displayname: Lagwerious
-  userDisplay: true
+  preferredName: Lagwerious
+  usePreferred: true
+  safeUsername: lagwerious
 
-- ID: "???"
+- ID: '???'
   username: unknown
   preferredName: unknown
   usePreferred: false

@@ -122,7 +122,3 @@ Changed the channel name: Color 5: Human Perception
 
 {{< youtube id=P2r4Z5kbx7M start=478 >}}
 
-
-
-## Credits
-Created by @etherail and @sku and @Lagwerious
