@@ -9,15 +9,17 @@ contributors:
   - "etherail"
   - "infernuz_bunni"
   - "typexleta"
+  - "icefire100062"
 draft: false
 ---
 
-- **Summary**
-- > • Randomizers can be used to change a level every attempt, from simple color changes to randomizing the layout every few seconds.
-- > • Most randomizers require player input, with the exception of the Shake Trigger randomizer.
-- > • No randomizer is truly random, as most of them can be "cheated" through specific click patterns. The exception to this is once again, the Shake Trigger randomizer.
+{{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 
-** **
+   - Randomizers can be used to change a level every attempt, from simple color changes to randomizing the layout every few seconds.
+   - Most randomizers require player input, with the exception of the Shake Trigger randomizer.
+   - No randomizer is truly random, as most of them can be "cheated" through specific click patterns. The exception to this is once again, the Shake Trigger randomizer.
+
+{{< /callout >}}
 
 # 1: Enlarged Green Orb
 
