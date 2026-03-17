@@ -34,7 +34,10 @@ Arrows are pretty self-explanatory. They tend to point the player in the directi
 Similarly, you can also use simple shapes like squares and circles to outline the gameplay path for the player. This is another form of air deco that you’ll see pretty commonly.
 Here are some levels that use arrows to fill space.
 
-{{< youtube TIIwskoucvc >}} {{< youtube W-pu-5b809A >}} 
+{{< youtube TIIwskoucvc >}}
+
+{{< youtube W-pu-5b809A >}} 
+
 # 3: Connectors
 
 Connectors link blocks to each other, or other details like saws and the ground. They can be very effective as they fill up a lot of space, especially when the blocks are on opposite sides of the screen. You’ve most certainly seen these connecting blocks to each other or the ground in a level like `Blast Processing` or `Deadlocked`.
@@ -44,15 +47,18 @@ To make these you can follow the same steps as you did to make blocks, only with
 Here are some examples of connectors in action.
 
 {{< youtube fRCNxPYP7z8 >}} 
+
 As you can see, the dark rocks between the blocks connect most of them together.
 
 None
 
-{{< youtube RiO5NKovWc0 >}} The glowing squares connect the top cluster of blocks to the one on the bottom. Additionally, the white lines connect the saws to the blocks.
+{{< youtube RiO5NKovWc0 >}}
+
+The glowing squares connect the top cluster of blocks to the one on the bottom. Additionally, the white lines connect the saws to the blocks.
 
 None
 
-# 4: Particles**
+# 4: Particles
 
 Particles are small objects that just fill up space. You can use the rotating squares in the saw tab, small glow circles, the P arrow blocks in the orb tab, or pretty much anything else to make them.
 
@@ -72,7 +78,7 @@ Additionally, notice that the rocks tend to move and rotate at different speeds.
 {{< youtube bM6V_JeSmeg >}} 
 Two minutes and nine seconds in, you can see particles that are used for specific visual effects. Leaves fall from the trees, and stars shoot out of each pad when they’re touched. This is another example where the variety helps make the part look more interesting.
 
-# 5: Overlays**
+# 5: Overlays
 
 Overlays are full-screen visual effects that are, well, laid over everything else. An example would be a full-screen flash, or a gradient that you make out of glow and put on the T3 layer.
 
