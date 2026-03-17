@@ -18,7 +18,7 @@ draft: false
 {{< /callout >}}
 
 ** **
-# 1: Structuring Blocks**
+# 1: Structuring Blocks
 
 The first step of making any deco is laying down a basic structure or shape. With blocks, you need to remember that they have hitboxes. They play a part in gameplay, so the player will interact with them. Many times they’ll also have spikes or other hazards on them. This means you can’t just make any random shape for your blocks; they must have a clear platform that the player knows they can land on.
 
@@ -35,7 +35,7 @@ Here’s how to restructure gameplay to make decorating easier:
 
 Once you’re perfectly fine with the structures, proceed to the next step.
 
-# 2: Making a Base**
+# 2: Making a Base
 
 A base is the simplest version of a block, with very few details and only a few colors at max. This is the “fill” stage of making a block, so if you’ve read that lesson you can simply follow those instructions to make a base. The base lays the foundation for what details go inside a block, so this is really where something like a "style" becomes clear.
 
@@ -45,7 +45,7 @@ Do note that while a base should be simple, it doesn’t need to be just a singl
 
 Here’s an example of what you might have once you’re done making all the bases. You can see that I added a good amount of sections to each block, but there aren’t any smaller details that would make it too complex.
 
-# 3: Making Details**
+# 3: Making Details
 
 Details are often where you’ll get stuck when making blocks. I won’t tell you what types of details to use or how to make them, since that's what the Details lessons are for. Instead, I will talk about where you should place details and why.
 
@@ -67,7 +67,7 @@ Here’s a more complex example from Hollow Knight. This one I won’t explain t
 
 {{< img src="https://lh3.googleusercontent.com/d/1NxV4525itpO-2XEl3WjE-pPpgkzzjNc7" >}}
 
-# 4: Custom Assets**
+# 4: Custom Assets
 
 As you can probably guess, making blocks is a very in-depth process. It’s typically where you’ll spend most of your time when building a level.
 

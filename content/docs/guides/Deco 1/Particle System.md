@@ -135,4 +135,6 @@ The **C** button doesn't have a purpose at the time of writing. Alternatively, t
 
 {{< img src="https://lh3.googleusercontent.com/d/1gJPc8xcaoP4Yo_bzHRN7qYFB3T_viuk-" >}}
 
-**Video:** [Geometry Dash 2.2’s CRAZY Particle Editor!](https://youtu.be/-744rW8WKmA >}} si=vBVz6hIJr860AnKz)
+**Video:** 
+
+{{< youtube -744rW8WKmA >}} 

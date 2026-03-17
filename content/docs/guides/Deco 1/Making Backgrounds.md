@@ -19,7 +19,7 @@ draft: false
 
 ** **
 
-# 1: Creating Fitting Backgrounds**
+# 1: Creating Fitting Backgrounds
 
 Backgrounds should always help the block design express the key ideas or themes of a part. Their main point shouldn’t be to fill space, but to provide another way to show your ideas.
 
@@ -28,7 +28,7 @@ As an example, suppose your part takes place in a factory, where your block desi
 
 For maximum effectiveness, ensure that your background and foreground ideas aren’t too similar. Instead, use the background as an opportunity to further explore the theme. At the same time, the background should still fit together coherently with the foreground, and not stick out like a sore thumb.
 
-# 2: Background Contrast**
+# 2: Background Contrast
 
 The background must contrast from the foreground so that it is easy to distinguish between the two at simply a glance. You don’t want your blocks to blend in with the background, as that’ll make it hard to see where the gameplay is.
 
@@ -36,7 +36,7 @@ Furthermore, with enough contrast you can establish a focal point for your level
 
 Consider the following methods of making contrast, and determine which of them would be most appropriate for your level. This is not an exhaustive list, but is enough for a start.
 
-- **Detail Contrast**
+## Detail Contrast
 
 The human eye is naturally attracted to detail. As such, by placing more detail in one place than the other, you tell players that area is important. You can use this principle to contrast the foreground and background.
 
@@ -54,7 +54,7 @@ Here are some levels which use detail contrast effectively.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/tuN6gERbMk0" frameborder="0" allowfullscreen></iframe>
 
-- **Brightness Contrast**
+## Brightness Contrast
 
 Your eyes are naturally attracted to brightness. As such, contrasting the brightness of the foreground and background is a strong way to distinguish both. However, make sure that your environment & theme work with the brightness differences. It wouldn’t do to have the foreground be much brighter than the background during a clear noon day.
 
@@ -72,11 +72,11 @@ Here are some examples of levels which use brightness contrast well.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4wl_mpnIjGI" frameborder="0" allowfullscreen></iframe>
 
-# 3: Creating Depth**
+# 3: Creating Depth
 
 A background and foreground can work spectacularly together to create depth, an illusion of three dimensional space. While contrast is a crucial way to create depth, here are some other methods that weren’t discussed in the prior section.
 
-- **Parallax**
+## Parallax
 
 This is an easy way to create depth in your part. The basic principle of **parallax** is this: __As something moves further into the background, it will move slower on the screen__. For example, a mountain deep in the background should appear to hardly move on the screen at all, while the foreground moves backwards at a faster rate.
 
@@ -92,7 +92,7 @@ For example, look at `Culuc`’s part in `Emerald Realm` . Many parallax backgro
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/fMAYifajDac" frameborder="0" allowfullscreen></iframe>
 
-- **Scale**
+## Scale
 
 By varying the scale of elements in your background – especially between background layers – you can create a sense of depth. Even a flat shape can contribute to depth using scale. In the below figure the three planes appear to move backwards in space because the rectangles have varied sizes.
 
@@ -100,7 +100,7 @@ Furthermore, you should use this as an opportunity to vary scales between the fo
 
 {{< img src="https://lh3.googleusercontent.com/d/16iOUpdn99hndJb0BUaKRLfzJIOPnF1Tl" >}}
 
-- **Overlap**
+## Overlap
 
 Making shapes smaller as they move further back in the background layers isn't always the best idea. For example, a mountain in the far background doesn’t need to be as small as a foreground tree, even if it is further away. In such cases, you can create depth by utilizing shape overlap.
 
