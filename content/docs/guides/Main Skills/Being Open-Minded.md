@@ -10,15 +10,15 @@ contributors:
 draft: false
 ---
 
-- **Summary**
-- - Being open-minded and objective will allow you to better accept the shortcomings of your work, which will help you avoid those mistakes in the future and improve
-- - Taking negative criticism can be harsh. Rather than rejecting it or letting it discourage you, use it as an opportunity to grow.
-- - Don’t beat yourself up when nothing in your level seems to look right. Frustration is normal, but don’t let it overwhelm you. Persisting through difficulties is a hallmark of a mature creator.
-- - Developing an entirely new attitude towards your work can be daunting. A change of mind is never easy, so take your time.
-
+{{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
+- Being open-minded and objective will allow you to better accept the shortcomings of your work, which will help you avoid those mistakes in the future and improve
+- Taking negative criticism can be harsh. Rather than rejecting it or letting it discourage you, use it as an opportunity to grow.
+- Don’t beat yourself up when nothing in your level seems to look right. Frustration is normal, but don’t let it overwhelm you. Persisting through difficulties is a hallmark of a mature creator.
+- Developing an entirely new attitude towards your work can be daunting. A change of mind is never easy, so take your time.
+{{< /callout >}}
 ** **
 
-# 1: Staying Objective**
+# 1: Staying Objective
 
 Having an open mind starts by keeping objectivity when you get feedback. It is natural to be proud of your work (in fact, you should be), but you should not let your pride get in the way when you see a way to improve.
 
@@ -30,7 +30,7 @@ The best way to give your creations a fair chance is to consider each suggestion
 
 Another tip to evaluate your work objectively is to step away from it. Take a break and do something else, return a day later, and look at your work again with a fresh pair of eyes. You'll be able to see areas of improvement that you didn’t quite notice before.
 
-# 2: Accepting Criticism**
+# 2: Accepting Criticism
 
 It’s not always so easy to accept criticism, especially if you put a lot of effort into your work. When you invest time into something, it can cloud your perception of its quality. This can prevent you from identifying and correcting mistakes.
 
@@ -38,17 +38,17 @@ Shielding your level from criticism may be your instinctual response, but this i
 
 Always attempt to get feedback on your creations early on to steer you in the right direction. Getting frequent feedback throughout your creating process can help soften that feeling of protection you have for your levels.
 
-# 3: Don’t Delete Too Quickly**
+# 3: Don’t Delete Too Quickly
 
 In addition to being too lenient on your work, you can also be too harsh on it. Deleting your levels in frustration without fully developing them is a huge waste.
 
 Exploring your ideas takes a lot of perseverance and grit. It can be hard to persist through an “ugly phase” in your level when nothing seems to look right. This is why getting started always seems to be the hard part. Once you get the ball rolling, it will only get easier to keep adding to whatever you’re creating.
 
-# 4: Improvement Is A Process**
+# 4: Improvement Is A Process
 
 It is hard to change the way you think about criticism. It is important to be patient with yourself; developing an open mind won’t happen overnight. Much like creating itself, improving won’t be a convenient or streamlined process, and it can take a while before any sign of progress appears. What matters most is to frequently practice open-mindedness simply by asking for feedback more often from creators who can give you useful criticism.
 
 
 # Sources
 
-- <https://writingcooperative.com/what-kill-your-darlings-does-and-doesn-t-mean-cd8d533dd627>
+- [What ‘Kill Your Darlings’ Does and Doesn’t Mean](<https://writingcooperative.com/what-kill-your-darlings-does-and-doesn-t-mean-cd8d533dd627>)

@@ -10,6 +10,11 @@ contributors:
 draft: false
 ---
 
+{{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
+- Layering masks make use of how Z layers work to make certain visual effects easily.
+- It is certainly a wise decision to take note of these masks and attempt to use them in projects, especially beyond the uses shown here.
+{{< /callout >}}
+
 # 1: Background Mask
 
 This is one of the simplest methods of masking. It relies on placing blocks over the background in order to only have the effect/background visible within the structures.
@@ -255,9 +260,3 @@ Although outdated, it’s an interesting method of masking.
 {{< img src="https://lh3.googleusercontent.com/d/1lnK0sKIvDp22bJw49USTxmgzYHMOaeHI" >}}
 
 {{< img src="https://lh3.googleusercontent.com/d/104wh_r-9cd9pU2vF-AD5APml5G3TyLUA" >}}
-
-## Summary
-
-- Layering masks make use of how Z layers work to make certain visual effects easily.
-- It is certainly a wise decision to take note of these masks and attempt to use them in projects, especially beyond the uses shown here.
-

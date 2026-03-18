@@ -133,4 +133,4 @@ The custom tab allows you to combine lots of other objects into one singular cus
 
 {{< img src="https://lh3.googleusercontent.com/d/1ghSJ-1QYzs21H8jsfZVXI_dSN37Z5st-" >}}
 
-> **Note:** these are just my saved assets, yours will probably look different.
+***Note:** these are just my saved assets, yours will probably look different.*

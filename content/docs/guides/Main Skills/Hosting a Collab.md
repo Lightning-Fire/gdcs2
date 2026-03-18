@@ -9,13 +9,13 @@ contributors:
 draft: false
 ---
 
-## TLDR - What this guide covers
+{{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 - Most collabs fail because of poor management. If you want to make one, it’s crucial for you to manage it properly.
 - Start by having a good reason to host a collab in the first place. Your level idea could be too difficult to make on your own, you could share a vision with like-minded creators, or you might just want to have fun with a friend.
 - After you have your idea defined, divide your collab tasks among each person based on their individual strengths. Then, determine when each person should work by selecting an appropriate workflow.
 - Finally you should allocate resources to each person. Make sure everyone knows which Group IDs, Color Channels, and even Z Layers they should use.
 - With this planning out of the way, the final task is to manage your collab itself. Conduct frequent progress checks with your collab members and show them that you’re passionate about completing the level.
-
+{{< /callout >}}
 ** **
 
 # 1: Have A Reason To Collab

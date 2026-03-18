@@ -12,11 +12,11 @@ contributors:
 draft: false
 ---
 
-## TLDR - What this guide covers
+{{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 - Patience is a key ingredient when it comes to creating in Geometry Dash.
 - It allows you to take the time needed to create a well-designed level, to test and refine your level until it's balanced and enjoyable, to deal with setbacks and obstacles in a calm and productive way, and to enjoy the process of creating.
 - You can become more patient by being open to making changes in your levels, doing your best to stay calm, and taking breaks.
-
+{{< /callout >}}
 ** **
 
 # 1: What Patience Is
@@ -25,7 +25,7 @@ draft: false
 
 Let's not confuse patience with waiting, however. Just because you're waiting doesn't always mean it's done patiently. Imagine a 5-year old kid screaming at their mom to GIVE THEM THE ICE CREAM NOW! The kid is waiting for ice cream, however they are not patient at all.
 
-None
+{{< img src="https://lh3.googleusercontent.com/d/1YXFCrMzk-JqA1X8Z_DhH-nFsn-o_rK_W" >}}
 
 To reference Among Us, when a crewmate has a long task that takes one minute to complete, the task would suggest you grab a coffee or do some other small task to pass the time, and this is the key indicator of patience.
 

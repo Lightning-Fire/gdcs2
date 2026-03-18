@@ -9,11 +9,11 @@ contributors:
 draft: false
 ---
 
-## TLDR - What this guide covers
+{{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 - Planning your level beforehand will help you implement, organize, and execute your ideas more efficiently.
 - You should have a thoroughly planned idea and a rough description of what you want your level to highlight in order to convey your concept and themes more sufficiently.
 - Managing color channels, layers and groups will be beneficial when wanting to optimize the level and will help you keep track of things (e.g., having a large object count or having an insufficient number of groups available).
-
+{{< /callout >}}
 ** **
 
 If you read the last guide, you should now have a few level ideas. If you consider ideas as the *destination* you're heading towards, a **level plan** is __the path you'll take to get there__. Like a road trip, there are many factors to consider before setting out on your creating journey, like the following:

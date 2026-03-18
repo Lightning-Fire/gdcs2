@@ -30,7 +30,7 @@ seo:
 
 These are playtesting-related features that you will encounter while in the editor interface.
 
-## :Playtest: Editor Playtest
+## Editor Playtest
 
 The Editor Playtest button is on the left hand side of the screen, in between the Music Playtest and Zoom In/Out buttons.
 
@@ -38,14 +38,14 @@ This button lets you quickly play your level from your latest StartPos, and mark
 
 When playtesting, you can pause the level by clicking the button on the left hand side, and you can stop playtesting by clicking the button.
 
-{{< youtube SrveoQuJfCs >}} 
+{{< youtube SrveoQuJfCs >}}
 
-## :MusicPlaytest: Music Playtest
+## Music Playtest
 The Music Playtest button is right above the Editor Playtest button, and below the Undo/Redo buttons, once again on the left of the screen.
 
 This button plays a green line, starting from the very left of your screen. It also plays the music of the level, following along with the green line. The green line is affected by the arrow triggers, speed changes, and other gameplay altering features.
 
-{{< youtube 0YBbfBrUYBk >}} 
+{{< youtube 0YBbfBrUYBk >}}
 
 # 2: Pause/Options Features
 

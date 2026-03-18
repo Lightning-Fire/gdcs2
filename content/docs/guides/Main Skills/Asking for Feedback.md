@@ -9,15 +9,14 @@ contributors:
 draft: false
 ---
 
-
-- **Summary**
-- - Feedback gives you extra ideas you can use to create.
-- - Make sure you’re specific when you ask for feedback, so people can give you specific feedback that helps you.
-- - Be polite when receiving feedback, even if you decide to reject it.
-
+{{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
+- Feedback gives you extra ideas you can use to create.
+- Make sure you’re specific when you ask for feedback, so people can give you specific feedback that helps you.
+- Be polite when receiving feedback, even if you decide to reject it.
+{{< /callout >}}
 ** **
 
-# 1: Getting Feedback**
+# 1: Getting Feedback
 
 First, you should know exactly what you need feedback on *before* you post. If you give vague questions, you’ll get vague answers.
 
@@ -30,7 +29,7 @@ Here are some sample questions you could use to describe your work. The more spe
 - What inspired you to make this?
 - Do you like or dislike specific things about your work?
 
-# 2: Taking Feedback**
+# 2: Taking Feedback
 
 It can be really irritating to give someone feedback and receive a rude response or a list of excuses for everything you pointed out. With this in mind, be polite when you receive feedback.
 
@@ -38,13 +37,13 @@ Try not to be defensive when someone points out issues in your work. If you see 
 
 Note that you don’t *have* to accept all the feedback you’re given. Sometimes you’ll get a suggestion that just doesn’t align with what you want, and it’s alright to let the other person know that. However, you should be polite when stating that; otherwise, nobody will want to give you feedback.
 
-# 3: Using Feedback**
+# 3: Using Feedback
 
 Finally, let’s move to the step of using the feedback you receive. The steps below provide an outline for how to best use feedback.
 
-> **1.** Make a list of suggestions and issues you’ve been given.
-> **2.** Evaluate how each suggestion or issue would change your work.
-> **3.** Choose the changes you want to make, and change your work accordingly.
+**1.** Make a list of suggestions and issues you’ve been given.
+**2.** Evaluate how each suggestion or issue would change your work.
+**3.** Choose the changes you want to make, and change your work accordingly.
 
 Remember that feedback is a process of improving your work. If you’ve made changes to your work and would like more feedback, contact the people whom you spoke to before and get their thoughts! You’re only going to improve as a result.
 
@@ -53,6 +52,6 @@ Ultimately, feedback should give you a lot of ideas and suggestions for what to 
 
 # Sources
 
-- <https://mattepaint.com/blog/how-to-ask-for-constructive-feedback/>
-- <https://www.creativebloq.com/features/how-to-give-and-get-more-from-art-critiques>
+- [How to Ask for Constructive Feedback](<https://mattepaint.com/blog/how-to-ask-for-constructive-feedback/>)
+- [How to Give and Get More from Art Critiques](<https://www.creativebloq.com/features/how-to-give-and-get-more-from-art-critiques>)
 

@@ -16,6 +16,9 @@ draft: false
 {{< /callout >}}
 
 ** **
+
+# 1: Features
+
 The Event Link trigger {{< img src="images/GDEmotes/Triggers/EventLink.png" class="emote">}} spawns a group if certain conditions are met. It allows you to detect up to 6 player inputs for building a controller. Before 2.2, we had to rely on quirky setups that were 3 times less efficient, but now we can achieve much more using only a few groups and little to no effort.
 
 *NOTE: Event Link ONLY works as a Spawn trigger, not a Toggle trigger.*
@@ -42,6 +45,6 @@ Now that we know how the Event Link Trigger works, we can make some contraptions
 
 Here is an example of what you can make with this trigger:
 
-{{< youtube q_29LgSGSM4 >}} 
+{{< youtube q_29LgSGSM4 >}}
 
 In this particular level, the player always moves forward at a certain speed. By pressing a corresponding key we either turn left or right. Upon pressing W or ^ we dash forward. This trigger is also used at a start to choose between different set of controls: **A W D** or **< ^ >**.

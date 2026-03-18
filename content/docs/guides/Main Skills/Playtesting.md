@@ -10,46 +10,47 @@ contributors:
 draft: false
 ---
 
-- **Summary**
-- - The goal of playtesting is to fix errors in a level's gameplay, decoration, or trigger usage.
-- - The more you refine your work, the easier it will become once you hand it to someone else.
-- - Look for experienced creators first. They generally know the ways of the editor better than players, which gives them an eye for spotting mistakes.
-- - Players are excellent for gauging your level's experience as a whole.
-- - Regardless of how you feel about their feedback, respect these playtesters for taking time out of their day to play your level.
+{{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
+- The goal of playtesting is to fix errors in a level's gameplay, decoration, or trigger usage.
+- The more you refine your work, the easier it will become once you hand it to someone else.
+- Look for experienced creators first. They generally know the ways of the editor better than players, which gives them an eye for spotting mistakes.
+- Players are excellent for gauging your level's experience as a whole.
+- Regardless of how you feel about their feedback, respect these playtesters for taking time out of their day to play your level.
+{{< /callout >}}
 
 ** **
 
-# 1: Elements of Playtesting**
+# 1: Elements of Playtesting
 
 Unlike proofreading, where the aim is to fix grammar, spelling, or content-related errors in a piece of writing, **playtesting** in Geometry Dash requires __fixing gameplay, decoration, or trigger-related issues in a level.__
 
 Levels are diverse, so *they have their own assortment of errors*: playtesting a regular layout will differ greatly from playtesting a minigame due to the heavy differences in trigger work. As a result, there's no "proper" way to playtest. *The more errors you fix, the better*. Even so, there are elements that you can focus on when you playtest such as: **enjoyability**, **reliability**, **playability**, **balancing**, and **presentation**.
 
-- **Enjoyability**
+## Enjoyability
 
 __Is the level fun and interesting to play?__
 
 Note your experience when you go through the level. Chances are, some parts will frustrate or bore you, and others will leave you blown away or *entranced* in a flow state; this determines a lot of your preferences. Player preferences wildly differ, and sometimes conflict with each other; compare memory levels with sightreadable levels. As a result, *no level will please everyone*. You will need to also note your target audience's enjoyability and preferences for fun.
 
-- **Reliability**
+## Reliability
 
 __Does the level run as intended?__
 
 Understand the level's rules, and try to break them. This reveals bugs, secret ways, poor optimizations, and many more. Fixing these errors makes the level work exactly as you want it to. Since this is the GD Editor, that seems like a high bar. This is important when the physics also differ between refresh rates. **Bug Fixing** will be covered further in its own lesson.
 
-- **Playability**
+## Playability
 
 __How player-friendly is the level?__
 
 Make sure the level is "fair", clear, and expected. The last thing a player wants is to die for no solid reason; transitions are very infamous for frustrating the player like that. A great sign of playability is if a player rebeats the level *even though it's unnecessary*.
 
-- **Balancing**
+## Balancing
 
 __How consistent is the level's quality?__
 
 This element can be applied for both your gameplay's difficulty, and decoration quality. They have to be the same throughout the level *without much deviation*. Arguably, you can have some differences for progression. Also, if the level has multiple paths that vary in difficulty, make sure their rewards are worth the extra risk; this will be further explained in **Strategy & Skill**.
 
-- **Presentation**
+## Presentation
 
 __How clearly does the level convey its vision and goals?__
 
@@ -59,13 +60,13 @@ Playtesting these elements simultaneously would be challenging, so it’s recomm
 
 In short, playtesting is iterative. Throughout the level's creation, keep testing and looking for errors to fix and repeat. This ensures that the level is well-maintained, as well as saving you the headache from redoing a part after finding out it was a complete mess in the end. Plus, you slowly gain experience and get a keen eye for mistakes to avoid in the future, to the point where you can recognize when your level is in a healthy state.
 
-# 2: Getting Playtesters**
+# 2: Getting Playtesters
 
 At this point you might be tempted to just do all of the playtesting by yourself. In practice, however, you’ll eventually get too familiar with your own level and miss some obvious flaws. It's hard to playtest a level's difficulty by yourself because you have your own skillset with the game, which doesn't always match with the general player base. You can *partly* mitigate this by using a mirror portal to flip the level around and combat your muscle memory.
 
 After you feel comfortable with your playtesting, the best thing to do is to hand your level off *privately to other people for feedback*. There are some tips to keep in mind:
 
-- **Order of Familiarity**
+## Order of Familiarity
 
 The more familiar you are with someone, the earlier they should playtest. Why? Because they tolerate your errors more. The order goes like this:
 
@@ -78,7 +79,7 @@ However, this tolerance comes with a cost: *errors tend to be glossed over*. If 
 
 This is a good time to use the GDCS server to reach out and socialize, as it helps you network with these different types of playtesters. For GD, these close friends and useful acquaintances come in the form of creators and players.
 
-- **Find Creators First**
+## Find Creators First
 
 When looking for playtesters, search for experienced creators to play and give feedback to your level, then get other players to give their thoughts on the level.
 
@@ -88,7 +89,7 @@ Meanwhile, creators help you iron out any major issues that can be found, along 
 
 Afterwards, players can tell you the *general experience they had playing the level*, in which you can make changes from there. With having other people see and play your level, it helps them find flaws that you as the creator couldn’t find, especially when it comes to aesthetics and dynamics. This is either due to their playstyle, taste, skillset, or even the hardware itself.
 
-- **Take It All in**
+## Take It All in
 
 Regardless of who the playtesters are, the key point is to listen to every piece of feedback they provide for you. You may disagree or feel hurt with some of them, but *drop your ego*. In the end, it's likely that others will think the same way, and a change can overall benefit the level. Plus, your priority is to *improve the level*, not to prove them wrong.
 
@@ -96,12 +97,12 @@ Ask for detailed and constructive feedback. The conversation between you and the
 
 Don’t be afraid to ask them for specific parts of the level, its gameplay, its decoration, or just telling them to break the level in any way they can.
 
-- **Appreciate these Playtesters**
+## Appreciate these Playtesters
 
 Speaking of listening, and dropping your ego, all of this ties back to respect. Be respectful to anyone who gives feedback; *you are taking time out of their day* to playtest your level. Thank them and be understanding of criticism. Also, consider giving them credit for their playtesting in the level or its description. It may seem small, but it's those little things that can make someone's day.
 
 # Sources
 
-- <https://learn.canvas.net/courses/3/pages/level-11-dot-0-solo-testing?module_item_id=44601>
-- <https://learn.canvas.net/courses/3/pages/level-11-dot-1-playing-with-designers?module_item_id=44602>
-- <https://learn.canvas.net/courses/3/pages/level-11-dot-2-playing-with-non-designers?module_item_id=44603>
+- [Level 11.0: Solo Testing](<https://learn.canvas.net/courses/3/pages/level-11-dot-0-solo-testing?module_item_id=44601>)
+- [Level 11.1: Playing with Designers](<https://learn.canvas.net/courses/3/pages/level-11-dot-1-playing-with-designers?module_item_id=44602>)
+- [Level 11.2: Playing with Non-Designers](<https://learn.canvas.net/courses/3/pages/level-11-dot-2-playing-with-non-designers?module_item_id=44603>)

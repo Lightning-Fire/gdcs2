@@ -15,10 +15,11 @@ seo:
   noindex: false
 ---
 
-## TLDR - What this guide covers
+{{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 - Custom objects are groups of objects that can be placed as a whole anywhere in a level. These can be useful for merging collab parts or speeding up the designing process.
 - Autobuild allows creating templates of objects to further speed up the creating process. Filling a template out and pasting it will fill any structures with your desired design.
 
+{{< /callout >}}
 ** **
 
 # 1: Custom Objects
@@ -27,7 +28,7 @@ seo:
 
 Custom objects do have their limits, though. Currently as of 2.206, each custom object can only have a maximum of 1,000 objects. With hacks this can be increased to infinity.
 
-{{< youtube _nEovdRdU1c >}} 
+{{< youtube _nEovdRdU1c >}}
 
 While having an object in the tab selected, you can press the arrow buttons to move the position of the object up or down the object list. You can also press the red minus button to remove the object from the list entirely.
 
@@ -35,12 +36,12 @@ While having an object in the tab selected, you can press the arrow buttons to m
 
 When placing down custom objects, they are placed on an anchor point. By default, this anchor point is in the approximate center of the objects. However, if you enable group parent on one of the objects, the anchor point is overwritten to that point. If multiple objects have group parent enabled, the object with the highest y-position will take priority. If multiple objects have the same height, the object on the farthest left takes priority.
 
-{{< youtube sYhB2zh_p_k >}} 
+{{< youtube sYhB2zh_p_k >}}
 
 ## Merging In Collabs
 Custom objects can be used to merge parts of a level together for collabs. However, due to the 1000 object limit the base game has, hacks are needed to bypass this limit. The copy & paste buttons also work between levels in Update 2.2, without the object limit. To merge a part, select the part you want to merge and add it as a custom object, including a group parent object to merge parts easier, then go to your collab and place the part in the correct position. Be sure to make changes if the part doesn’t work correctly; for instance, teleport portals may not appear with the correct offsets.
 
-{{< youtube 4BP4HcsuHew >}} 
+{{< youtube 4BP4HcsuHew >}}
 
 # 2: Autobuild
 
@@ -56,11 +57,11 @@ To create decoration for the template, go back to the main menu of the autobuild
 
 Once you have your template filled, select the entire template and press Edit Special, then press the “Template” button to copy the decoration into your desired smart template. From there, you can place empty template blocks into structures, select them, and then press the “Create” button in the main menu for the autobuild to fill out the structures with your decoration. As of now, slopes and steep slopes do not have an autobuild template, meaning you have to create one from scratch to use them. Even then, there is a likelihood of the template not working.
 
-{{< youtube SrgnLuIisfM >}} 
+{{< youtube SrgnLuIisfM >}}
 
 The “Special” button is meant to automatically create decorations using blocks with more complicated patterns. This does not need a smart template in order to function. As of now, if you select any block in the “Special” menu and press “Create”, only the wavy-rock structures are built.
 
-{{< youtube IqBMXLnk6CI >}} 
+{{< youtube IqBMXLnk6CI >}}
 
 ## Smart Template Designs and Variations
 
@@ -70,7 +71,7 @@ The number on the top right of the designs shows how many variations it has. Cli
 
 Any decoration within an autoblock will count as a variation, with any changes across the same design will add a new variation. By default, the first decorated variation in the variations list will be used in the autobuild. To make designs vary in autobuilds, select the desired designs and click the “Add” button to add them to the variation list. Clicking “Add” on designs will increase the probability of the design being used, while “Zero” removes the design from the variations list.
 
-{{< youtube LIpJk4QdSCg >}} 
+{{< youtube LIpJk4QdSCg >}}
 
 ## Autobuild Settings
 

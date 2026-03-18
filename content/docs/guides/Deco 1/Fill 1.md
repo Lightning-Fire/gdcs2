@@ -12,9 +12,10 @@ contributors:
 draft: false
 ---
 
-## TLDR - What this guide covers
+{{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 - There are several different types of assets which you can use to fill shapes, including but not limited to lines and rectangles, circles and curves, and specific assets.
 - It’s very important to plan out your colors so you can color the shapes you've filled in.
+{{< /callout >}}
 
 ** **
 

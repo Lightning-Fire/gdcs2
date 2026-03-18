@@ -11,10 +11,11 @@ contributors:
 draft: false
 ---
 
-## TLDR - What this guide covers
+{{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 - As the first stage of creating, ideas are often crucial yet hard to come by. Many ideas simply aren't tangible enough to work for levels.
 - There are four main methods of generating more tangible ideas. You can **concentrate** until something just comes to mind, **brainstorm** with others by using open-ended questions, take existing ideas and modify them using **SCAMPER**, or take large amounts of information and deeply analyze them to find new connections.
 - Using these methods should help you to generate far more ideas than before.
+{{< /callout >}}
 
 ** **
 
@@ -40,10 +41,10 @@ Way back in the archaic eras, early humans had no time to think about higher con
 The main goal of this lesson is to convert as many **intangible** ideas (imagination, vision, values, dreams) into **tangible** ones (words, pictures, sounds, systems, etc.). Because of how absurd, random, and unrealistic most of these ideas can be, people tend to avoid exploring the unknown and choose to "see reality for what it is."
 
 Surprisingly, there are a variety of ways to produce ideas, and they can range in difficulty. For this lesson about a jumping square game, we will only cover four methods. Have a go at each if you haven't used or heard of them before!
+
 ## Concentration
 
-Let's start with the most common way: thinking until an idea pops into your head. In writing, people joke that "ideas are made by looking at a piece of paper until a nerve forms in your head", the same way a nerve forms in my head when outlining this lesson.
--# (The same way a nerve forms in my head when proofreading this lesson :D)
+Let's start with the most common way: thinking until an idea pops into your head. In writing, people joke that "ideas are made by looking at a piece of paper until a nerve forms in your head", the same way a nerve forms in my head when outlining this lesson. <span style="color: gray;"> *(The same way a nerve forms in my head when proofreading this lesson :D)* </span>
 
 - **Pros:** No training is required. Stare at the blank blue editor, and then an idea appears.
 - **Cons:** Unreliable. It's like waiting for motivation to strike: you never know when it'll hit.
@@ -114,5 +115,6 @@ As long as someone can think and imagine, they have ideas, which constitutes mos
 - [Conceptboard: The SCAMPER technique for brainstorming and creativity](<https://conceptboard.com/blog/scamper-technique-template/>)
 - [Lifehacker: Why Your Memory Sucks, and What You Can Do About It](<https://lifehacker.com/why-your-memory-sucks-and-what-you-can-do-about-it-596782066>)
 
+**Video:**
 
-**Video:** [How To Make UNIQUE LEVELS in Geometry Dash](https://youtu.be/s8DIK6qT8TM >}} 
+{{< youtube s8DIK6qT8TM >}}

@@ -12,10 +12,11 @@ contributors:
 draft: false
 ---
 
-## TLDR - What this guide covers
+{{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 - There are two types of gradients: **Exterior** and **Interior**.
 - Exterior gradients fade away into nothing, while Interior gradients transition to another color.
 - To make gradients, you can use preset objects like “Glow”, or use low-opacity offset copies of objects. Both techniques have their pros and cons.
+{{< /callout >}}
 
 ** **
 

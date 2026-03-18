@@ -12,11 +12,13 @@ contributors:
 draft: false
 ---
 
-## TLDR - What this guide covers
+{{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
+
 - Limitations are a great way to make players think about their approach to certain obstacles
 - Locks and keys force the player to interact with your gameplay, which is important for engagement
 - Strategic freedom is when you allow the player to go unbounded; it makes them play around with your system to find the most optimal setup
 
+{{< /callout >}}
 ** **
 
 Designing mechanics involves heavy nuance behind connecting major principles of strategic gameplay. This guide will help you apply the concept of limitations to creating strategic mechanics and gameplay.

@@ -10,11 +10,11 @@ contributors:
 draft: false
 ---
 
-## TLDR - What this guide covers
+{{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 - A Minimum Viable Product (MVP) is the most bare-bones version of your level's idea.
 - Make one as quickly and simply as possible, and feel free to use placeholders for things like decoration in the level.
 - Use this MVP to get feedback on your level's idea and adjust it as necessary. Make sure you don't spend so much effort that changing your idea will waste lots of time.
-
+{{< /callout >}}
 ** **
 
 # 1: Executing Plans
@@ -63,8 +63,8 @@ In short, make something playable, really. **Visuals and glamor are secondary**.
 
 # Sources
 
-- [Game Maker's Toolkit: Why is it so hard to make game design decisions?](<https://youtu.be/eE05LjNNenQ >}} )
+- [Game Maker's Toolkit: Why is it so hard to make game design decisions?](<https://youtu.be/eE05LjNNenQ>)
 - [Gamedeveloper: Making Lean Startup Tactics Work for Games](<https://www.gamedeveloper.com/business/making-lean-startup-tactics-work-for-games>)
 - [Gamingshift: Build MVPs for games](<https://gamingshift.com/build-mvp-for-games/>)
-- [Mental Checkpoint: The Last Game Dev Advice You Need](<https://youtu.be/L-zKm6c8_IE >}} )
+- [Mental Checkpoint: The Last Game Dev Advice You Need](<https://youtu.be/L-zKm6c8_IE>)
 

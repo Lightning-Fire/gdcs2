@@ -10,11 +10,12 @@ contributors:
 draft: false
 ---
 
-## TLDR - What this guide covers
+{{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 - Problems will appear in your creating process; part of your ability to grow is in handling and overcoming them.
 - There are many frameworks to handling problems but a good starting point is to use productive thinking; this is like a detective starting an investigation; most of the time, this would be enough for solving simple problems.
 - Effectively solving complex problems, however, will need to be further broken down through issue trees, and first principles.
 - If you struggle with finding the right solution, you can also invert your thinking by exploring the wrong solutions and eliminating your possibilities from there.
+{{< /callout >}}
 
 ** **
 
@@ -156,7 +157,7 @@ Issue trees and first principles show that even a simple, broad question can be 
 
 - Step 3 is encapsulated by this diagram:
 
-None
+{{< img src="https://lh3.googleusercontent.com/d/1tQeOulLQzMLzYYL1YuSWEirH91JSKEdm" >}}
 
 As you can see, even a supposedly “simple” question can have many factors. Analyzing each one lets you figure out where the real problems lie, and address them accordingly.
 

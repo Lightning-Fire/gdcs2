@@ -11,12 +11,13 @@ contributors:
 draft: false
 ---
 
-## TLDR - What this guide covers
+{{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 - Gameplay objects spice up how your level plays.
 - Orbs need the player’s input to activate, while pads don’t.
 - Portals come in all shapes and sizes
 - Special letter blocks help with bugfixing but their invisibility makes them less intuitive for the player
 - The checkpoint diamond is the only object with limited usability for Platformer Mode.
+{{< /callout >}}
 
 ** **
 

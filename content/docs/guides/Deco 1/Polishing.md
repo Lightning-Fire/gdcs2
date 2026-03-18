@@ -10,10 +10,11 @@ contributors:
 draft: false
 ---
 
-## TLDR - What this guide covers
+{{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 - Polishing your level allows you to fix visual errors in your decoration.
 - You’ll want to look out for both visual bugs and messy decoration when polishing.
 - Playtesting and getting help from others will help you to avoid many visual errors.
+{{< /callout >}}
 
 ** **
 

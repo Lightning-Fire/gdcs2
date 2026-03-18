@@ -9,6 +9,10 @@ contributors:
 draft: false
 ---
 
+{{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
+- This guide explains some miscellaneous masks, which we didn't cover in the prior guides.
+{{< /callout >}}
+
 # 1: Saturation Cancel Mask
 
 When two complementary colors are layered, their saturation completely cancels out, resulting in a monochromatic gray. For example, red `(255, 0, 0)` and cyan `(0, 255, 255)` combine to make white, a fully unsaturated color.
@@ -20,6 +24,7 @@ In order to make two objects with complementary colors, set them to the same col
 {{< img src="https://lh3.googleusercontent.com/d/1C6aJA8rlnxOQfaQ8cdI2X7JfL4-7Er9E" >}}
 
 ## Setup
+
 1. Create a pattern consisting of a blending color at around `.50` to `.65x` opacity. Put this on layer B3. For best results, make sure this color is fully saturated.
 2. Copy this pattern and make the color of this block hue `±180`. Put this on B1. The end result should be a gray color, completely devoid of saturation.
 
@@ -41,6 +46,7 @@ This mask can make colors look a bit pale, so make sure your background colors a
 - Insane range of colors
 - Very versatile, can allow for multiple masks
 - Widely increasing in popularity
+
 ## Cons:
 - Background colors may look a bit faded
 - Masked patterns cannot feature any overlapping
@@ -65,6 +71,7 @@ This mask can make colors look a bit pale, so make sure your background colors a
 This masking technique is similar to the normal [color pair mask](/docs/guides/deco-1/layering-masks/), however it uses the addition of blending colors to perform its goal. To do this, it sandwiches a gray block between a layer of non-blending colors and another of blending colors.
 
 ## Setup
+
 1. Choose a primary color and a secondary color. White is the easiest secondary color to work with due to its useful properties regarding blending.
 
 {{< img src="https://lh3.googleusercontent.com/d/1JpfVNv7CIAXS6hd86UUYxMEZg-KlGj9w" >}}
@@ -96,6 +103,7 @@ Note that the colors are slightly off, as previously stated.
 ## Pros
 - Large range of colors
 - Blocks can include overlapping
+
 ## Cons
 - Block designs usually look simplistic
 - Tricky to incorporate other colors
@@ -147,6 +155,7 @@ You can add color to the effect, by overlaying gradients and low opacity colors.
 
 ## Pros
 - Interesting visuals
+
 ## Cons
 - Hard to use
 - Colors are difficult to manage
@@ -156,8 +165,3 @@ You can add color to the effect, by overlaying gradients and low opacity colors.
 - Curl Up by ilrell and Millepatte
 
 {{< img src="https://lh3.googleusercontent.com/d/15Q6x2UmS1JPyIvGIXTHrcmG6g7X46Zsf" >}}
-
-## Summary
-
-- This guide explains some miscellaneous masks, which we didn't cover in the prior guides.
-

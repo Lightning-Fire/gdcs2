@@ -11,12 +11,13 @@ contributors:
 draft: false
 ---
 
-## TLDR - What this guide covers
+{{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 - Attention is when someone else is noticing your work; its power tends to be more obvious in large numbers.
 - Levels are digital goods, and like physical goods you can use the four elements of the marketing mix, product, promotion, price, and place, to improve reception.
 - Levels receive much more attention and usually have a more positive reception when levels' performance exceeds audience expectations.
 - Overhype or underselling can hurt a level's reputation or reception by either inflating audience expectations or downplaying the level’s presence.
 - With all that said, treat this guide as a starting point to get to know your target audience, the current trends, and expectations.
+{{< /callout >}}
 
 ** **
 
@@ -42,7 +43,7 @@ __The general response after something has garnered attention__ is what we know 
 
 Your level is a digital good; it’s an experience that you give to other players like a little arcade game. The kind of experience that you want to give the player consists of these four elements: product, promotion, price, and place. Get your elements in order, and the players and viewers will follow.
 
-## 1. Product - What are You Providing That is of Value?
+## Product - What are You Providing That is of Value?
 
 This boils down to the level you want to make. What kind of experience do you want to share? Do you want a generic classic level that eases players to the game? Or do you want to build demon levels that challenge their skills? Maybe you have a story or message that you’d like to express. Maybe you want to create a level based on a concept or idea that has never been explored within the game before. Are you building an entry to submit for a creator contest or build jam? Or are you building a level dedicated to someone as a gift or memento? Or do you just want to practice your craft and hone your creating skill?
 
@@ -61,7 +62,7 @@ For that target market of players, what sort of **selling point** can your level
 
 Also, while it’s ideal to build a high-quality and aesthetically pleasing product, you’ll see later that it’s not the only factor in a level’s reception.
 
-## 2. Promotion - Who else Knows That Your Level Exists?
+## Promotion - Who else Knows That Your Level Exists?
 
 Promotion comes in two categories depending on when you upload the level: pre-promotion and post-promotion.
 
@@ -75,7 +76,7 @@ This comes in the form of [full showcases](<https://youtu.be/Dlclr2FAEwM >}} si=
 
 With that said, sometimes you don’t need to promote at all and let the level be found naturally.
 
-## 3. Price - How Costly will Playing the Level be?
+## Price - How Costly will Playing the Level be?
 
 Financially, this comes in the form of buying the game. More importantly however, this comes in the form of the amount of effort required to complete the level. This difficulty can range from auto to extreme demons. You may need only to watch, or you may have to be very skilled at playing the game.
 
@@ -83,7 +84,7 @@ Alongside difficulty, the level’s length, which shows how much time it will ta
 
 However, going back to the target market and their preferences, enjoyability becomes another factor to consider, as players rarely want to spend hours upon hours on levels that they don’t enjoy, even if they force themselves to.
 
-## 4. Place - How is the Level Distributed?
+## Place - How is the Level Distributed?
 
 This last element is probably the least talked about when it comes to a level’s reception: How is the level distributed and spread around the community? This can happen in the forms of Nexus and Viprin uploads, level request streams, and mod discord servers to submit IDs. In other words, like job hunting, be relentless in this area. This is especially true for creators who wish to get their first creator points.
 
@@ -145,9 +146,9 @@ These levels are considered average, basic, and specifically within the communit
 
 If performance is below set expectations, that results in a letdown. Let’s see two interesting issues that creators tend to face when it comes to balancing expectations with reality:
 
-## 1. Overhype
+## Overhype
 
-https://lh3.googleusercontent.com/d/1ZmH96ZL-Q-uryvJnfMcuS8CkCTfqEt3P >}} 
+https://lh3.googleusercontent.com/d/1ZmH96ZL-Q-uryvJnfMcuS8CkCTfqEt3P >}}
 
 > LET ME TELL YOU ABOUT MY UPCOMING TOP 1 MASTERPIECE THAT IS GUARANTEED TO HAVE A MYTHIC RATING BECAUSE I AM GOING TO MAKE THE BEST LEVEL IN EXISTENCE. YOU ALL WILL BOW DOWN TO ME BECAUSE UNDER 40K OBJECTS, I AM GONNA BLOW… YOUR… MIND!
 >
@@ -165,9 +166,10 @@ That’s true! However, keep in mind that White Space is a *solo level made by o
 
 Here’s another notable example of overhype: Update 2.2. Of course, the hype for the first update to the game in seven years can never really go away, but the more Robtop delayed the update, the more the hype decreased, being replaced with frustration instead. This frustration was also enhanced when Robtop failed to follow through with his pre-promoted “31st October, 2023” deadline inside the GD10 anniversary video.
 
-## 2. Undersell
+## Undersell
 
 In contrast, there are those who don’t promote their levels enough when they upload, to the extent that they fall to obscurity. Albeit, this is less severe than overhype, because when a level is in this category, they tend to be referred to as “underrated” or “hidden gems,” the connotations of which tend to be more positive and mysterious in nature. A large majority of levels in GD fall into this trap simply because they lack a strong presence.
+
 ## Rating System’s Influence
 
 While Rob gets to finalize the rate of a level, that doesn’t mean the community will agree with it. As a result, rate tiers and difficulty can get misclassified. This is especially severe for the difficulty aspect, because you could potentially be playing a challenging and difficult level, but have its “official” difficulty to be 3-4 stars.

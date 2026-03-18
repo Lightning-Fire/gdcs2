@@ -19,7 +19,7 @@ draft: false
 {{< /callout >}}
 
 ** **
-# 1: Why Hertz Matters**
+# 1: Why Hertz Matters
 
 Geometry Dash runs on changing frames. Every new frame updates the player’s position and replaces the old one, giving the illusion of motion. The rate at which frames are loaded depends on the **refresh rate** of the monitor displaying the game.
 
@@ -29,9 +29,9 @@ GD physics generally affect how the player interacts with hitboxes in the level.
 
 This video shows an example of how this works. The important fact here is that since detection occurs every frame, changes to game physics also occur every frame. This means that the higher your framerate, the more control you'll get over your icons and the more accurate you can be.
 
-{{< youtube jHHmPqjRqZY >}} 
+{{< youtube jHHmPqjRqZY >}}
 
-# 2: Changes in Gameplay**
+# 2: Changes in Gameplay
 
 The two most noticeable differences between lower refresh rates and higher refresh rates are *input delay* and *response time* while playing. *Every input the player makes triggers an event in-game, the response time of which depends on the refresh rate*. A higher refresh rate allows for more accurate inputs and a lower response time, while a lower refresh rate limits accuracy and response time.
 
@@ -39,13 +39,13 @@ Given that the game checks for collisions [every frame](/docs/guides/gameplay-1/
 
 A higher refresh rate makes it easier to straight fly, move around objects, and react to quick transitions . It’s no wonder why the most difficult levels in the game have increasingly difficult ship sections, seeing as the refresh rate standard in the community keeps increasing.
 
-{{< youtube wyT4UrkVre4 >}} 
+{{< youtube wyT4UrkVre4 >}}
 
-# 3: Changes in Consistency**
+# 3: Changes in Consistency
 
 GD was originally made for mobile. While the physics system has changed throughout the updates, the system was, first and foremost, created for 50-60Hz displays, meaning that hitbox physics and bugs were originally only tested for those refresh rates. Playing with a higher refresh rate introduces inconsistencies and bugs in GD physics, such as how players move through portals, and how they interact with slopes. See **Retention** by `WOOGI` as an example .
 
-{{< youtube Uv_cLrQRmLI >}} 
+{{< youtube Uv_cLrQRmLI >}}
 
 Slope physics, even on 60Hz, are slightly inconsistent and prone to bugs, and higher refresh rates only make this issue worse. The problems usually stem from how the player is launched from slopes: specifically, the angle and speed of the launch, and the arc the game creates for the player to land.
 

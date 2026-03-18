@@ -47,11 +47,13 @@ Here is a list of all the features and their uses:
 
 - **Copy Color**: Checking this box will bring up a new UI replacing the color wheel and RGB/HEX values.
 - **Channel ID**: The color channel will now __continuously copy the color from another channel__ of the selected ID. You can manually adjust the opacity of your new color, or you can check the “Copy Opacity” box to copy the opacity of that channel as well.
-- Hue: Shifts the channel’s color by a certain amount, similar to the outer ring of the color wheel. The slider rangers from -180 to 180, although the values of -180 and 180 result in the same hue shift.
-- Saturation: Determines the intensity or vibrancy of a color; the lower the saturation, the more the color turns gray.
-- Brightness: Shifts the channel’s color toward white or black to brighten or darken the color respectively.
+- **Hue**: Shifts the channel’s color by a certain amount, similar to the outer ring of the color wheel. The slider rangers from -180 to 180, although the values of -180 and 180 result in the same hue shift.
+- **Saturation**: Determines the intensity or vibrancy of a color; the lower the saturation, the more the color turns gray.
+- **Brightness**: Shifts the channel’s color toward white or black to brighten or darken the color respectively.
 
-> Note: The checkboxes next to the saturation and brightness sliders let you use the full range of colors, instead of simply multiplying the colors. For example, while x0.70 and -0.30 do the exact same thing, using x2.00 on white will do nothing while using +1.00 saturation will make it fully saturated.
+{{< callout context="note" title="Note" icon="outline/clipboard-text" >}}
+The checkboxes next to the saturation and brightness sliders let you use the full range of colors, instead of simply multiplying the colors. For example, while x0.70 and -0.30 do the exact same thing, using x2.00 on white will do nothing while using +1.00 saturation will make it fully saturated.
+{{< /callout >}}
 
 {{< img src="https://lh3.googleusercontent.com/d/1dVSXl63CbaEKthC64jcwLIPKXXCofVVK" >}}
 
@@ -100,9 +102,13 @@ The “ORD” counter refers to the trigger order. The number in the counter dic
 
 Keep in mind that reversed orbs and teleport orbs all affect the music line but are heavily player-dependent, which might desync your gameplay despite being ordered.
 
-{{< youtube 0soHKShq800 >}} 
+{{< youtube 0soHKShq800 >}}
 
-> **IMPORTANT**: Using trigger order on :ArrowTrigger: arrow triggers only works if you enable “Change Channel.” Select the arrow trigger, click :EditObject:, and check the corresponding box. We don’t know why you need to enable this, but the level will break otherwise.
+{{< callout context="caution" title="Important" icon="outline/info-circle" >}}
+
+Using trigger order on :ArrowTrigger: arrow triggers only works if you enable “Change Channel.” Select the arrow trigger, click :EditObject:, and check the corresponding box. We don’t know why you need to enable this, but the level will break otherwise.
+
+{{< /callout >}}
 
 {{< img src="https://lh3.googleusercontent.com/d/1g_eZCvV6P8ZfTyyalsQn2AM6VOJGYaDY" >}}
 
@@ -114,8 +120,11 @@ To change the level’s channel, open the menu of the arrow trigger, enable “C
 
 You can set the channel of triggers with the “CH” counter in the :EditGroup: menu, next to the “ORD” counter. If you ever wonder why your triggers aren’t activating, check to make sure they’re on the correct channel. *Only arrow triggers can change the level’s channel*, not reverse triggers or reversed orbs.
 
-{{< youtube OZnDpqJ8T0M >}} 
+{{< youtube OZnDpqJ8T0M >}}
 
-> Note: Both orders and channels require the “EDP” or "Playtest" box checked in the :EditGroup: menu.
+{{< callout context="note" title="Note" icon="outline/clipboard-text" >}}
 
+Note: Both orders and channels require the “EDP” or "Playtest" box checked in the :EditGroup: menu.
+
+{{< /callout >}}
 

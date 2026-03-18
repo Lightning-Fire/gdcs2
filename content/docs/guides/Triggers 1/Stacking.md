@@ -17,7 +17,8 @@ draft: false
 {{< /callout >}}
 
 ** **
-# 1: No Stacking**
+
+# 1: No Stacking
 
 The following triggers cannot be stacked.
 
@@ -28,7 +29,7 @@ The following triggers cannot be stacked.
 
 Basically, any trigger that has an instantaneous effect cannot be stacked.
 
-# 2: Overrides**
+# 2: Overrides
 
 Certain types of triggers can override the effects of other active triggers.
 
@@ -50,7 +51,7 @@ These can “stack” across groups. If an object is part of multiple groups, it
 
 {{< img src="https://lh3.googleusercontent.com/d/12OCyeovd6NKT9DkaDQL-5_BXRrt8_7JQ" >}}
 
-# 3: Combined Effects**
+# 3: Combined Effects
 
 Some trigger effects can get combined depending on the types of triggers.
 
@@ -66,7 +67,10 @@ When multiple of these triggers are active simultaneously, their effects combine
 
 {{< img src="https://lh3.googleusercontent.com/d/1SaTDl9STVioO1tEMkSK0SLXnjCzZ3eVo" >}}
 
-Additionally, stacking two rotate triggers with opposite directions (e.g. 60 degrees for one, -60 degrees for the other) makes an object move in a straight line. This can be used to make objects move and rotate at the same time, as shown here: https://youtu.be/glsG87Ipg0Q >}} 
+Additionally, stacking two rotate triggers with opposite directions (e.g. 60 degrees for one, -60 degrees for the other) makes an object move in a straight line. This can be used to make objects move and rotate at the same time, as shown here:
+
+{{< youtube glsG87Ipg0Q >}}
+
 - **Follow Triggers**
 
 Stacking follow triggers is complex and heavily dependent on the way you do it.

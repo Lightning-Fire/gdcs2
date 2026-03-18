@@ -10,11 +10,12 @@ contributors:
 draft: false
 ---
 
-## TLDR - What this guide covers
+{{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 - Geometry Dash has a rating system that classifies levels from one another in order to control the quality and set the game’s standards.
 - Levels come in all shapes and sizes and will go through similar journeys regardless of its rating.
 - Your first creator points will be the hardest because when you have zero reputation, nobody knows your contributions yet.
 - Ratings only reflect the standards of one person, but ultimately the editor is a large sandbox game where anything you put your mind into can be brought to life.
+{{< /callout >}}
 
 ** **
 
@@ -65,15 +66,15 @@ None
 
 After some time, your level may get noticed by the public as shown by the increasing download count and sometimes the like/dislike count. But there are moderators who can officially give your levels a rate. How do you reach out to them and send your ID? There are three possible ways:
 
-1. **Discord Servers **
+1. **Discord Servers**
 
 Most moderators have a Discord server where creators can send their level IDs to a queue. A lot of moderators will have a system for people to get a notification role when requests open. The more servers you join the better chance your level is seen.
 
-2.** Level Request Streams**
+2. **Level Request Streams**
 
 Some Moderators and content creators will have a level request stream or streams scheduled so you and many others can submit levels for them to play and possibly send. The GDS has a channel for stream alerts and will be open for usually at least an hour. However, it’s either a random queue or controlled by a bot like Loqui, so it’ll take a while for your level to be played, or it may not be played at all unless you submit requests early.
 
-3.** In-game messages/Discord DMs **
+3. **In-game messages/Discord DMs**
 
 Not many mods do DM requests, in-game and otherwise. You can do this anytime, but it takes the longest since mods will have to go through many DMs. In-game messages take even longer, since they don’t provide notifications like Discord DMs and are usually left unchecked.
 

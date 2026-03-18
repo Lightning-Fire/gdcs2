@@ -9,6 +9,10 @@ contributors:
   - "unknown"
 draft: false
 ---
+{{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
+- The Blending feature in the editor allows you to combine the colors of objects by adding their RGB values together.
+- Masking is one of the many applications of this feature.
+{{< /callout >}}
 
 # 1: How Blending Works
 
@@ -177,13 +181,9 @@ It's important the blending colors are semi-transparent, because if they were fu
 
 - Concept Video by Spu7nix
 
-{{< youtube EyctAc5fsqw >}} 
+{{< youtube EyctAc5fsqw >}}
 
-## Summary
-
-- The Blending feature in the editor allows you to combine the colors of objects by adding their RGB values together.
-- Masking is one of the many applications of this feature.
 
 **Video:**
 
-{{< youtube P2r4Z5kbx7M >}} 
+{{< youtube P2r4Z5kbx7M >}}

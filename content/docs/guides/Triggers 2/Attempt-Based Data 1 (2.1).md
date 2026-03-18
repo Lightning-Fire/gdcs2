@@ -18,15 +18,16 @@ draft: false
 {{< /callout >}}
 
 ** **
-# 1: Setup**
+
+# 1: Setup
 
 This setup will involve three parts: The Collision blocks themselves, the Collision triggers, and the Move triggers that make everything work.
 
-- **Collision blocks**
+**Collision blocks**
 
-> **1. **Place down a collision block and assign it to block ID `A`. Enable the Dynamic Block setting and assign the block to Group `A`.
-> **2. **Place down two collision blocks, one on top of the other, a few grid spaces to the right of the one you placed in the last step. Assign one of them to block ID `B` and Group `B` and the other to block ID `C` and Group `C.`
-> **3. **Place down a Move Trigger. Set the Move X value to 10*the grid spaces and the Target Group to Group `A`.
+- **1.** Place down a collision block and assign it to block ID `A`. Enable the Dynamic Block setting and assign the block to Group `A`.
+- **2.** Place down two collision blocks, one on top of the other, a few grid spaces to the right of the one you placed in the last step. Assign one of them to block ID `B` and Group `B` and the other to block ID `C` and Group `C.`
+- **3.** Place down a Move Trigger. Set the Move X value to 10*the grid spaces and the Target Group to Group `A`.
 
 {{< img src="https://lh3.googleusercontent.com/d/1FIIPY4iyV7oZhjwxW7MadBTIanOzNUyO" >}}
 
@@ -34,7 +35,7 @@ You should end up with something like this.
 
 {{< img src="https://lh3.googleusercontent.com/d/15r6nZIWZ9Vh9JFVlSrnquSx209ADukot" >}}
 
-- **Collision triggers**
+**Collision triggers**
 
 These triggers will use the priority of the collision blocks to set an Item ID’s value to 0 or 1.
 
@@ -45,9 +46,9 @@ None
 
 To set up the collision triggers, follow the instructions below.
 
-> **1. **Place down a Collision Trigger and set the BlockA value to block ID `A`. Set the BlockB value to ID `B`, and set the Target ID to Group `C`. Ensure that Activate Group is _not_ enabled.
-> **2. **Place down another Collision Trigger. Set the BlockA value to block ID `A`, the BlockB value to ID `C`, and the Target ID to a new Group `D`. Activate Group *should* be enabled here.
-> **3. **Place down a Pickup Trigger, and make it add 1 to a new Item ID `A`. Select ‘Spawn triggered’, and assign it to Group `D`.
+- **1.** Place down a Collision Trigger and set the BlockA value to block ID `A`. Set the BlockB value to ID `B`, and set the Target ID to Group `C`. Ensure that Activate Group is _not_ enabled.
+- **2.** Place down another Collision Trigger. Set the BlockA value to block ID `A`, the BlockB value to ID `C`, and the Target ID to a new Group `D`. Activate Group *should* be enabled here.
+- **3.** Place down a Pickup Trigger, and make it add 1 to a new Item ID `A`. Select ‘Spawn triggered’, and assign it to Group `D`.
 
 {{< img src="https://lh3.googleusercontent.com/d/1_yDrtKKNhJVsM8NbNzrqRX5e7LOmqJ6J" >}}
 
@@ -59,10 +60,10 @@ None
 
 Here, we'll set up the move triggers that actually change the Priority Order.
 
-> **1. **Place down a Move Trigger and set the Target ID to Group `B`, the Move Time to 0, and the Move X value to 50.
-> **2. **Place down a new Move Trigger one block to the right of the first. Set the Target ID to Group `B`, the Move Time to 0.03, and the Move X value to -50.
-> **3. **Make sure both triggers are Spawn Triggered and assign them to a new Group `E`.
-> **4. **Place down two more Move triggers with the same setup, but set their Target Groups to Group `C` and add both to a new Group `F`.
+- **1.** Place down a Move Trigger and set the Target ID to Group `B`, the Move Time to 0, and the Move X value to 50.
+- **2.** Place down a new Move Trigger one block to the right of the first. Set the Target ID to Group `B`, the Move Time to 0.03, and the Move X value to -50.
+- **3.** Make sure both triggers are Spawn Triggered and assign them to a new Group `E`.
+- **4.** Place down two more Move triggers with the same setup, but set their Target Groups to Group `C` and add both to a new Group `F`.
 
 {{< img src="https://lh3.googleusercontent.com/d/1ojmgaFxyJ2azgrfWchoZ1LG97OK5CpEt" >}}
 

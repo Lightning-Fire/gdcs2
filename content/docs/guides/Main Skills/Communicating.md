@@ -9,9 +9,10 @@ contributors:
 draft: false
 ---
 
-## TLDR - What this guide covers
+{{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 - Communication is important if you want to work with other Geometry Dash players. This includes working inside a collab, asking for feedback or playtesters, and anything else along those lines.
 - Make sure that when you communicate, you’re as specific as possible so others don’t get potentially confused about what you’re talking about. Try to plan out what you’ll talk about, like your level’s vision and your goals, before you ask others for help. This’ll make communication easier for everyone involved.
+{{< /callout >}}
 
 ** **
 

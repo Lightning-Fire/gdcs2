@@ -12,28 +12,28 @@ contributors:
 draft: false
 ---
 
-- **Summary**
-- - The Fixed Mindset means you take your current mistakes as a sign that you'll never be good, while the Growth Mindset treats those mistakes as learning opportunities.
-- - It's better to have a Growth Mindset in the long-run, as it'll help your motivation and is more sustainable.
-- - Patience and the willingness to work through failure are important to developing a growth mindset. The more consistent, curious, and dedicated you are, the better you'll be over time.
-
+{{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
+- The Fixed Mindset means you take your current mistakes as a sign that you'll never be good, while the Growth Mindset treats those mistakes as learning opportunities.
+- It's better to have a Growth Mindset in the long-run, as it'll help your motivation and is more sustainable.
+- Patience and the willingness to work through failure are important to developing a growth mindset. The more consistent, curious, and dedicated you are, the better you'll be over time.
+{{< /callout >}}
 ** **
 
-# 1: The Two Mindsets**
+# 1: The Two Mindsets
 
-- **Growth Mindset**
+## Growth Mindset
 
 The **growth mindset** is __thinking that your mistakes and failures are prospects to learn and improve__. When applied properly, your thinking becomes more open, flexible, and adaptable as you go through life, leading to better resilience and forward-mindedness.
 
 This mindset comes with the strong belief that *improvement is always within your control*. It takes effort to practice this mindset, and its effects are clearer in the long run than the present.
 
-- **Fixed Mindset**
+## Fixed Mindset
 
 Conversely, the **fixed mindset** is another way of thinking where __your mistakes are seen as roadblocks to your skills__. This kind of short-term thinking discourages flexibility, and determination to seek beyond where you’re at right now. In effect, this limits your creating journey.
 
 Furthermore, this mindset skips the intricacies and hard work required when going through such a journey as *succeeding ironically needs effort and failure*. *It's a narrow-minded view, but easy to fall into*.
 
-# 2: Problems with a Fixed Mindset**
+# 2: Problems with a Fixed Mindset
 
 Psychologist Carol Dweck first coined these 2 types of mindset in an attempt to explain how people’s beliefs affect their learning. One finding that was undeniably clear in her research is the temptation behind the fixed mindset. In context to Geometry Dash, those temptations typically look like this:
 
@@ -47,7 +47,7 @@ Psychologist Carol Dweck first coined these 2 types of mindset in an attempt to 
 
 - **You rely on others to make a path for you to become “good”**, leaving you without creativity or the ability to adapt. You don’t lay out your OWN path on how to get better, taking feedback literally instead of taking it as a contribution and seeing how you can use it creatively.
 
-# 3: Adopting a Growth Mindset**
+# 3: Adopting a Growth Mindset
 
 If you relate with the previous section, you must be wondering if using the growth mindset is possible. Thankfully, there are some details to keep in mind as a starting point:
 
@@ -61,15 +61,15 @@ Achieving a goal takes time, the growth mindset is set for small increases over 
 
 The sky’s the limit! You will always be able to create new goals to guide you. The results of your hard work will naturally pay off, and it will be something to be proud of.
 
-# 4: Using the Growth Mindset**
+# 4: Using the Growth Mindset
 
 There are several ways to apply the growth mindset to your creating journey, and no single specific way will work for everyone. Ultimately, it is up to you to decide how you want to progress. Nevertheless, there are some basic fundamentals to follow as a baseline when applying this mindset properly:
 
-- **Consistency**: __How much time will you spend practicing Geometry Dash? __ There are many forms of practice, but it is key to do it consistently. As mentioned by the previous lesson, you are here to learn, explore, discover new things, concepts and ideas, AND make mistakes. As bad as making mistakes sounds, *each one is a learning experience*.
+- **Consistency**: __How much time will you spend practicing Geometry Dash?__ There are many forms of practice, but it is key to do it consistently. As mentioned by the previous lesson, you are here to learn, explore, discover new things, concepts and ideas, AND make mistakes. As bad as making mistakes sounds, *each one is a learning experience*.
 
 - **Hard Work**: __How much of your effort will be for practicing Geometry Dash?__ This goes hand in hand with consistency. Any journey to mastery will never be an effortless task; time and effort are required to obtain the results that you want.
 
-- **Focus**: __What do you want to practice on? Block design? Structuring? Gameplay Sync? Atmosphere?__It is also fundamental to know where you want to develop and additionally have a purpose as well. Without a set location or reason, refinement becomes difficult if not impossible. You can’t become a master of anything unless you focus on *something* to start.
+- **Focus**: __What do you want to practice on? Block design? Structuring? Gameplay Sync? Atmosphere?__ It is also fundamental to know where you want to develop and additionally have a purpose as well. Without a set location or reason, refinement becomes difficult if not impossible. You can’t become a master of anything unless you focus on *something* to start.
 
 - **Curiosity**: __What do you want to explore?__ A strong foundation to grow and learn stems from asking a question, finding an answer, and repeating that cycle. Maybe an effect caught your interest, and you want to replicate it, or you want to try looping spawn triggers. You don’t have to focus on one thing forever, otherwise you’ll have trouble doing new things. Like solving a Rubik’s Cube, you incrementally solve each part of the cube, and learn helpful algorithms for each step before moving on to the next step.
 
@@ -90,7 +90,6 @@ Before concluding this lesson, there’s a disclaimer that needs to be said: Lik
 
 # Sources
 
-- <https://blog.prepscholar.com/how-to-get-a-4-0-gpa-and-get-better-grades-by-a-harvard-alum#section1>
-- <https://high5test.com/fixed-mindset-vs-growth-mindset/>
-- <https://www.sec-ed.co.uk/blog/the-danger-of-growth-mindset/>
-- <https://kevinquinn.fun/blog/creator-tunnel-vision/>
+- [How to Get a 4.0 GPA and Better Grades](<https://blog.prepscholar.com/how-to-get-a-4-0-gpa-and-get-better-grades-by-a-harvard-alum#section1>)
+- [What is a Fixed Mindset? Definition, Examples & Comparison](<https://high5test.com/fixed-mindset-vs-growth-mindset/>)
+- [Creator Tunnel Vision](<https://kevinquinn.fun/blog/creator-tunnel-vision/>)

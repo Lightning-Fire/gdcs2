@@ -9,11 +9,11 @@ contributors:
   - "notamoderatr"
 draft: false
 ---
-## TLDR - What this guide covers
+{{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 - Make sure to set realistic Goals as doing this and accomplishing these goals will keep you motivated.
 - Use the SMART goal setting method in order to set realistic and achievable goals.
 - Break large goals into smaller chunks to decrease the workload.
-
+{{< /callout >}}
 ** **
 
 # 1: What are Goals?
