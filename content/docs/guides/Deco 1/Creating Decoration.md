@@ -1,6 +1,7 @@
 ---
 title: "How to Decorate"
-aliases: ["Creating Decoration"]
+aliases:
+  - "Creating Decoration"
 weight: 5001
 date: 2024-07-19T00:00:00.000Z
 authors:
@@ -9,7 +10,7 @@ contributors:
   - "galofuf"
   - "komatic5"
   - "notamoderatr"
-  - "poryii_"
+  - "poryii"
 draft: false
 seo:
   title: "How To Decorate in Geometry Dash"
