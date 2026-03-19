@@ -9,6 +9,7 @@ contributors:
   - "komatic5"
   - "illusion2"
   - "intercomprehensible"
+  - "Lightning-Fire"
 draft: false
 ---
 
@@ -48,9 +49,9 @@ Good room design requires a few elements you learned about in the Mechanics guid
 ## Feedback
 Feedback is key when designing rooms; it lets the player determine certain things by themselves, without being treated like a baby. There are many ways you can achieve this, such as the next three methods.
 
-**Sense of progression**: This helps the player feel like they’re making progress or going in the right direction. You might not realize this, but designers do this constantly; often with quest objectives, showing progress bars, or other visual changes. For example in the game *Spore*, the planets you terraform change their appearance over time.
+**Sense of progression**: This helps the player feel like they’re making progress or going in the right direction. You might not realize this, but designers do this constantly; often with quest objectives, showing progress bars, or other visual changes.
 
-{{< youtube KptAkGOMi48 >}} 
+For example, in the game *Spore*, a certain stage lets you enter barren planets that are "unfit for life" and make them "fit for life" using different tools and resources. To indicate this, the planet shifts around and begins to have more vibrant colors as you traverse the planet with these tools, showing that you're actually changing things around you.
 
 **Shape language**: This is how different shapes convey different things to the player. Round shapes usually give a feeling of safety, sharp shapes convey danger and make the player avoid them, and square shapes represent utility. This usually gives the player a general idea of what to do when first entering a room, which is great for introducing new mechanics. You’ll learn more about this in the advanced decoration guides as well.
 
@@ -107,7 +108,7 @@ The **Central Mechanic** in a room is the main one used within that room. This h
 
 If your rooms use random mechanics instead of sticking to a few central ones, they could feel inconsistent and hard to learn, like the final room in The Core C-Side in *Celeste*. This room uses almost every mechanic available at this point, at the cost of being one of the least fun rooms in the game.
 
-{{< youtube etbgXCe8zuU >}} 
+{{< youtube etbgXCe8zuU >}}
 
 Once you’ve chosen a central mechanic for your room, you must also decide what the player will do with it: how they will get from point A to point B. This is what the **Critical Path** is: the intended path through a room. Having critical paths helps you predict where the player will go when designing a room, so you know what enemies and items they’ll likely encounter when playing.
 
@@ -216,9 +217,9 @@ When designing flow, keep these factors in mind:
 
 Use these factors intentionally to alter flow. You’ll want high speed and abrupt turns for fast paced paths, but slow speed for slow paced ones. More obvious paths will be useful when designing manmade areas, but organic settings will feel more natural with less obvious wayfinding.
 
-Keep your critical path in mind when controlling these factors. As with room design, the critical path here is just the most direct path through an area, so altering that path will alter the area’s flow. In addition to the concepts mentioned in Room Design, you’ll also need to consider the player’s “desired path” through your area. If the critical path is very convoluted compared to a straight path from one place to another, it may hurt your pacing and be frustrating. Some developers accommodate this by adding difficult skips that save time, like in Flipswap Factory by zejoant.
+Keep your critical path in mind when controlling these factors. As with room design, the critical path here is just the most direct path through an area, so altering that path will alter the area’s flow. In addition to the concepts mentioned in Room Design, you’ll also need to consider the player’s “desired path” through your area. If the critical path is very convoluted compared to a straight path from one place to another, it may hurt your pacing and be frustrating. Some developers accommodate this by adding difficult skips that save time.
 
-{{< youtube YRlBAXQTrzM >}} 
+For example, in Flipswap Factory by zejoant, the main gimmick features platforms quickly rotating around an axis 180° each time you jump. Later in the level, you have to use these platforms to launch you in different directions; however, if you utilize this mechanic in some earlier areas, you can use alternate paths to skip parts of the level that would otherwise take a lot of time.
 
 ## Pacing
 As you should know from the Pacing guide, this is how you control the gameplay’s tempo and order of events. Pacing will affect the difficulty you choose for the rooms in an area, as well as the area’s difficulty relative to the whole level. Each room in an area is equivalent to a pacing beat, or an event the player experiences.
@@ -273,5 +274,5 @@ Finally, it’s helpful to keep **dynamism** in mind when making environments. J
 - [Josh Bycer: A Study Into Puzzle Design](https://www.gamedeveloper.com/design/a-study-into-puzzle-design)
 - Staffs Games Institute: Introduction to Puzzle Design (Basic Principles, Player Knowledge Considerations, and Setting Gameplay Objectives)
 
-{{< youtube dVjibdYG4bs >}} 
+{{< youtube dVjibdYG4bs >}}
 
