@@ -7,6 +7,7 @@ authors:
 contributors:
   - "naem.less"
   - "notamoderatr"
+  - "icefire100062"
 draft: false
 seo:
   title: "How to Use Keys in Geometry Dash"
@@ -15,31 +16,42 @@ seo:
   noindex: false
 ---
 
-## TLDR - What this guide covers
-- We discussed the properties and functions of collectable items.
-- We saw how collectables can be used to make levels slightly more interactive via counters.
+{{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
+- The properties and functions of all collectable items.
+- How collectables can be used to make levels more interactive using counters.
 
-** **
+{{< /callout >}}
+
+
+Collectable objects are ones like keys which players can collect by default. For instance, in Fingerdash the player must collect 10 small coins to receive a large one later on.
+
+{{< youtube id=gd8KO_vD8jQ start=61 >}}
+
+To edit their properties, you'll use the {{< img src="images/GDEmotes/Buttons/EditSpecial.png" class="emote">}} button.
 
 # 1: Properties
 
-To edit the properties of the collectable you need to click on edit special. This will bring up a menu:
+Collectable objects can be set to give the player points, [toggle] or [spawn] groups, or change the value of an [item ID].
 
-**Pickup Item**: Allows you to set an “Item ID” the collectable should affect, specified in the “Item ID” box. This value corresponds to which pickup value ID or variable the objects modify. By default the item ID will increase by 1 on pickup but enabling “Sub Count” (Subtract count) will decrease the item id by 1.
+- Pickup Item: Lets you set an [Item ID] that the collectable affects. You specify the Item ID by typing one into the "Item ID" field.
+- Sub Count: By default the Item ID's value will increase by 1. You can change this by activating this checkbox, which decreases its value by 1.
+1: Properties
+
+To edit the properties of a collectable you need to click on the edit special button. This will bring up the menu: Pickup Item, which allows you to set an “Item Id” that the collectable item affects. This is specified in the “Item ID” box. The value corresponds to which pickup value ID or variable the objects modify. By default on collection the item id will increase by 1, but if you enable the “Sub Count” (Subtract Count) it will decrease by 1.
 
 {{< youtube xEPtX2kVoRU >}}
 
-**Toggle Trigger**: Enabling this checkbox will make the collectable inherit the properties of a toggle trigger. Like how the toggle trigger operates, you can select a group of objects in “Group ID” to toggle on/off. Enabling “Enable Group” will toggle on and spawn the group in “Group ID” simultaneously. To make use of the spawn property, set the trigger(s) to “Spawn Triggered”, otherwise it won’t perform any actions.
+
+**Toggle Trigger:** Enabling this option will make the collectable use the properties of a toggle trigger. This works similar to how the toggle trigger operates, you can select a group of objects in the “Group ID” box, this toggles said group on or off. The “Enable Group” function will toggle and spawn the group in the “Group ID” box at the same time. To properly spawn the group, set the trigger(s) to “Spawn Triggered” (Findable in the bottom left of the trigger(s) edit object page), if this option is not enabled the spawn cannot perform any actions.
 
 {{< youtube dMBGEMf5nds >}}
 
-**Particle**: This input box inherits the function of the Spawn Particle Trigger and its ability to create custom particles. You can input the group ID of the particles in this box and it will spawn that particle where the collectable is.
+**Particle:** Lets you customize the particles created when the object is collected. You must create a particle with the [Particle Editor], give that object a group, and enter that group into this field. Multiple particles can be activated at once.
 
-**No Anim**: Normally collectables have a floaty animation where they move up and down. Enabling this option will disable this animation.
+**No Anim:** If you enable this option it will turn off the "floaty" animation, making the objects stay completely still.
 
-**Points**: The number you set in here will increase the level’s “Points” value. The amount of points is displayed in the level pause menu below the time or through an item label as shown in the video below.
+**Points:** The value you set in here will increase the level’s “Points” value. This is only usable in platformer mode, as it has no effect in the classic levels. You can your total point count in the level’s pause menu (not playtesting, just playing the level), this is shown in the video below.
 
 {{< youtube rHlKqZXz470 >}}
 
-Also found in this tab is the Silver User Coin. Its edit special menu is different from the rest of the collectable objects and is instead the same as the [Animated Objects’](/docs/guides/deco-1/animated-objects/) edit special menu.
-
+In the collectible tab you can also find the Silver Coin objects. Its edit special menu is different from the rest of the collectable objects, it has the same edit special menu as an [Animated Object](https://www.gdcreatorschool.com/docs/guides/deco-1/animated-objects/) would.
