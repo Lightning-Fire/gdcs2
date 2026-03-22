@@ -1,6 +1,6 @@
 ---
 title: "Formatting"
-weight: 105
+weight: 500
 authors:
   - "komatic5"
   - "chuckolate"

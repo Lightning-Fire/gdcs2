@@ -3,7 +3,7 @@ title: "Getting Started"
 description: ""
 summary: ""
 draft: false
-weight: 2
+weight: 100
 toc: true
 sidebar:
   collapsed: false

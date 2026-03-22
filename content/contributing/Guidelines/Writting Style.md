@@ -1,6 +1,6 @@
 ---
 title: "Writting Style"
-weight: 115
+weight: 600
 authors:
   - "komatic5"
 contributors:

@@ -3,6 +3,7 @@ title: "Contributing Guide"
 description: ""
 summary: ""
 draft: false
+weight: 50
 toc: true
 type: "hub"
 seo:

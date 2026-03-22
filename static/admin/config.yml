@@ -1,7 +1,7 @@
 backend:
   name: github
   repo: komatic5/gdcs2
-  branch: main
+  branch: decap
   open_authoring: true
 
 media_folder: /static/media
@@ -31,6 +31,8 @@ collections:
   - name: guides
     label: Guides
     folder: "content/docs/guides"
+    sortable_fields: []
+    summary: "[Draft: {{ draft }}] - {{ title }}"
     nested:
       depth: 5
       subfolders: false
@@ -40,6 +42,8 @@ collections:
   - name: contributing
     label: Contributing
     folder: "content/contributing"
+    sortable_fields: []
+    summary: "[Draft: {{ draft }}] - {{ title }}"
     nested:
       depth: 5
       subfolders: false

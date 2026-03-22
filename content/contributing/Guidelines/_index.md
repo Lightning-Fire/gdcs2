@@ -3,7 +3,7 @@ title: "Guidelines"
 description: ""
 summary: ""
 draft: false
-weight: 100
+weight: 400
 toc: true
 sidebar:
   collapsed: false
