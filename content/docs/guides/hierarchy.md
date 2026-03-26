@@ -61,7 +61,7 @@ The image below shows an example of contrast at work.
 
 Knowing how to use contrast effectively can help you make decoration as good as the image above. However, using contrast effectively requires a bit more nuance.
 
-## \## Visual Weight
+## Visual Weight
 
 What contrasts more: a white square against a black background, or a black square against a white background? This question reveals an important fact: not all contrast is created equal. Contrasting elements such as color, will have a larger impact on your deco than contrasting others, such as texture.
 
@@ -73,16 +73,16 @@ Since visual weight is based on the elements of deco, each one provides a way to
 
 \`(Each of these needs an image example)\`
 
-* \* \*\*Value:\** The most important way to increase visual weight. Value contrast is the one method that lets you completely maximize contrast (for instance, pure black on pure white). Brighter objects, such as lights, tend to have more visual weight (though this depends on how bright the surroundings are).
-* \* \*\*Proximity:\** This is derived from space and form, and is basically how "close" an object feels to you. Objects that feel closer will have more visual weight. Similarly, objects packed closer together will have more visual weight than if they're far apart.
-* \* \*\*Color:\** Different colors have more visual weight, which is tied to their local value. For instance, red feels heaviest while yellow feels lightest, and warm colors tend to stand out more than cool ones. Additionally, saturated colors will stand out more.
-* \* \*\*Shape:\** Objects with regular shapes, like polygons, will have more weight than ones with irregular shapes. This is likely due to them being easier to recognize as actual objects, in the same way that real words convey more meaning than "afokenof" or "hhhgjhg".
-* \* \*\*Direction:\** This is also derived from shape. Objects that appear vertical will stand out more than horizontal ones. Diagonal objects have the most weight, and as such they're used the most for dynamic deco.
-* \* \*\*Edges/Lines:\** Objects with thicker lines will appear to have more weight than objects with thinner lines. This is a side effect of proximity as thick lines are often used to convey objects being closer.
+* \* \****Value:**\*\* The most important way to increase visual weight. Value contrast is the one method that lets you completely maximize contrast (for instance, pure black on pure white). Brighter objects, such as lights, tend to have more visual weight (though this depends on how bright the surroundings are).
+* \* \****Proximity:**\*\* This is derived from space and form, and is basically how "close" an object feels to you. Objects that feel closer will have more visual weight. Similarly, objects packed closer together will have more visual weight than if they're far apart.
+* \* \****Color:**\*\* Different colors have more visual weight, which is tied to their local value. For instance, red feels heaviest while yellow feels lightest, and warm colors tend to stand out more than cool ones. Additionally, saturated colors will stand out more.
+* \* \****Shape:**\*\* Objects with regular shapes, like polygons, will have more weight than ones with irregular shapes. This is likely due to them being easier to recognize as actual objects, in the same way that real words convey more meaning than "afokenof" or "hhhgjhg".
+* \* \****Direction:**\*\* This is also derived from shape. Objects that appear vertical will stand out more than horizontal ones. Diagonal objects have the most weight, and as such they're used the most for dynamic deco.
+* \* \****Edges/Lines:**\*\* Objects with thicker lines will appear to have more weight than objects with thinner lines. This is a side effect of proximity as thick lines are often used to convey objects being closer.
 * **Proportion:** Larger parts of objects will carry more visual weight than smaller parts.
 * **Texture:** Objects with textures will have more visual weight than flat objects without any texture.
 
-## \## Hierarchy
+## Hierarchy
 
 How you intentionally use visual weight to make some objects more / less important
 
