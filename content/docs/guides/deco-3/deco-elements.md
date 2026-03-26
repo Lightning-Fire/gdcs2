@@ -1,6 +1,11 @@
 ---
 draft: false
-title: Elements of Decoration
+title: "Elements of Decoration"
+date: 2026-03-26T00:00:00.000Z
+authors:
+  - "komatic5"
+contributors:
+  - "komatic5"
 weight: 110010
 ---
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
