@@ -77,7 +77,7 @@ Since visual weight is based on the elements of deco, each one provides a way to
 * **Proportion:** Larger parts of objects carry more visual weight than smaller parts.
 * **Texture:** Objects with textures will have more visual weight than flat objects without any texture. This is also the least impactful way to increase visual weight.
 
-## Hierarchy
+## Hierarchy (will be moved to its own guide)
 
 How you intentionally use visual weight to make some objects more / less important
 
