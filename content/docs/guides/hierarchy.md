@@ -50,7 +50,7 @@ Put simply, this is the difference between two objects. Contrast is the reason w
 For decoration, these differences will be based on the elements of deco described above. A red object differs from a blue object because of color, while a circle contrasts with a square because of its shape. Objects can have multiple types of contrast, which is often how you make more dynamic and interesting visuals.
 
 
-The image below shows an example of contrast at work.
+The artpiece by Rutger Van de Steeg shows an example of contrast at work.
 
 
 {{< img src="https://cdnb.artstation.com/p/assets/images/images/094/136/337/large/rutger-van-de-steeg-merryxmasfromrutger205notext.jpg?1765886856" >}}
@@ -73,6 +73,10 @@ Knowing how to use contrast effectively can help you make decoration as good as 
 
 This is *similar* to contrast, but covers a different aspect. Variety is **how diverse** your deco is, in terms of the elements you're using. For instance, a pure black and white image has low variety, but high contrast; a gradient from black to gray has lower contrast, but far more variety.
 
+
+{{< img src="https://lh3.googleusercontent.com/d/1zgr2iWcY0pkqDSUohGClBecXXLD6Z_DD" >}}
+
+
 `Insert a diagram/image showing exactly what's described in the last sentence`
 
 Like contrast, variety helps make your deco more interesting. However, its role is often to **make contrast feel more natural**. You can't have high contrast in *every* area of your deco, as that becomes overwhelming or looks deep-fried. Adding more variety will help to make your contrast less harsh, which is helpful when you need lots of contrast without making everything chaotic.
@@ -85,7 +89,7 @@ This art by Baptiste Boutié shows exactly what I mean. There is fairly high con
 Without the midtones, the art feels deep-fried and certainly doesn't look as good.
 
 
-
+{{< img src="https://lh3.googleusercontent.com/d/1KXPxFfofpDaaBqUdLk3LlPqNCnkL3Ib3" >}}
 
 
 
