@@ -49,7 +49,7 @@ The components of deco are as follows.
 
 
 
-# 2: Contrast
+# 2: Contrast & Hierarchy
 
 While it's important to know what elements make up deco, it's equally (or even more) important to know about **contrast**. Put simply, this is the difference between two objects. Contrast is the reason why you can see, distinguish objects from each other, and so on; so knowing how to manipulate it is crucial for deco.
 
@@ -67,8 +67,12 @@ The image below shows an example of contrast at work.
 
 {{< img src="https://cdnb.artstation.com/p/assets/images/images/094/136/337/large/rutger-van-de-steeg-merryxmasfromrutger205notext.jpg?1765886856" >}}
 
-
+Knowing how to use contrast effectively can help you make decoration as good as the image above. However, using contrast effectively requires a bit more nuance.
 
 ## Visual Weight
 
-# 3: Hierarchy
+What contrasts more: a white square against a black background, or a black square against a white background. This question reveals an important fact: not all contrast is created equal. Contrasting elements such as color, will have a larger impact on your deco than contrasting others, such as texture.
+
+
+
+## Hierarchy
