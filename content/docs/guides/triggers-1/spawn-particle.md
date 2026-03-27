@@ -1,12 +1,12 @@
 ---
-title: "Spawn Particle"
+title: Spawn Particle
 weight: 3210
 date: 2024-01-21T00:00:00.000Z
 authors:
-  - "naem.less"
+  - naem.less
 contributors:
-  - "komatic5"
-  - "naem.less"
+  - komatic5
+  - naem.less
 draft: false
 ---
 

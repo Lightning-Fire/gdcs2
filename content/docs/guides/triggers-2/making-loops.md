@@ -1,12 +1,12 @@
 ---
-title: "Making Loops"
+title: Making Loops
 weight: 6070
 date: 2024-11-30T00:00:00.000Z
 authors:
-  - "tdp9"
+  - tdp9
 contributors:
-  - "psytrancegd"
-  - "tdp9"
+  - psytrancegd
+  - tdp9
 draft: false
 ---
 

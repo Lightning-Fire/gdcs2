@@ -1,17 +1,17 @@
 ---
-title: "Collectable Objects"
+title: Collectable Objects
 weight: 1110
 date: 2024-01-12T00:00:00.000Z
 authors:
-  - "naem.less"
+  - naem.less
 contributors:
-  - "naem.less"
-  - "notamoderatr"
-  - "icefire100062"
+  - naem.less
+  - notamoderatr
+  - icefire100062
 draft: false
 seo:
-  title: "How to Use Keys in Geometry Dash"
-  description: "A full explanation of collectable objects in Geometry Dash, such as keys and coins."
+  title: How to Use Keys in Geometry Dash
+  description: A full explanation of collectable objects in Geometry Dash, such as keys and coins.
   canonical: ""
   noindex: false
 ---

@@ -1,12 +1,12 @@
 ---
-title: "Note Representation"
+title: Note Representation
 weight: 7080
 date: 2025-11-15T00:00:00.000Z
 authors:
-  - "illusion2"
+  - illusion2
 contributors:
-  - "illusion2"
-  - "sparktwee"
+  - illusion2
+  - sparktwee
 draft: false
 ---
 

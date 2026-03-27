@@ -1,15 +1,15 @@
 ---
-title: "Low Detail Mode"
+title: Low Detail Mode
 weight: 5190
 date: 2025-06-29T00:00:00.000Z
 authors:
-  - "komatic5"
-  - "sparktwee"
+  - komatic5
+  - sparktwee
 contributors:
-  - "averageundertalefan"
-  - "creeperiv"
-  - "komatic5"
-  - "sparktwee"
+  - averageundertalefan
+  - creeperiv
+  - komatic5
+  - sparktwee
 draft: false
 ---
 

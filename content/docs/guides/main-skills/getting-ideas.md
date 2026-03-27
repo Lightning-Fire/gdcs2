@@ -1,13 +1,13 @@
 ---
-title: "Getting Ideas"
+title: Getting Ideas
 weight: 2010
 date: 2023-03-09T00:00:00.000Z
 authors:
-  - "sparktwee"
+  - sparktwee
 contributors:
-  - "sparktwee"
-  - "vexilo5"
-  - "komatic5"
+  - sparktwee
+  - vexilo5
+  - komatic5
 draft: false
 ---
 

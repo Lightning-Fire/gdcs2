@@ -1,14 +1,14 @@
 ---
-title: "Staying Patient"
+title: Staying Patient
 weight: 2090
 date: 2023-03-09T00:00:00.000Z
 authors:
-  - "sparktwee"
-  - "calibratorworks"
+  - sparktwee
+  - calibratorworks
 contributors:
-  - "komatic5"
-  - "sparktwee"
-  - "calibratorworks"
+  - komatic5
+  - sparktwee
+  - calibratorworks
 draft: false
 ---
 

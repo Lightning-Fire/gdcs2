@@ -1,16 +1,16 @@
 ---
-title: "Using Channels"
+title: Using Channels
 weight: 1180
 date: 2024-01-15T00:00:00.000Z
 authors:
-  - "illusion2"
+  - illusion2
 contributors:
-  - "illusion2"
-  - "vexilo5"
+  - illusion2
+  - vexilo5
 draft: false
 seo:
-  title: "How to Use Channels in Geometry Dash"
-  description: "Trigger Order, Trigger Channels, and Color Channels are often misunderstood. This guide explains what they do and how to use them properly."
+  title: How to Use Channels in Geometry Dash
+  description: Trigger Order, Trigger Channels, and Color Channels are often misunderstood. This guide explains what they do and how to use them properly.
   canonical: ""
   noindex: false
 ---

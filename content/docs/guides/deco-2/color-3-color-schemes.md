@@ -1,12 +1,12 @@
 ---
-title: "Color 3 (Color Schemes)"
+title: Color 3 (Color Schemes)
 weight: 8030
 date: 2023-11-30T00:00:00.000Z
 authors:
-  - "skytriz"
+  - skytriz
 contributors:
-  - "etherail"
-  - "skytriz"
+  - etherail
+  - skytriz
 draft: false
 ---
 

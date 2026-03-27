@@ -1,12 +1,12 @@
 ---
-title: "Optimizing"
+title: Optimizing
 weight: 5190
 date: 2023-06-26T00:00:00.000Z
 authors:
-  - "komatic5"
+  - komatic5
 contributors:
-  - "creeperiv"
-  - "komatic5"
+  - creeperiv
+  - komatic5
 draft: false
 ---
 

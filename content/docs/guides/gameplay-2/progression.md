@@ -1,12 +1,12 @@
 ---
-title: "Progression"
+title: Progression
 weight: 7220
 date: 2023-06-26T00:00:00.000Z
 authors:
-  - "komatic5"
+  - komatic5
 contributors:
-  - "halfcookedramen"
-  - "komatic5"
+  - halfcookedramen
+  - komatic5
 draft: true
 ---
 

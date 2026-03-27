@@ -1,14 +1,14 @@
 ---
-title: "Perspective 2 (Making Forms)"
+title: Perspective 2 (Making Forms)
 weight: 8210
 date: 2023-11-01T00:00:00.000Z
 authors:
-  - "komatic5"
-  - "chunlv1"
+  - komatic5
+  - chunlv1
 contributors:
-  - "komatic5"
-  - "chunlv1"
-  - "notamoderatr"
+  - komatic5
+  - chunlv1
+  - notamoderatr
 draft: false
 ---
 

@@ -1,14 +1,14 @@
 ---
-title: "Priority Order"
+title: Priority Order
 weight: 6030
 date: 2024-09-17T00:00:00.000Z
 authors:
-  - "theibra"
-  - "typexleta"
+  - theibra
+  - typexleta
 contributors:
-  - "notamoderatr"
-  - "theibra"
-  - "typexleta"
+  - notamoderatr
+  - theibra
+  - typexleta
 draft: false
 ---
 

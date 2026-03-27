@@ -1,14 +1,14 @@
 ---
-title: "Player Snap Bug"
+title: Player Snap Bug
 weight: 4120
 date: 2023-11-30T00:00:00.000Z
 authors:
-  - "joe_white"
-  - "mateussdev"
+  - joe_white
+  - mateussdev
 contributors:
-  - "tv_box"
-  - "joe_white"
-  - "mateussdev"
+  - tv_box
+  - joe_white
+  - mateussdev
 draft: false
 ---
 

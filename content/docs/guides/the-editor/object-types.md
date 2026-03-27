@@ -1,16 +1,16 @@
 ---
-title: "Object Types"
+title: Object Types
 weight: 1080
 date: 2024-04-28T00:00:00.000Z
 authors:
-  - "illusion2"
+  - illusion2
 contributors:
-  - "sparktwee"
-  - "illusion2"
+  - sparktwee
+  - illusion2
 draft: false
 seo:
-  title: "Every Type of Object in Geometry Dash"
-  description: "Do you struggle to find objects in the Geometry Dash editor? This guide explains how to find them faster."
+  title: Every Type of Object in Geometry Dash
+  description: Do you struggle to find objects in the Geometry Dash editor? This guide explains how to find them faster.
   canonical: ""
   noindex: false
 ---

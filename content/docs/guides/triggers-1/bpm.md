@@ -1,12 +1,12 @@
 ---
-title: "BPM"
+title: BPM
 weight: 3160
 date: 2024-01-21T00:00:00.000Z
 authors:
-  - "myceliumdev"
+  - myceliumdev
 contributors:
-  - "komatic5"
-  - "myceliumdev"
+  - komatic5
+  - myceliumdev
 draft: false
 ---
 

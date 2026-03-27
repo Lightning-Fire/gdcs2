@@ -1,17 +1,17 @@
 ---
-title: "Pathfinding"
+title: Pathfinding
 weight: 9110
 date: 2024-09-30T00:00:00.000Z
 authors:
-  - "furorem"
+  - furorem
 contributors:
-  - "furorem"
-  - "komatic5"
+  - furorem
+  - komatic5
 draft: false
 math: true
 seo:
-  title: "Graph Theory and Pathfinding for Geometry Dash"
-  description: "Basics of graph theory and pathfinding algorithms for Geometry Dash"
+  title: Graph Theory and Pathfinding for Geometry Dash
+  description: Basics of graph theory and pathfinding algorithms for Geometry Dash
   canonical: ""
   noindex: false
 ---

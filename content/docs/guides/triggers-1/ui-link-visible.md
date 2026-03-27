@@ -1,13 +1,13 @@
 ---
-title: "UI & Link Visible"
+title: UI & Link Visible
 weight: 3470
 date: 2024-01-21T00:00:00.000Z
 authors:
-  - "delts1550"
+  - delts1550
 contributors:
-  - "delts1550"
-  - "eyz"
-  - "komatic5"
+  - delts1550
+  - eyz
+  - komatic5
 draft: false
 ---
 

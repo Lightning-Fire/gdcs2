@@ -1,12 +1,12 @@
 ---
-title: "Sound Design in GD"
+title: Sound Design in GD
 weight: 7130
 date: 2024-09-06T00:00:00.000Z
 authors:
-  - "electrifyxd"
+  - electrifyxd
 contributors:
-  - "electrifyxd"
-  - "psytrancegd"
+  - electrifyxd
+  - psytrancegd
 draft: false
 ---
 

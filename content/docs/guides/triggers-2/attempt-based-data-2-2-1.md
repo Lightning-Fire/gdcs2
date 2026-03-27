@@ -1,12 +1,12 @@
 ---
-title: "Attempt-Based Data 2 (2.1)"
+title: Attempt-Based Data 2 (2.1)
 weight: 6180
 date: 2024-04-19T00:00:00.000Z
 authors:
-  - "typexleta"
+  - typexleta
 contributors:
-  - "soondslash"
-  - "typexleta"
+  - soondslash
+  - typexleta
 draft: false
 ---
 

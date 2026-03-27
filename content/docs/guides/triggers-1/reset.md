@@ -1,12 +1,12 @@
 ---
-title: "Reset"
+title: Reset
 weight: 3470
 date: 2024-01-16T00:00:00.000Z
 authors:
-  - "delts1550"
+  - delts1550
 contributors:
-  - "delts1550"
-  - "sparktwee"
+  - delts1550
+  - sparktwee
 draft: false
 ---
 

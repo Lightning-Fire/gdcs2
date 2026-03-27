@@ -1,5 +1,5 @@
 ---
-title: "Troubleshooting"
+title: Troubleshooting
 weight: 900
 draft: false
 ---

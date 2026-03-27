@@ -1,12 +1,12 @@
 ---
-title: "Animated Objects"
+title: Animated Objects
 weight: 5020
 date: 2024-01-01T00:00:00.000Z
 authors:
-  - "print6165"
+  - print6165
 contributors:
-  - "komatic5"
-  - "print6165"
+  - komatic5
+  - print6165
 draft: false
 ---
 

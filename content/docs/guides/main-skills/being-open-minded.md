@@ -1,12 +1,12 @@
 ---
-title: "Being Open-Minded"
+title: Being Open-Minded
 weight: 2100
 date: 2023-03-16T00:00:00.000Z
 authors:
-  - "halfcookedramen"
+  - halfcookedramen
 contributors:
-  - "halfcookedramen"
-  - "kde"
+  - halfcookedramen
+  - kde
 draft: false
 ---
 

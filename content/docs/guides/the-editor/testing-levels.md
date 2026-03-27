@@ -1,18 +1,18 @@
 ---
-title: "Testing Levels"
+title: Testing Levels
 weight: 1160
 date: 2024-03-11T00:00:00.000Z
 authors:
-  - "illusion2"
-  - "sparktwee"
+  - illusion2
+  - sparktwee
 contributors:
-  - "madzz"
-  - "illusion2"
-  - "sparktwee"
+  - madzz
+  - illusion2
+  - sparktwee
 draft: false
 seo:
-  title: "How to Playtest a Geometry Dash Level"
-  description: "A short explanation of the GD editor's playtesting features."
+  title: How to Playtest a Geometry Dash Level
+  description: A short explanation of the GD editor's playtesting features.
   canonical: ""
   noindex: false
 ---

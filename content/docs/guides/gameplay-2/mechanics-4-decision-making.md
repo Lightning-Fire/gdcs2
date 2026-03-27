@@ -1,14 +1,14 @@
 ---
-title: "Mechanics 4 (Decision-Making)"
+title: Mechanics 4 (Decision-Making)
 weight: 7040
 date: 2025-03-01T00:00:00.000Z
 authors:
-  - "intercomprehensible"
+  - intercomprehensible
 contributors:
-  - "intercomprehensible"
-  - "illusion2"
-  - "psytrancegd"
-  - "komatic5"
+  - intercomprehensible
+  - illusion2
+  - psytrancegd
+  - komatic5
 draft: false
 ---
 

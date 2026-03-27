@@ -1,5 +1,5 @@
 ---
-title: "Extra"
+title: Extra
 description: ""
 summary: ""
 draft: false

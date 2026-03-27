@@ -1,13 +1,13 @@
 ---
-title: "Reception"
+title: Reception
 weight: 2170
 date: 2024-08-30T00:00:00.000Z
 authors:
-  - "sparktwee"
+  - sparktwee
 contributors:
-  - "sparktwee"
-  - "psytrancegd"
-  - "colon"
+  - sparktwee
+  - psytrancegd
+  - colon
 draft: false
 ---
 

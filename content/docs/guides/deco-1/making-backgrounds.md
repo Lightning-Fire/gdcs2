@@ -1,12 +1,12 @@
 ---
-title: "Making Backgrounds"
+title: Making Backgrounds
 weight: 5090
 date: 2023-06-22T00:00:00.000Z
 authors:
-  - "kde"
+  - kde
 contributors:
-  - "kde"
-  - "komatic5"
+  - kde
+  - komatic5
 draft: false
 ---
 

@@ -1,12 +1,12 @@
 ---
-title: "Bossfight Design"
+title: Bossfight Design
 weight: 7210
 date: 2024-09-18T00:00:00.000Z
 authors:
-  - "illusion2"
+  - illusion2
 contributors:
-  - "illusion2"
-  - "psytrancegd"
+  - illusion2
+  - psytrancegd
 draft: false
 ---
 

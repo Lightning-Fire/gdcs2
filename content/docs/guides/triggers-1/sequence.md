@@ -1,12 +1,12 @@
 ---
-title: "Sequence"
+title: Sequence
 weight: 3390
 date: 2023-12-30T00:00:00.000Z
 authors:
-  - "naem.less"
+  - naem.less
 contributors:
-  - "proerazer"
-  - "naem.less"
+  - proerazer
+  - naem.less
 draft: false
 ---
 

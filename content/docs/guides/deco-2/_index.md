@@ -1,5 +1,5 @@
 ---
-title: "Intermediate Deco"
+title: Intermediate Deco
 description: ""
 summary: ""
 draft: false

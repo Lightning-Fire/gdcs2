@@ -1,12 +1,12 @@
 ---
-title: "Animate"
+title: Animate
 weight: 3190
 date: 2024-01-25T00:00:00.000Z
 authors:
-  - "naem.less"
+  - naem.less
 contributors:
-  - "naem.less"
-  - "notamoderatr"
+  - naem.less
+  - notamoderatr
 draft: false
 ---
 

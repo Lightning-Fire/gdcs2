@@ -1,11 +1,11 @@
 ---
-title: "Privacy Policy"
+title: Privacy Policy
 description: ""
 summary: ""
 date: 2023-09-07T15:19:07.000Z
 lastmod: 2026-02-11T15:19:07.000Z
 draft: false
-type: "legal"
+type: legal
 seo:
   title: ""
   description: ""

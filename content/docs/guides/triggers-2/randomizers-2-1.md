@@ -1,15 +1,15 @@
 ---
-title: "Randomizers (2.1)"
+title: Randomizers (2.1)
 weight: 6200
 date: 2024-04-19T00:00:00.000Z
 authors:
-  - "infernuz_bunni"
-  - "typexleta"
+  - infernuz_bunni
+  - typexleta
 contributors:
-  - "etherail"
-  - "infernuz_bunni"
-  - "typexleta"
-  - "icefire100062"
+  - etherail
+  - infernuz_bunni
+  - typexleta
+  - icefire100062
 draft: false
 ---
 

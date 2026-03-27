@@ -1,12 +1,12 @@
 ---
-title: "Light 1 (Basics)"
+title: Light 1 (Basics)
 weight: 8060
 date: 2023-05-21T00:00:00.000Z
 authors:
-  - "print6165"
+  - print6165
 contributors:
-  - "komatic5"
-  - "print6165"
+  - komatic5
+  - print6165
 draft: false
 ---
 

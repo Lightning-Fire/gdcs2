@@ -1,12 +1,12 @@
 ---
-title: "Creating Gameplay"
+title: Creating Gameplay
 weight: 4060
 date: 2024-11-30T00:00:00.000Z
 authors:
-  - "mesoionosphere"
+  - mesoionosphere
 contributors:
-  - "chuckolate"
-  - "mesoionosphere"
+  - chuckolate
+  - mesoionosphere
 draft: false
 ---
 

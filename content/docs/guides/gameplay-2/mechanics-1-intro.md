@@ -1,12 +1,12 @@
 ---
-title: "Mechanics 1 (Intro)"
+title: Mechanics 1 (Intro)
 weight: 7010
 date: 2023-04-24T00:00:00.000Z
 authors:
-  - "komatic5"
+  - komatic5
 contributors:
-  - "komatic5"
-  - "notamoderatr"
+  - komatic5
+  - notamoderatr
 draft: false
 ---
 

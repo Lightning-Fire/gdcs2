@@ -1,16 +1,16 @@
 ---
-title: "Detailing"
+title: Detailing
 weight: 110020
 date: 2026-03-21T00:00:00.000Z
 authors:
-  - "komatic5"
+  - komatic5
 contributors:
-  - "komatic5"
+  - komatic5
 draft: true
 math: true
 seo:
-  title: "Evenness in Geometry Dash"
-  description: "An explanation of evenness, one of the most crucial theories behind making good decoration in Geometry Dash."
+  title: Evenness in Geometry Dash
+  description: An explanation of evenness, one of the most crucial theories behind making good decoration in Geometry Dash.
   canonical: ""
   noindex: false
 ---

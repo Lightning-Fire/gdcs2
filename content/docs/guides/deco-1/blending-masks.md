@@ -1,13 +1,13 @@
 ---
-title: "Blending Masks"
+title: Blending Masks
 weight: 5160
 date: 2023-10-13T00:00:00.000Z
 authors:
-  - "unknown"
+  - unknown
 contributors:
-  - "kde"
-  - "unknown"
-  - "poryii"
+  - kde
+  - unknown
+  - poryii
 draft: false
 ---
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}

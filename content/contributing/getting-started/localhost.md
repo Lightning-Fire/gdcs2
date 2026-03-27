@@ -1,10 +1,10 @@
 ---
-title: "Localhost"
+title: Localhost
 weight: 300
 authors:
-  - "imtherealimagineiq"
+  - imtherealimagineiq
 contributors:
-  - "imtherealimagineiq"
+  - imtherealimagineiq
 draft: false
 ---
 

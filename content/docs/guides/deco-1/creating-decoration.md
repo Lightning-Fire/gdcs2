@@ -1,22 +1,22 @@
 ---
 draft: false
 authors:
-  - "komatic5"
-title: "How to Decorate"
+  - komatic5
+title: How to Decorate
 date: 2024-07-19T00:00:00.000Z
 weight: 5001
 contributors:
-  - "galofuf"
-  - "komatic5"
-  - "notamoderatr"
-  - "poryii"
+  - galofuf
+  - komatic5
+  - notamoderatr
+  - poryii
 seo:
-  title: "How To Decorate in Geometry Dash"
-  description: "Are you struggling to decorate? This guide provides a full overview of everything you must know to get started."
+  title: How To Decorate in Geometry Dash
+  description: Are you struggling to decorate? This guide provides a full overview of everything you must know to get started.
   canonical: ""
   noindex: false
 aliases:
-  - "Creating Decoration"
+  - Creating Decoration
 ---
 
 {{< callout context="note" title="TLDR – What this guide covers" icon="outline/info-circle" >}}

@@ -1,11 +1,11 @@
 ---
-title: "Move & Rotate"
+title: Move & Rotate
 weight: 3080
 date: 2024-01-08T00:00:00.000Z
 authors:
-  - "komatic5"
+  - komatic5
 contributors:
-  - "komatic5"
+  - komatic5
 draft: false
 ---
 

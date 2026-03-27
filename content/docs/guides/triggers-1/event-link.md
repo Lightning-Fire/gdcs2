@@ -1,12 +1,12 @@
 ---
-title: "Event Link"
+title: Event Link
 weight: 3380
 date: 2024-01-25T00:00:00.000Z
 authors:
-  - "eyz"
+  - eyz
 contributors:
-  - "eyz"
-  - "sparktwee"
+  - eyz
+  - sparktwee
 draft: false
 ---
 

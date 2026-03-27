@@ -1,13 +1,13 @@
 ---
-title: "Gameplay Objects"
+title: Gameplay Objects
 weight: 4020
 date: 2025-01-16T00:00:00.000Z
 authors:
-  - "xplode09"
-  - "sparktwee"
+  - xplode09
+  - sparktwee
 contributors:
-  - "sparktwee"
-  - "xplode09"
+  - sparktwee
+  - xplode09
 draft: false
 ---
 

@@ -1,12 +1,12 @@
 ---
 draft: false
-title: "Light 4 (Reflections)"
+title: Light 4 (Reflections)
 date: 2026-03-27T00:00:00.000Z
 weight: 8090
 authors:
-  - "sethlai"
+  - sethlai
 contributors:
-  - "sethlai"
+  - sethlai
 ---
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 

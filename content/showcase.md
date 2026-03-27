@@ -1,12 +1,12 @@
 ---
-title: "Creator Showcase"
+title: Creator Showcase
 description: ""
 summary: ""
 draft: false
 toc: false
-type: "hub"
+type: hub
 seo:
-  title: "Creator Showcase"
+  title: Creator Showcase
   description: ""
   canonical: ""
   noindex: false

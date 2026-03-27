@@ -1,13 +1,13 @@
 ---
-title: "Contributing Guide"
+title: Contributing Guide
 description: ""
 summary: ""
 draft: false
 weight: 50
 toc: true
-type: "hub"
+type: hub
 seo:
-  title: "Contributing"
+  title: Contributing
   description: ""
   canonical: ""
   noindex: false

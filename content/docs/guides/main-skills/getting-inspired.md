@@ -1,12 +1,12 @@
 ---
-title: "Getting Inspired"
+title: Getting Inspired
 weight: 2080
 date: 2023-04-19T00:00:00.000Z
 authors:
-  - "tdp9"
+  - tdp9
 contributors:
-  - "komatic5"
-  - "tdp9"
+  - komatic5
+  - tdp9
 draft: false
 ---
 

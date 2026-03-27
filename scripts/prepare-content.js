@@ -41,7 +41,7 @@ function serializeFrontmatter(frontmatter) {
     yaml.dump(frontmatter, {
       lineWidth: -1,
       quotingType: '"',
-      forceQuotes: true,
+      forceQuotes: false,
     }) +
     "---"
   );

@@ -1,12 +1,12 @@
 ---
-title: "Color 5 (Human Perception)"
+title: Color 5 (Human Perception)
 weight: 8050
 date: 2024-05-31T00:00:00.000Z
 authors:
-  - "skytriz"
+  - skytriz
 contributors:
-  - "etherail"
-  - "skytriz"
+  - etherail
+  - skytriz
 draft: false
 ---
 

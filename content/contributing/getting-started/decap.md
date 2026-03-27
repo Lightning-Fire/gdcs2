@@ -1,12 +1,12 @@
 ---
-title: "Decap"
+title: Decap
 weight: 200
 authors:
-  - "komatic5"
-  - "chuckolate"
+  - komatic5
+  - chuckolate
 contributors:
-  - "komatic5"
-  - "chuckolate"
+  - komatic5
+  - chuckolate
 draft: false
 ---
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}

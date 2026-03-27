@@ -1,12 +1,12 @@
 ---
-title: "Playtesting"
+title: Playtesting
 weight: 2130
 date: 2023-03-14T00:00:00.000Z
 authors:
-  - "tdp9"
+  - tdp9
 contributors:
-  - "sparktwee"
-  - "tdp9"
+  - sparktwee
+  - tdp9
 draft: false
 ---
 

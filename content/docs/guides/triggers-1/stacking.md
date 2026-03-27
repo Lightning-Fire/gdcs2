@@ -1,12 +1,12 @@
 ---
-title: "Stacking"
+title: Stacking
 weight: 3470
 date: 2023-04-04T00:00:00.000Z
 authors:
-  - "komatic5"
+  - komatic5
 contributors:
-  - "komatic5"
-  - "kde"
+  - komatic5
+  - kde
 draft: false
 ---
 

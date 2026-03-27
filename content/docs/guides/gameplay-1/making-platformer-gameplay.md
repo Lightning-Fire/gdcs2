@@ -1,12 +1,12 @@
 ---
-title: "Making Platformer Gameplay"
+title: Making Platformer Gameplay
 weight: 4190
 date: 2025-03-31T00:00:00.000Z
 authors:
-  - "styphontv"
+  - styphontv
 contributors:
-  - "notamoderatr"
-  - "styphontv"
+  - notamoderatr
+  - styphontv
 draft: false
 ---
 

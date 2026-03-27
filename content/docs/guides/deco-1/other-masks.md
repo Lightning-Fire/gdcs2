@@ -1,11 +1,11 @@
 ---
-title: "Other Masks"
+title: Other Masks
 weight: 5170
 date: 2023-10-13T00:00:00.000Z
 authors:
-  - "unknown"
+  - unknown
 contributors:
-  - "unknown"
+  - unknown
 draft: false
 ---
 

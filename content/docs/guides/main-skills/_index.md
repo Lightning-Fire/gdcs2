@@ -1,5 +1,5 @@
 ---
-title: "Main Skills"
+title: Main Skills
 description: ""
 summary: ""
 draft: false

@@ -1,12 +1,12 @@
 ---
-title: "Keyframes"
+title: Keyframes
 weight: 3110
 date: 2024-05-15T00:00:00.000Z
 authors:
-  - "theibra"
+  - theibra
 contributors:
-  - "theibra"
-  - "komatic5"
+  - theibra
+  - komatic5
 draft: false
 ---
 

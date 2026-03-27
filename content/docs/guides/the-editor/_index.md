@@ -1,5 +1,5 @@
 ---
-title: "The Editor"
+title: The Editor
 description: ""
 summary: ""
 draft: false

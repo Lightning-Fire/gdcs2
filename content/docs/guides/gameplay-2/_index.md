@@ -1,5 +1,5 @@
 ---
-title: "Intermediate Gameplay"
+title: Intermediate Gameplay
 description: ""
 summary: ""
 draft: false

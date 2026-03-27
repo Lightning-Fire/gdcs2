@@ -1,17 +1,17 @@
 ---
-title: "Using IDs"
+title: Using IDs
 weight: 1170
 date: 2025-03-31T00:00:00.000Z
 authors:
-  - "sparktwee"
+  - sparktwee
 contributors:
-  - "infernuz_bunni"
-  - "komatic5"
-  - "sparktwee"
+  - infernuz_bunni
+  - komatic5
+  - sparktwee
 draft: false
 seo:
-  title: "Every Type of ID in Geometry Dash Explained"
-  description: "This explains every type of ID in the Geometry Dash level editor, such as color channels, Group IDs, and more."
+  title: Every Type of ID in Geometry Dash Explained
+  description: This explains every type of ID in the Geometry Dash level editor, such as color channels, Group IDs, and more.
   canonical: ""
   noindex: false
 ---

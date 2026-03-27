@@ -1,14 +1,14 @@
 ---
-title: "Particle System"
+title: Particle System
 weight: 5120
 date: 2023-11-01T00:00:00.000Z
 authors:
-  - "komatic5"
-  - "naem.less"
+  - komatic5
+  - naem.less
 contributors:
-  - "komatic5"
-  - "naem.less"
-  - "halfcookedramen"
+  - komatic5
+  - naem.less
+  - halfcookedramen
 draft: false
 ---
 

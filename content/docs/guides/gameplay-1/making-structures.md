@@ -1,12 +1,12 @@
 ---
-title: "Making Structures"
+title: Making Structures
 weight: 4180
 date: 2023-07-12T00:00:00.000Z
 authors:
-  - "komatic5"
+  - komatic5
 contributors:
-  - "etherail"
-  - "komatic5"
+  - etherail
+  - komatic5
 draft: false
 ---
 

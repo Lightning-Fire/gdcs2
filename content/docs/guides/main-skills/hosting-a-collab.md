@@ -1,11 +1,11 @@
 ---
-title: "Hosting a Collab"
+title: Hosting a Collab
 weight: 2140
 date: 2023-09-30T00:00:00.000Z
 authors:
-  - "komatic5"
+  - komatic5
 contributors:
-  - "komatic5"
+  - komatic5
 draft: false
 ---
 

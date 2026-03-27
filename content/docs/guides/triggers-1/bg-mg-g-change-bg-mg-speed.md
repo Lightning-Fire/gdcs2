@@ -1,12 +1,12 @@
 ---
-title: "BG/MG/G Change & BG/MG Speed"
+title: BG/MG/G Change & BG/MG Speed
 weight: 3470
 date: 2024-01-21T00:00:00.000Z
 authors:
-  - "eyz"
+  - eyz
 contributors:
-  - "komatic5"
-  - "eyz"
+  - komatic5
+  - eyz
 draft: false
 ---
 

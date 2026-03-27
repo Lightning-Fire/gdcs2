@@ -1,14 +1,14 @@
 ---
-title: "Mechanics 5 (Limitations & Strategy)"
+title: Mechanics 5 (Limitations & Strategy)
 weight: 7050
 date: 2024-10-15T00:00:00.000Z
 authors:
-  - "illusion2"
+  - illusion2
 contributors:
-  - "illusion2"
-  - "psytrancegd"
-  - "everedeck"
-  - "themilkcat_tmc"
+  - illusion2
+  - psytrancegd
+  - everedeck
+  - themilkcat_tmc
 draft: false
 ---
 

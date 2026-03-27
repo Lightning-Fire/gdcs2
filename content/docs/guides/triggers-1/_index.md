@@ -1,5 +1,5 @@
 ---
-title: "Basic Triggers"
+title: Basic Triggers
 description: ""
 summary: ""
 draft: false

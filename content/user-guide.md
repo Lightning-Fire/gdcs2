@@ -1,12 +1,12 @@
 ---
-title: "User Guide"
+title: User Guide
 description: ""
 summary: ""
 draft: false
 toc: false
-type: "hub"
+type: hub
 seo:
-  title: "All Guides"
+  title: All Guides
   description: ""
   canonical: ""
   noindex: false

@@ -1,12 +1,12 @@
 ---
-title: "Detail Objects"
+title: Detail Objects
 weight: 5030
 date: 2024-01-14T00:00:00.000Z
 authors:
-  - "aquarware"
+  - aquarware
 contributors:
-  - "aquarware"
-  - "komatic5"
+  - aquarware
+  - komatic5
 draft: false
 ---
 

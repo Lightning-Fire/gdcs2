@@ -1,12 +1,12 @@
 ---
-title: "GP Options & Player Control"
+title: GP Options & Player Control
 weight: 3320
 date: 2024-01-25T00:00:00.000Z
 authors:
-  - "eyz"
+  - eyz
 contributors:
-  - "eyz"
-  - "komatic5"
+  - eyz
+  - komatic5
 draft: false
 ---
 

@@ -1,12 +1,12 @@
 ---
-title: "Mechanics 3 (Feedback)"
+title: Mechanics 3 (Feedback)
 weight: 7030
 date: 2025-03-01T00:00:00.000Z
 authors:
-  - "illusion2"
+  - illusion2
 contributors:
-  - "illusion2"
-  - "sparktwee"
+  - illusion2
+  - sparktwee
 draft: false
 ---
 

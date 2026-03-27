@@ -1,12 +1,12 @@
 ---
-title: "Screen Filters"
+title: Screen Filters
 weight: 3220
 date: 2024-03-11T00:00:00.000Z
 authors:
-  - "tdp9"
+  - tdp9
 contributors:
-  - "tv_box"
-  - "tdp9"
+  - tv_box
+  - tdp9
 draft: false
 ---
 

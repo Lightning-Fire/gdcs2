@@ -1,11 +1,11 @@
 ---
-title: "Writing Style"
+title: Writing Style
 weight: 600
 authors:
-  - "komatic5"
+  - komatic5
 contributors:
-  - "komatic5"
-  - "chuckolate"
+  - komatic5
+  - chuckolate
 draft: false
 ---
 

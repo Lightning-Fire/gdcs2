@@ -1,15 +1,15 @@
 ---
-title: "Start Pos & End"
+title: Start Pos & End
 weight: 3270
 date: 2024-03-11T00:00:00.000Z
 authors:
-  - "calibratorworks"
-  - "print6165"
+  - calibratorworks
+  - print6165
 contributors:
-  - "calibratorworks"
-  - "komatic5"
-  - "naem.less"
-  - "print6165"
+  - calibratorworks
+  - komatic5
+  - naem.less
+  - print6165
 draft: false
 ---
 

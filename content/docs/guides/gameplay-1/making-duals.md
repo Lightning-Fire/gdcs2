@@ -1,14 +1,14 @@
 ---
-title: "Making Duals"
+title: Making Duals
 weight: 4210
 date: 2024-10-14T00:00:00.000Z
 authors:
-  - "e.clypse"
-  - "naem.less"
+  - e.clypse
+  - naem.less
 contributors:
-  - "chuckolate"
-  - "e.clypse"
-  - "naem.less"
+  - chuckolate
+  - e.clypse
+  - naem.less
 draft: false
 ---
 

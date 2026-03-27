@@ -1,5 +1,5 @@
 ---
-title: "Guidelines"
+title: Guidelines
 description: ""
 summary: ""
 draft: false

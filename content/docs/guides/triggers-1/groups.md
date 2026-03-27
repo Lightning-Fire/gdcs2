@@ -1,12 +1,12 @@
 ---
-title: "Groups"
+title: Groups
 weight: 3040
 date: 2024-02-11T00:00:00.000Z
 authors:
-  - "tdp9"
+  - tdp9
 contributors:
-  - "madzz"
-  - "tdp9"
+  - madzz
+  - tdp9
 draft: false
 ---
 

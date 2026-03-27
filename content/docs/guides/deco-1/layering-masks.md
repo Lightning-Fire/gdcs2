@@ -1,12 +1,12 @@
 ---
-title: "Layering Masks"
+title: Layering Masks
 weight: 5150
 date: 2023-10-13T00:00:00.000Z
 authors:
-  - "unknown"
+  - unknown
 contributors:
-  - "thunderbat"
-  - "unknown"
+  - thunderbat
+  - unknown
 draft: false
 ---
 

@@ -1,12 +1,12 @@
 ---
-title: "Making Consistent Gameplay"
+title: Making Consistent Gameplay
 weight: 4150
 date: 2025-01-16T00:00:00.000Z
 authors:
-  - "e.clypse"
+  - e.clypse
 contributors:
-  - "e.clypse"
-  - "psytrancegd"
+  - e.clypse
+  - psytrancegd
 draft: false
 ---
 

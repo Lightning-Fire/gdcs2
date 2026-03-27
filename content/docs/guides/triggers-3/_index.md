@@ -1,5 +1,5 @@
 ---
-title: "Advanced Triggers"
+title: Advanced Triggers
 description: ""
 summary: ""
 draft: false

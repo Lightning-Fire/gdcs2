@@ -1,17 +1,17 @@
 ---
 draft: true
 authors:
-  - "furorem"
+  - furorem
 math: true
 date: 2024-09-30T00:00:00.000Z
-title: "Sorting Algorithms"
+title: Sorting Algorithms
 weight: 9110
 contributors:
-  - "furorem"
-  - "komatic5"
+  - furorem
+  - komatic5
 seo:
-  title: "Graph Theory and Pathfinding for Geometry Dash"
-  description: "Basics of graph theory and pathfinding algorithms for Geometry Dash"
+  title: Graph Theory and Pathfinding for Geometry Dash
+  description: Basics of graph theory and pathfinding algorithms for Geometry Dash
   canonical: ""
   noindex: false
 ---

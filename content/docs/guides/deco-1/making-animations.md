@@ -1,13 +1,13 @@
 ---
-title: "Making Animations"
+title: Making Animations
 weight: 5110
 date: 2023-08-05T00:00:00.000Z
 authors:
-  - "komatic5"
+  - komatic5
 contributors:
-  - "komatic5"
-  - "yoreid"
-  - "poryii"
+  - komatic5
+  - yoreid
+  - poryii
 draft: false
 ---
 

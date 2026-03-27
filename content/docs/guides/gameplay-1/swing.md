@@ -1,12 +1,12 @@
 ---
-title: "Swing"
+title: Swing
 weight: 4210
 date: 2024-10-31T00:00:00.000Z
 authors:
-  - "kriticsoul"
+  - kriticsoul
 contributors:
-  - "chuckolate"
-  - "kriticsoul"
+  - chuckolate
+  - kriticsoul
 draft: true
 ---
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}

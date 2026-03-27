@@ -1,12 +1,12 @@
 ---
-title: "Formatting"
+title: Formatting
 weight: 500
 authors:
-  - "komatic5"
-  - "chuckolate"
+  - komatic5
+  - chuckolate
 contributors:
-  - "komatic5"
-  - "chuckolate"
+  - komatic5
+  - chuckolate
 draft: false
 ---
 

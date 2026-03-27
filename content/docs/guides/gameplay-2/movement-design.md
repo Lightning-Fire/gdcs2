@@ -1,13 +1,13 @@
 ---
-title: "Movement Design"
+title: Movement Design
 weight: 7190
 date: 2024-11-30T00:00:00.000Z
 authors:
-  - "interestex"
+  - interestex
 contributors:
-  - "interestex"
-  - "illusion2"
-  - "psytrancegd"
+  - interestex
+  - illusion2
+  - psytrancegd
 draft: false
 ---
 

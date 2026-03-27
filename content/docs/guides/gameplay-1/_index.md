@@ -1,5 +1,5 @@
 ---
-title: "Basic Gameplay"
+title: Basic Gameplay
 description: ""
 summary: ""
 draft: false

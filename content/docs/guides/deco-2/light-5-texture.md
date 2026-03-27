@@ -1,12 +1,12 @@
 ---
-title: "Light 5 (Texture)"
+title: Light 5 (Texture)
 weight: 8100
 date: 2025-03-17T00:00:00.000Z
 authors:
-  - "skytriz"
+  - skytriz
 contributors:
-  - "komatic5"
-  - "skytriz"
+  - komatic5
+  - skytriz
 draft: false
 ---
 

@@ -1,12 +1,12 @@
 ---
-title: "Using Remap Properties"
+title: Using Remap Properties
 weight: 6040
 date: 2024-07-31T00:00:00.000Z
 authors:
-  - "theibra"
+  - theibra
 contributors:
-  - "komatic5"
-  - "theibra"
+  - komatic5
+  - theibra
 draft: false
 ---
 

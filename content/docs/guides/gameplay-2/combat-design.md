@@ -1,12 +1,12 @@
 ---
-title: "Combat Design"
+title: Combat Design
 weight: 7200
 date: 2024-09-06T00:00:00.000Z
 authors:
-  - "illusion2"
+  - illusion2
 contributors:
-  - "chuckolate"
-  - "illusion2"
+  - chuckolate
+  - illusion2
 draft: false
 ---
 

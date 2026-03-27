@@ -1,12 +1,12 @@
 ---
-title: "Advanced Hitboxes"
+title: Advanced Hitboxes
 weight: 4090
 date: 2023-11-01T00:00:00.000Z
 authors:
-  - "mateussdev"
+  - mateussdev
 contributors:
-  - "mateussdev"
-  - "notamoderatr"
+  - mateussdev
+  - notamoderatr
 draft: false
 ---
 

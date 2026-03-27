@@ -1,13 +1,13 @@
 ---
-title: "Spawn"
+title: Spawn
 weight: 3340
 date: 2023-03-14T00:00:00.000Z
 authors:
-  - "komatic5"
-  - "naem.less"
+  - komatic5
+  - naem.less
 contributors:
-  - "komatic5"
-  - "naem.less"
+  - komatic5
+  - naem.less
 draft: false
 ---
 

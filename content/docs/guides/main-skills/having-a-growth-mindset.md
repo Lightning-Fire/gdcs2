@@ -1,14 +1,14 @@
 ---
-title: "Having a Growth Mindset"
+title: Having a Growth Mindset
 weight: 2110
 date: 2023-03-09T00:00:00.000Z
 authors:
-  - "creeperiv"
-  - "leotorol"
+  - creeperiv
+  - leotorol
 contributors:
-  - "creeperiv"
-  - "leotorol"
-  - "sparktwee"
+  - creeperiv
+  - leotorol
+  - sparktwee
 draft: false
 ---
 

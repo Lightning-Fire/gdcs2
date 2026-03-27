@@ -1,12 +1,12 @@
 ---
-title: "Basic Sound Design"
+title: Basic Sound Design
 weight: 7140
 date: 2025-03-01T00:00:00.000Z
 authors:
-  - "electrifyxd"
+  - electrifyxd
 contributors:
-  - "electrifyxd"
-  - "notamoderatr"
+  - electrifyxd
+  - notamoderatr
 draft: false
 ---
 

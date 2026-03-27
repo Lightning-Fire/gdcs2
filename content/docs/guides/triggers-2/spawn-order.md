@@ -1,12 +1,12 @@
 ---
-title: "Spawn Order"
+title: Spawn Order
 weight: 6020
 date: 2024-04-18T00:00:00.000Z
 authors:
-  - "typexleta"
+  - typexleta
 contributors:
-  - "komatic5"
-  - "typexleta"
+  - komatic5
+  - typexleta
 draft: false
 ---
 

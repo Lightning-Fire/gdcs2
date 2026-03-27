@@ -1,12 +1,12 @@
 ---
-title: "Touch"
+title: Touch
 weight: 3360
 date: 2024-04-30T00:00:00.000Z
 authors:
-  - "theibra"
+  - theibra
 contributors:
-  - "theibra"
-  - "sparktwee"
+  - theibra
+  - sparktwee
 draft: false
 ---
 

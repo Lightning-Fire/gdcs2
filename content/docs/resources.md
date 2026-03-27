@@ -1,5 +1,5 @@
 ---
-title: "Resources"
+title: Resources
 description: ""
 summary: ""
 date: 2024-02-27T08:30:56.000Z

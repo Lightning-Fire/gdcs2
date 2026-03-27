@@ -1,12 +1,12 @@
 ---
-title: "Making a Draft"
+title: Making a Draft
 weight: 2030
 date: 2025-03-25T00:00:00.000Z
 authors:
-  - "komatic5"
+  - komatic5
 contributors:
-  - "komatic5"
-  - "sparktwee"
+  - komatic5
+  - sparktwee
 draft: false
 ---
 

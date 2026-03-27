@@ -1,12 +1,12 @@
 ---
-title: "Deco Styles"
+title: Deco Styles
 weight: 1110
 date: 2023-11-01T00:00:00.000Z
 authors:
-  - "komatic5"
+  - komatic5
 contributors:
-  - "kde"
-  - "komatic5"
+  - kde
+  - komatic5
 draft: true
 ---
 

@@ -1,13 +1,13 @@
 ---
-title: "Gradient"
+title: Gradient
 weight: 3200
 date: 2024-01-08T00:00:00.000Z
 authors:
-  - "themilkcat_tmc"
+  - themilkcat_tmc
 contributors:
-  - "madzz"
-  - "themilkcat_tmc"
-  - "iisventi"
+  - madzz
+  - themilkcat_tmc
+  - iisventi
 draft: false
 ---
 

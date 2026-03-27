@@ -1,14 +1,14 @@
 ---
-title: "Camera Triggers"
+title: Camera Triggers
 weight: 3290
 date: 2024-05-31T00:00:00.000Z
 authors:
-  - "zars70"
+  - zars70
 contributors:
-  - "etherail"
-  - "itsnub1x"
-  - "sparktwee"
-  - "zars70"
+  - etherail
+  - itsnub1x
+  - sparktwee
+  - zars70
 draft: false
 ---
 

@@ -1,18 +1,18 @@
 ---
-title: "Making Optimized Setups"
+title: Making Optimized Setups
 weight: 6150
 date: 2025-03-17T00:00:00.000Z
 authors:
-  - "theibra"
+  - theibra
 contributors:
-  - "chuckolate"
-  - "theibra"
-  - "themilkcat_tmc"
+  - chuckolate
+  - theibra
+  - themilkcat_tmc
 draft: false
 math: true
 seo:
-  title: "How to Optimize Geometry Dash Setups"
-  description: "Tips for optimizing Geometry Dash setups."
+  title: How to Optimize Geometry Dash Setups
+  description: Tips for optimizing Geometry Dash setups.
   canonical: ""
   noindex: false
 ---

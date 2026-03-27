@@ -1,5 +1,5 @@
 ---
-title: "Contributing"
+title: Contributing
 description: ""
 summary: ""
 date: 2023-09-07T14:12:03.000Z

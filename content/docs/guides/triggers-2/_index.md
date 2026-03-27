@@ -1,5 +1,5 @@
 ---
-title: "Intermediate Triggers"
+title: Intermediate Triggers
 description: ""
 summary: ""
 draft: false

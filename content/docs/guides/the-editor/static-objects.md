@@ -1,16 +1,16 @@
 ---
-title: "Static Objects"
+title: Static Objects
 weight: 1090
 date: 2024-02-11T00:00:00.000Z
 authors:
-  - "xplode09"
+  - xplode09
 contributors:
-  - "tv_box"
-  - "xplode09"
+  - tv_box
+  - xplode09
 draft: false
 seo:
-  title: "Every Type of Static Object in Geometry Dash"
-  description: "A short explanation of static objects, such as blocks, spikes, and slopes."
+  title: Every Type of Static Object in Geometry Dash
+  description: A short explanation of static objects, such as blocks, spikes, and slopes.
   canonical: ""
   noindex: false
 ---

@@ -1,12 +1,12 @@
 ---
-title: "Solving Problems"
+title: Solving Problems
 weight: 2050
 date: 2024-07-31T00:00:00.000Z
 authors:
-  - "komatic5"
+  - komatic5
 contributors:
-  - "komatic5"
-  - "sparktwee"
+  - komatic5
+  - sparktwee
 draft: false
 ---
 

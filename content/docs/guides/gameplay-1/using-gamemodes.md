@@ -1,12 +1,12 @@
 ---
-title: "Using Gamemodes"
+title: Using Gamemodes
 weight: 4010
 date: 2025-03-01T00:00:00.000Z
 authors:
-  - "illusion2"
+  - illusion2
 contributors:
-  - "komatic5"
-  - "illusion2"
+  - komatic5
+  - illusion2
 draft: false
 ---
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}

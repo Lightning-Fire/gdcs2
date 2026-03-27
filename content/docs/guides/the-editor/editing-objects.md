@@ -1,20 +1,20 @@
 ---
-title: "Editing Objects"
+title: Editing Objects
 weight: 1020
 date: 2024-02-25T00:00:00.000Z
 authors:
-  - "komatic5"
-  - "illusion2"
-  - "psytrancegd"
+  - komatic5
+  - illusion2
+  - psytrancegd
 contributors:
-  - "komatic5"
-  - "illusion2"
-  - "psytrancegd"
-  - "sparktwee"
+  - komatic5
+  - illusion2
+  - psytrancegd
+  - sparktwee
 draft: false
 seo:
   title: "Geometry Dash: Editing Objects"
-  description: "Part 2 of how to use Geometry Dash's level editor, going over Z layer and Z Order, tilesets, groups, the Extra tabs, and Edit Object."
+  description: Part 2 of how to use Geometry Dash's level editor, going over Z layer and Z Order, tilesets, groups, the Extra tabs, and Edit Object.
   canonical: ""
   noindex: false
 ---
