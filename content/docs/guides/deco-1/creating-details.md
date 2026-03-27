@@ -163,7 +163,10 @@ As you gain skill and advance through the grades, you’ll be asked to do studie
 
 Learning to make certain types of details, like shapes and colors, requires you to learn many separate deco skills. As such, there are multiple guides you should read to learn these skills.
 
-- 
+- **Choosing Object Types:** See the [Detail Objects](/docs/guides/deco-1/detail-objects/) guide to learn what sorts of objects exist and how you can use their natural shapes in your deco.
+- **Making Custom Shapes:** This is coming soon.
+- **Filling Objects with Color:** See the [Fill 1](/docs/guides/deco-1/fill-1/) guide to learn how to fill objects with solid colors, and the [Fill 2](/docs/guides/deco-1/fill-2/) guide to learn how to use glow and gradients.
+- **Polishing:** See the [Polishing](/docs/guides/deco-1/polishing/) guide to learn how to avoid making messy, low-quality details.
 
 **Video:**
 
