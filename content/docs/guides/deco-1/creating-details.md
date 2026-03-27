@@ -53,6 +53,12 @@ Since details are features of objects, it helps to go through some features obje
   {{< img src="https://lh3.googleusercontent.com/d/1MxJpsvB_w1z7uhO36l2kQUG2iXJ8p0ds" >}}
 - **Texture:** This is a combination of both shape and color. Textures add a lot of small shapes with varied colors to objects, which makes them look more detailed.
 
+  Because textures are basically just "applied shapes + colors", they often aren't as needed as these other detail types. The choice to use textures or not is typically a stylistic one as a result.
+
+  Below is a metal texture I made many years ago. You can see the individual shapes if you look closely, but the main goal is for the shapes to blend together. The *effect* of seeing shiny metal is there, while most of the shapes are low opacity gradients so they blend together more.
+
+  {{< img src="https://lh3.googleusercontent.com/d/1GMfNVqsAqi7yi_mIZMMWk1XcUO9g2r3v" >}}
+
 ## Less Is More
 
 A common assumption in the GD community is that more detail is unequivocally better than less. This is not true. Adding details is a balancing act, so the more details you add, the more factors you must juggle to make your level look good.
