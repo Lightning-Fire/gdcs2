@@ -27,19 +27,26 @@
 					</ol>
 				</nav>
 			{{ end }}
-
+			<div style="margin-bottom: -1rem; padding-top: 1rem;">
+			{{ if site.Params.doks.editPage -}}
+					{{ partial "main/edit-page.html" . }}
+				{{ end -}}
+			</div>
 
 			<h1>{{ partial "main/title.html" .Title }}</h1>
 
-			{{ partial "main/credits-section.html" . }}
+			{{- "** **" | .Page.RenderString -}}
 
-			<div class="page-footer-meta d-flex flex-column flex-md-row justify-content-between">
-				{{ if site.Params.doks.lastMod -}}
-					{{ partial "main/last-modified.html" . }}
-				{{ end -}}
-				{{ if site.Params.doks.editPage -}}
-					{{ partial "main/edit-page.html" . }}
-				{{ end -}}
+			<div class="d-flex flex-column flex-md-row justify-content-between" style="margin-bottom: -1.2rem;">
+
+				<div>
+					{{ partial "main/credits-section.html" . }}
+				</div>
+
+				<div>
+					{{ partial "main/reading-time.html" . }}
+				</div>
+
 			</div>
 
 			<!-- <p class="lead">{{ .Params.lead | safeHTML }}</p> -->
@@ -48,9 +55,6 @@
 				{{ partial "sidebar/docs-toc-mobile.html" . }}
 			</nav>
 			{{ end -}}
-
-
-      {{ partial "main/reading-time.html" . }}
 
 
 			{{ if site.Params.doks.headlineHash -}}
@@ -64,6 +68,12 @@
 				localStorage.setItem(id, "1");
 			</script>
 
+			<div class="page-footer-meta d-flex flex-column flex-md-row justify-content-between" style="padding-top: 2rem; margin-bottom: 2rem;">
+				{{ if site.Params.doks.lastMod -}}
+					{{ partial "main/last-modified.html" . }}
+				{{ end -}}
+			</div>
+
 			{{ partial "main/docs-navigation.html" . }}
 			<!--
 			{{ if not .Site.Params.options.collapsibleSidebar -}}
@@ -72,6 +82,8 @@
 				<div class="my-n3"></div>
 			{{ end -}}
 			-->
+
+
 		</main>
 		{{ if and (eq site.Params.doks.containerBreakpoint "fluid") (in .Site.Params.mainSections .Type) }}
 			</div>

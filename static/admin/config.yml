@@ -66,16 +66,7 @@ collections:
   - { name: triggers-3, label: Advanced Triggers, folder: "content/docs/guides/triggers-3", preview_path: "docs/guides/triggers-3/{{filename}}", <<: *guide_base }
 
   # contributing guides
-  - name: contributing
-    label: Contributing
-    label_singular: Guide
-    folder: "content/contributing"
-    slug: "{{slug}}"
-    preview_path: "contributing/{{dirname}}/{{filename}}"
-    sortable_fields: []
-    summary: "[Draft: {{ draft }}] - {{ title }}"
-    nested:
-      depth: 5
-      subfolders: false
-    fields: *page_fields
-    create: true
+  - { name: getting-started, label: Getting Started, folder: "content/contributing/getting-started", preview_path: "contributing/getting-started/{{filename}}", <<: *guide_base }
+  - { name: guidelines, label: Guidelines, folder: "content/contributing/guidelines", preview_path: "contributing/guidelines/{{filename}}", <<: *guide_base }
+  - { name: extra, label: Extra, folder: "content/contributing/extra", preview_path: "contributing/extra/{{filename}}", <<: *guide_base }
+

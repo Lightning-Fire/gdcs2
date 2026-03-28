@@ -1,26 +1,28 @@
-{{- "** **" | .Page.RenderString -}}
+<span class="icon icon-tabler icon-tabler-user-edit" title="{{ i18n "reading_time" }}">{{/* trim subsequent whitespace */ -}}
+  <svg xmlns="http://www.w3.org/2000/svg" style="vertical-align: -0.4rem; margin-bottom: 0.0rem;" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+    <path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0"></path>
+    <path d="M12 7v5l3 3"></path>
+  </svg>
 
-{{- $icon := resources.Get "images/GDEmotes/Icons/Clock.png" -}}
-  {{ with $icon }}
-    <img src="{{ .RelPermalink }}" class="emote">
+  {{ $speed1 := 200 }} {{ $min1 := div .WordCount $speed1 }}
+  {{ $speed2 := 150 }} {{ $min2 := div .WordCount $speed2 | math.Max (add $min1 1) }}
+  {{ $meanMinutes := div (add $min1 $min2) 2 }}
+
+  {{ $label := "" }}
+
+  {{ if lt $meanMinutes 4 }}
+    {{ $label = "Tiny" }}
+  {{ else if lt $meanMinutes  10 }}
+    {{ $label = "Short" }}
+  {{ else if lt $meanMinutes 20 }}
+    {{ $label = "Medium" }}
+  {{ else if lt $meanMinutes 40 }}
+    {{ $label = "Long" }}
+  {{ else }}
+    {{ $label = "XL" }}
   {{ end }}
 
-{{ $speed1 := 200 }} {{ $min1 := div .WordCount $speed1 }}
-{{ $speed2 := 150 }} {{ $min2 := div .WordCount $speed2 | math.Max (add $min1 1) }}
-{{ $meanMinutes := div (add $min1 $min2) 2 }}
+  {{ $label }} ({{ $min1 }}-{{ $min2 }} minutes)
 
-{{ $label := "" }}
-
-{{ if lt $meanMinutes 4 }}
-  {{ $label = "Tiny" }}
-{{ else if lt $meanMinutes  10 }}
-  {{ $label = "Short" }}
-{{ else if lt $meanMinutes 20 }}
-  {{ $label = "Medium" }}
-{{ else if lt $meanMinutes 40 }}
-  {{ $label = "Long" }}
-{{ else }}
-  {{ $label = "XL" }}
-{{ end }}
-
-<strong>{{ $label }}</strong> ({{ $min1 }}-{{ $min2 }} minutes)
+</span>
