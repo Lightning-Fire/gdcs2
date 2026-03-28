@@ -16,15 +16,17 @@ contributors:
 
 {{< /callout >}}
 
-** **
+- - -
 
 Constructing reflections is an important part of understanding light. Reflections might seem like a minor step in the creative process, but, in the end, they play a crucial role in bringing any piece together and making it feel immersive.
 
 # 1: How do Reflections Work?
-## Angle of Incidence
-At its core, a **reflection** is just __light (photons) bouncing off surfaces__. However, how we perceive these reflections depends on our line of sight. Reflective surfaces reflect what’s in their environment, so if you’re looking at a reflective material from a different part of the environment, what you see will change. Why is this?
 
-Essentially, the angle at which the line of sight intersects a surface is called the __angle of incidence__, and it can be used to find out where a reflection occurs on a surface. The angle of incidence works the same way as the angle of reflection.
+## Angle of Incidence
+
+At its core, a **reflection** is just **light (photons) bouncing off surfaces**. However, how we perceive these reflections depends on our line of sight. Reflective surfaces reflect what’s in their environment, so if you’re looking at a reflective material from a different part of the environment, what you see will change. Why is this?
+
+Essentially, the angle at which the line of sight intersects a surface is called the **angle of incidence**, and it can be used to find out where a reflection occurs on a surface. The angle of incidence works the same way as the angle of reflection.
 
 First, light comes in, hitting a surface. The angle at which the light hits the surface gets mirrored over an imaginary line known as the normal. Then, the reflected light bounces off the surface.
 
@@ -40,7 +42,7 @@ First, light comes in, hitting a surface. The angle at which the light hits the 
 
 ## Fresnel Effect
 
-The Fresnel effect can be described like this: the strength of the reflection is weakest where the line of sight is perpendicular to a surface; where the line of sight passes tangent to a surface, it is strongest.
+The __Fresnel effect__ can be described like this: the strength of the reflection is weakest where the line of sight is perpendicular to a surface; where the line of sight passes tangent to a surface, it is strongest.
 
 To understand why this effect occurs, let’s look at this shiny black car. This car’s surface may seem smooth, but it actually has many ripples and trenches at the microscopic level. This means that, when viewed directly (point A), light will scatter in all directions, causing the car to appear less shiny. However, when viewed from an angle (points B and C), these ripples will align, which causes more sight lines to bounce in the same direction. In turn, this makes the car seem shinier and more reflective from an angle.
 
@@ -50,15 +52,15 @@ To understand why this effect occurs, let’s look at this shiny black car. This
 
 ## Matte vs. Shiny Surfaces
 
-Matte surfaces, like the left image, typically do not have many sharp highlights and can be rendered with a lighter section tilted towards the light source, a transitional section, and a darker section tilted away from the light source, accompanied by a very faint line of bounce light.
+__Matte surfaces__, like the left image, typically do not have many sharp highlights and can be rendered with a lighter section tilted towards the light source, a transitional section, and a darker section tilted away from the light source, accompanied by a very faint line of bounce light.
 
-Shiny surfaces, on the other hand, have more concentrated highlights. We can see that, in the right image, there’s a concentrated highlight where the light is strongest (at the top left) and a slightly less faint line of bounce light on the bottom right of the ball.
+__Shiny surfaces__, on the other hand, have more concentrated highlights. We can see that, in the right image, there’s a concentrated highlight where the light is strongest (at the top left) and a slightly less faint line of bounce light on the bottom right of the ball.
 
 {{< img src="https://lh3.googleusercontent.com/d/1BteK_NuaonxcYCA6ao9_KO_6gKIOE35Y" >}}
 
 ## Reflective Surfaces
 
-If a surface is reflective, it no longer depends on the light source itself; it depends on the angle of incidence combined with the varying strength of reflection from the surrounding environment.
+If a surface is **reflective**, it no longer depends on the light source itself; it depends on the __angle of incidence__ combined with the __varying strength of reflection__ from the surrounding environment.
 
 Additionally, reflections are the reverse of matte surfaces; they are more reflective where the line of sight is perpendicular. When the line of sight is tangent to a reflective surface, the surface will begin to take on the color and value of its surroundings rather than reflect it into the environment.
 
@@ -68,11 +70,11 @@ In this example, you’ll notice these chrome parts begin to take on the color g
 
 ## Convex vs. Concave
 
-In simple terms, concave surfaces will stretch a reflection, while convex surfaces will compress a reflection.
+In simple terms, **concave** surfaces will **stretch** a reflection, while **convex** surfaces will **compress** a reflection.
 
 As an example, we can look at the inside and outside of a spoon. The inside, or the concave, part of the spoon compresses the man’s reflection, while the outside, or the convex, part stretches it around the curvature of the spoon.
 
-Note that the reflection is upside-down in the concave reflection because of the focal point, which is the point that all rays of light converge to. Because the spoon is so small, you will never be able to get close enough to be between the focal point and the spoon, so the light rays cross over each other and create an image of the reflection that is flipped vertically.
+Note that the reflection is upside-down in the concave reflection because of the __focal point__, which is the point that all rays of light converge to. Because the spoon is so small, you will never be able to get close enough to be between the focal point and the spoon, so the light rays cross over each other and create an image of the reflection that is flipped vertically.
 
 {{< img src="https://lh3.googleusercontent.com/d/145JaWaeeEb1vpbAy9ABpX7hVAxamLSpy" >}}
 
@@ -92,7 +94,7 @@ Definite reflections aren’t always needed in GD levels, but they do help make 
 
 ## How Creators Use Reflections
 
-First, let’s take a look at Subpixel’s part in “Eta Carnis”. Notice how the water has a reflection; this is called reflection flipping. Essentially, when sight lines bounce off a shiny surface, they will reflect into the surrounding environment, so the reflections will be the same, just inverted.
+First, let’s take a look at Subpixel’s part in “Eta Carnis”. Notice how the water has a reflection; this is called __reflection flipping__. Essentially, when sight lines bounce off a shiny surface, they will reflect into the surrounding environment, so the reflections will be the same, just inverted.
 
 {{< img src="https://lh3.googleusercontent.com/d/1EXuOIdc0JXlgqxDNrERqw8qcdtv8DR5H" >}}
 
@@ -100,7 +102,7 @@ These crystals from “Stronghold” by Debihan have highlights that are much mo
 
 {{< img src="https://lh3.googleusercontent.com/d/1rNCfqAoHfqyMB3ApjQf89YntNIxqIdRn" >}}
 
-This sphere from “boogie” by connot doesn’t seem to be reflective, but it can be treated as an example for how reflective convex surfaces can be made in Geometry Dash. You’ll notice that the face follows the curvature of this sphere on both axes, made using the “Bulge” shader. 
+This sphere from “boogie” by connot doesn’t seem to be reflective, but it can be treated as an example for how reflective convex surfaces can be made in Geometry Dash. You’ll notice that the face follows the curvature of this sphere on both axes, made using the **“Bulge”** shader. 
 
 {{< img src="https://lh3.googleusercontent.com/d/1EZWY9RzknanSW6ZjVsL2KedmeARGh73L" >}}
 
@@ -110,8 +112,7 @@ Now, reflections in Geometry Dash are usually pretty simple, like the ones above
 
 {{< img src="https://lh3.googleusercontent.com/d/1WnHrX-TiR-yoL9nEX_Y5-iyr9DpTEt6t" >}}
 
-
 # Sources
 
-- Scott Robertson: How to Render, Chapter 7
-
+* Scott Robertson: How to Render, Chapter 7
+* [Tips for Reflective Surfaces](https://youtu.be/el6r1S1YZFg?si=r5_cantpOChG4PVG)
