@@ -1,0 +1,70 @@
+name: Test Pull Request
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  test-build:
+    runs-on: ubuntu-latest
+    env:
+      DART_SASS_VERSION: 1.98.0
+      GO_VERSION: 1.26.1
+      HUGO_VERSION: 0.147.8
+      NODE_VERSION: 24.14.0
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+        with:
+          submodules: recursive
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: 'npm'
+
+      - name: Install Node.js dependencies
+        run: |
+          [[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true
+
+      - name: Cache restore Hugo
+        id: cache-restore
+        uses: actions/cache/restore@v5
+        with:
+          path: ${{ runner.temp }}/hugo_cache
+          # Intentará buscar la caché del mismo PR, o la de la rama main
+          key: hugo-pr-${{ github.ref }}-${{ hashFiles('**/package-lock.json', '**/config/**') }}
+          restore-keys: |
+            hugo-pr-${{ github.ref }}-
+            hugo-main-
+            hugo-
+
+      - name: Install Dart Sass & Hugo
+        run: |
+          mkdir -p "${HOME}/.local"
+          # Sass
+          curl -sLJO "https://github.com/sass/dart-sass/releases/download/${DART_SASS_VERSION}/dart-sass-${DART_SASS_VERSION}-linux-x64.tar.gz"
+          tar -C "${HOME}/.local" -xf "dart-sass-${DART_SASS_VERSION}-linux-x64.tar.gz"
+          echo "${HOME}/.local/dart-sass" >> "${GITHUB_PATH}"
+          # Hugo
+          curl -sLJO "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.tar.gz"
+          mkdir -p "${HOME}/.local/hugo"
+          tar -C "${HOME}/.local/hugo" -xf "hugo_extended_${HUGO_VERSION}_linux-amd64.tar.gz"
+          echo "${HOME}/.local/hugo" >> "${GITHUB_PATH}"
+
+      - name: Test Build
+        run: |
+          npm run predev
+          hugo --gc --minify --cacheDir "${{ runner.temp }}/hugo_cache"
+          node scripts/copy-css.js
+
+      - name: Cache save
+        id: cache-save
+        if: success() && steps.cache-restore.outputs.cache-hit != 'true'
+        uses: actions/cache/save@v5
+        with:
+          path: ${{ runner.temp }}/hugo_cache
+          key: hugo-pr-${{ github.ref }}-${{ hashFiles('**/package-lock.json', '**/config/**') }}
