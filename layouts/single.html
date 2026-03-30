@@ -37,7 +37,7 @@
 
 			{{- "** **" | .Page.RenderString -}}
 
-			<div class="d-flex flex-column flex-md-row justify-content-between" style="margin-bottom: -1.2rem;">
+			<div class="d-flex flex-column flex-md-row justify-content-between" style="margin-bottom: 0.5rem;">
 
 				<div>
 					{{ partial "main/credits-section.html" . }}
@@ -48,6 +48,10 @@
 				</div>
 
 			</div>
+
+			{{ with .Description }}
+				<div style="margin-bottom: -0.5rem;">{{ . | markdownify}}</div>
+			{{ end }}
 
 			<!-- <p class="lead">{{ .Params.lead | safeHTML }}</p> -->
 			{{ if ne .Params.toc false -}}

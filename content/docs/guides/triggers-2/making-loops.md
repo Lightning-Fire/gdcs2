@@ -2,6 +2,7 @@
 title: Making Loops
 weight: 6070
 date: 2024-11-30T00:00:00.000Z
+description: Loops are an easy way to repeatedly activate triggers. Not only can they prevent copying and pasting the same triggers multiple times, but they can often spawn these triggers with more accuracy than if you just place them down by hand. Some loops have other special properties that make them useful outside of looping. There are multiple ways to create a loop, each having pros and cons to using them. It’s important to familiarize yourself with each of them, as each loop is useful for a different situation.
 authors:
   - tdp9
 contributors:
@@ -18,6 +19,7 @@ draft: false
 {{< /callout >}}
 
 ** **
+
 # 1: Spawn Loop
 A spawn loop is the most well-known and common loop. It uses a sequence of spawn triggers that activate other spawn triggers.
 

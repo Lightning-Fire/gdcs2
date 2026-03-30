@@ -2,6 +2,7 @@
 title: Blending Masks
 weight: 5160
 date: 2023-10-13T00:00:00.000Z
+description: Color blending (also known as additive blending) is a way of combining colors together. A versatile tool and an integral part of creating, it has many uses in the editor. In this guide, we'll explore how blending can be used to make a variety of powerful masks.
 authors:
   - unknown
 contributors:

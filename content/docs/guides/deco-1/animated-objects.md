@@ -30,7 +30,7 @@ To change the speed of the animation, move the slider to the right to make it fa
 
 {{< img src="https://lh3.googleusercontent.com/d/1syqGAnPMdf9qtSRrYMMz9cGNMDtW0eRp" >}}
 
-{{< youtube bCEpMSTUWy0 >}} 
+{{< youtube bCEpMSTUWy0 >}}
 ## Disable Delayed Loop
 Some objects are delayed before looping; this option removes that delay. Many objects which disappear for a while before looping have this option.
 
@@ -53,7 +53,7 @@ Animate On Trigger disables the animation on the object. It will only activate w
 
 Only If Active only enables animations on objects that are on-screen when the Animate Trigger activates them.
 
-{{< youtube esqQRUkUarM >}} 
+{{< youtube esqQRUkUarM >}}
 Finally, the monster animated objects at the start of the tab can be controlled using an Animate Trigger. These have special animation IDs, which are described in more depth [here](/docs/guides/triggers-1/animate/).
 
-{{< youtube aXbKUHydcZg >}} 
+{{< youtube aXbKUHydcZg >}}

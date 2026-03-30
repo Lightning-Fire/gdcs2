@@ -2,6 +2,7 @@
 title: Light 3 (Value)
 weight: 8080
 date: 2023-12-15T00:00:00.000Z
+description: After a bit of introduction to the mechanics of light and other principles along with it, another thing we can look at is the concept of value. This concept of value is what fundamentally carries the entire lighting process. In this guide we will look at what exactly value is, what the structures surrounding it are, how to tell the range, and how to assign values to lit forms.
 authors:
   - lifecheck
 contributors:

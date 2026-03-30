@@ -2,6 +2,7 @@
 title: Binary Stacking
 weight: 3470
 date: 2023-08-14T00:00:00.000Z
+description: Sometimes you’ll run into situations where stacking individual triggers isn’t efficient, for one reason or another. In these sorts of situations, Binary Stacking may help you to save time, groups, or both. It’s a trigger technique which requires some pre-planning, but can decrease the amount of groups used, and improve game performance.
 authors:
   - komatic5
 contributors:
@@ -22,7 +23,7 @@ draft: true
 ** **
 # 0: What is Binary?
 
-Binary is a numeral system that is __composed of just 1s and 0s__, unlike the more commonly used decimal system which is __based on powers of 10__. Counting in **decimal** looks like this: 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10. Counting in **binary** looks like this: 0, 1, 10, 11, 101, and so on.
+Before we dive into the material, let's first understand what Binary is. Binary is a numeral system that is __composed of just 1s and 0s__, unlike the more commonly used decimal system which is __based on powers of 10__. Counting in **decimal** looks like this: 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10. Counting in **binary** looks like this: 0, 1, 10, 11, 101, and so on.
 
 ## Numbers in Binary
 The 1s and 0s in binary are called binary digits, also known as **bits**. Each bit represents a power of 2, starting with 2⁰, and can increase in value indefinitely.
@@ -50,7 +51,7 @@ For example, take 22 again, but this time convert it back into a binary number.
 {{< img src="https://lh3.googleusercontent.com/d/1QJGhpapr9Y2r2-RnSa_CAjoBp_IGrtCf" >}}
 
 This is only a brief explanation. If you are still confused about how to convert from decimal to binary, https://discord.com/channels/414295025883545600/1085291975663689809 explains this in more detail. **This video may help too**. (You will only need to know how to use the subtraction method for this lesson.)
-{{< youtube rsxT4FfRBaM >}} 
+{{< youtube rsxT4FfRBaM >}}
 # 1: Move Logic
 
 This stacking method works on Move, Follow, Rotate, and HSV Pulse triggers (triggers that can **transform objects**). When these triggers stack, __their effects combine to make one singular effect__. What this means is that you can get *significantly* more efficient stacks without using nearly as many groups.

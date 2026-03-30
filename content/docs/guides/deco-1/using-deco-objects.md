@@ -2,6 +2,7 @@
 title: Using Deco Objects
 weight: 5010
 date: 2024-04-28T00:00:00.000Z
+description: Objects are the key to all decoration, but learning the fundamental skills for using them can be tricky. This guide explains the basic editor skills you must apply to use objects well in your deco.
 authors:
   - komatic5
 contributors:
@@ -66,11 +67,11 @@ There are many ways to create polygons, which all come from how you can view the
 
 To this extent, if a polygon isn’t already in the editor, you could make it using triangles, rectangles, and other simpler polygons:
 
-{{< youtube ReCVKZBeU70 >}} 
+{{< youtube ReCVKZBeU70 >}}
 
 Alternatively, you could place down a set of points and connect them using lines or glow, which is better for outlining shapes:
 
-{{< youtube 5EyV-rse2ZI >}} 
+{{< youtube 5EyV-rse2ZI >}}
 In either case, you’ll be able to make your complex polygons very quickly with a bit of practice.
 
 > Pro tip: Try to remove any visual bugs you encounter. For example, fill in the corners of your shapes so they don’t look amateurish. You can find these corner pieces in the second tab, along with the other outline objects. (Image of the corner objects on some block outlines)
@@ -83,21 +84,21 @@ Custom curves are really just a collection of lines or rectangles stacked next t
 
 For example, you could make a circle by rotating lines around a center point. Be aware of where each object’s rotation center is, as it’ll make certain objects harder to make custom circles with:
 
-{{< youtube UKgBJ4utA5Q >}} 
+{{< youtube UKgBJ4utA5Q >}}
 Or, you could make a parabolic curve by combining a bunch of straight lines:
 
-{{< youtube PCYK6TDL9ps >}} 
+{{< youtube PCYK6TDL9ps >}}
 Using 2.2’s new warping features, you can stretch out the pre-made curves to make larger circles more efficiently:
 
-{{< youtube ICk0Th3UEmg >}} 
+{{< youtube ICk0Th3UEmg >}}
 And finally, you could freehand your curves if you’re patient and want a lot of control:
 
-{{< youtube NQaPbyNjN0A >}} 
+{{< youtube NQaPbyNjN0A >}}
 Once again, practice makes perfect here. This is especially true of the last two methods, as they can be quite time-consuming.
 
 As a final thing, you can also combine curves to create custom ones with more complexity. Feel free to mix and match different parts of curves as you wish, or to scale, warp, and transform them as necessary:
 
-{{< youtube IZPYCrbjKw0 >}} 
+{{< youtube IZPYCrbjKw0 >}}
 ## Combining Geometric & Organic Shapes
 
 You don’t need your shapes to be entirely geometric or entirely organic. Combining the two together can make your decoration far more interesting. You’ll learn a lot more about how this works in future guides, but for now take these examples as inspiration - try to dissect them and see how their shapes work for yourself.
@@ -116,7 +117,7 @@ In Geometry Dash, object colors are the same. As you can expect, you start by di
 
 I recommend you learn to choose colors by hand instead of strictly using hex codes or HSV numbers; specific numerical colors will not help you learn as much as eyeballing things and getting a good feel for what works.
 
-{{< youtube KuHNWtOekvw >}} 
+{{< youtube KuHNWtOekvw >}}
 # 4: Layering Objects & Texturing
 
 This is the most complex section of the guide for a reason. Once you add Z layers and the ability to stack objects, decoration becomes far more convoluted to learn, and I do not recommend practicing this without a solid grasp on the prior skills.
@@ -165,6 +166,6 @@ You can also combine opacity with blending, of course. This makes your blending 
 
 Finally, note that you can use low opacity copies of objects to create blurred shapes, which is quite time-efficient.
 
-{{< youtube UoXnI6ni1ww >}} 
+{{< youtube UoXnI6ni1ww >}}
 **Video:** [How To DECORATE in Geometry Dash!](https://youtu.be/3ofZI82lKQ8 >}} si=a5bXL1ilq24c9C_N)
 

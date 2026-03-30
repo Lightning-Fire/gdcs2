@@ -2,6 +2,7 @@
 title: Advanced Movements (2.1)
 weight: 6210
 date: 2024-04-19T00:00:00.000Z
+description: Movements are an intuitive application of triggers, but more often than not, you’ll only find yourself scratching the surface of how you can use them as you create. This guide will explain some interesting and useful trigger setups that use movements in different ways.
 authors:
   - komatic5
 contributors:
@@ -55,7 +56,7 @@ This method costs two groups to [produce](https://cdn.discordapp.com/attachments
 
 This method lets you rotate vectors by using Rotate triggers. It is not useful for conventional uses, but it does allow you to translate a player’s Y-axis movement into horizontal movement on the X axis. This only costs 5 groups and leads to some interesting gameplay gimmicks, like what I did here.
 
-{{< youtube 3csPWAJ7cRM >}} 
+{{< youtube 3csPWAJ7cRM >}}
 
 1. Set up your first movement. Then, set up a follow trigger that reflects this movement in the opposite direction – it should have X and Y mods of -1.
 2. Use two rotate triggers to target the same object (see the Stacking guide to understand how this works). Make their rotation values 60 and -60 degrees respectively, and make their easings identical to your first Move trigger’s. Your object will now move perpendicular to your original movement.

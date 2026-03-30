@@ -2,6 +2,7 @@
 title: Making Blocks
 weight: 5080
 date: 2023-03-18T00:00:00.000Z
+description: Block designs are usually a major roadblock for beginner creators, as you have to make *lots* of them and there's a lot to consider. This guide will help you simplify the block design process down to a few easy steps.
 authors:
   - komatic5
 contributors:
@@ -77,7 +78,7 @@ When making assets, I like to make a few different types depending on how I’ll
 
 Here are some assets from my Emerald Realm part . After making the assets, especially the rocks, most of my time just went into exploring ways to combine them in the structures so they could look unique without actually having to be super original. This helped me cut my creating time significantly.
 
-{{< youtube lRBiEWxifsk >}} 
+{{< youtube lRBiEWxifsk >}}
 
 {{< img src="https://lh3.googleusercontent.com/d/1HoVotmm-di7Jcsk_4Avjh1lo2MNEP42o" >}}
 

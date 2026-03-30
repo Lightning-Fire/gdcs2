@@ -2,6 +2,7 @@
 title: On Death
 weight: 3350
 date: 2023-03-14T00:00:00.000Z
+description: The On Death trigger is another condition trigger. It activates other triggers like the Spawn trigger, but only when the player dies. This guide will explain how to use it.
 authors:
   - komatic5
 contributors:
@@ -22,13 +23,13 @@ The On Death trigger works as both a toggle and spawn trigger. This is shared by
 
 When Activate Group is disabled, it’ll toggle all objects in its group off.
 
-{{< youtube A_AhFpt9sus >}} 
+{{< youtube A_AhFpt9sus >}}
 
 When Activate Group is enabled, it’ll toggle all objects on. Triggers in the group marked as “Spawn Triggered” will also be activated.
 
-{{< youtube 6demB1zEROQ >}} 
+{{< youtube 6demB1zEROQ >}}
 
 One thing to note is that an On Death trigger can be activated at any time, but its effects will only show up when the player dies. You don’t need to put one on every spike, or something like that.
 
-{{< youtube KNMTf4CIsFI >}} 
+{{< youtube KNMTf4CIsFI >}}
 

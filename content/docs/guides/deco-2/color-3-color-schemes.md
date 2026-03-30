@@ -2,6 +2,7 @@
 title: Color 3 (Color Schemes)
 weight: 8030
 date: 2023-11-30T00:00:00.000Z
+description: Colors play a very important role in managing the energy and mood of your work. In this lesson, we'll explore how to create energy in your decoration using contrast, and how to organize your colors using color schemes and gamut maps.
 authors:
   - skytriz
 contributors:

@@ -1,15 +1,16 @@
 ---
-draft: false
-authors:
-  - komatic5
 title: How to Decorate
 date: 2024-07-19T00:00:00.000Z
 weight: 5001
+description: Once you're familiar with the objects you use to decorate, and the types of details you can create with them, it's time to combine things to make entire levels filled with deco. This guide explains the process you should use to create deco parts, as well as the technical conventions people use to organize and classify their deco.
+authors:
+  - komatic5
 contributors:
   - galofuf
   - komatic5
   - notamoderatr
   - poryii
+draft: false
 seo:
   title: How To Decorate in Geometry Dash
   description: Are you struggling to decorate? This guide provides a full overview of everything you must know to get started.

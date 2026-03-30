@@ -2,6 +2,7 @@
 title: Using Remap Properties
 weight: 6040
 date: 2024-07-31T00:00:00.000Z
+description: Spawn Remapping is an incredibly useful 2.2 feature which lets you change which groups are targeted by a trigger setup, without having to copy-paste all of the triggers. However it also has many hidden properties which make it even more useful. This guide will explain those features and show some of their use cases.
 authors:
   - theibra
 contributors:

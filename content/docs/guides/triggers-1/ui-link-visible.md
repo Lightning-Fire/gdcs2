@@ -2,6 +2,7 @@
 title: UI & Link Visible
 weight: 3470
 date: 2024-01-21T00:00:00.000Z
+description: This guide explains how the UI and the Link Visible triggers work. The UI trigger helps you create a UI for your level and the Link Visible trigger forces objects to always render.
 authors:
   - delts1550
 contributors:

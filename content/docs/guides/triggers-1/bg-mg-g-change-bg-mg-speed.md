@@ -2,6 +2,7 @@
 title: BG/MG/G Change & BG/MG Speed
 weight: 3470
 date: 2024-01-21T00:00:00.000Z
+description: This guide explains how the BG/MG/G Change & BG/MG Speed triggers work. They're triggers that let you change your level's background, midground, and ground, the speed of your background or midground, and the position of the midground.
 authors:
   - eyz
 contributors:

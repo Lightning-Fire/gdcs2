@@ -2,6 +2,7 @@
 title: Color
 weight: 3020
 date: 2024-01-24T00:00:00.000Z
+description: The Color trigger changes the colors of objects. This guide explains how it works.
 authors:
   - komatic5
 contributors:
@@ -21,12 +22,12 @@ The main Color trigger UI is the same as a color channel’s one. You have the c
 
 The only additional feature is the "Default" button, which resets the color to the original one for that color channel.
 
-{{< youtube FXdh7bqOkdE >}} 
+{{< youtube FXdh7bqOkdE >}}
 
 Blending adds colors together, while P1 and P2 colors are the player colors.
 
-{{< youtube RwjVf8HNGw0 >}} 
+{{< youtube RwjVf8HNGw0 >}}
 
 The {{< img src="images/GDEmotes/Buttons/+2.png" class="emote">}} lets you target special color channels, like the background.
 
-{{< youtube WjK-kQcy0N0 >}} 
+{{< youtube WjK-kQcy0N0 >}}

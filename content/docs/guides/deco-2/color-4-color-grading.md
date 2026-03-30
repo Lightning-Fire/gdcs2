@@ -2,6 +2,7 @@
 title: Color 4 (Color Grading)
 weight: 8040
 date: 2024-08-15T00:00:00.000Z
+description: Picture your favorite film in nothing but black and white, devoid of any greens of a forest, the reds of a sunset, or the blues of a moonlit night. How different would the impact be? In this guide, we will look at what **color grading** is, and how you can use it to bump up your levels.
 authors:
   - galofuf
 contributors:
@@ -17,7 +18,7 @@ draft: false
 {{< /callout >}}
 
 ** **
-Picture your favorite film in nothing but black and white, devoid of any greens of a forest, the reds of a sunset, or the blues of a moonlit night. How different would the impact be? In this guide, we will look at what **color grading** is, and how you can use it to bump up your levels.
+
 
 ## Crucial Techniques You Should Note before Digging into Color Grading
 - **Color Balance** __focuses more on adjusting the intensity of colors__ to achieve a desired effect, or ensure that colors in the image appear natural and realistic. This is done by manually adjusting the Red, Green and Blue values, or by using Histograms and Curves. Histograms let you directly modify the tonal distribution of an image by adjusting sliders for highlights, midtones and shadows, while Curves let you adjust the alpha and lightness channel, often as a post-process filter to heighten the mood by adjusting the overall color, by moving parts of the curve.
@@ -57,7 +58,7 @@ While most color symbolism depends on things like culture (as evidenced by Black
 
 APEIROPHOBIA by Ph4lip focuses on a very ominous and threatening mood, using dark and dull colors to increase the level’s immersion.
 
-{{< youtube p-BUROO_-z0 >}} 
+{{< youtube p-BUROO_-z0 >}}
 
 ## Finding Your Color Palette
 The most effective way to do this is by creating the decoration using its normal colors, then altering them later to match the mood you want to convey, through trial and error. You can also browse reference images based on your theme, and examine the color palettes that they use, utilizing them when making your level.
@@ -66,9 +67,9 @@ The first part in Postbluane, created by Deovise, invokes a very calm, yet adven
 
 Anarchy Road by Komatic5 enhances the destruction of the city by using red tints to invoke a more violent feel.
 
-{{< youtube QHe2vLYCvSQ >}} 
+{{< youtube QHe2vLYCvSQ >}}
 
-{{< youtube kY_iLItMdWw >}} 
+{{< youtube kY_iLItMdWw >}}
 
 One way to learn how different colors work together is by altering the color palette of an existing artwork. In the following example, I will use mine.
 
@@ -96,7 +97,7 @@ Pulses are generally used to show intensity. However, when sticking to a theme, 
 
 An example of mine shows strong pulses that don’t necessarily disrupt the mood of the level. To stick to a cold atmosphere, I stuck with pulses around the blue range, to allow the cold mood to maintain itself throughout the level.
 
-{{< youtube Njg8nLXN4-M >}} 
+{{< youtube Njg8nLXN4-M >}}
 
 ## Tools of the Trade: Edit Color Trigger
 When you open the **Edit Color** shader trigger, you will be greeted with this menu.

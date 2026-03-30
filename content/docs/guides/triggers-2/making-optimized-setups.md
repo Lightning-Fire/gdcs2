@@ -2,6 +2,7 @@
 title: Making Optimized Setups
 weight: 6150
 date: 2025-03-17T00:00:00.000Z
+description: During the creating process, you will be met with various issues regarding the performance and effectiveness of your trigger setups. This guide seeks to help you better optimize and organize your triggers.
 authors:
   - theibra
 contributors:
@@ -26,7 +27,6 @@ seo:
 
 ** **
 
-During the creating process, you will be met with various issues regarding the performance and effectiveness of your trigger setups. This guide seeks to help you better optimize and organize your triggers.
 ## Why Optimize and Organize?
 **Optimizing** __is the practice of enhancing a system to run faster, be more accurate, or have little to no bugs__. On the other hand, **Organization** __is the practice of reordering the various elements of a system to enhance their readability__. These two practices are crucial to ensure a pleasant experience for both the creators and players.
 
@@ -121,7 +121,7 @@ This setup can calculate the value you need with all the precision you want, but
 
 You can notice the difference between both setups in the video below: the first solution gives the most accurate value, while the second gives the fastest answer.
 
-{{< youtube 5FIqgsJYeMw >}} 
+{{< youtube 5FIqgsJYeMw >}}
 
 Level ID: `115004354`.
 

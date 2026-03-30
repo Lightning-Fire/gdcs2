@@ -2,6 +2,7 @@
 title: Time, Time Event, & Time Control
 weight: 3460
 date: 2024-02-11T00:00:00.000Z
+description: This guide explains how the Time, Time Event, & Time Control triggers works. They let you create and control timers in-game.
 authors:
   - naem.less
 contributors:
@@ -18,6 +19,11 @@ draft: false
 {{< /callout >}}
 
 ** **
+
+Before 2.2, timers were made using spawn loops. This process has been made much simpler in 2.2 with the addition of the Time, Time Event and Time Control triggers, which are useful for Platformer levels.
+
+Note that for the following triggers to work, a counter label object is required (the 0 in the triggers tab). Click on Edit Special and enable Time Counter. Remember to specify an Item ID as well.
+
 # 1: Time
 
 The **Time** trigger {{< img src="images/GDEmotes/Triggers/Timer.png" class="emote">}} looks like a white clock and is used to turn an item ID into a timer as well as specify any additional settings.
@@ -31,7 +37,7 @@ The **Time** trigger {{< img src="images/GDEmotes/Triggers/Timer.png" class="emo
 - **Start Paused**: Makes the timer start off paused at the StartTime value until it’s re-triggered by another Time trigger or Time Control trigger.
 - **Don’t Override**: If 2 Time triggers target the same ID, the trigger activated second will override any settings the first one had. This option prevents the second trigger from overriding the first unless the timer is at 0, was stopped by a Time Control trigger, or has Start Paused enabled.
 
-{{< youtube gN_J7T2wc2I >}} 
+{{< youtube gN_J7T2wc2I >}}
 
 # 2: Time Event
 
@@ -42,7 +48,7 @@ The **Time Event** trigger looks like a cyan clock and spawns groups based on ce
 - **TargetTime**: The target time, specifying when to spawn the group.
 - **Multi Activate**: Allows the TargetID to spawn more than once if TargetTime is reached multiple times, like the “Multi Activate” feature in the Count trigger.
 
-{{< youtube zsE4T-U-wQA >}} 
+{{< youtube zsE4T-U-wQA >}}
 
 # 3: Time Control
 

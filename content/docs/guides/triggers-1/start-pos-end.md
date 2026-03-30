@@ -2,6 +2,7 @@
 title: Start Pos & End
 weight: 3270
 date: 2024-03-11T00:00:00.000Z
+description: This guide explains how the Start Pos & End triggers work. The Start Pos trigger lets you set a temporary starting point in a level, while the End trigger lets you choose where the level ends.
 authors:
   - calibratorworks
   - print6165
@@ -32,7 +33,7 @@ Now, these next few options may require some prior trigger knowledge:
 - **Reset Camera:** This option takes into account any previous camera effects that you may have added close to the Start Pos placement that are still in effect. Reset Camera will, as you guessed it, reset any offsets, rotations, or zooms, to make the Start Pos location less annoying to deal with when playtesting. I recommend reading the [camera triggers](/docs/guides/triggers-1/camera-triggers/) guide if you need help here.
 - **Target Order and Target Channel:** Target Order and Channel set the [target order and channels](/docs/guides/the-editor/using-channels/) for the start position. Triggers will only activate if they're on the right channel, and on Order, will be activated in the order that was set for them beforehand.
 
-{{< youtube By0xWHMS-mo >}} 
+{{< youtube By0xWHMS-mo >}}
 
 # 2: End Trigger
 
@@ -43,5 +44,5 @@ The **End** trigger sets where the level will end. By default, activating the tr
 - **No Effects:** Removes the visual effects at the end of the level.
 - **No SFX:** Removes level end sound effects.
 
-{{< youtube iANBfqCz7JA >}} 
+{{< youtube iANBfqCz7JA >}}
 

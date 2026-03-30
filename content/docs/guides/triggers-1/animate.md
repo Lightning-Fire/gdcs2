@@ -2,6 +2,7 @@
 title: Animate
 weight: 3190
 date: 2024-01-25T00:00:00.000Z
+description: If you have played the main levels up to Geometrical Dominator, or have explored the Orbs tab in the editor, you may have noticed the inclusion of animated creatures, known as monsters. These monsters normally will use their default animation, which can be controlled with the use of the Animate Trigger. In this guide we will go over how to use this trigger and its list of animations.
 authors:
   - naem.less
 contributors:
@@ -47,7 +48,7 @@ You can have multiple Animate triggers affect the same monster with different ID
 
 This video shows each animation at work.
 
-{{< youtube VAZNDsv-OIk >}} 
+{{< youtube VAZNDsv-OIk >}}
 
 ## Bat
 
@@ -63,7 +64,7 @@ This video shows each animation at work.
 
 This video shows each animation at work.
 
-{{< youtube Ht_IgX6Kl9g >}} 
+{{< youtube Ht_IgX6Kl9g >}}
 
 ## Spikeball
 
@@ -76,7 +77,7 @@ Just after the 2.2 Beta was made, which is the name given to an exploit in GD Wo
 
 This video shows each animation at work.
 
-{{< youtube sDERKoZ-OQM >}} 
+{{< youtube sDERKoZ-OQM >}}
 
 If you ever forget what each animation ID does, look in the help menu {{< img src="images/GDEmotes/Buttons/Info.png" class="emote">}} for the trigger as the IDs with their names are listed there.
 
@@ -93,4 +94,4 @@ All the other settings in the particle menu can be tweaked to what you desire. O
 
 Here is an example of the setup and final product, compared to a particle that isn't animated:
 
-{{< youtube dXoohYiYBXU >}} 
+{{< youtube dXoohYiYBXU >}}

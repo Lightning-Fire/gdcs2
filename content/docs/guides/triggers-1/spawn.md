@@ -2,6 +2,7 @@
 title: Spawn
 weight: 3340
 date: 2023-03-14T00:00:00.000Z
+description: The Spawn Trigger is a trigger that can activate other triggers. It’s the first of its kind and is important for the trigger workflow. This guide will explain how to use it.
 authors:
   - komatic5
   - naem.less
@@ -26,15 +27,15 @@ To understand why the Spawn trigger is important, we have to first discuss how t
 
 You may have also noticed that every trigger has a “Touch Triggered” checkbox somewhere in their setup menu. This makes triggers only activate when the player directly touches them.
 
-{{< youtube zPhhtrYQLA8 >}} 
+{{< youtube zPhhtrYQLA8 >}}
 
 To work with a spawn trigger, a trigger should first be marked as “Spawn Triggered”. It must also be added to a group so the Spawn knows which triggers to activate, and it must obviously be toggled on.
 
-{{< youtube jo1Xw5XtO9w >}} 
+{{< youtube jo1Xw5XtO9w >}}
 
 You can also make a trigger activate multiple times with the Multi Activate checkbox. This is what makes spawn triggers so useful.
 
-{{< youtube RUVsIgeyowg >}} 
+{{< youtube RUVsIgeyowg >}}
 
 # 2: Spawn Trigger
 
@@ -42,19 +43,19 @@ Spawn triggers have a few features that make them unique from other condition tr
 
 In 2.2, the Delay option lets you have 4 decimals after it for timings in the milliseconds, making it more precise. Variance was also added to the delay option; the +- slider adds or subtracts a random value between 0 and your delay variance, so having a delay of 3 with a slider of 2 means you can have 1-5 seconds of delay.
 
-{{< youtube caDW6mK8x0o >}} 
+{{< youtube caDW6mK8x0o >}}
 
 Additionally, the **Editor Disable** checkbox __disables spawn triggers when you’re not playtesting__ your level. They’ll still work if you playtest in the editor or in-game.
 
-{{< youtube c7y50CHgAr4 >}} 
+{{< youtube c7y50CHgAr4 >}}
 
 Spawn triggers activate triggers instantly from left to right. This is a feature known as Spawn Order, and it’ll be discussed more in a [later guide](/docs/guides/triggers-2/spawn-order/). Do not confuse this with “Spawn Ordered”.
 
-{{< youtube 4OggbYHQEvY >}} 
+{{< youtube 4OggbYHQEvY >}}
 
 The **Spawn Ordered** checkbox __lets you spawn triggers in order from left to right, with the same timing that they’d have if you passed them in classic mode at 1x speed__. This means triggers won’t activate instantly and the distance between them matters.
 
-{{< youtube mZG69G2X7Jo >}} 
+{{< youtube mZG69G2X7Jo >}}
 
 # 3: Spawn Remapping
 
@@ -78,7 +79,7 @@ Next you need to configure the spawn trigger setup.
 5. Head to the second page. In the “Origin Group ID” box, input the group you identified in Step 2. In “New Group ID”, input your group from Step 3. For me, these are Groups 1 and 3.
 6. Once you're done click the green + button to add the remap. And that’s it!
 
-{{< youtube 6VvZ1L0UQ8U >}} 
+{{< youtube 6VvZ1L0UQ8U >}}
 
 Spawn remapping may seem a bit complicated to understand, but once you can identify which groups should be remapped to others it becomes incredibly easy to use it properly.
 

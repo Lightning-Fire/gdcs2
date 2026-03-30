@@ -38,6 +38,6 @@ CMS.registerEditorComponent({
     if (start) {
       return `{{< youtube id="${id}" start="${start}" >}}`;
     }
-    return `{{< youtube "${id}" >}}`;
+    return `{{< youtube ${id} >}}`;
   },
 });

@@ -2,6 +2,7 @@
 title: Making Animations
 weight: 5110
 date: 2023-08-05T00:00:00.000Z
+description: Animations are often a complex and tedious part of creating levels, but there are many practices you can use to simplify this process for yourself. This guide explains the main types of animation you should consider when making a block move, adding a custom cutscene to your level, or anything similar.
 authors:
   - komatic5
 contributors:

@@ -2,6 +2,7 @@
 title: Parallax
 weight: 5180
 date: 2024-01-15T00:00:00.000Z
+description: This guide will explain the main properties you need to know to effectively make use of parallax in your GD levels.
 authors:
   - komatic5
 contributors:
@@ -38,14 +39,14 @@ __Your parallax is based around this **reference point**__. Objects further from
 
 If the reference point is infinitely far away, then it practically doubles as a vanishing point. Everything will move in the same direction, and something infinitely far away will appear to be stationary. This is the way things will appear when you’re moving in a perfectly straight line and looking to your side. Observe this the next time you’re in a car.
 
-{{< youtube SgmwyoRCHxM >}} 
+{{< youtube SgmwyoRCHxM >}}
 If the reference point is finitely far away, everything in front of it will move in one direction. Everything behind it will move in the other direction. This is the way things appear when you’re moving in a circle/curve around a specific point. For example, try spinning around in one place and you'll notice that things closer to you appear to move slower.
 
 https://tenor.com/view/attack-on-titan-the-final-season-part2ending-akuma-no-ko-a-child-of-evil-eren-yeager-attack-on-titan-gif-24626604
 
 Still Life by Empika places the reference point in the tower itself. The ground in front of the tower moves to the left while the ground behind the tower moves to the right.
 
-{{< youtube OpUG1Aim0wU >}} 
+{{< youtube OpUG1Aim0wU >}}
 # 3: Relative Motion
 
 The other concept you must know before we start is **relative motion**. This shows __how fast an object looks when it’s being viewed from another point.__ When you’re in a car, does the car move forward, or does the rest of the world move backwards? Parallax hinges on this because from your point of view as a creator and player, depth is merely an illusion.
@@ -64,8 +65,8 @@ In GD 2.2, you can use “Lock to Camera X” and “Lock to Camera Y” instead
 
 Sometimes you’ll see parallax where some of the moving objects just look out of place. This is due to how many layers there are. The more parallax layers you have, the more context you’ll give your parallax and the more natural it’ll look.
 
-{{< youtube G64lle9kIpQ >}} 
-{{< youtube KmP5h5rhkgo >}} 
+{{< youtube G64lle9kIpQ >}}
+{{< youtube KmP5h5rhkgo >}}
 Make sure your layers are CORRECT. When the camera moves in one direction, everything should move in the other direction. Objects closer to the camera than your reference point should move faster as well.
 
 When making objects that need additional movements besides their parallax layer’s movement, make sure those movements have context. If you have something like a train, then make sure the tracks and the layers around those tracks move correctly.
@@ -75,13 +76,13 @@ Similarly, if you have objects that are moving freely, have multiple of them on 
 
 1. Normal parallax: Exactly what you see most of the time.
 
-{{< youtube 8rTsIroAb8M >}} 
+{{< youtube 8rTsIroAb8M >}}
 2. Player slowing down: Add another set of follow triggers with X and Y mods which’ll stack with the normal parallax triggers. These values must add up to 1 so everything gets locked to the player position when the parallax is locked to Camera X and Y.
 
-{{< youtube LtayUqMxCZE >}} 
+{{< youtube LtayUqMxCZE >}}
 3. Rotating around a point: Think of this as being the same way that parallax looks when you’re in the editor. You can essentially take the normal parallax setup and move everything towards the right, so the layers behind the point move towards the right while the layers in front of it move towards the left. Make sure that you set a reference point for the parallax so that this can work properly; add a new follow trigger with X/Y mods that stack with the original so they add up to 1, then just add another follow trigger with X/Y mods of 1 to all other layers.
 
-{{< youtube sp4ttPeX-7A >}} 
+{{< youtube sp4ttPeX-7A >}}
 ## Setup
 
 1. Take an object which you’ll use as your reference point. In 2.1, lock it to Player X and use the Camera Simulation mechanism to lock it to Camera Y; in 2.2, lock it to Camera X and Y. Relative to the camera, this object will not move.

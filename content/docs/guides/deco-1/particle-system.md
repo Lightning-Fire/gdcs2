@@ -2,6 +2,7 @@
 title: Particle System
 weight: 5120
 date: 2023-11-01T00:00:00.000Z
+description: The particle system, while extremely powerful, can be daunting. This is especially due to the number of options, and values. However, with this guide and a little practice, you should be able to navigate the system with at least a little more confidence.
 authors:
   - komatic5
   - naem.less
@@ -31,7 +32,7 @@ These options let you control how particles spawn; how many will spawn, how ofte
 - **Lifetime:** How long the particles last.
 - **Emission:** Amount of particles spawned per duration.
 
-{{< youtube 4gUrjIcaz8g >}} 
+{{< youtube 4gUrjIcaz8g >}}
 ## Particle Movement
 These options let you control where particles spawn and how they move.
 
@@ -42,7 +43,7 @@ These options let you control where particles spawn and how they move.
 - **AccelRad:** Determines if the particles spread outwards from a center point (positive value), or spread inwards (negative value).
 - **AccelTan:** Determines if the particles turn in a counterclockwise (positive value) or clockwise direction (negative value).
 
-{{< youtube uspCPoGk5sI >}} 
+{{< youtube uspCPoGk5sI >}}
 # 2: Page 2
 
 ## Particle Size, Rotation, and Color
@@ -54,7 +55,7 @@ These options determine the size, rotation, and color of particles over their li
  - You can fine-tune the color options in the top left corner.
  - Use the <> button to make them the same. Using this button will always copy the color of the first color box to the second box.
 
-{{< youtube XH3xXaMxVik >}} 
+{{< youtube XH3xXaMxVik >}}
 # 3: Page 3
 
 ## Movement Options
@@ -67,7 +68,7 @@ Free, Relative, and Grouped determine how the particles generate when the partic
 You can see this by clicking and dragging the particle object in the bottom left window.
 - **Fade In and Fade Out:** Impacts opacity; works like the pulse trigger
 
-{{< youtube KESz6-AX2Gg >}} 
+{{< youtube KESz6-AX2Gg >}}
 ## Particle Friction
 These options allow you to simulate friction on particles.
 
@@ -76,7 +77,7 @@ These options allow you to simulate friction on particles.
 - **FrictionR:** Increases the rotational friction on particles, making them rotate slower over time.
 - **Respawn:** Lets you control how fast the particles respawn when using a fast emission rate, like -1.
 
-{{< youtube SDdYdwkVED4 >}} 
+{{< youtube SDdYdwkVED4 >}}
 ## Particle Visuals
 These options control some of each particle’s visuals; their color, size, spin, and if they have blending.
 
@@ -90,7 +91,7 @@ These options control some of each particle’s visuals; their color, size, spin
  - This setting ignores blending, so use the “Enable Additive” function to make the particles have blending.
 - **Dynamic rotation:** Makes the particles dynamically change their rotation depending on how they’re rotated.
 
-{{< youtube CPW65JMNOdQ >}} 
+{{< youtube CPW65JMNOdQ >}}
 ## Technical Settings
 These options let you control how particles interact with other aspects of your level, like their layering and if they respond to triggers.
 
@@ -101,7 +102,7 @@ These options let you control how particles interact with other aspects of your 
  - This only works if blending is disabled in the particle menu, as well as the color you chose in the color picker when using “use obj color”.
 - **StartRGB/EndRGB var sync:** If you use the random sliders in the visual tab to select a color enabling this will make the particles either start or end with a grayscale effect.
 
-{{< youtube f22qTJ378uE >}} 
+{{< youtube f22qTJ378uE >}}
 # 4: Page 4
 
 - **Texture:** Sets the texture the particle will use.
@@ -113,7 +114,7 @@ These buttons let you change multiple properties found in the motion tab simulta
 - **EndRad:** Functions exactly the same as StartRad but this time it determines where the particles will end/move to.
 - **RotSec:** Determines how much the particles will rotate before reaching the EndRad. It is measured in degrees and the particles will move clockwise for positive value.
 
-{{< youtube VD8Z61SBH-s >}} 
+{{< youtube VD8Z61SBH-s >}}
 These buttons let you copy every setting from one particle to a different one entirely.
 The `c` button copies the properties and the `p` button pastes them.
 
@@ -125,7 +126,7 @@ Finally, you can use the numbered buttons to quickly change particle parameters:
 
 The **C** button doesn't have a purpose at the time of writing. Alternatively, the **black square** to its right lets you set a background color for the particle viewer.
 
-{{< youtube _iBZWxMGrrA >}} 
-**Video:** 
+{{< youtube _iBZWxMGrrA >}}
+**Video:**
 
-{{< youtube -744rW8WKmA >}} 
+{{< youtube -744rW8WKmA >}}

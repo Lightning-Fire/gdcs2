@@ -2,6 +2,7 @@
 title: Evenness
 weight: 110020
 date: 2026-03-21T00:00:00.000Z
+description: Evenness is one of the two biggest design concepts, along with Hierarchy. To explain it shortly, evenness is dividing a design element into similar parts. This guide will explain its importance for design and how you can improve your work by being aware of it.
 authors:
   - komatic5
 contributors:
@@ -27,7 +28,6 @@ seo:
 {{< /callout >}}
 
 ** **
-Evenness is one of the two biggest design concepts, along with Hierarchy. To explain it shortly, evenness is dividing a design element into similar parts. This guide will explain its importance for design and how you can improve your work by being aware of it.
 
 # 1: What Is Evenness?
 

@@ -2,6 +2,7 @@
 title: Stacking Properties
 weight: 6130
 date: 2026-05-15T00:00:00.000Z
+description: If you have ideas for effects or mechanics but don’t want to go through the tedious task of placing many triggers for a precise action, stacking them can help speed up creation time. By stacking triggers, you can achieve different effects depending on the types of triggers used.
 authors:
   - chuckolate
 contributors:
@@ -22,8 +23,6 @@ THIS GUIDE HAS MISSING EXAMPLES, DON'T MAKE PUBLIC YET
 {{< /callout >}}
 
 ** **
-
-If you have ideas for effects or mechanics but don’t want to go through the tedious task of placing many triggers for a precise action, stacking them can help speed up creation time. By stacking triggers, you can achieve different effects depending on the types of triggers used.
 
 # Stacking
 

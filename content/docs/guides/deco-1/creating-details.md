@@ -2,6 +2,7 @@
 title: Creating Details
 date: 2024-05-15T00:00:00.000Z
 weight: 5005
+description: Once you know how to use objects to form shapes, colors, and textures, you need to learn how to make those objects look interesting. Details are the primary way to make your deco look good, so this guide will teach you how to best use them.
 authors:
   - komatic5
 contributors:
@@ -20,7 +21,7 @@ draft: false
 
 ** **
 # 1: Intro to Details
-A **detail** is an *individual feature* of an object. These are one of the most crucial parts of decorating, since details are basically what make deco interesting. 
+A **detail** is an *individual feature* of an object. These are one of the most crucial parts of decorating, since details are basically what make deco interesting.
 
 As such, it’s important to organize your details properly and avoid an undesirable, messy outcome. You should know what types of details exist and why to use them in the first place.
 ## Why Details?
@@ -55,7 +56,7 @@ Since details are features of objects, it helps to go through some features obje
 
   Because textures are basically just "applied shapes + colors", they often aren't as needed as these other detail types. The choice to use textures or not is typically a stylistic one as a result.
 
-  Below is a metal texture I made many years ago. You can see the individual shapes if you look closely, but the main goal is for the shapes to blend together. The *effect* of seeing shiny metal is there, while most of the shapes are low opacity gradients so they blend together more. 
+  Below is a metal texture I made many years ago. You can see the individual shapes if you look closely, but the main goal is for the shapes to blend together. The *effect* of seeing shiny metal is there, while most of the shapes are low opacity gradients so they blend together more.
 
   {{< img src="https://lh3.googleusercontent.com/d/1GMfNVqsAqi7yi_mIZMMWk1XcUO9g2r3v" >}}
 

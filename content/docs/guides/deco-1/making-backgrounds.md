@@ -2,6 +2,7 @@
 title: Making Backgrounds
 weight: 5090
 date: 2023-06-22T00:00:00.000Z
+description: Backgrounds are often difficult to create because they must not only look interesting on their own, but also work well with your block designs. This guide explains how you can accomplish both of these goals when making your backgrounds.
 authors:
   - kde
 contributors:

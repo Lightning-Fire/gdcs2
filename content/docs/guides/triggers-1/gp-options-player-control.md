@@ -2,6 +2,7 @@
 title: GP Options & Player Control
 weight: 3320
 date: 2024-01-25T00:00:00.000Z
+description: This guide explains how the GP Options & Player Control triggers work. They let you control aspects of the player and the level, like whether you can see the attempt counter.
 authors:
   - eyz
 contributors:
@@ -42,11 +43,11 @@ To have a better understanding of what this actually means, take a look at these
 Chromaside by qalli
 SpeedTek by G4lvatron
 
-{{< youtube 096FwIbfIOE >}} 
+{{< youtube 096FwIbfIOE >}}
 
-{{< youtube tEPKl-QUmNU >}} 
+{{< youtube tEPKl-QUmNU >}}
 
-{{< youtube pzcpPkerDWI >}} 
+{{< youtube pzcpPkerDWI >}}
 
 # 2: Player Control Trigger
 
@@ -62,5 +63,5 @@ Do not confuse this with {{< img src="images/GDEmotes/Triggers/GPOptions.png" cl
 
 {{< img src="https://lh3.googleusercontent.com/d/1CgKcsngUdn6lONfz4Kv8VPNA78qgjKdF" >}}
 
-{{< youtube QItXhkRg108 >}} 
+{{< youtube QItXhkRg108 >}}
 

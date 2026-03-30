@@ -2,6 +2,7 @@
 title: Attempt-Based Data 1 (2.1)
 weight: 6170
 date: 2024-04-19T00:00:00.000Z
+description: This guide delves into an application of Activation Order to save binary values between attempts.
 authors:
   - typexleta
 contributors:
@@ -9,6 +10,11 @@ contributors:
   - typexleta
 draft: false
 ---
+
+{{< callout context="caution" title="Outdated Guide" icon="outline/info-circle" >}}
+As of Update 2.2, this guide is now functionally useless. It will remain for legacy reasons, but you should visit the [Item Persistence Trigger](/docs/guides/triggers-1/item-edit-comp-pers) if you wish to replicate this setup.
+
+{{< /callout >}}
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 - You can save data between attempts by changing the **priority order** of Collision blocks.
@@ -18,6 +24,10 @@ draft: false
 {{< /callout >}}
 
 ** **
+
+In this guide, we’ll learn how to a similar system that stores binary values (true and false) after the player’s death, as long as they don’t exit the level. This is useful to make things like a permanent LDM system, save codes for minigames, and much more.
+
+This technique works by abusing the way the game handles collisions. When a Collision block makes contact with two other Collision blocks, the game cannot check both blocks at the same time, and uses the priority order mechanic to decide which block’s Collision state to check first. To learn how this mechanic works, refer to the Priority Order lesson.
 
 # 1: Setup
 

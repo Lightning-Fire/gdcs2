@@ -2,6 +2,7 @@
 title: Making Vectors
 weight: 6120
 date: 2024-11-30T00:00:00.000Z
+description: If you have ever taken geometry or calculus, you should be familiar with vectors. These are lists of numbers corresponding to a certain axis of movement, rotation, or scaling. While they may not be interesting in a math lecture context, they are powerful for things like graphics and physics engines, which Geometry Dash is no stranger to. In this guide, we will look at how vectors work and where they can be applied in GD.
 authors:
   - tanhr
 contributors:
@@ -38,13 +39,13 @@ Adding and multiplying vectors in Geometry Dash is best done with the Follow tri
 
 In order to follow the position of point $A$, you can use a follow trigger with $A$’s group as the follow group. In addition, you can multiply that vector $A$ by the X and Y Mod values to change the vector’s values.
 
-{{< youtube FkP4EF4QzFo >}} 
+{{< youtube FkP4EF4QzFo >}}
 
 ## Following Several Vectors
 
 Now that you can follow a vector $A$, stacking follow triggers lets you follow all points at once, which adds the vectors together. In the example, point $C$ follows the vector $\vec{A} + \vec{B}$, with two follow triggers corresponding to $A$ and $B$’s groups. As stated earlier, you can change the values in a follow trigger to change the coefficient or how much $\vec{A}$ or $\vec{B}$ is multiplied by.
 
-{{< youtube wGiMNf7mEas >}} 
+{{< youtube wGiMNf7mEas >}}
 
 ## Following Midpoints of Segments
 
@@ -57,7 +58,7 @@ where $\vec{I}$ is the position vector of the midpoint $I$. To get the midpoint:
 - Place a follow trigger that makes point $I$ follow point $A$ with X and Y mods of 0.5.
 - Repeat step 2 with point $B$.
 
-{{< youtube cH2xjV86qL0 >}} 
+{{< youtube cH2xjV86qL0 >}}
 
 If you’re struggling to determine the midpoint, you can place $I$, $A$ and $B$ on the same spot before the triggers activate, since $I$ will still be equidistant from both points.
 
@@ -77,7 +78,7 @@ To represent this in GD, we have 5 objects with follow triggers corresponding to
 
 In theory, the numbers $4\cdot \frac{1}{6} + \frac{1}{3}$ equal $1$, which is the exact value we need for a weighted average like this. However, GD rounds numbers to the nearest hundredth which adds a slight bit of error in-game. To fix this, we must subtract .01 from one of the follow triggers’ X and Y mods. This will keep $A$ from drifting when all other points move.
 
-{{< youtube fmK7d5dJC1k >}} 
+{{< youtube fmK7d5dJC1k >}}
 
 ## Following Vector $\overset{\longrightarrow}{AB}$
 
@@ -89,7 +90,7 @@ If we want to follow a vector $\overset{\longrightarrow}{AB}$ in Geometry Dash, 
 
 $$\lambda \overset{\longrightarrow}{AB} = \lambda \overset{\rightarrow}{B}- \lambda \overset{\rightarrow}{A}.$$
 
-{{< youtube GCqwAgSe6x4 >}} 
+{{< youtube GCqwAgSe6x4 >}}
 
 When both $A$ and $B$ move the same way, the point following the vector $\overset{\longrightarrow}{AB}$ doesn’t move. If you want a point to follow the points even when both move, you can add vector $\vec{A}$ to the formula from earlier.
 
@@ -100,7 +101,7 @@ $$
 
 In the follow trigger corresponding to vector $\vec{B}$, we will use $\lambda$ as our mod, and the follow trigger corresponding to vector $\vec{A}$ will use $1-\lambda$. Here is an example with $\lambda=0.2$, and $1-\lambda=0.8$.
 
-{{< youtube UylCqjqn5Jo >}} 
+{{< youtube UylCqjqn5Jo >}}
 
 ## Dynamic Frames
 
@@ -133,7 +134,7 @@ To implement this in-game, we will use 3 follow triggers, one of which following
 
 This process can be repeated as many times as necessary to make points for your frame. If you need further help, here is a desmos animation demonstrating what happens above. [Desmos Animation](<https://www.desmos.com/calculator/5du2xh0xi4>)
 
-{{< youtube 7bbPhhlzCoA >}} 
+{{< youtube 7bbPhhlzCoA >}}
 
 ## Tips
 ### Teleport Points to One Spot
@@ -143,13 +144,13 @@ You may notice that these setups require all points to be in the same spot to fu
 2. Put an advanced follow trigger at the start of your level. Put group $A$ in the Target group and group $B$ in the target group. Stop the trigger after it activates.
 3. Activate your follow triggers after the stop trigger has activated and move your points as you want.
 
-{{< youtube iWtdoz5WfnQ >}} 
+{{< youtube iWtdoz5WfnQ >}}
 
 ### Keep Follow Triggers from picking up Movement
 
 You’ll also notice that when you don’t want the setup to operate for a set time, the points within the frame will move regardless. If you activate the Silent option inside a move trigger, other triggers won't see that movement. This is useful if you want to instantly move certain points without worrying about follow triggers.
 
-{{< youtube TCc9SndAHco >}} 
+{{< youtube TCc9SndAHco >}}
 
 # 3: Derivatives
 
@@ -165,7 +166,7 @@ To construct a derivative in-game, we need to have a point follow $A$ with some 
 2. Place a point $C$ that represents the derivative vector.
 3. Place follow triggers that have $C$ follow points $B$ and $A$. Their coefficient should be $1 / \Delta t$. Any number will work, but it’s up to you which is best.
 
-{{< youtube oITKBT6hjo8 >}} 
+{{< youtube oITKBT6hjo8 >}}
 
 Having 2 derivatives, for example deriving the derivative of $C$, you will get a derivative of $A$, representing that point's acceleration.
 

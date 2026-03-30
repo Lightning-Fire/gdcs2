@@ -2,6 +2,7 @@
 title: Making Effects
 weight: 5120
 date: 2024-09-18T00:00:00.000Z
+description: This guide explains what effects generally are, important concepts to know when making them, and the creating process for implementing them in your levels.
 authors:
   - illusion2
 contributors:
@@ -89,11 +90,11 @@ What makes the shader triggers even more compelling though is their Strength, In
 
 {{< img src="https://lh3.googleusercontent.com/d/1yUil_Y03QINnh-iBkAe1eRlpxgRLl3VR" >}}
 
-{{< youtube 9AuptH4fElM >}} 
+{{< youtube 9AuptH4fElM >}}
 
-{{< youtube nOQURadITc4 >}} 
+{{< youtube nOQURadITc4 >}}
 
-{{< youtube toYzkwGtKZE >}} 
+{{< youtube toYzkwGtKZE >}}
 
 **Keep in mind that there is a big drawback behind shader effects; they are extremely laggy.** By default they render at 4K resolution regardless of your screen size, unless you install the "Shader Fix" mod in Geode.
 
@@ -137,7 +138,7 @@ Neither of these illusions give you any clues on the actual movement that is goi
 
 HOW by Spu7nix explores this idea on the cylinders in the background. It uses various different patterns that go up and down to create the illusion of the cylinder rotating.
 
-{{< youtube UKqMBAxxun8 >}} 
+{{< youtube UKqMBAxxun8 >}}
 
 There is a category of effects called **manual effects**, which as the name suggests, are made manually. These effects (like lens flare, glow lasers, and impact frames) are used mainly to enhance artworks and don’t involve a core GD mechanic. This guide won’t go over these in detail as there is a lot of nuance behind them.
 
@@ -158,9 +159,9 @@ Let's make an example. You could start with this editor fact: *blending objects 
 Example 1
 Example 2 (1 minute in)
 
-{{< youtube HMKmJwdMMTQ >}} 
+{{< youtube HMKmJwdMMTQ >}}
 
-{{< youtube ClHHB4a2ez0 >}} 
+{{< youtube ClHHB4a2ez0 >}}
 
 Here is another example of building on a concept. Using long rotating rectangles with the same color allows for interesting patterns to come up beneath them. My friend first used this technique in the first video below, and I later drew inspiration from it for the background in the next video. *Keep in mind that I took the idea and expanded on it, rather than outright stealing it.*
 
@@ -168,7 +169,7 @@ Here is another example of building on a concept. Using long rotating rectangles
 
 Example 2 (Start)
 
-{{< youtube ClHHB4a2ez0 >}} 
+{{< youtube ClHHB4a2ez0 >}}
 
 Now that you know what your effect does and how it works, you should start brainstorming *how to apply it to your level*. This is where the trigger stuff comes in and where things may start breaking; this process will vary depending on the effect. Here are some tips below anyway:
 

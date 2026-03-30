@@ -1,12 +1,13 @@
 ---
-draft: false
 title: Light 4 (Reflections)
 date: 2026-03-27T00:00:00.000Z
 weight: 8090
+description: Constructing reflections is an important part of understanding light. Reflections might seem like a minor step in the creative process, but, in the end, they play a crucial role in bringing any piece together and making it feel immersive.
 authors:
   - sethlai
 contributors:
   - sethlai
+draft: false
 ---
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 
@@ -18,7 +19,6 @@ contributors:
 
 - - -
 
-Constructing reflections is an important part of understanding light. Reflections might seem like a minor step in the creative process, but, in the end, they play a crucial role in bringing any piece together and making it feel immersive.
 
 # 1: How do Reflections Work?
 
@@ -102,7 +102,7 @@ These crystals from “Stronghold” by Debihan have highlights that are much mo
 
 {{< img src="https://lh3.googleusercontent.com/d/1rNCfqAoHfqyMB3ApjQf89YntNIxqIdRn" >}}
 
-This sphere from “boogie” by connot doesn’t seem to be reflective, but it can be treated as an example for how reflective convex surfaces can be made in Geometry Dash. You’ll notice that the face follows the curvature of this sphere on both axes, made using the **“Bulge”** shader. 
+This sphere from “boogie” by connot doesn’t seem to be reflective, but it can be treated as an example for how reflective convex surfaces can be made in Geometry Dash. You’ll notice that the face follows the curvature of this sphere on both axes, made using the **“Bulge”** shader.
 
 {{< img src="https://lh3.googleusercontent.com/d/1EZWY9RzknanSW6ZjVsL2KedmeARGh73L" >}}
 

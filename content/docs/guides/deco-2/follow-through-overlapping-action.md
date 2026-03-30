@@ -2,6 +2,7 @@
 title: Follow Through & Overlapping Action
 weight: 8110
 date: 2025-04-30T00:00:00.000Z
+description: "Creators use animation principles to give life and visual appeal to their levels. For this guide, we will go through two more animation principles that focus on an object’s inertia to simulate fluid and organic movements: Follow Through & Overlapping Action."
 authors:
   - asandboxer
 contributors:
@@ -21,7 +22,7 @@ draft: false
 
 # 1: Follow Through
 
-As the name suggests, **Follow Through** outlines how __ even when an object stops moving, some of its parts continue moving before gradually coming to a stop.__ This principle best resembles Newton’s first law of motion: an object remains moving until an external force acts on it. Let’s visualize this by comparing two examples:
+As the name suggests, **Follow Through** outlines how __even when an object stops moving, some of its parts continue moving before gradually coming to a stop.__ This principle best resembles Newton’s first law of motion: an object remains moving until an external force acts on it. Let’s visualize this by comparing two examples:
 
 ## Without Follow Through
 

@@ -2,6 +2,7 @@
 title: Gravity, Teleport, & Timewarp
 weight: 3300
 date: 2024-07-19T00:00:00.000Z
+description: This guide explains how the Gravity, Teleport, & Timewarp triggers work. They let you control the player's location, gravity, and flow of time.
 authors:
   - notamoderatr
   - tdp9
@@ -24,11 +25,11 @@ draft: false
 
 The Gravity Trigger changes the amount of gravity inflicted onto the player. Lower values mean a lower gravity and higher ones have higher gravity. This value can be set to a maximum of 1 billion.
 
-{{< youtube VDpWQOh8_hg >}} 
+{{< youtube VDpWQOh8_hg >}}
 
 This trigger has 3 options: P1, P2, and PT. P1 targets Player 1, P2 targets Player 2 if the current gamemode is a dual, and PT targets the player that comes in contact if Touch Triggered is enabled. If all options are disabled, both players will be affected.
 
-{{< youtube fAwEJEViJ04 >}} 
+{{< youtube fAwEJEViJ04 >}}
 
 # 2: Teleport Trigger
 
@@ -36,7 +37,7 @@ The Teleport Trigger teleports the player to the position of an object with a ta
 
 **Teleport Triggers only work on Player 1, as of the time of writing.** If you wish to teleport the second player (e.g. for a dual), you need to use the normal teleport portal.
 
-{{< youtube LP7mvG8ROyE >}} 
+{{< youtube LP7mvG8ROyE >}}
 
 - **Gravity:** Allows you to determine if the player's gravity is normal, upside-down, or switched between the two on teleport.
 
@@ -46,13 +47,13 @@ The Teleport Trigger teleports the player to the position of an object with a ta
 
 - **Redirect Force:** Multiplies the player’s force by the mod value. You can set the minimum and maximum force output using the respective sliders; keeping it at 0 will have it ignored.
 
-{{< youtube qsBNjMI5bo8 >}} 
+{{< youtube qsBNjMI5bo8 >}}
 
 - **Smooth Ease:** Eases the camera to the new teleport position. This operates much like the Smooth Ease option on teleport portals in 2.113.
 
 - **Save Offset:** Offsets the teleport position to the target object based on where the player hits the teleport trigger instead of teleporting them to the center of the target object.
 
-{{< youtube N-8tVyueWy0 >}} 
+{{< youtube N-8tVyueWy0 >}}
 
 - **Ignore X/Ignore Y:** Teleports you to only the X or Y position of the target object respectively.
 
@@ -62,7 +63,7 @@ The Teleport Trigger teleports the player to the position of an object with a ta
 
 - **Redirect Dash:** Redirects a dash orb into the angle of the target object’s rotation.
 
-{{< youtube 4LjpSZAYof8 >}} 
+{{< youtube 4LjpSZAYof8 >}}
 
 # 3: Timewarp Trigger
 
@@ -70,5 +71,5 @@ This trigger speeds up or slows down game speed to a specified value in the 0.10
 
 **Easings are not possible by default with the trigger;** if you want anything of the sort, you need to place multiple triggers down with different values inside them.
 
-{{< youtube 6PyT0AEI15w >}} 
+{{< youtube 6PyT0AEI15w >}}
 

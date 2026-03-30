@@ -2,6 +2,7 @@
 title: Fill 1
 weight: 5040
 date: 2023-03-10T00:00:00.000Z
+description: Once you've made the outline of a shape, you need to fill it in. This guide will explain how you can fill in shapes using flat colors, what objects you can use, and some best practices for doing so.
 authors:
   - artaire
   - komatic5

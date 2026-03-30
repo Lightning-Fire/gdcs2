@@ -2,6 +2,7 @@
 title: Reverse & Arrow
 weight: 3280
 date: 2024-02-06T00:00:00.000Z
+description: This guide explains how the Reverse & Arrow triggers work. The Reverse trigger lets you change the player's movement direction, while the Arrow trigger lets you change the direction of gravity.
 authors:
   - eyz
   - naem.less
@@ -31,7 +32,7 @@ draft: false
 
 This is because the reverse trigger placed on the left activates first. While you can use the **Touch Triggered** option to make your gameplay, this will mess up the music playtest line unless you change the target channel using an arrow trigger, which will be explained in a later section.
 
-{{< youtube cGpifgeiIX8 >}} 
+{{< youtube cGpifgeiIX8 >}}
 
 # 2: Reverse Option
 
@@ -60,17 +61,17 @@ The features include the following:
 - **Change Channel:** Changes the Channel to the number entered in the **Target Channel** box below. Only triggers set to this channel will activate after this trigger, unless you change the channel again. (This does not apply to triggers activated by {{< img src="images/GDEmotes/Triggers/Spawn.png" class="emote">}} a Spawn / condition trigger.)
  - To **revert the channel change**, place another Arrow trigger, go to Edit Group, and set the channel in the bottom right corner to the one you entered in the first trigger. Once you do that, click the Edit Object button and set the Target Channel back to zero.
 
-{{< youtube 8Z7hGnH-OwI >}} 
+{{< youtube 8Z7hGnH-OwI >}}
 
 - **Channel Only:** Only changes the Channel and keeps the same direction.
 - **Instant Offset:** The camera updates instantly after changing directions.
 - **Don’t Slide:** Stops the sliding effect when you rotate gameplay in platformer mode.
 
-{{< youtube vdW8DkczH4o >}} 
+{{< youtube vdW8DkczH4o >}}
 
 Additionally, you can replace a gravity portal with this trigger. However, it is less intuitive because it's invisible.
 
-{{< youtube SQiCS1G5UwU >}} 
+{{< youtube SQiCS1G5UwU >}}
 
 # 4: Cool Gameplay Applications
 
@@ -88,4 +89,4 @@ You can also go crazy with this gimmick just like in a later part of the same le
 ## Going UP
 By making the player go back and forth while guiding a camera to slowly go up, you can create some interesting gameplay. This was used twice in Toxic Surge by GiaMmix.
 
-{{< youtube LhLE9MqU_SQ >}} 
+{{< youtube LhLE9MqU_SQ >}}

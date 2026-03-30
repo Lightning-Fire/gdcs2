@@ -2,6 +2,7 @@
 title: Event Link
 weight: 3380
 date: 2024-01-25T00:00:00.000Z
+description: This guide explains how the Event Link trigger works. It lets you spawn groups based on certain player actions and events.
 authors:
   - eyz
 contributors:

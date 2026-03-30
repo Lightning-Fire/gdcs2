@@ -2,6 +2,7 @@
 title: Alpha
 weight: 3050
 date: 2024-01-08T00:00:00.000Z
+description: This guide explains how the Alpha trigger works. It lets you change and control an object's opacity/transparency.
 authors:
   - electrifyxd
 contributors:
@@ -26,4 +27,4 @@ Opacity refers to the transparency or visibility of any object *(i.e. how “see
 **Fade Time** refers to the time it takes for any object to fade into the set opacity, in seconds.
 Whether or not you want a level to fade to black, or if you want to make an object invisible, the alpha trigger is the best trigger for the job.
 
-{{< youtube ZwIliy-CYSg >}} 
+{{< youtube ZwIliy-CYSg >}}

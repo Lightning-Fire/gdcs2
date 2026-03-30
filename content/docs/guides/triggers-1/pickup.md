@@ -2,6 +2,7 @@
 title: Pickup
 weight: 3430
 date: 2024-01-19T00:00:00.000Z
+description: The pickup trigger is primarily used for counting things up, which can be applied in both trigger or object form. This guide will investigate the main functions of the Pickup Trigger and how these features can be utilized.
 authors:
   - nailed_bread
 contributors:
@@ -30,7 +31,7 @@ Enabling the “divide” checkbox will cause the “count” to get replaced by
 ## Override
 Enabling the “override” checkbox will allow you to set that value to the “count” (e.g., if the value in item ID 1 is 10, an override pickup trigger with 2 on the counter, it will set to 2, if you place an override pickup trigger with 3, it will set it to 3).
 
-{{< youtube hK-Bx0YFeus >}} 
+{{< youtube hK-Bx0YFeus >}}
 
 # 2: Counter Object
 
@@ -44,5 +45,5 @@ This will allow you to count your in-game attempts and display them as a number 
 ## Left/Right Align
 This works by setting the center of the pickup trigger to the digit in that position. For example, if it’s in left align and the number is “123”, the center will be the number 1, which means that digit is stuck to that position and will never move, if “right align” is on and the number is 456, the center is the number 6, and it will be stuck to that position.
 
-{{< youtube cWGsHqN0FiE >}} 
+{{< youtube cWGsHqN0FiE >}}
 

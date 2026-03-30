@@ -2,6 +2,7 @@
 title: Priority Order
 weight: 6030
 date: 2024-09-17T00:00:00.000Z
+description: Priority Order is the second activation system in Geometry Dash. It’s a lot more subtle than Spawn Order, but its impacts are far and wide. Priority order affects how objects with the same Z-Order will layer, Spawn Family triggers activate, and which orbs you click first when they’re layered on each other. This guide explains how Priority Order works in-game. Although this is no longer manipulable in-game, it is still useful to know for various in-editor circumstances.
 authors:
   - theibra
   - typexleta
@@ -89,7 +90,7 @@ Be aware that *Priority Order does NOT save between attempts in 2.2, only in 2.1
 
 In most cases, triggers aren’t commutative, meaning that the result can vary drastically depending on the order they activate at. Setting up when triggers activate ensures you get the wanted results.
 
-{{< youtube RecbfdJFl9Q >}} 
+{{< youtube RecbfdJFl9Q >}}
 
 # 3: Simultaneous Ordering in 2.2
 
@@ -100,21 +101,21 @@ In order to eliminate randomness, triggers activated on the same frame happen in
 ## Left to Right Priority
 If "spawn triggered" is enabled, triggers will be activated from left to right, meaning the leftmost triggers will activate first, cascading until the last trigger is activated.
 
-{{< youtube Wy4kVg7cxmA >}} 
+{{< youtube Wy4kVg7cxmA >}}
 
 ## Order Value Priority:
 **As of 2.206, this feature suffers from multiple bugs, and should be avoided when possible until it’s fixed.** This can trigger on portals, pads, and orbs but has no visible effects. This can also break triggers if they aren’t set up properly.
 
 This feature is only used for regular or touch-enabled triggers. Their order values are compared in ascending order, meaning the triggers with the lowest value activate first. You can change a trigger’s order value in the bottom left of EditGroup , and a trigger’s value must be larger than all other triggers before it in order to prevent breaking.
 
-{{< youtube 07Ras4igAMs >}} 
+{{< youtube 07Ras4igAMs >}}
 
 ## Placement Priority:
 In the case of 2 or more triggers having the same X position and the same order value, the most recently created trigger will activate first, with the oldest activating last. For example, copy + pasting a trigger means the copy will activate before the original.
 
-{{< youtube Kvk8a-bfHxM >}} 
+{{< youtube Kvk8a-bfHxM >}}
 
 ## Order Inheritance:
 An important thing to note is that a trigger’s priority depends on the previous triggers’ priority, so the order of 2 triggers activated by different spawn triggers is based on the order of these spawn triggers.
 
-{{< youtube bI8iyrOKVnc >}} 
+{{< youtube bI8iyrOKVnc >}}

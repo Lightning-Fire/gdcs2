@@ -2,6 +2,7 @@
 title: Color 2 (Using Colors)
 weight: 8020
 date: 2023-11-30T00:00:00.000Z
+description: In this guide, we’ll explore colors further in depth. This guide will touch on how to masterfully utilize the tricky-to-use greens and grays. Then, it will elaborate more on color gradients, tints, and accents.
 authors:
   - kde
 contributors:
@@ -67,11 +68,11 @@ Here is an example of an artwork that heavily uses different hues of green. The 
 Here are some examples from GD:
 In Ibrah, Kivvvi, Cuaer, and Nekon’s part of Cytokinesis, the primarily used color is green, but is complemented by the secondary blue pulses. Some of the green elements in the part are also livened up by pulses into a more yellow-green hue. Both of these factors contribute to an interesting color composition.
 
-{{< youtube xOXpRRjvhFM >}} 
+{{< youtube xOXpRRjvhFM >}}
 
 In Deovise’s part of Postbluane, green plays a role as an accent or secondary color rather than the primary color. Still, it is contrasted effectively with the primarily cooler blue shades to show the warm sunlight on the greenery. Meanwhile, a bluer hue is used for the shadows, both for hue variation and to showcase the ambient blue light from the sky.
 
-{{< youtube QHe2vLYCvSQ >}} 
+{{< youtube QHe2vLYCvSQ >}}
 
 # 3: Color Gradients
 
@@ -96,7 +97,7 @@ The UI elements of this UI/UX prototype are tints of the same primary color, bro
 
 An example of tints used in GD is in this part of NEW LIGHT by cometface. This level uses darker tints of orange and yellow for the blocks, and lighter tints of yellow for the background. This helps the player to focus on the block designs and structuring, and also helps to create an atmospheric and airy background.
 
-{{< youtube 7-NAVWnJ0b4 >}} 
+{{< youtube 7-NAVWnJ0b4 >}}
 
 # 5: Accents
 
@@ -112,12 +113,12 @@ The spaceship below by Kirill Nadtochiy has gray and blue as its main colors. Th
 
 An example in GD is Magdalene by Lyriaki. This part uses light blue accents to contrast with the red primary color, helping the red stand out much more. This prevents the red from looking monotonous and dead, and additionally helps direct the viewer’s focus as the player icon moves through the part.
 
-{{< youtube QG4uT-s985w >}} 
+{{< youtube QG4uT-s985w >}}
 
 
 # Sources
 - James Gurney: *Color and Light*, Pages 79-86
 
 
-**Video:** {{< youtube P2r4Z5kbx7M >}} 
+**Video:** {{< youtube P2r4Z5kbx7M >}}
 

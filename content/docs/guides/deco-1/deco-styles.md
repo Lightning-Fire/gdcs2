@@ -1,34 +1,38 @@
 ---
 title: Deco Styles
-weight: 1110
+weight: 5200
 date: 2023-11-01T00:00:00.000Z
+description: This guide will explain what decoration styles are. Even if you don't think you have a style, it helps to be aware of what they are and if they're important at all.
 authors:
   - komatic5
 contributors:
   - kde
   - komatic5
-draft: true
+draft: false
 ---
 
-## TLDR - What this guide covers
+{{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 - A set of surface-level creating choices form a style.
 - There are three main genres of deco styles: classical, modern, and custom art.
 - **Classical** centers around using the default in-game objects as tilemapped assets.
 - **Modern** uses simple designs to give more focus to visual effects.
 - **Custom Art** consists of making new custom assets using in-game objects.
 - While a style is a set of surface-level creating choices, you shouldn’t focus as much on these choices until you’re closer to mastery of decoration.
+{{< /callout >}}
 
 ** **
+
+During discussions about creating, it is not uncommon to hear the term “style” get thrown about. Decoration styles are the set of creative decisions you make.
+
+Many styles can be described with simple ideas, such as “I want outlines on all of the main shapes”, or “I want only flat colors in my designs”. There also exist more complex ones like “I want to use dynamic shapes only” which may be present in deco-2 and deco-3 guide, but they will not be the main focus of this guide.
+
+Styles are born from limitations. If you are limited by the medium you are using or intentionally set limits on yourself, those limits may affect how the end product looks. It is not a coincidence that the main style genres in Geometry Dash have their own limitations which define them. In this guide, we will discuss these main genres, what broadly defines them, and some of the limitations you can set on yourself to get a certain result.
 
 # 1: Classic Design
 
 During the pre-1.9 era, tools like free move and scale were not available for creators to use. As a result, almost all decoration was tilemapped; __snapped to the grid in neat squares__. Similarly, features like Z layers and alpha did not exist, so almost all decoration used the in-game objects as assets as opposed to shapes to make custom assets with.
 
 This is the general definition of classic design; __levels with tilemapped decoration that use default objects as assets__. This technical limitation is visible in every Robtop level, and levels from older creators like Hinds.
-
-Geometry Dash Subzero by Robtop:
-Psychosis by Hinds:
-FFFFFF by Vlacc:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4nzU5v1Iw7Q" frameborder="0" allowfullscreen></iframe>
 
@@ -40,10 +44,6 @@ FFFFFF by Vlacc:
 
 Once the 2.0 update was released, it became possible to make simpler designs and rely on other things like visual effects to make levels look more interesting. This made it easier to make modern levels, which __rely more on visual effects than intricate textures to look interesting, and tend to be less heavy on details__. Works from creators like Echonox, Optical, and (more recently) Knots and Xender Game are great examples of this style.
 
-Comatose Dreamscape by Knots:
-Revere II by Abstort and more:
-Avid by Optical:
-
 <iframe width="560" height="315" src="https://www.youtube.com/embed/gZZ3GhvqytI" frameborder="0" allowfullscreen></iframe>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/XhJ9Bys-lQw" frameborder="0" allowfullscreen></iframe>
@@ -53,10 +53,6 @@ Avid by Optical:
 # 3: Custom Art
 
 With custom art, the focus is __using in-game objects to make new custom assets and art.__ While custom art has long been used for backgrounds, endscreens, and the like, only recently has it been incorporated in the foreground of the level. This is often used in a specific environment like a forest, where custom assets can play a great role. The act of decorating itself is art so we will refer to this as custom art to distinguish. You will see this done by creators like Culuc, Vulna, and me.
-
-Culuc’s part in Emerald Realm:
-HellCore by Vulna:
-My old part in Plummet:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/fMAYifajDac" frameborder="0" allowfullscreen></iframe>
 

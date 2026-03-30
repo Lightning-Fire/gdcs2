@@ -2,6 +2,7 @@
 title: Item Edit, Comp, & Pers
 weight: 3450
 date: 2023-12-30T00:00:00.000Z
+description: This guide explains how to use the Item Edit, Compare, and Persistence triggers. These are triggers which give you control over how Item IDs work in your level.
 authors:
   - komatic5
 contributors:
@@ -100,7 +101,7 @@ The modification options and ID types are the same as well, but the differences 
 - Greater than or equal to (>=) - I1 must be greater than or equal to I2.
 - Not equals (!=) - I1 must not equal I2.
 
-{{< youtube FSBUYABrU4w >}} 
+{{< youtube FSBUYABrU4w >}}
 
 # 3: Persistent Item (Item Pers)
 
@@ -114,8 +115,8 @@ The checkboxes provide options for the Item ID:
 - Target All - targets every persistent item at once.
 - Reset - reset the Item ID’s value.
 
-{{< youtube Hwx1Q1-nGzI >}} 
+{{< youtube Hwx1Q1-nGzI >}}
 
 **Video:**
-{{< youtube BT8PyW4iG0s >}} 
+{{< youtube BT8PyW4iG0s >}}
 

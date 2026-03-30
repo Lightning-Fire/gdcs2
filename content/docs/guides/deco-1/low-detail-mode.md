@@ -2,6 +2,7 @@
 title: Low Detail Mode
 weight: 5190
 date: 2025-06-29T00:00:00.000Z
+description: After building a level, you can have some of the coolest visual effects known in the editor, but only the high tech players may get to experience it. Obviously, it's up to creators to decide if accessibility is a priority for them, but if it resonates with you, keep reading. This guide will discuss how and when to set up low detail modes (LDM) and optimize your details.
 authors:
   - komatic5
   - sparktwee

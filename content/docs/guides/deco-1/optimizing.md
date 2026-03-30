@@ -2,6 +2,7 @@
 title: Optimizing
 weight: 5190
 date: 2023-06-26T00:00:00.000Z
+description: Optimization, like simplification, is an important way to make your decoration efficient. Unlike simplification, its main goal is to keep your levels as accessible as possible. This guide explains the process you should use to optimize your levels.
 authors:
   - komatic5
 contributors:

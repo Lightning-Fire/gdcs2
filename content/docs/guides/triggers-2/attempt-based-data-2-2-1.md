@@ -2,6 +2,7 @@
 title: Attempt-Based Data 2 (2.1)
 weight: 6180
 date: 2024-04-19T00:00:00.000Z
+description: This guide delves into an application of Activation Order to save integer values between attempts.
 authors:
   - typexleta
 contributors:
@@ -9,6 +10,11 @@ contributors:
   - typexleta
 draft: false
 ---
+
+{{< callout context="caution" title="Outdated Guide" icon="outline/info-circle" >}}
+As of Update 2.2, this guide is now functionally useless. It will remain for legacy reasons, but you should visit the [Item Persistence Trigger](/docs/guides/triggers-1/item-edit-comp-pers) if you wish to replicate this setup.
+
+{{< /callout >}}
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 - As we explored in the prior lesson, there is a way to save binary data between attempts by exploiting the game’s Priority Order mechanic.
@@ -19,6 +25,9 @@ draft: false
 {{< /callout >}}
 
 ** **
+
+In this guide, we’ll be expanding making a system that can store integer numbers instead of simple binary values. To do this, we'll adapt the setup from the previous guide and add a binary converter to it.
+
 # 1: Binary Numbers
 
 When we refer to the base of a counting system, we mean the maximum number of values we can put into a single column of digits. For **binary**, that base is 2, and the __only values that numbers can use are 0 and 1__. Counting in binary would go like 0, 1, 10, 11, 100, 101, 110, 111 and so on. Counting in **decimal**, or __base-10, is what we’re used to; 0, 1, 2, 3, 4, 5, and so on__.

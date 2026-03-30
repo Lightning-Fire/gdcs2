@@ -2,6 +2,7 @@
 title: Keyframes
 weight: 3110
 date: 2024-05-15T00:00:00.000Z
+description: This guide explains how the Keyframe System works. It allows for complex animations without needing to brute-force them with Move & Rotate triggers.
 authors:
   - theibra
 contributors:
@@ -18,6 +19,9 @@ draft: false
 {{< /callout >}}
 
 ** **
+
+# 1: General Info
+
 Keyframes define an object’s starting and ending positions in an animation, the object will transition smoothly from one keyframe to the other by gradually changing some of its properties to match those of the second keyframe.
 
 In Geometry Dash, **keyframes** transform 3 properties: Movement, Rotation and Scale, therefore, the keyframe system functions like the move, rotate and scale triggers combined.
@@ -42,7 +46,7 @@ In order to better understand the keyframe system, we will start by creating a s
 
 When playing the level, we will notice that our object moves in the same pattern that we created using the keyframes.
 
-{{< youtube VjnQY7qQhck >}} 
+{{< youtube VjnQY7qQhck >}}
 
 Notes:
 - Horizontal and vertical warping is not supported in the keyframe system. Instead, the target will rotate and scale based on the theoretical rotation and scale properties of the warped keyframe:
@@ -146,7 +150,7 @@ The second page contains value modifiers. They will be multiplied with the prope
 
 Now that we understand how the keyframe system works, we can use it to create a more advanced animation. We will be using this bouncing ball as an example.
 
-{{< youtube cX1MwHcf_vE >}} 
+{{< youtube cX1MwHcf_vE >}}
 
 1. Create a ball using objects and give it a Group ID (in this case, it’s GID 1). Then place an object for the center and make it the GroupID Parent. In this case, it’s placed on the bottom of the ball so the squishing animation would happen while in contact with the ground.
 
@@ -164,7 +168,7 @@ Now that we understand how the keyframe system works, we can use it to create a 
 
 4. We can notice that contact with the ground is smooth when the bounce should be instantaneous. The ball should jump back as soon as it touches the ground. To fix this, copy all ground keyframes (marked below as red), and give these copies Ref Only.
 
-{{< youtube 2GfQxFmS8_w >}} 
+{{< youtube 2GfQxFmS8_w >}}
 
 {{< img src="https://lh3.googleusercontent.com/d/1JgYcceNY2aufIC6dBDRZQ9MoX-rHXhUi" >}}
 

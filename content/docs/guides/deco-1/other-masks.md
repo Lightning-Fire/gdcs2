@@ -2,6 +2,7 @@
 title: Other Masks
 weight: 5170
 date: 2023-10-13T00:00:00.000Z
+description: These masks use the principles taught in the prior guides to create more complex effects. You'll notice that they'll use both blending and layering properties, as opposed to just one or the other.
 authors:
   - unknown
 contributors:

@@ -2,6 +2,7 @@
 title: Making Air Deco
 weight: 5100
 date: 2023-03-18T00:00:00.000Z
+descriptoion: Air Deco is often discussed and talked about, yet it's also very misunderstood. This guide explains how you should use and create Air Deco for your levels.
 authors:
   - komatic5
 contributors:
@@ -36,7 +37,7 @@ Here are some levels that use arrows to fill space.
 
 {{< youtube TIIwskoucvc >}}
 
-{{< youtube W-pu-5b809A >}} 
+{{< youtube W-pu-5b809A >}}
 
 # 3: Connectors
 
@@ -46,7 +47,7 @@ To make these you can follow the same steps as you did to make blocks, only with
 
 Here are some examples of connectors in action.
 
-{{< youtube fRCNxPYP7z8 >}} 
+{{< youtube fRCNxPYP7z8 >}}
 
 As you can see, the dark rocks between the blocks connect most of them together.
 
@@ -67,7 +68,7 @@ Not only can you use particles to fill up space, but they can also be super help
 
 An example from Geometry Dash is `White Space` by `Xender Game` . You’ll notice a lot of small details, like how the particles blow in the wind after the train passes by, or get pushed all over the place if a structure moves quickly. The level is full of particles, so I recommend dissecting it to see all the places they get used.
 
-{{< youtube Rv5TpFxEy8w >}} 
+{{< youtube Rv5TpFxEy8w >}}
 
 Here are some examples from other levels.
 
@@ -75,7 +76,7 @@ Here are some examples from other levels.
 
 Additionally, notice that the rocks tend to move and rotate at different speeds. This is also subtle but it makes the part feel a lot more dynamic than it otherwise would. Variety like this will make your particles look and feel a lot better, so be sure to use principles like trigger stacking to your advantage.
 
-{{< youtube bM6V_JeSmeg >}} 
+{{< youtube bM6V_JeSmeg >}}
 Two minutes and nine seconds in, you can see particles that are used for specific visual effects. Leaves fall from the trees, and stars shoot out of each pad when they’re touched. This is another example where the variety helps make the part look more interesting.
 
 # 5: Overlays
@@ -84,17 +85,17 @@ Overlays are full-screen visual effects that are, well, laid over everything els
 
 You could argue that many overlays don’t function as air deco; however, I think it depends on how you make and use them. A rain effect like the one in `Culuc`’s `Black Flag` part counts as an overlay; so do motion lines like in `Fuel` by `Bli` . Even a full-screen gradient can make your colors look more interesting and direct attention away from empty parts.
 
-{{< youtube 03OC6MzgASc >}} 
+{{< youtube 03OC6MzgASc >}}
 
-{{< youtube sdDSnr7o1uc >}} 
+{{< youtube sdDSnr7o1uc >}}
 
 When making overlays, make sure they stay as a minor detail. They shouldn’t overpower everything else, but they also should be impactful enough to be worth the objects. I recommend adding them at the very end of your deco process so you can see how they affect the finished product.
 
 Here are some examples from other levels.
 
-{{< youtube hpcJFK6iSvM >}} 
+{{< youtube hpcJFK6iSvM >}}
 Twenty-nine seconds in, there’s a strong glow overlay on the screen. This is somewhat foggy; the other details on the screen, like the bubbles, make it clear that this part is supposed to be underwater.
 
-{{< youtube EmKT01hDUyY >}} 
+{{< youtube EmKT01hDUyY >}}
 You most certainly can see the overlay in this part, but you may not be able to tell what it’s made of. Here, there’s a combination of gradient lines and large cloud objects, all of which are on low opacity. Occasionally a spiral saw object is also used on a pulse. Finally, there’s a glow overlay which makes the part feel very bright.
 

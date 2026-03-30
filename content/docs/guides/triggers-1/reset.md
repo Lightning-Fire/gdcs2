@@ -2,6 +2,7 @@
 title: Reset
 weight: 3470
 date: 2024-01-16T00:00:00.000Z
+description: This guide explains how the Reset trigger works. It lets you reset any collectibles and checkpoints you've used in your level.
 authors:
   - delts1550
 contributors:

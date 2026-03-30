@@ -2,6 +2,7 @@
 title: Advanced Follow
 weight: 3120
 date: 2024-01-08T00:00:00.000Z
+description: The Advanced Follow trigger is a highly customizable trigger with lots of parameters, having lots of useful and powerful capabilities. This guide explains how to it, alongside Edit Adv Follow and Re-Target Adv Follow.
 authors:
   - naem.less
 contributors:
@@ -42,7 +43,7 @@ P1, P2, and C are special centers which are respectively assigned to Player 1, P
 
 The video below demonstrates how Exclusive works. To start off, you can see that the first advanced follow trigger has exclusive turned off. When I touch the second trigger, the spike moves faster due to MaxSpeed stacking. However, when Exclusive is enabled, activating the second trigger doesn't stack the movements.
 
-{{< youtube FVoTbm1j5lo >}} 
+{{< youtube FVoTbm1j5lo >}}
 
 - **X Only/Y Only**: The objects will only consider the X or Y position of the Follow GID.
 - **Rotation Offset:** Offsets the object rotation in degrees. Positive values rotate to the right and negative to the left. Zero is upwards.
@@ -71,7 +72,7 @@ You can see what mode you're currently on and change the modes by selecting the 
 
 The box next to the max range is the **Range Center ID**. Normally, when you set a MaxRange the target GID(s) will use their own center or the structure’s center. Entering a group into this box will set the group as the range center. *This is also a one-object group.*
 
-{{< youtube 5WRY1AA2AG8 >}} 
+{{< youtube 5WRY1AA2AG8 >}}
 
 ## Mode 2: Accelerated Follow
 
@@ -86,7 +87,7 @@ The box beside this option allows you to input a singular object's group. The ta
 - **NearFriction**: The object’s friction when it near the target. What counts as near is configured by the NearDist value.
 - **NearAccel**: The object’s acceleration when it moves near the target. What counts as near is configured by the NearDist value.
 
-{{< youtube 5Gp9EL9s-ZI >}} 
+{{< youtube 5Gp9EL9s-ZI >}}
 
 ## Mode 3: Complex follow
 
@@ -107,7 +108,7 @@ Unlike the previous modes, this follow mode has 2 pages of settings and is much 
 
 The upper checkbox on page 3 is to enable the SteerForceLow and SpeedRangeLow sliders, while the one on the bottom is to enable SteerForceHigh and SpeedRange High. If you don't enable these checkboxes, their respective options won't apply their settings.
 
-{{< youtube m-c9a53mRvU >}} 
+{{< youtube m-c9a53mRvU >}}
 
 # 3: Edit Advanced Follow
 
@@ -128,7 +129,7 @@ The second trigger does the same as the first, but now a small triangle is set a
 
 The third trigger modifies the XY movement of the spike by flipping its direction using the X and Y mods.
 
-{{< youtube 6GJu6CpBBsU >}} 
+{{< youtube 6GJu6CpBBsU >}}
 
 # 4: Re-Target Advanced Follow
 
@@ -140,7 +141,7 @@ The third and final trigger allows you to change the Target GID of an active adv
 
 In this video, you can see the particle trails collide with the player, re-target themselves, and move toward a stationary particle object near the beginning of the level. Upon colliding with that particle they get re-targeted again and move toward the player.
 
-{{< youtube Zfd4fDdxDdI >}} 
+{{< youtube Zfd4fDdxDdI >}}
 
 # 5: Stacking
 

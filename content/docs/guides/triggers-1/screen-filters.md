@@ -2,6 +2,7 @@
 title: Screen Filters
 weight: 3220
 date: 2024-03-11T00:00:00.000Z
+description: This guide explains how the Screen Filter triggers work. These triggers place various screen filters or shaders on the level.
 authors:
   - tdp9
 contributors:
@@ -18,6 +19,16 @@ draft: false
 {{< /callout >}}
 
 ** **
+
+Shader triggers/screen filters apply a filter to a level, affecting the level itself and the player. Shader triggers alter the level’s colors and qualities, and can make effects that can’t be replicated with regular objects. This guide will teach you how to use all of the shader triggers.
+
+Generally, shaders can be divided into 2 categories: Screen effects and Color filters. **Screen effects** distort the screen in some way, shape, or form, while **Color filters** change the color or hue of the level.
+
+{{< callout context="caution" title="Important" icon="outline/clipboard-text" >}}
+- Shader triggers cannot be stopped using a stop or pause trigger. You have to use the same trigger with all of its settings off, or the shader trigger with “disable all” enabled.
+- Checking the box in the top right of the shader menus disables the shader from previewing in the editor. The relative checkbox makes the effects relative to a screen’s aspect ratio rather than a fixed amount.
+{{< /callout >}}
+
 # 1: Screen Effects
 
 ## Shader
@@ -28,7 +39,7 @@ __Sets a range of Z layers that other shader triggers will affect.__
 - **Disable All**: __Disables any active shaders__.
 - **Disable player particles**: __Prevents any shaders from affecting the particles that come from the player during gameplay__. This option is here since the rendering of some shaders on these particles can look a bit weird.
 
-{{< youtube GBMR-d0AkqU >}} 
+{{< youtube GBMR-d0AkqU >}}
 
 ## Shock Wave
 __Creates a shock wave that moves to or from a center point.__
@@ -51,7 +62,7 @@ __Creates a shock wave that moves to or from a center point.__
 - **Animate**: __Allows you to change the settings of an active shock wave effect__. Pressing the trash button next to a setting will have that setting ignored.
  - **FadeTime**: __How long the effect lasts__. To the right are some easing options for the transition.
 
-{{< youtube 9tm6Vzmm4Qo >}} 
+{{< youtube 9tm6Vzmm4Qo >}}
 
 ## Shock Line
 __Creates a shock wave effect that moves across the screen.__
@@ -73,7 +84,7 @@ __Creates a shock wave effect that moves across the screen.__
 - **Animate**: Allows you to change the settings of an active shock line effect. Pressing the trash button next to a setting will have that setting ignored.
  - **FadeTime**: How long the new changes will take effect. To the right are some easing options for the transition.
 
-{{< youtube Gmau8P_saiQ >}} 
+{{< youtube Gmau8P_saiQ >}}
 
 ## Glitch
 __Creates a glitch effect.__
@@ -85,7 +96,7 @@ __Creates a glitch effect.__
 - **MaxColXOff**: __How far the RGB values can be offset from its original x-axis__.
 - **MaxColYOff**: __How far the RGB values can be offset from its original y-axis__.
 
-{{< youtube IeHcRQEcg4A >}} 
+{{< youtube IeHcRQEcg4A >}}
 
 ## Chromatic
 __Splits up RGB values and offsets them from each other.__
@@ -93,7 +104,7 @@ __Splits up RGB values and offsets them from each other.__
 - **TargetY**: __How far the colors move on the y-axis__. Must have “Use Y” enabled for this to apply.
 - FadeTime: How long, in seconds, it takes to transition into the effect. Easing gives options on what easing the transition will use.
 
-{{< youtube EM2WCzJT-p8 >}} 
+{{< youtube EM2WCzJT-p8 >}}
 
 ## Chromatic Glitch
 __Creates a different glitch effect, with slightly more emphasis on chromatic effects.__
@@ -107,7 +118,7 @@ __Creates a different glitch effect, with slightly more emphasis on chromatic ef
 - **Disable**: __Disables the effect__.
 - **Relative Pos**: __Locks the segments to the grid instead of them following the camera__.
 
-{{< youtube 8p9ySqcezMg >}} 
+{{< youtube 8p9ySqcezMg >}}
 
 ## Pixelate
 __Pixelates the screen__.
@@ -117,7 +128,7 @@ __Pixelates the screen__.
 - **Snap Grid**: __Enabling this makes the pixels follow the grid instead of the camera__.
 - **Hard Edges**: __Sharpens the pixelation effect so it looks less blurred__.
 
-{{< youtube euBSob6lH_A >}} 
+{{< youtube euBSob6lH_A >}}
 
 ## Lens Circle
 __Creates a lens circle around a center point__
@@ -130,7 +141,7 @@ __Creates a lens circle around a center point__
 - **CenterID**: __The ID of the object the effect centers on__. You can have player 1 or 2 set as this ID. By default, the center of the effect is the center of the screen.
 - **Tint Channel**: __The color channel that the effect takes the color of__. By default, the effect is black. The opacity of the color channel is ignored.
 
-{{< youtube XKRk8oeeB54 >}} 
+{{< youtube XKRk8oeeB54 >}}
 
 ## Radial Blur
 __Blurs the screen from a center point__.
@@ -144,7 +155,7 @@ __Blurs the screen from a center point__.
 - **Target**: Sets the center of the effect to a player or a single object (using a group ID). The default position used if this is enabled is around the spawn point.
 - **EmptyOnly**: __**Doesn’t work as of now**__. __Is supposed to only blur pixels with no objects in them__.
 
-{{< youtube TOtKl_kzBYc >}} 
+{{< youtube TOtKl_kzBYc >}}
 
 ## Motion Blur
 __Blurs the screen based on the movement of the camera, player, or selected object__.
@@ -159,7 +170,7 @@ __Blurs the screen based on the movement of the camera, player, or selected obje
 - **EmptyOnly**: __**Doesn’t seem to work as of now**__. Is supposed to only blur pixels with no objects in them.
 - **TargetID**: __Sets the center of the effect to a player, the camera, or a single object using a group ID__. The default uses the default position as viewed in the editor, and the blur will not move.
 
-{{< youtube 6yDiecQ_h1Y >}} 
+{{< youtube 6yDiecQ_h1Y >}}
 
 ## Bulge
 __Bulges the screen__.
@@ -170,7 +181,7 @@ __Bulges the screen__.
 - **FadeTime**: How long, in seconds, it takes to transition into the effect. Easing gives options on what easing the transition will use.
 - **Target**: Sets the center of the effect to a player or a single object using a group ID. If no reference is put in, the bulge will act the same as if Target was not enabled.
 
-{{< youtube ChPFTMYxHBY >}} 
+{{< youtube ChPFTMYxHBY >}}
 
 ## Pinch
 __Distorts the screen by “pinching” it__. The opposite of the bulge effect.
@@ -183,7 +194,7 @@ __Distorts the screen by “pinching” it__. The opposite of the bulge effect.
 - **FadeTime**: How long, in seconds, it takes to transition into the effect. Easing gives options on what easing the transition will use.
 - **Target**: Sets the center of the effect to a player or a single object using a group ID. The default position used is around 3 blocks under the spawn.
 
-{{< youtube Y9TshK-hWAg >}} 
+{{< youtube Y9TshK-hWAg >}}
 
 # 2: Color Filters
 
@@ -194,14 +205,14 @@ __Filters the screen to a grayscale color__.
 - **Tint Channel**: Uses a color channel to tint the screen by instead of gray. The box next to the input must be checked in order to work.
 - **UseLum**: __Uses a different color conversion method for the grayscale filter__. Instead of simply desaturating the end image, it applies a “value” filter which is more accurate for [color theory](/docs/guides/deco-2/light-3-value/).
 
-{{< youtube VLX5-fKeYpg >}} 
+{{< youtube VLX5-fKeYpg >}}
 
 ## Sepia
 __Filters the screen with a sepia effect__.
 - **Target**: How much the filter is applied. Lower values mean less sepia coloring.
 - **FadeTime**: How long, in seconds, it takes to transition into the effect. Easing gives options on what easing the transition will use.
 
-{{< youtube H2807GrOMFM >}} 
+{{< youtube H2807GrOMFM >}}
 
 ## Invert Color
 __Inverts the color of the screen__.
@@ -212,14 +223,14 @@ FadeTime: How long, in seconds, it takes to transition into the effect. Easing g
 **TweenRGB**: __Transitions new values for an invert color trigger smoothly instead of instantly__. Needs “EditRGB” to work and only works after an active invert color effect.
 **ClampRGB**: __Limits the final max values for each color to 1/1/1__. Any values over 1 in the RGB sliders will be ignored.
 
-{{< youtube MtO29gS8ttg >}} 
+{{< youtube MtO29gS8ttg >}}
 
 ## Hue Shift
 __Shifts the hue of the colors on screen__.
 **Degree**: __How many degrees the colors shift by__.
 **FadeTime**: How long, in seconds, it takes to transition into the effect. Easing gives options on what easing the transition will use.
 
-{{< youtube lfgdCSofICw >}} 
+{{< youtube lfgdCSofICw >}}
 
 ## Edit Color
 __Edits the RGB values of the colors on screen__.
@@ -227,12 +238,12 @@ __Edits the RGB values of the colors on screen__.
 **CR CG CB sliders**: C stands for color. __These sliders edit how much red, green, and blue colors are displayed__. Higher values mean more color and smaller values mean less color.
 **BR BG BB sliders**: B stands for brightness. __These sliders edit the brightness of the red, green, blue values__. Higher values mean more brightness and lower values mean less brightness.
 
-{{< youtube SUraX52EAwA >}} 
+{{< youtube SUraX52EAwA >}}
 
 ## Split Screen
 __Splits the screen into multiple screens__.
 - **TargetX**: __How many screens the trigger adds to the x-axis__. Higher values mean more screens. Negative values invert the x-axis. “Use X” must be enabled for this to work.
 - **TargetY**: __How many screens the trigger adds to the y-axis__. Higher values mean more screens. Negative values invert the y-axis. “Use Y” must be enabled for this to work.
 
-{{< youtube fMXuJoW3o40 >}} 
+{{< youtube fMXuJoW3o40 >}}
 

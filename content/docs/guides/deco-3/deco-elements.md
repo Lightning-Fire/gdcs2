@@ -1,12 +1,13 @@
 ---
-draft: false
 title: Elements of Decoration
+weight: 110010
 date: 2026-03-26T00:00:00.000Z
+description: null
 authors:
   - komatic5
 contributors:
   - komatic5
-weight: 110010
+draft: false
 ---
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 
@@ -21,6 +22,8 @@ weight: 110010
 * Of course, we can't stop you from reading ahead, but you may struggle to apply the concepts in these guides while also learning to create.
 
 {{< /callout >}}
+
+** **
 
 # 1: Deco Elements
 

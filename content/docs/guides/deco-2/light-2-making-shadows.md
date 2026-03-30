@@ -2,6 +2,7 @@
 title: Light 2 (Making Shadows)
 weight: 8070
 date: 2025-06-30T00:00:00.000Z
+description: Shadow constructions are a crucial part of understanding light. After all, they let you accurately determine where light shines and where it’s blocked, without relying on guesswork. This guide will explain the main principles behind constructing shadows in Geometry Dash.
 authors:
   - komatic5
 contributors:
@@ -21,7 +22,6 @@ draft: false
 {{< /callout >}}
 
 ** **
-Shadow constructions are a crucial part of understanding light. After all, they let you accurately determine where light shines and where it’s blocked, without relying on guesswork. This guide will explain the main principles behind constructing shadows in Geometry Dash.
 
 **Note:** This guide applies to both 2D and 3D creations, but the skill ceiling for shadows is significantly higher in 3D scenarios. As such, it’s highly recommended that you familiarize yourself with advanced perspective techniques (at least up to Perspective 4).
 

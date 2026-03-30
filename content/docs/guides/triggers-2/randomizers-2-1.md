@@ -2,6 +2,7 @@
 title: Randomizers (2.1)
 weight: 6200
 date: 2024-04-19T00:00:00.000Z
+description: A lot of board games have an element of chance involved, which can change the game's outcome drastically. In this lesson, we'll discuss how to make four Randomizers - a way to "roll a dice" in Geometry Dash 2.1.
 authors:
   - infernuz_bunni
   - typexleta
@@ -12,6 +13,11 @@ contributors:
   - icefire100062
 draft: false
 ---
+
+{{< callout context="caution" title="Outdated Guide" icon="outline/info-circle" >}}
+As of Update 2.2, this guide is now functionally useless. It will remain for legacy reasons, but you should visit the [Camera Triggers](/docs/guides/triggers-1/camera-triggers) guide.
+
+{{< /callout >}}
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 

@@ -2,6 +2,7 @@
 title: Enter Triggers
 weight: 3250
 date: 2024-04-03T00:00:00.000Z
+description: Enter Triggers change how objects look as they enter and exit the screen. This guide explains how them work.
 authors:
   - eyz
 contributors:
@@ -29,55 +30,55 @@ To assign an Enter Channel ID to an object, head to its Edit Group tab and click
 
 - By default objects fade in and out. *This is how objects normally appear and disappear.*
 
-{{< youtube R0PPk63Bjmg >}} 
+{{< youtube R0PPk63Bjmg >}}
 
 - {{< img src="images/GDEmotes/Triggers/Fade2.png" class="emote">}} Objects fade in by moving down and fade out by moving up.
 
-{{< youtube TirB4I84-44 >}} 
+{{< youtube TirB4I84-44 >}}
 
 - {{< img src="images/GDEmotes/Triggers/Fade3.png" class="emote">}} does the opposite of the previous trigger.
 
-{{< youtube BpGLDtqFo6U >}} 
+{{< youtube BpGLDtqFo6U >}}
 
 - {{< img src="images/GDEmotes/Triggers/Fade4.png" class="emote">}} Objects appear from behind the blocks near the screen's edge and then disconnect and move towards the left.
 
-{{< youtube uGf2ru9UbIY >}} 
+{{< youtube uGf2ru9UbIY >}}
 
 - {{< img src="images/GDEmotes/Triggers/Fade5.png" class="emote">}} Objects fade in by connecting to the rest from the right and fade out, by disappearing from behind the blocks near the screen's edge.
 
-{{< youtube J5o7xaDTBxo >}} 
+{{< youtube J5o7xaDTBxo >}}
 
 - {{< img src="images/GDEmotes/Triggers/Fade6.png" class="emote">}} Objects fade in by scaling up and fade out by scaling down.
 
-{{< youtube VROqwR0YwUc >}} 
+{{< youtube VROqwR0YwUc >}}
 
 - {{< img src="images/GDEmotes/Triggers/Fade7.png" class="emote">}} does the opposite of the previous trigger.
 
-{{< youtube svAfHy19a4E >}} 
+{{< youtube svAfHy19a4E >}}
 
 - {{< img src="images/GDEmotes/Triggers/Fade8.png" class="emote">}} The top half of the objects move downwards when fading in, and upwards when fading out. The bottom half does the opposite of the top half.
 
-{{< youtube P-rWqOmPfDk >}} 
+{{< youtube P-rWqOmPfDk >}}
 
 - {{< img src="images/GDEmotes/Triggers/Fade9.png" class="emote">}} does the opposite of the previous trigger.
 
-{{< youtube 5k7Byibblfs >}} 
+{{< youtube 5k7Byibblfs >}}
 
 - {{< img src="images/GDEmotes/Triggers/Fade10.png" class="emote">}} A combination of the {{< img src="images/GDEmotes/Triggers/Fade8.png" class="emote">}} and the {{< img src="images/GDEmotes/Triggers/Fade4.png" class="emote">}} triggers.
 
-{{< youtube 3ALBCouEqck >}} 
+{{< youtube 3ALBCouEqck >}}
 
 - {{< img src="images/GDEmotes/Triggers/Fade11.png" class="emote">}} A combination of the {{< img src="images/GDEmotes/Triggers/Fade8.png" class="emote">}} and the {{< img src="images/GDEmotes/Triggers/Fade5.png" class="emote">}} triggers.
 
-{{< youtube dyXZf4W4bVE >}} 
+{{< youtube dyXZf4W4bVE >}}
 
 - {{< img src="images/GDEmotes/Triggers/Fade12.png" class="emote">}} Objects enter and exit the screen with random movements, fading in and out. *This was a secret trigger in 2.1, and has now been added officially in 2.2.*
 
-{{< youtube gDmZIMSgZBY >}} 
+{{< youtube gDmZIMSgZBY >}}
 
 - {{< img src="images/GDEmotes/Triggers/Fade13.png" class="emote">}} This trigger cancels any ongoing effects. It effectively enables the “Don't Fade” and “Don't Enter” options.
 
-{{< youtube 2Kt37a9GTno >}} 
+{{< youtube 2Kt37a9GTno >}}
 
 # 2: Area Enter Effects
 

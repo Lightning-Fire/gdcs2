@@ -2,6 +2,7 @@
 title: Camera Triggers
 weight: 3290
 date: 2024-05-31T00:00:00.000Z
+description: Camera Triggers allow you to manipulate the camera in a level. In this guide, we'll explore nine different triggers that can affect the level’s camera and how they function.
 authors:
   - zars70
 contributors:
@@ -40,7 +41,7 @@ This is how it looks fully zoomed out:
 
 Here's a video demonstrating the Zoom trigger:
 
-{{< youtube tfgrxSFtBh0 >}} 
+{{< youtube tfgrxSFtBh0 >}}
 
 # 2: Static Trigger
 
@@ -62,7 +63,7 @@ This is how the Static Camera looks in game:
 
 Here's a video demonstrating the Static trigger:
 
-{{< youtube Twv7jRXqlGg >}} 
+{{< youtube Twv7jRXqlGg >}}
 
 # 3: Offset Trigger
 
@@ -87,7 +88,7 @@ Here's how offsets X(50) and Y(50) look in game:
 
 Here's a video demonstrating the Offset trigger:
 
-{{< youtube JScHLkRc4gk >}} 
+{{< youtube JScHLkRc4gk >}}
 
 # 4: GP Offset Trigger
 
@@ -115,7 +116,7 @@ Here's how the game looks rotated 20°:
 
 Here's a video demonstrating the Rotate Camera trigger:
 
-{{< youtube UEZ6gdpolZg >}} 
+{{< youtube UEZ6gdpolZg >}}
 
 # 6: Edge Trigger
 
@@ -129,7 +130,7 @@ Unlike the other camera triggers, you can't use a certain easing or modify the m
 
 Here's a video demonstrating the Edge trigger:
 
-{{< youtube 26nq9kkLZ6s >}} 
+{{< youtube 26nq9kkLZ6s >}}
 
 # 7: Mode Trigger
 
@@ -149,7 +150,7 @@ You can tweak the sliders in order to reflect the previous camera's state if you
 
 Here's a video demonstrating how a Guide trigger can be used:
 
-{{< youtube Lg2xJB_ShjE >}} 
+{{< youtube Lg2xJB_ShjE >}}
 
 # 9: Shake Trigger
 

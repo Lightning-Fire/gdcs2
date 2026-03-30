@@ -18,6 +18,10 @@ fields: &page_fields
     hint: "The guide's title that will be seen on the website." }
   - { label: Date, name: date, widget: datetime, time_format: false, format: "YYYY-MM-DD",
     hint: “The date when the guide is published and becomes public.” }
+  - { label: Weight, name: weight, widget: number,
+    hint: "Pages with high weight will display below pages with low weight.\nLook at other guides in this folder to see where to place your own." }
+  - { label: Description, name: description, widget: string,
+    hint: "Short introduction about the contents of the guide." }
   - label: SEO
     name: seo
     widget: object
@@ -29,8 +33,6 @@ fields: &page_fields
     - { label: Description, name: description, widget: text, required: false }
     - { label: Canonical URL, name: canonical, widget: string, required: false }
     - { label: No Index, name: noindex, widget: boolean, required: false }
-  - { label: Weight, name: weight, widget: number,
-    hint: "Pages with high weight will display below pages with low weight.\nLook at other guides in this folder to see where to place your own." }
   - { label: Math, name: math, widget: boolean, required: false,
     hint: "Lets you use MathJax for math formatting in your guide."}
   - { label: Body, name: body, widget: markdown }

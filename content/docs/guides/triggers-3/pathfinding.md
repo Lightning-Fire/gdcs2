@@ -2,6 +2,7 @@
 title: Pathfinding
 weight: 9110
 date: 2024-09-30T00:00:00.000Z
+description: Pathfinding is one of the most practical types of computer algorithms. If you’re trying to go somewhere, your map app uses pathfinding to give you the fastest route. If you’re making a game, enemy AI often uses pathfinding to quickly approach the player while avoiding obstacles. This guide will explain how pathfinding algorithms work so you can implement them in your levels.
 authors:
   - furorem
 contributors:

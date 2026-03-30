@@ -2,6 +2,7 @@
 title: Show/Hide Player, Player Trail, & BG Effects
 weight: 3310
 date: 2024-01-08T00:00:00.000Z
+description: This guide explains how the Show/Hide Player, Player Trail, & BG Effect triggers work. They let you control if the player is shown, has a trail behind them, or if there are extra particles in the level background.
 authors:
   - tdp9
 contributors:

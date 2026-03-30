@@ -2,6 +2,7 @@
 title: Area Triggers
 weight: 3180
 date: 2024-04-03T00:00:00.000Z
+description: Area Triggers are a new collection of complex triggers with many interesting applications. This guide explains how to use them.
 authors:
   - naem.less
 contributors:
@@ -18,6 +19,11 @@ draft: false
 {{< /callout >}}
 
 ** **
+
+Area triggers affect objects depending on how far they are from a center object. This means the further from the center an object is, the less the object will be affected. This guide will teach you how to set up basic area effects using Area Move, Rotate, Scale, Fade and Tint.
+
+There are 5 different area triggers: Move, Rotate, Scale, Fade (:Alpha:) and Tint (:Pulse:/:Color:). All options in area triggers work in units, where 10 units are equal to 1 block. You can find them after the keyframe object on the first page of the triggers tab.
+
 # 1: Overview
 
 First, let's go over the options that are found in every area trigger.
@@ -43,11 +49,11 @@ The second page of all area triggers will have these options:
 - For the 3rd to 6th options, ModFront is considered to be behind the center object, and ModBack in front of the center.
 - For the 7th to 10th options, ModFront is considered below the center and ModBack is above it.
 
-{{< youtube 37esCsY8Q5Q >}} 
+{{< youtube 37esCsY8Q5Q >}}
 
 - **Deadzone**: Will divide the length by this number and change the way the transition is applied at the resulting value. For example if you have a length of 80 and a deadzone of 0.5, the area effect will be fully applied from your player to 40 units (4 blocks) away and will fade out to not applied starting from 40 units (4 blocks) from the center to 80 units (8 blocks) from the center. Note that a deadzone greater than 1 will invert the area effect.
 
-{{< youtube 910LAJDkM5M >}} 
+{{< youtube 910LAJDkM5M >}}
 
 - **Ignore Linked**: When you link objects together and one of them has group/area parent, the linked objects will act as one. Enabling this option will make all the objects act on their own again as if they're not linked.
 - **Ignore Gparent**: Whenever an object has group parent enabled, anything that happens to this object will also happen to all the objects linked to this object. Enabling this option will “disable” the group parent and the objects will act as if there's no group parent at all.
@@ -101,23 +107,23 @@ Now, we will discuss options specific to each area trigger.
 Note that you can't use Follow triggers to copy movement from area affected objects to another, but Advanced Follow does work.
 Also note that for static objects, if the MoveDist is larger than the Length and the objects have 1.00 deadzone some objects will flicker constantly.
 
-{{< youtube WFCeEl2rDf8 >}} 
+{{< youtube WFCeEl2rDf8 >}}
 
 ## Area Rotate
 - **Rotation**: the angle the objects should rotate at.
 
-{{< youtube TJixmnj_1us >}} 
+{{< youtube TJixmnj_1us >}}
 
 ## Area Scale
 - **ScaleX/Y:** The size the objects should scale to. This is different to the scale trigger as the values in the scale trigger are multipliers and in Area Scale they will *set *the scale of objects.
 
-{{< youtube skUPcm8lN7Y >}} 
+{{< youtube skUPcm8lN7Y >}}
 
 ## Area Fade
 - **From Opacity**: The opacity of the objects closest to the center.
 - **To Opacity**: The opacity of the objects farthest from the center.
 
-{{< youtube 0rzM0FA9RFw >}} 
+{{< youtube 0rzM0FA9RFw >}}
 
 ## Area Tint
 - **Color Channel**: the color channel the objects to change to when the center get near them.
@@ -125,7 +131,7 @@ Also note that for static objects, if the MoveDist is larger than the Length and
 - **Main Only/Secondary Only**: Will only affect the main or detail color of objects that have a main and detail color.
 - **HSV**: Allows you to change the hue, brightness and saturation of the target objects.
 
-{{< youtube FtqWkbxEXC4 >}} 
+{{< youtube FtqWkbxEXC4 >}}
 
 ## Area Stop
 The Area Stop trigger works exactly the same as the normal :Stop: trigger, but it's specific to area triggers and works off of Effect IDs.
@@ -146,5 +152,5 @@ Additionally, note that any Area Animate trigger can affect any area trigger. Fo
 
 For example, Area Scale animate can edit an Area Move trigger’s length but not its scale, as no such option exists in Area Move.
 
-{{< youtube nTlAHzhFxcU >}} 
+{{< youtube nTlAHzhFxcU >}}
 

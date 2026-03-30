@@ -2,6 +2,7 @@
 title: The Trigger Process
 weight: 3470
 date: 2023-03-14T00:00:00.000Z
+description: "Just as everyone has a different approach to decoration and gameplay, creating workflows can vary from creator to creator. Triggers are no different, but you are dealing less with the level's visuals, and more with its programming. In this guide, we will explain the 3 parts that make up the trigger workflow and how to set them up: functions, modules, and truth conditions. There will be examples afterward for further practice."
 authors:
   - komatic5
 contributors:
@@ -72,7 +73,7 @@ This can also be combined with other modules: by using collision triggers as a t
 
 {{< img src="https://lh3.googleusercontent.com/d/1gjNV3CpV0Zj7c-0EE5XeWAdRYR_aQPpE" >}}
 <br>
-{{< youtube rzmGvBvObUE >}} 
+{{< youtube rzmGvBvObUE >}}
 
 ## Example 2: Double Click
 
@@ -98,7 +99,7 @@ To detect when the player’s only clicked once, we use a spawn trigger with 0.2
 
 {{< img src="https://lh3.googleusercontent.com/d/1p1t21UMEuQ6iFzDy2JMy7AK70shgmRyq" >}}
 <br>
-{{< youtube YhsjDK-tu18 >}} 
+{{< youtube YhsjDK-tu18 >}}
 
 You can see when the triggers activate thanks to the BetterEdit mod.
 

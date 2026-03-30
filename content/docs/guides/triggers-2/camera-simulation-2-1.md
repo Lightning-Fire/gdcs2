@@ -2,6 +2,7 @@
 title: Camera Simulation (2.1)
 weight: 6190
 date: 2024-04-20T00:00:00.000Z
+description: This guide looks at how the GD camera works and how to simulate it in GD 2.1.
 contributors:
   - chunlv1
   - komatic5
@@ -9,6 +10,11 @@ contributors:
   - zvleus1487
 draft: false
 ---
+
+{{< callout context="caution" title="Outdated Guide" icon="outline/info-circle" >}}
+As of Update 2.2, this guide is now functionally useless. It will remain for legacy reasons.
+
+{{< /callout >}}
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 - The rectangular field that you can see on screen is the camera.
@@ -21,6 +27,9 @@ draft: false
 {{< /callout >}}
 
 ** **
+
+Recreating mechanics in future updates before the official release is a common trend after every sneak peek starting from Update 2.0. When the teleport portal was introduced, creators stacked slopes in Update 1.9 to simulate it. In regards to Update 2.2, and Geometry Dash Subzero, the main mechanic that creators aim to simulate is the camera itself. For example, [Page Not Found by TDP9](https://youtu.be/JirC9E9bW98?t=85) has a cube part where its background moves along with the camera. In this guide, we’ll tackle how Geometry Dash’s camera works and how to simulate its movements.
+
 # 1: Camera
 
 Before we go to the meaty part of this guide, let’s take a look at the **camera**. Simply put, __it captures the screen of the device; the rectangular field that constantly follows the player__. Regardless of your device, your screen’s height will remain exactly `10 ⅔` blocks tall. However, your screen’s length depends on your device’s aspect ratio: Standard Aspect Ratio (`22` blocks) vs. Widescreen (`24` blocks). But there are other lengths beyond these two ratios.
@@ -31,9 +40,9 @@ If you manage to simulate this camera, you can upgrade the parallax in your leve
 
 In addition, you’ll notice that most gamemodes have fixed borders at the top and bottom, even the duals. However, only the robot and cube gamemodes are borderless. This will change in 2.2 once Free Fly Mode is introduced for all gamemodes. As of 2.1, there are two ways to set up the camera: with borders and without borders. We need this distinction because the camera’s modules will differ greatly.
 
-{{< youtube 8G_8F2tXYpw >}} 
+{{< youtube 8G_8F2tXYpw >}}
 
-{{< youtube fPXLGli6XGw >}} 
+{{< youtube fPXLGli6XGw >}}
 
 # 2: Camera Simulation with Borders
 

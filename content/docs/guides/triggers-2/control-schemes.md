@@ -2,6 +2,7 @@
 title: Control Schemes
 weight: 6160
 date: 2026-03-05T00:00:00.000Z
+description: When making minigames, one of the important aspects to get right is controls, as they are the way that the player interacts with your level, making them complicated or confusing would lead to an unsatisfying experience despite how good the gameplay is. However, doing so with the limited number of inputs that Geometry Dash gives can be quite challenging. This guide discusses how you can use different button combinations to create more actions all while maintaining a manageable control layout.
 authors:
   - theibra
 contributors:
@@ -30,11 +31,6 @@ This guide contains interactive images; you can click or hover over elements to 
 {{< /callout >}}
 
 ** **
-# 1: Introduction
-
-When making minigames, one of the important aspects to get right is controls, as they are the way that the player interacts with your level, making them complicated or confusing would lead to an unsatisfying experience despite how good the gameplay is. However, doing so with the limited number of inputs that Geometry Dash gives can be quite challenging.
-
-This guide discusses how you can use different button combinations to create more actions all while maintaining a manageable control layout.
 
 # 2: Inputs
 

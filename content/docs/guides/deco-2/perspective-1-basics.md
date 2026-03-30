@@ -1,13 +1,14 @@
 ---
-draft: false
 title: Perspective 1 (Basics)
 date: 2023-05-21T00:00:00.000Z
 weight: 8200
+description: Perspective is crucial for advancing from 2D designs into complex, 3D ones. It's also the basis for understanding how light and color interact, and all the other guides in this channel. This guide explains the basics of perspective accordingly.
 authors:
   - komatic5
 contributors:
   - kde
   - komatic5
+draft: false
 ---
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 

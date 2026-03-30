@@ -2,6 +2,7 @@
 title: Sequence
 weight: 3390
 date: 2023-12-30T00:00:00.000Z
+description: This guide explains how to use the Sequence trigger, which lets you make a fully customized loop in-game.
 authors:
   - naem.less
 contributors:
@@ -19,6 +20,10 @@ draft: false
 
 ** **
 
+The sequence trigger is a trigger that spawns a sequence of groups a certain number of times you want, from left to right in the trigger interface. It will trigger the next group id every time the trigger is activated.
+
+*NOTE: Sequence ONLY works as a Spawn trigger, not a Toggle trigger.*
+
 # 1: Adding & Removing Steps
 
 When you open the Sequence trigger, you'll see a few UI items. Here are the important ones to add and remove steps:
@@ -34,7 +39,7 @@ In the example given above, it would be 2+1 = 3 times. Together these two number
 - **The red - icon:** Removes a selected step from the list. You select a step by clicking it.
 - **The two grayed out arrows** will move a selected step to the left or to the right to make it spawn earlier in the sequence or later.
 
-{{< youtube -akqvBDfZtA >}} 
+{{< youtube -akqvBDfZtA >}}
 
 # 2: MinInt & Changing Sequence Ends
 
@@ -45,7 +50,7 @@ In the example given above, it would be 2+1 = 3 times. Together these two number
 
 In the video below you can see that when MinInt has been set to 1 second, the next step in the sequence can be spawned after 1 second has passed. Mode stop only spawns the sequence once, mode loop loops over the sequence infinitely and mode last spawns group 4 over and over once you reach the end.
 
-{{< youtube HLrJObr08m0 >}} 
+{{< youtube HLrJObr08m0 >}}
 
 # 3: Resetting a Sequence
 
@@ -61,7 +66,7 @@ In the video below you can see that when the sequence trigger isn’t triggered 
 
 When Reset Step is selected, the more time is spent waiting to trigger the sequence again, the closer to the beginning of the sequence you’ll start.
 
-{{< youtube pQ0s7flxJu4 >}} 
+{{< youtube pQ0s7flxJu4 >}}
 
 Note that you cannot disable both Reset Full and Reset Step simultaneously as well as mode stop/loop/last. Only one can be selected of the two groups of options at a time, meaning you can’t have mode step and mode loop on at the same time or all of them off.
 
@@ -75,11 +80,11 @@ Enabling unique remap will make both sequences act on their own. So now, if you 
 
 In the example below you can see what happens when unique remap is off compared to it being on.
 
-{{< youtube owb5bwpQzhc >}} 
+{{< youtube owb5bwpQzhc >}}
 
 - Finally, this trigger also makes T Flip Flops very easily, requiring only 2 groups and the “Mode Loop” option.
 
 A **T Flip Flop** *(Toggle flip flop)* is a logic circuit that takes only one input and holds or toggles its output, meaning if you enable it once, it will switch on and stay on and if you pulse it again it will turn off and stay off.
 
-{{< youtube 9fSX8ijhR0E >}} 
+{{< youtube 9fSX8ijhR0E >}}
 

@@ -20,6 +20,12 @@ draft: false
 
 ** **
 
+Logic gates, also known as logic operators or comparisons, are functions that **receive one or more *truth values* and output a single *truth value***. A **truth value** is a statement that is either TRUE or FALSE. Logic gates are the basis of computer science, so they are essential in the design and operation of any kind of system, including Geometry Dash triggers. In GD's case, a true output may result in a trigger being activated, while a false output may not. It can also result in a group being toggled on for a true output and being toggled off for a false one.
+
+There are 3 main logic gates: AND, NOT, and OR logic gates. There is also the XOR logic gate but it isn't frequently used; it will still be included in this guide in case you need it. These 4 basic gates can be combined in various ways in order to create more complex logic gates. As an example, you can get a new gate by adding a NOT at the end of the 3 other gates: NOT AND becomes NAND, NOT OR becomes NOR and NOT XOR becomes XNOR.
+
+Usually logic gates are used with 2 input statements, however some of the gate implementations you will see can be extended to use as many inputs as you so desire, as we will soon cover here.
+
 # 1: Truth Types
 
 Before we define what each logic gate does and show ways to implement them into GD, we must first understand how we can translate truth values into GD triggers. There are three **truth types** that you will have to manage.

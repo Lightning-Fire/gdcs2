@@ -2,6 +2,7 @@
 title: Light 5 (Texture)
 weight: 8100
 date: 2025-03-17T00:00:00.000Z
+description: Textures are details that let us imagine how an object would feel to touch. This guide will teach you how to understand textures and apply them in different situations.
 authors:
   - skytriz
 contributors:
@@ -19,13 +20,12 @@ draft: false
 {{< /callout >}}
 
 ** **
-Textures are details that let us imagine how an object would feel to touch. People typically use these for more “realistic” decoration to communicate what materials an object is made of.
+When people talk about textures, they typically refer to them as means for more “realistic” decoration to communicate what materials an object is made of.
 
-However, textures are useful for more than just realism. This art was made by [NAKA](<https://naka.bio/>) as part of an abstract art prompt, and even though it’s not depicting any real-life objects, the texture and form still help you imagine what it might feel like to touch it.
+However, textures are useful for more than just realism. The following art was made by [NAKA](<https://naka.bio/>) as part of an abstract art prompt, and even though it’s not depicting any real-life objects, the texture and form still help you imagine what it might feel like to touch it. Here we will explain how to render certain materials and use textures in more interesting ways, such as the art below.
 
 {{< img src="https://lh3.googleusercontent.com/d/1SKdRx3_Jqf8ivTtjIgHu0QqpM2NTQPqv" >}}
 
-This guide will explain how to render certain materials and use textures in more interesting ways, such as the art above.
 
 # 1: Using Textures
 
