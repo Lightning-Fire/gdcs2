@@ -1,8 +1,10 @@
 ---
 title: Other Masks
-weight: 5170
 date: 2023-10-13T00:00:00.000Z
-description: These masks use the principles taught in the prior guides to create more complex effects. You'll notice that they'll use both blending and layering properties, as opposed to just one or the other.
+weight: 5170
+description: These masks use the principles taught in the prior guides to create
+  more complex effects. You'll notice that they'll use both blending and
+  layering properties, as opposed to just one or the other.
 authors:
   - unknown
 contributors:
@@ -57,15 +59,15 @@ This mask can make colors look a bit pale, so make sure your background colors a
 
 - Invinciwolf 2 by WerewolfGD (blocks)
 
-{{< img src="https://lh3.googleusercontent.com/d/1777jCx1YX51O2akH2AMUU-y3t9PSjf9W" >}}
+{{< gif src="https://lh3.googleusercontent.com/d/1777jCx1YX51O2akH2AMUU-y3t9PSjf9W" >}}
 
 - Key by ilrell and Swirl
 
-{{< img src="https://lh3.googleusercontent.com/d/13zCxxQUxEQ5FW0MBWCAPnce-8qEbKpOc" >}}
+{{< gif src="https://lh3.googleusercontent.com/d/13zCxxQUxEQ5FW0MBWCAPnce-8qEbKpOc" >}}
 
 - Onward Refresh by MrKoolTrix (blocks)
 
-{{< img src="https://lh3.googleusercontent.com/d/108pJcl_rPMwaOdlwcTn2b_WWmiHbWvzO" >}}
+{{< gif src="https://lh3.googleusercontent.com/d/108pJcl_rPMwaOdlwcTn2b_WWmiHbWvzO" >}}
 
 # 2: Color Pair Mask (Blending)
 
@@ -113,7 +115,7 @@ Note that the colors are slightly off, as previously stated.
 
 - ChargeleSS by Optical
 
-{{< img src="https://lh3.googleusercontent.com/d/1h83wcmWS7aNlNkOzdHKj9rfHQ8DDUAKj" >}}
+{{< gif src="https://lh3.googleusercontent.com/d/1h83wcmWS7aNlNkOzdHKj9rfHQ8DDUAKj" >}}
 
 - Bifurcate by RNBW
 
@@ -121,7 +123,7 @@ Note that the colors are slightly off, as previously stated.
 
 - Zeotrix's part in Teslawolf
 
-{{< img src="https://lh3.googleusercontent.com/d/1giftl13bNQISOL1jMBoLC9HM_-3o697c" >}}
+{{< gif src="https://lh3.googleusercontent.com/d/1giftl13bNQISOL1jMBoLC9HM_-3o697c" >}}
 
 # 3: Color Pair Mask (Lightened)
 
@@ -165,4 +167,4 @@ You can add color to the effect, by overlaying gradients and low opacity colors.
 
 - Curl Up by ilrell and Millepatte
 
-{{< img src="https://lh3.googleusercontent.com/d/15Q6x2UmS1JPyIvGIXTHrcmG6g7X46Zsf" >}}
+{{< gif src="https://lh3.googleusercontent.com/d/15Q6x2UmS1JPyIvGIXTHrcmG6g7X46Zsf" >}}
