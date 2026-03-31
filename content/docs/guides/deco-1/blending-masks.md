@@ -1,8 +1,11 @@
 ---
 title: Blending Masks
-weight: 5160
 date: 2023-10-13T00:00:00.000Z
-description: Color blending (also known as additive blending) is a way of combining colors together. A versatile tool and an integral part of creating, it has many uses in the editor. In this guide, we'll explore how blending can be used to make a variety of powerful masks.
+weight: 5160
+description: Color blending (also known as additive blending) is a way of
+  combining colors together. A versatile tool and an integral part of creating,
+  it has many uses in the editor. In this guide, we'll explore how blending can
+  be used to make a variety of powerful masks.
 authors:
   - unknown
 contributors:
@@ -74,7 +77,7 @@ You should end up with something similar to this.
 
 - Curl Up by ilrell and Millepatte
 
-{{< img src="https://lh3.googleusercontent.com/d/1Id3MeXEcGGoMVDKwlsTXUPXphFju2DJy" >}}
+{{< gif src="https://lh3.googleusercontent.com/d/1Id3MeXEcGGoMVDKwlsTXUPXphFju2DJy" >}}
 
 # 3: White Mask
 
@@ -105,15 +108,15 @@ This mask takes advantage of white’s properties regarding blending colors. Sin
 
 - b e p i s by Wulzy
 
-{{< img src="https://lh3.googleusercontent.com/d/1sXVUpCrZG7IbEw8AZ0HNOEy36aWw3QBr" >}}
+{{< gif src="https://lh3.googleusercontent.com/d/1sXVUpCrZG7IbEw8AZ0HNOEy36aWw3QBr" >}}
 
 - INFINITY by FerdeFunky
 
-{{< img src="https://lh3.googleusercontent.com/d/1zy2Z-BH8ZoyOZg066tu0n4XNDyWZI4o7" >}}
+{{< gif src="https://lh3.googleusercontent.com/d/1zy2Z-BH8ZoyOZg066tu0n4XNDyWZI4o7" >}}
 
 - Abscond by ilrell
 
-{{< img src="https://lh3.googleusercontent.com/d/1getxqFFvOogzIDsbev4SYIuCL30WDkLK" >}}
+{{< gif src="https://lh3.googleusercontent.com/d/1getxqFFvOogzIDsbev4SYIuCL30WDkLK" >}}
 
 # 4: RGB Color Mask
 
@@ -158,15 +161,15 @@ Since they still have a full value of red, the red stars still look invisible on
 
 - Curl Up by ilrell and Millepatte
 
-{{< img src="https://lh3.googleusercontent.com/d/1PbvGp5FMy6hLotuWRWY-UTmapud5Z74C" >}}
+{{< gif src="https://lh3.googleusercontent.com/d/1PbvGp5FMy6hLotuWRWY-UTmapud5Z74C" >}}
 
 - WerewolfGD's part in Teslawolf (block structures)
 
-{{< img src="https://lh3.googleusercontent.com/d/1a3h3YtugCTBnJQcMinIjXnO4EEtEuVfq" >}}
+{{< gif src="https://lh3.googleusercontent.com/d/1a3h3YtugCTBnJQcMinIjXnO4EEtEuVfq" >}}
 
 - Key by ilrell and Swirl
 
-{{< img src="https://lh3.googleusercontent.com/d/12ktoSheq3T7wyLzdGIw0fsoAMDekA272" >}}
+{{< gif src="https://lh3.googleusercontent.com/d/12ktoSheq3T7wyLzdGIw0fsoAMDekA272" >}}
 
 # 5: CMYK Color Mask
 
