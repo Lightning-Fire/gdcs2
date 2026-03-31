@@ -1,8 +1,11 @@
 ---
 title: Perspective 2 (Making Forms)
-weight: 8210
 date: 2023-11-01T00:00:00.000Z
-description: Once you know basic perspective concepts like vanishing points and horizon lines, it's important to learn the technical skills required to make perspective work in-game. This guide explains the specific skills you'll need to manually create forms like prisms, cylinders, cones, and more.
+weight: 8210
+description: Once you know basic perspective concepts like vanishing points and
+  horizon lines, it's important to learn the technical skills required to make
+  perspective work in-game. This guide explains the specific skills you'll need
+  to manually create forms like prisms, cylinders, cones, and more.
 authors:
   - komatic5
   - chunlv1
@@ -12,32 +15,36 @@ contributors:
   - notamoderatr
 draft: false
 ---
-
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
+
 - We learned how to create stencils for our 3D shapes, and the ways you can easily create ellipses.
 - From those stencils, we can make basic forms.
 - We can merge basic forms together to form more complex shapes and decorate them as needed.
 
+
 {{< /callout >}}
 
-** **
+- - -
 
 # 1: Recap on Lines
 
-Remember that straight lines, C curves, and S curves are used to make shapes. This is important when making ***forms*** because __forms are just shapes put into a 3D space__.
+Remember that straight lines, C curves, and S curves are used to make shapes. This is important when making ***forms*** because **forms are just shapes put into a 3D space**.
 
 However, you’ll need more precise ways to make planes when working in 3D. As such, here are some ways to make precise lines and curves.
+
 ## Lines
 
 If you want a line with a specific length regardless of the angle, you can use a GD feature called **Group Parent** to easily rotate lines. When you enable Group Parent on one object and then select multiple objects, that object becomes the center point for rotation and scaling.
 
 1. Place two small objects to act as the start and end points for the line. Select **one** of them and enable “Group Parent” in the Edit Group interface.
- - I’ll refer to the point with Group Parent enabled as the **Pivot Point** (PP), and the other point as the **Non-Pivot Point** (NPP).
+
+* I’ll refer to the point with Group Parent enabled as the **Pivot Point** (PP), and the other point as the **Non-Pivot Point** (NPP).
+
 2. Duplicate the Non-Pivot Point, and select the Pivot Point. Rotate both around the Pivot until they’re perfectly horizontal.
 3. Use line objects to make a line between both points.
 4. Rotate the line around the Pivot until its other end touches the NPP at the right angle.
 
-{{< img src="https://lh3.googleusercontent.com/d/1uY3TReLDC9V8tnIKAY-iTHr9WcYFzcwF" >}}
+{{< youtube "1S9rH-eUsHk" >}}
 
 Alternative method: (convenient for Steam users)
 
@@ -46,7 +53,7 @@ Alternative method: (convenient for Steam users)
 3. Delete the parts of the line which extend past the NPP.
 4. Use the Free Move tool to extend the line until its length is precise. You can zoom the camera in for better accuracy.
 
-{{< img src="https://lh3.googleusercontent.com/d/1C7v6Co9U1OexSYl9SHylcEfzsyE-3h2e" >}}
+{{< youtube "ORBjJe576bA" >}}
 
 ## Ellipses
 
@@ -60,7 +67,7 @@ Once you create your ellipse guidelines using one of these methods, you can simp
 
 Since ellipses have major and minor axes, you should also get used to constructing ellipses by defining their major and minor axes *first*.
 
-{{< img src="https://lh3.googleusercontent.com/d/1_aBIXuRv00xaG15RRYbt-hSr-6yHbzJO" >}}
+{{< youtube "wu5OweMeUtU" >}}
 
 # 2: Basic Forms
 
@@ -72,13 +79,13 @@ To make a rectangular prism, start by deciding how many planes are visible from 
 
 If two or more planes are visible, make a line for the edge closest to the viewer. Then, construct two points somewhere else in your workspace which will serve as vanishing points. Construct lines which extend from the points on your prism’s edge to the vanishing points, then create more lines which define the other corners of the prism. Finally, connect everything together.
 
-{{< img src="https://lh3.googleusercontent.com/d/1HJ2bPCaftfn6I5WCJJVzrsC3r4-rv8me" >}}
+{{< youtube "cN_xvbnQRfo" >}}
 
-Rectangular prisms are also commonly made using ***Orthographic Perspective***. This is __where depth exists, but parallel lines don’t converge to vanishing points__. The game’s default 3DL objects are an example of orthographic perspective.
+Rectangular prisms are also commonly made using ***Orthographic Perspective***. This is **where depth exists, but parallel lines don’t converge to vanishing points**. The game’s default 3DL objects are an example of orthographic perspective.
 
 Simply create a prism, then make a copy and offset it a bit. Then, connect the closest corners together using lines that have the same angle.
 
-{{< img src="https://lh3.googleusercontent.com/d/1q7R0-QOILwvAgG7ujdv8SJmO0ccqx784" >}}
+{{< youtube "GjBieM2-Fa8" >}}
 
 ## Spheres
 
@@ -86,7 +93,7 @@ Spheres are one of the simpler forms you can make. Simply construct a circle, th
 
 To ensure that your construction is correct, place a point at the center of the circle. Then, draw lines extending outwards and upwards to define the major and minor axes of both ellipses. This is largely to get used to making accurate ellipses, as it’s important for some other constructions later.
 
-{{< img src="https://lh3.googleusercontent.com/d/16Mt_7vnnGard9ISBcK4kLuayUkjNxwra" >}}
+{{< youtube "uLUeNasaf8E" >}}
 
 ## Cylinders
 
@@ -95,23 +102,23 @@ Cylinders combine the practices from rectangular prisms and spheres. Start by dr
 Next, construct ellipses at the front and back of the cylinder. Remember that ellipses are circles being viewed in perspective, so their width will change depending on the camera’s viewpoint.
 This is something that requires practice to gain intuition for where exactly each ellipse will be placed.
 
-{{< img src="https://lh3.googleusercontent.com/d/1vmR8i-39jWtvE8wWqu0I2Z-fJJEEHt-w" >}}
+{{< youtube "lYLYk98XRTY" >}}
 
 ## Cones
 
 Cones are fairly simple. Create an ellipse in perspective by marking the major and minor axes. Then construct a line starting at the ellipse’s center which extends upwards to whatever height you desire. Connect the edges of the ellipse to the top of this line and you have a cone.
 
-{{< img src="https://lh3.googleusercontent.com/d/1fsKa0_sC84DdzKG6fXZ-2jZApnoVuNUM" >}}
+{{< youtube "x2knyvbvOrk" >}}
 
 # 3: Combining Forms
 
 These basic forms are used to make more complex forms by connecting them together and deleting any hidden edges from the final draft. Adding forms together is as easy as making two simple forms, then putting one of their planes next to the other form’s plane and erasing the lines between them.
 
-{{< img src="https://lh3.googleusercontent.com/d/12ueVLUjbPazLHXeVU_RkYeAoZQCxPP2k" >}}
+{{< youtube "cAO7n7lF1Zk" >}}
 
 Subtracting forms from each other requires you to make the larger form, then make the smaller form *inside it* and erase the lines where they intersect. In some cases this is known as negation.
 
-{{< img src="https://lh3.googleusercontent.com/d/1fQdeY_7TNoL1qYRUsN1qi0OEo8mNps1V" >}}
+{{< youtube "I-GC_t1GtU0" >}}
 
 As you can imagine from the prior Decoration guides, the same process applies when working with forms as it does with 2D shapes and objects. Choose the forms which will most efficiently achieve your decoration ideas. And when studying forms, be sure to dissect them into their most basic versions.
 
@@ -121,4 +128,4 @@ Here are some examples from Chunlv1 which demonstrate this process.
 
 # Sources
 
-- [Proko: Structure Basics](<https://youtu.be/3uEtdDvK6Xo >}} )
+* \[Proko: Structure Basics](<https://youtu.be/3uEtdDvK6Xo >}} )
