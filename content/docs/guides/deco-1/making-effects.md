@@ -152,13 +152,15 @@ In particular, the option to randomize movement and color is probably one of the
 
 Another important concept that can be used effectively is **Ambiguous Motion**, **which refers to visual motion that can be interpreted in multiple ways, due to unclear movements or cues**. For example, the spinning dancer and the barber pole illusions below use ambiguous motion.
 
-{{< img src="https://lh3.googleusercontent.com/d/1l0VUtVMIrlJVQoDQ6tqV9vSKUrqyJzM9" >}}
+{{< gif src="https://lh3.googleusercontent.com/d/1CdBMBXuNqb0na-e61skgnustT-0UrX0y" >}}
+
+{{< gif src="https://lh3.googleusercontent.com/d/1l0VUtVMIrlJVQoDQ6tqV9vSKUrqyJzM9" >}}
 
 Neither of these illusions give you any clues on the actual movement that is going on, allowing your brain to infer what is happening. The barber pole illusion can be interpreted as either going to the right or going down, and you can take advantage of this by moving something right to make it look like it is going down.
 
 HOW by Spu7nix explores this idea on the cylinders in the background. It uses various different patterns that go up and down to create the illusion of the cylinder rotating.
 
-{{< youtube ""UKqMBAxxun8"" >}}
+{{< youtube "UKqMBAxxun8" >}}
 
 There is a category of effects called **manual effects**, which as the name suggests, are made manually. These effects (like lens flare, glow lasers, and impact frames) are used mainly to enhance artworks and don’t involve a core GD mechanic. This guide won’t go over these in detail as there is a lot of nuance behind them.
 
