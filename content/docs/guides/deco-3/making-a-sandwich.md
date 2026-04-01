@@ -240,7 +240,7 @@ As you may or may not have learned from the very beginning, using references for
 
 That’s it, I'm getting tired. Someone else take care of the rest of this section while im gone thanks
 
-67: Why does this exist?
+# 67: Why does this exist?
 
 You might be asking yourself, why does this guide exist in the first place? Well, 
 
