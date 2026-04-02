@@ -1,9 +1,9 @@
 ---
 title: Making a Sandwich
-date: 2026-04-01T00:00:00.000Z
 description: it's sandwhiching time
 weight: 110001
 math: false
+draft: true
 ---
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 - A sandwich has bread, and some other foods
