@@ -1,4 +1,5 @@
 ---
+draft: false
 title: Camera Triggers
 weight: 3290
 date: 2024-05-31T00:00:00.000Z
@@ -10,7 +11,9 @@ contributors:
   - itsnub1x
   - sparktwee
   - zars70
-draft: false
+tags:
+  - Grade 1
+  - Gameplay Triggers
 ---
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}

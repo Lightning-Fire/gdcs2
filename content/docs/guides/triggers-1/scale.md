@@ -1,4 +1,5 @@
 ---
+draft: false
 title: Scale
 weight: 3100
 date: 2024-02-04T00:00:00.000Z
@@ -8,7 +9,9 @@ authors:
 contributors:
   - eyz
   - sparktwee
-draft: false
+tags:
+  - Grade 1
+  - Transformation Triggers
 ---
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}

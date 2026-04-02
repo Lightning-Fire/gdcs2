@@ -1,4 +1,5 @@
 ---
+draft: false
 title: Data Storage
 weight: 6140
 date: 2024-07-31T00:00:00.000Z
@@ -8,7 +9,9 @@ authors:
 contributors:
   - komatic5
   - v1ewsh0t
-draft: false
+tags:
+  - Grade 2
+  - Trigger Setups
 ---
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}

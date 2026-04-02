@@ -1,4 +1,5 @@
 ---
+draft: false
 title: Stacking
 weight: 3470
 date: 2023-04-04T00:00:00.000Z
@@ -8,7 +9,9 @@ authors:
 contributors:
   - komatic5
   - kde
-draft: false
+tags:
+  - Grade 1
+  - Trigger Concepts
 ---
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}

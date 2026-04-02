@@ -1,4 +1,5 @@
 ---
+draft: false
 title: Reverse & Arrow
 weight: 3280
 date: 2024-02-06T00:00:00.000Z
@@ -10,7 +11,9 @@ contributors:
   - eyz
   - naem.less
   - sparktwee
-draft: false
+tags:
+  - Grade 1
+  - Gameplay Triggers
 ---
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}

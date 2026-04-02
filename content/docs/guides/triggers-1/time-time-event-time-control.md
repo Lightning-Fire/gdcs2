@@ -1,4 +1,5 @@
 ---
+draft: false
 title: Time, Time Event, & Time Control
 weight: 3460
 date: 2024-02-11T00:00:00.000Z
@@ -8,7 +9,9 @@ authors:
 contributors:
   - etherail
   - naem.less
-draft: false
+tags:
+  - Grade 1
+  - Item Triggers
 ---
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}

@@ -1,4 +1,5 @@
 ---
+draft: false
 title: Making Loops
 weight: 6070
 date: 2024-11-30T00:00:00.000Z
@@ -8,7 +9,9 @@ authors:
 contributors:
   - psytrancegd
   - tdp9
-draft: false
+tags:
+  - Grade 2
+  - Trigger Setups
 ---
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}

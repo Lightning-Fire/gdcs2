@@ -1,4 +1,5 @@
 ---
+draft: false
 title: Spawn Order
 weight: 6020
 date: 2024-04-18T00:00:00.000Z
@@ -8,7 +9,9 @@ authors:
 contributors:
   - komatic5
   - typexleta
-draft: false
+tags:
+  - Grade 2
+  - Trigger Concepts
 ---
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}

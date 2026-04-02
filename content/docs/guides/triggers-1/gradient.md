@@ -1,4 +1,5 @@
 ---
+draft: false
 title: Gradient
 weight: 3200
 date: 2024-01-08T00:00:00.000Z
@@ -9,7 +10,9 @@ contributors:
   - madzz
   - themilkcat_tmc
   - iisventi
-draft: false
+tags:
+  - Grade 1
+  - Effect Triggers
 ---
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}

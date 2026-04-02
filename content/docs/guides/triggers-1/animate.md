@@ -1,4 +1,5 @@
 ---
+draft: false
 title: Animate
 weight: 3190
 date: 2024-01-25T00:00:00.000Z
@@ -8,7 +9,9 @@ authors:
 contributors:
   - naem.less
   - notamoderatr
-draft: false
+tags:
+  - Grade 1
+  - Effect Triggers
 ---
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}

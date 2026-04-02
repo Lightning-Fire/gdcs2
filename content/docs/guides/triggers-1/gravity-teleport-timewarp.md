@@ -1,4 +1,5 @@
 ---
+draft: false
 title: Gravity, Teleport, & Timewarp
 weight: 3300
 date: 2024-07-19T00:00:00.000Z
@@ -9,7 +10,9 @@ authors:
 contributors:
   - notamoderatr
   - tdp9
-draft: false
+tags:
+  - Grade 1
+  - Gameplay Triggers
 ---
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}

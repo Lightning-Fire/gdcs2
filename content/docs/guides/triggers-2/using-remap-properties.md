@@ -1,4 +1,5 @@
 ---
+draft: false
 title: Using Remap Properties
 weight: 6040
 date: 2024-07-31T00:00:00.000Z
@@ -8,7 +9,9 @@ authors:
 contributors:
   - komatic5
   - theibra
-draft: false
+tags:
+  - Grade 2
+  - Trigger Concepts
 ---
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}

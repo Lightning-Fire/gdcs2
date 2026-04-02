@@ -1,4 +1,5 @@
 ---
+draft: false
 title: The Trigger Process
 weight: 3470
 date: 2023-03-14T00:00:00.000Z
@@ -8,7 +9,9 @@ authors:
 contributors:
   - komatic5
   - sparktwee
-draft: false
+tags:
+  - Grade 2
+  - Trigger Concepts
 ---
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}

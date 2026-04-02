@@ -1,4 +1,5 @@
 ---
+draft: false
 title: Item Edit, Comp, & Pers
 weight: 3450
 date: 2023-12-30T00:00:00.000Z
@@ -8,7 +9,9 @@ authors:
 contributors:
   - komatic5
   - vexilo5
-draft: false
+tags:
+  - Grade 1
+  - Item Triggers
 seo:
   title: How to Use Item Edit, Compare, and Persist
   description: A short guide to using the Item Edit, Item Compare, and Item Persist triggers in Geometry Dash.

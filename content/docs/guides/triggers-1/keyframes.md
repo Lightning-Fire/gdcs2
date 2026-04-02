@@ -1,4 +1,5 @@
 ---
+draft: false
 title: Keyframes
 date: 2024-05-15T00:00:00.000Z
 weight: 3110
@@ -8,7 +9,9 @@ authors:
 contributors:
   - theibra
   - komatic5
-draft: false
+tags:
+  - Grade 1
+  - Transformation Triggers
 ---
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}

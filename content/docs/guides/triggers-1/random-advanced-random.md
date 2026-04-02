@@ -1,4 +1,5 @@
 ---
+draft: false
 title: Random & Advanced Random
 weight: 3400
 date: 2023-04-07T00:00:00.000Z
@@ -9,7 +10,9 @@ contributors:
   - komatic5
   - themilkcat_tmc
   - iisventi
-draft: false
+tags:
+  - Grade 1
+  - Condition Triggers
 ---
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}

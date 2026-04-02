@@ -1,4 +1,5 @@
 ---
+draft: false
 title: Priority Order
 weight: 6030
 date: 2024-09-17T00:00:00.000Z
@@ -10,7 +11,9 @@ contributors:
   - notamoderatr
   - theibra
   - typexleta
-draft: false
+tags:
+  - Grade 2
+  - Trigger Concepts
 ---
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}

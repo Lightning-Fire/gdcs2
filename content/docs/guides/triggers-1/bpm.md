@@ -1,6 +1,7 @@
 ---
+draft: false
 title: BPM
-weight: 3160
+weight: 3323
 date: 2024-01-21T00:00:00.000Z
 description: The BPM trigger places suggestion lines on the editor based on the song's BPM to help you sync your level. This guide explains how it works.
 authors:
@@ -8,7 +9,9 @@ authors:
 contributors:
   - komatic5
   - myceliumdev
-draft: false
+tags:
+  - Grade 1
+  - Audio Triggers
 ---
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}

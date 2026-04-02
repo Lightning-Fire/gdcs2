@@ -1,4 +1,5 @@
 ---
+draft: false
 title: Pathfinding
 weight: 9110
 date: 2024-09-30T00:00:00.000Z
@@ -8,7 +9,9 @@ authors:
 contributors:
   - furorem
   - komatic5
-draft: false
+tags:
+  - Grade 3
+  - Applied Math & Algorithms
 math: true
 seo:
   title: Graph Theory and Pathfinding for Geometry Dash

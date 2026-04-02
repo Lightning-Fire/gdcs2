@@ -1,4 +1,5 @@
 ---
+draft: false
 title: Spawn Particle
 weight: 3210
 date: 2024-01-21T00:00:00.000Z
@@ -8,7 +9,9 @@ authors:
 contributors:
   - komatic5
   - naem.less
-draft: false
+tags:
+  - Grade 1
+  - Effect Triggers
 ---
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}

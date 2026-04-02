@@ -1,4 +1,5 @@
 ---
+draft: false
 title: Area Triggers
 weight: 3180
 date: 2024-04-03T00:00:00.000Z
@@ -8,7 +9,10 @@ authors:
 contributors:
   - komatic5
   - naem.less
-draft: false
+tags:
+  - Grade 1
+  - Transformation Triggers
+  - Effect Triggers
 ---
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}

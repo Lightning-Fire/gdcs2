@@ -1,4 +1,5 @@
 ---
+draft: false
 title: Making Optimized Setups
 weight: 6150
 date: 2025-03-17T00:00:00.000Z
@@ -9,7 +10,9 @@ contributors:
   - chuckolate
   - theibra
   - themilkcat_tmc
-draft: false
+tags:
+  - Grade 2
+  - Trigger Setups
 math: true
 seo:
   title: How to Optimize Geometry Dash Setups

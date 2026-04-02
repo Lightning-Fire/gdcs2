@@ -1,4 +1,5 @@
 ---
+draft: true
 title: Binary Stacking
 weight: 3470
 date: 2023-08-14T00:00:00.000Z
@@ -9,7 +10,9 @@ contributors:
   - komatic5
   - livelaughluvv
   - notamoderatr
-draft: true
+tags:
+  - Grade 1
+  - Trigger Concepts
 ---
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}

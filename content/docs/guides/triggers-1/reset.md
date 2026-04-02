@@ -1,4 +1,5 @@
 ---
+draft: false
 title: Reset
 weight: 3470
 date: 2024-01-16T00:00:00.000Z
@@ -8,7 +9,9 @@ authors:
 contributors:
   - delts1550
   - sparktwee
-draft: false
+tags:
+  - Grade 1
+  - Item Triggers
 ---
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}

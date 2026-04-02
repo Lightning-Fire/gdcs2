@@ -1,4 +1,5 @@
 ---
+draft: false
 title: Randomizers (2.1)
 weight: 6200
 date: 2024-04-19T00:00:00.000Z
@@ -11,7 +12,9 @@ contributors:
   - infernuz_bunni
   - typexleta
   - icefire100062
-draft: false
+tags:
+  - Grade 2
+  - Legacy Setups
 ---
 
 {{< callout context="caution" title="Outdated Guide" icon="outline/info-circle" >}}

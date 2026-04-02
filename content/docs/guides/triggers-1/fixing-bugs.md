@@ -1,4 +1,5 @@
 ---
+draft: false
 title: Fixing Bugs
 weight: 3470
 date: 2023-08-31T00:00:00.000Z
@@ -8,7 +9,9 @@ authors:
 contributors:
   - notamoderatr
   - illusion2
-draft: false
+tags:
+  - Grade 1
+  - Trigger Concepts
 ---
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
@@ -60,20 +63,20 @@ Mixing up Count and Instant Count triggers is possible, but they have some disti
 
 # 5: Example: Double Click
 
-https://lh3.googleusercontent.com/d/1E4fGRtGM3_M00ZH9k0mapIHfMkXDE5JT >}}
+{{< img src="https://lh3.googleusercontent.com/rd-d/ALs6j_Fys5dkyZibwkqaZMxpA7kJ616hNxC_TK9XDIdsxeiUbe2lXDSsYw3E1ZOgTbTBJv-NfStgwUdrR8Tmvhb2UgDU1FhtBkLksi86Z6qb7gRx1SFR8Ln776oKvopuhVP9wgEp4kirc4ZPoTW7RcsoxdBiEihM05nZ6C0H4cDqWDPHG4EPdAJYqNjwlRKP7UiA_eZqw8E-q1XYU8IUBZ_BqCzaQfxU8Vsb2BVwZP8eeREd1fDdL6ITedoo_rhX8MZuq2nIvCWZswLypuZFlLTZWEFuXfZCqMpkRoL781GylZ5cPabg9CqatWlsbCHIPA4Xiep9hVvJy5UBLO9VpVDxQrD0zgilA5l-axTXFTI1BzLwopvMYxj834-XelI8ORFfXg7M0QrAfrXZgXCid95E-G1QuJjWzKPUAkCTBjAZUsMwI_DLwfiqPbYT9WksO7vMjGLArAabxi1C93sqMPPh4KKZxFJB72AL0oeM6yIHwVkLnKQdeIpyYW0DD-K90tXDcPn82Pd-dsD11XwAb1OjrZRwYuWqLz-SQZKjqpxaQ0ms3bVX5NVSHVDawiUgM2mWYC6b-dzF8Thkpno7adfwfHlhGBuc3jyuOgJ1SMFTPJKsOk65DTWd2ESUR1WlXOgVEnUnXzdiUXTh6jtZ-JMIjy9GgbtLo77w7EkF24X0X9NKEZTsY08PKlDvah-VdXd2nAUrWC03qLQqtkFKqaHk5f8sizLXvmJ0-lhPthsrNj0FIWUFv1PsQP1bfqtYSzXFYHc-M_bTnO3_4pGYdNfyxAZ5J1KG9x170eUgGi-J3L1Z_cZRtTxLRUWsa-fYJbyTClA-Zg6Ir91d4jkYTR0LzpJTRKnseoHNvxFn_VNX5XYIGhhNA3vP-ALAmcHJAYMPt8NcmTaA8qFY8WktTg0135dAwmFzoyCWdrziUvRaaqGypTKTj7jKqb9MjOmQNSWFSggguI9UkLor62O8dhLByCaFrvTGNyuzvHhB9BxvZW0-oRRM5qal_TR-Y8rH0bi-kPFfBgawtciTfx4LyF0_2zb3pvNjCI-ydP8a=s1600" >}}
 
 In the image above, we have a double click detector. When making a trigger setup, we need a vision for it. Our vision in this double click detector is that when you click, collision block 1 moves onto collision block 2 in a 0.25 second move time, which when triggered moves Block 1 to the left by 2 blocks and stops the trigger that moves Block 1 to the left by 1 block. In our vision, it should look like Block 1 is shifting back and forth, but never leaving to the left or right of either collision block.
 
-https://lh3.googleusercontent.com/d/1K6pLGgUxUw25_xtHHnXTExKeNCPOGMjp >}}
+"https://lh3.googleusercontent.com/d/1K6pLGgUxUw25_xtHHnXTExKeNCPOGMjp" >}}
 
 In this video, we see Block 1 moving too far to the left, which _goes against our vision_. We have now _identified_ the bug, which goes to the next step, which is to _examine_ the bug.
 
 To start, we analyze what happened; Block 1 moved too far to the left. However, looking closer shows that as soon as Block 1 moved onto Block 2, the collision trigger moved Block 1 to its starting position, and then soon after, Block 1 shifted left by 2 grid spaces with a small delay in between. With logical thinking, we can infer that the problem came from the stop trigger and the move trigger that shifts Block 1 to the left by 1 grid space.
 
-https://lh3.googleusercontent.com/d/1Az0djF0Ol8P2WgkuwuZkG78lAtxPdT-u >}}
+"https://lh3.googleusercontent.com/d/1Az0djF0Ol8P2WgkuwuZkG78lAtxPdT-u" >}}
 
 In this video, we’re looking through the groups and triggers to find anything odd. First, we start off with the collision block to see if there are any miscellaneous IDs. Then, we look at all the move triggers with wrong values, as well as the stop trigger. When looking through the spawn trigger, it seems it wasn’t given group 6, the group that the stop trigger stops. This is a common mistake when working with stop triggers.
 
-https://lh3.googleusercontent.com/d/1JVGQU35qnNENoxMrdprd2Rt5vgiz_qBr >}}
+"https://lh3.googleusercontent.com/d/1JVGQU35qnNENoxMrdprd2Rt5vgiz_qBr" >}}
 
 Now that we know the bug’s origin, we just have to fix it. This fix is as simple as adding a group to a spawn trigger, but most other setups would require an extra module in order to patch a bug. Now that we’ve implemented a fix, we need to playtest and make sure no further problems arise. On a double click detector, spamming is easy enough to make sure.

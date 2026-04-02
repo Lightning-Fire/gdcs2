@@ -1,4 +1,5 @@
 ---
+draft: true
 title: Advanced Movements (2.1)
 weight: 6210
 date: 2024-04-19T00:00:00.000Z
@@ -7,7 +8,9 @@ authors:
   - komatic5
 contributors:
   - komatic5
-draft: true
+tags:
+  - Grade 2
+  - Legacy Setups
 ---
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}

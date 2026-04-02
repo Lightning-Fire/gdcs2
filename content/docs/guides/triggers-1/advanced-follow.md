@@ -1,4 +1,5 @@
 ---
+draft: false
 title: Advanced Follow
 weight: 3120
 date: 2024-01-08T00:00:00.000Z
@@ -8,7 +9,9 @@ authors:
 contributors:
   - etherail
   - naem.less
-draft: false
+tags:
+  - Grade 1
+  - Transformation Triggers
 ---
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}

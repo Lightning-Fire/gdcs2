@@ -1,4 +1,5 @@
 ---
+draft: false
 title: Attempt-Based Data 1 (2.1)
 weight: 6170
 date: 2024-04-19T00:00:00.000Z
@@ -8,7 +9,9 @@ authors:
 contributors:
   - soondslash
   - typexleta
-draft: false
+tags:
+  - Grade 2
+  - Legacy Setups
 ---
 
 {{< callout context="caution" title="Outdated Guide" icon="outline/info-circle" >}}

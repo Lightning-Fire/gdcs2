@@ -1,4 +1,5 @@
 ---
+draft: false
 title: Screen Filters
 weight: 3220
 date: 2024-03-11T00:00:00.000Z
@@ -8,7 +9,9 @@ authors:
 contributors:
   - tv_box
   - tdp9
-draft: false
+tags:
+  - Grade 1
+  - Effect Triggers
 ---
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}

@@ -1,4 +1,5 @@
 ---
+draft: false
 title: UI & Link Visible
 weight: 3470
 date: 2024-01-21T00:00:00.000Z
@@ -9,7 +10,9 @@ contributors:
   - delts1550
   - eyz
   - komatic5
-draft: false
+tags:
+  - Grade 1
+  - Effect Triggers
 ---
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}

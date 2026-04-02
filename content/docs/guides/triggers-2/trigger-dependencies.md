@@ -1,4 +1,5 @@
 ---
+draft: true
 title: Trigger Dependencies
 weight: 3470
 date: null
@@ -7,5 +8,7 @@ authors:
   - komatic5
 contributors:
   - komatic5
-draft: true
+tags:
+  - Grade 2
+  - Trigger Concepts
 ---

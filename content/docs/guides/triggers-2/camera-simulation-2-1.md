@@ -1,4 +1,5 @@
 ---
+draft: false
 title: Camera Simulation (2.1)
 weight: 6190
 date: 2024-04-20T00:00:00.000Z
@@ -8,7 +9,9 @@ contributors:
   - komatic5
   - sparktwee
   - zvleus1487
-draft: false
+tags:
+  - Grade 2
+  - Legacy Setups
 ---
 
 {{< callout context="caution" title="Outdated Guide" icon="outline/info-circle" >}}

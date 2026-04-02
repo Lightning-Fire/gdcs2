@@ -1,6 +1,7 @@
 ---
+draft: false
 title: Song & Edit Song
-weight: 3140
+weight: 3321
 date: 2024-01-07T00:00:00.000Z
 description: This guide explains how the Song & Edit Song triggers work.
 authors:
@@ -8,7 +9,9 @@ authors:
 contributors:
   - tv_box
   - electrifyxd
-draft: false
+tags:
+  - Grade 1
+  - Audio Triggers
 math: true
 ---
 

@@ -1,4 +1,5 @@
 ---
+draft: false
 title: GP Options & Player Control
 weight: 3320
 date: 2024-01-25T00:00:00.000Z
@@ -8,7 +9,9 @@ authors:
 contributors:
   - eyz
   - komatic5
-draft: false
+tags:
+  - Grade 1
+  - Gameplay Triggers
 ---
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}

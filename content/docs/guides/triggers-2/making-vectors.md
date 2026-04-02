@@ -1,4 +1,5 @@
 ---
+draft: false
 title: Making Vectors
 weight: 6120
 date: 2024-11-30T00:00:00.000Z
@@ -8,7 +9,9 @@ authors:
 contributors:
   - notamoderatr
   - tanhr
-draft: false
+tags:
+  - Grade 2
+  - Trigger Setups
 math: true
 ---
 

@@ -1,4 +1,5 @@
 ---
+draft: true
 title: Stacking Properties
 weight: 6130
 date: 2026-05-15T00:00:00.000Z
@@ -9,7 +10,10 @@ contributors:
   - chuckolate
   - notamoderatr
   - komatic5
-draft: true
+tags:
+  - Grade 2
+  - Trigger Concepts
+  - Trigger Setups
 math: true
 ---
 

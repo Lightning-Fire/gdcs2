@@ -1,4 +1,5 @@
 ---
+draft: false
 title: Show/Hide Player, Player Trail, & BG Effects
 weight: 3310
 date: 2024-01-08T00:00:00.000Z
@@ -8,7 +9,9 @@ authors:
 contributors:
   - komatic5
   - tdp9
-draft: false
+tags:
+  - Grade 1
+  - Gameplay Triggers
 ---
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}

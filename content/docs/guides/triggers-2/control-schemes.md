@@ -1,4 +1,5 @@
 ---
+draft: false
 title: Control Schemes
 weight: 6160
 date: 2026-03-05T00:00:00.000Z
@@ -7,7 +8,9 @@ authors:
   - theibra
 contributors:
   - theibra
-draft: false
+tags:
+  - Grade 2
+  - Trigger Setups
 seo:
   title: How to Make Minigame Controls in Geometry Dash
   description: A complete guide to creating custom controls for a Geometry Dash level.

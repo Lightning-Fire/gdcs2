@@ -1,4 +1,5 @@
 ---
+draft: false
 title: Collision & Instant Collision
 weight: 3370
 date: 2023-03-14T00:00:00.000Z
@@ -10,7 +11,9 @@ contributors:
   - komatic5
   - typexleta
   - vexilo5
-draft: false
+tags:
+  - Grade 1
+  - Condition Triggers
 ---
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}

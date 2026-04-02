@@ -1,4 +1,5 @@
 ---
+draft: false
 title: Count & Instant Count
 weight: 3440
 date: 2024-01-24T00:00:00.000Z
@@ -8,7 +9,9 @@ authors:
 contributors:
   - komatic5
   - madzz
-draft: false
+tags:
+  - Grade 1
+  - Item Triggers
 ---
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}

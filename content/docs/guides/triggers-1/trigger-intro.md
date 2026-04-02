@@ -1,4 +1,5 @@
 ---
+draft: false
 title: Trigger Intro
 weight: 3010
 date: 2025-06-05T00:00:00.000Z
@@ -8,7 +9,9 @@ authors:
 contributors:
   - komatic5
   - unknown
-draft: false
+tags:
+  - Grade 1
+  - Basic Triggers
 ---
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}

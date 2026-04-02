@@ -1,4 +1,5 @@
 ---
+draft: false
 title: Groups
 weight: 3040
 date: 2024-02-11T00:00:00.000Z
@@ -8,7 +9,9 @@ authors:
 contributors:
   - madzz
   - tdp9
-draft: false
+tags:
+  - Grade 1
+  - Basic Triggers
 ---
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}

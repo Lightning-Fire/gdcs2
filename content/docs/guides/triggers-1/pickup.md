@@ -1,4 +1,5 @@
 ---
+draft: false
 title: Pickup
 weight: 3430
 date: 2024-01-19T00:00:00.000Z
@@ -8,7 +9,9 @@ authors:
 contributors:
   - nailed_bread
   - madzz
-draft: false
+tags:
+  - Grade 1
+  - Item Triggers
 ---
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}

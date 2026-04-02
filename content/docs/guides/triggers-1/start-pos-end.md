@@ -1,4 +1,5 @@
 ---
+draft: false
 title: Start Pos & End
 weight: 3270
 date: 2024-03-11T00:00:00.000Z
@@ -11,7 +12,9 @@ contributors:
   - komatic5
   - naem.less
   - print6165
-draft: false
+tags:
+  - Grade 1
+  - Gameplay Triggers
 ---
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
