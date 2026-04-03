@@ -9,7 +9,9 @@
           <img src="{{ $tagIcon.RelPermalink }}" class="smallemote hover-scale">
         {{ end }}
 
-        <a href="{{- "/tags/" | relLangURL -}}{{- $tag | urlize -}}/">{{ $tag }}</a>
+        {{- $slug := (replace ($tag | lower) " " "-") -}}
+
+        <a href="{{- "/tags/" | relLangURL -}}{{- replace $slug "&" "" -}}/">{{ $tag }}</a>
 
       </div>
     {{ end }}
