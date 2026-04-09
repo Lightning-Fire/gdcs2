@@ -135,7 +135,11 @@ One important fact you should know is that you are not limited to the â€œnormalâ
 
 ## Shockwave/line Mask
 
-By using a Shockwave or Shockline Shader and setting it to a very high value (such as 10000 or 50000), you can hide any objects behind it. You can also configure what the shader mask affects by using the Shader Trigger and changing it so it only affects a specific Z Layer.
+By using a Shockwave or Shockline Shader and setting it to a very high value (such as 10000 or 50000), you can hide any objects behind it. You can also configure what the shader mask affects by using the Shader Trigger and changing it so it only affects a specific Z Layer. 
+
+This short video explains how it works in more depth.
+
+{{< youtube gCxbqoOpQYE >}}
 
 ## Gradient Trigger Mask
 
