@@ -14,8 +14,10 @@ description: learning how to use shaders
 
 
 
+
 This guide is missing the following:
 - Examples
+
 
 
 
@@ -27,11 +29,13 @@ This guide is missing the following:
 
 
 
+
 * Shaders are effects that cover the whole screen.
 * They can enhance your level's atmosphere and immersion, but they do not affect gameplay itself.
 * Use shaders in key moments like drops, transitions, and intensity changes to emphasize important beats in the music and structure of your level.
 * Keep effects controlled and make sure they have a clear purpose. Overusing shaders can cause lag, reduce visibility, and make your level feel messy, rather than polished.
 * You can use Shaders beyond their regular "limits" to get different effects.
+
 
 
 
@@ -63,9 +67,11 @@ Because of this, shaders should be treated as something you keep in mind through
 
 
 
+
 - Does the shader effect match the theme/mood of the music?
 - Does it improve the quality of the theme/mood?
 - Is it making the player's experience better and more immersive?
+
 
 
 
@@ -98,8 +104,7 @@ We won't go too in-depth as we already have a guide on how to use them, but here
 {{< img src="https://lh3.googleusercontent.com/d/1mMld5_389hVGZg3SSOfiFm7-KNaypcxR" >}}
 
 2. Press "Edit Object" and edit the trigger settings respectively.
-
-2. Change the Trigger however you like! There's many different options for all of the different shaders, so you can play around with them yourself to see what they do. You can also use the shader trigger (the trigger literally called shader, not to be confused with the other shader triggers.) to change what Z Layers the shader will affect!
+3. Change the Trigger however you like! There's many different options for all of the different shaders, so you can play around with them yourself to see what they do. You can also use the shader trigger (the trigger literally called shader, not to be confused with the other shader triggers.) to change what Z Layers the shader will affect!
 
 # 3. Scenarios & Techniques Involving Shaders
 
@@ -125,8 +130,6 @@ An example of this in the level 3RROR by Angel669. As you can see, the level alr
 
 {{< img src="https://lh3.googleusercontent.com/d/1OeEYkPE0HgAeKJVFT00Ssrb0PwrUSVqP" >}}
 
-
-
 # 3: Using Shaders to Mask Certain Objects
 
 Shader Masking gives you control over where visual effects appear in your level. Instead of applying a visual effect to everything on the screen, you can choose specific objects or areas to be affected. This allows you to make parts of the background change colour, highlight certain areas, or create effects that only appear in specific regions, all while keeping important parts of the level like the gameplay completely clear.
@@ -139,7 +142,7 @@ By using a Shockwave or Shockline Shader and setting it to a very high value (su
 
 This short video explains how it works in more depth.
 
-{{< youtube gCxbqoOpQYE >}}
+{{< youtube id="gCxbqoOpQYE" start="49" >}}
 
 ## Gradient Trigger Mask
 
@@ -167,7 +170,13 @@ Saturation Boosting will be very beneficial for the next example and the example
 
 For example, the 3 images below show the before and after of using an edit colour saturation booster, combined with the motion blur opacity mask.
 
+{{< img-grid >}}
 
+{{< img src="https://lh3.googleusercontent.com/d/1M9IMZb0QkZmr9cc6oOGs5aoSiJlAQ8i7" >}}
+
+{{< img src="https://lh3.googleusercontent.com/d/1M9IMZb0QkZmr9cc6oOGs5aoSiJlAQ8i7" >}}
+
+{{< /img-grid >}}
 
 ## Colour Banding Gradient Effect
 
