@@ -113,7 +113,7 @@ None
 
 ## Using Them During Transitions
 
-By using shaders during transitions, you can make a transition smoother between different sections of the level. You can change the colour hue, have a shockwave effect, or even a slight distortion to signal a shift or change in the level. This helps make the level feel more connected with the theme and the music. Here is an example of a chromatic glitch enhancing a transition.
+By using shaders during transitions, you can make a transition smoother between different sections of the level. You can change the colour hue, have a shockwave effect, or even a slight distortion to signal a shift or change in the level. This helps make the level feel more connected with the theme and the music. Here is an example of a chromatic glitch enhancing a transition in the level Andromeda by Inxane97, at 0:49.
 
 {{< youtube fFtQxxepyDo?t=49s >}}
 
@@ -121,7 +121,9 @@ By using shaders during transitions, you can make a transition smoother between 
 
 Instead of just relying on strong effects lasting a lifetime, shaders can be used in small amounts so you can polish up your level. For example, you can add a glitch effect to your level if there's already a kind of "glitchy vibe" to it, that slowly gets more intense over time, to give a sense of buildup throughout the level.
 
-3RROR (or whatever its called)
+
+
+An example of this in the level 3RROR (or whatever its called)
 
 # 3: Using Shaders to Mask Certain Objects
 
