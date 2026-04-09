@@ -121,9 +121,7 @@ By using shaders during transitions, you can make a transition smoother between 
 
 Instead of just relying on strong effects lasting a lifetime, shaders can be used in small amounts so you can polish up your level. For example, you can add a glitch effect to your level if there's already a kind of "glitchy vibe" to it, that slowly gets more intense over time, to give a sense of buildup throughout the level.
 
-
-
-An example of this in the level 3RROR (or whatever its called)
+An example of this in the level 3RROR by Angel669. As you can see, the level already has a glitchy and trippy vibe to it, and it utilizes shaders to enhance that effect.
 
 # 3: Using Shaders to Mask Certain Objects
 
