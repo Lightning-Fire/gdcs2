@@ -35,7 +35,7 @@ In terms of gameplay, it’s very effective in making the player enjoy your leve
 
 Pacing is critical to inducing flow and getting and maintaining the player’s attention. There are three factors that are crucial for flow that you need to know:
 
-* **Clear Goals & Rewards:** The player should know what to do to not die, and why they died when they do die. This doesn't apply when learning a level, but if a player doesn't know why they died even after learning the level the outcome of their actions feels random. Making clear what mistake a player made is often critical for maintaining flow.
+* **Clear Goals & Rewards:** When playing a level, the player *should have a good understanding of what to do to complete it*. The player should know what to do to not die, and why they died when they *do* die. If a player doesn't know why they died, even after learning the level, the outcome of their actions will feel random and the level will feel unfair. Making clear what mistake a player made is often critical for maintaining flow. Additionally, the player should get rewarded for making progress towards the goal of the level.
 * **Rapid Feedback:** Ideally, an incorrect input should kill you quickly so that you can more easily associate that death with the incorrect input
 * **Adequate Challenge:** Typically this is more the responsibility of the player choosing a level for their skill level, you can't make a level for everyone. That being said, maintaining a reasonably consistent difficulty within the level is generally ideal.
 
