@@ -1,20 +1,23 @@
 ---
 draft: false
+authors:
+  - komatic5
 title: Making Slow Gameplay
 weight: 4170
 date: 2023-07-25T00:00:00.000Z
-description: Slow-paced gameplay can be incredibly interesting and thoughtful, however it's also quite easy to mess it up or make it quite boring. This guide explains how you can make quality slow-paced gameplay while avoiding these pitfalls.
-authors:
-  - komatic5
 contributors:
   - halfcookedramen
   - komatic5
+description: Slow-paced gameplay can be incredibly interesting and thoughtful,
+  however it's also quite easy to mess it up or make it quite boring. This guide
+  explains how you can make quality slow-paced gameplay while avoiding these
+  pitfalls.
 tags:
   - Grade 1
   - Types of Gameplay
 ---
-
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
+
 
 - Slow speed gameplay is usually at 0.5x or 1x speed (sometimes 2x depending on the context). Good slow gameplay takes advantage of the fact that the player can see what’s coming.
 - Slow gameplay gives you more opportunities to play around with gameplay and make more complex, less readable parts. Complex gameplay can use a variety of techniques to keep the player engaged and on their toes:
@@ -22,9 +25,11 @@ tags:
 - Fake orbs, pads, and portals
 - Gamemode switches
 
+
 {{< /callout >}}
 
-** **
+- - -
+
 # 1: Why Slow Gameplay Matters
 
 Generally, slow gameplay makes the player go at 0.5x or 1x speed, but it can include 2x speed depending on the surrounding gameplay. For instance, 2x speed will feel slow coming out of a 4x speed section. In contrast, 2x speed will feel fast when transitioning from 0.5x speed.
@@ -49,13 +54,13 @@ In this gameplay, I aimed to make the first half a bit more straightforward and 
 
 The second half mixes things up by including pads and orbs which you must avoid to complete the part. This forces the player to make some strategic decisions for how to play the part – at least, during the process of learning it. When making this gameplay I made the correct path first then added extra obstacles later.
 
-None
+{{< youtube Z5ECP7BsBts >}}
 
 Besides this, here are some other examples of slow gameplay.
 
 One good example of slow gameplay is `ISO` by `Mzero` and `Xzer` at 89 seconds. The slow part here uses a variety of moving objects that fade in and out to keep the player on their toes. There’s enough happening to eliminate the “boring” aspect of slow gameplay.
 
-{{< youtube EBh8YLYSFcA >}}
+{{< youtube id="vpm--5ESxW4" start="89" >}}
 
 Another good example is the beginning part of `Soft Melody` by `Zoroa` . The toggle orb gimmick used is very easy to grasp, yet it adds a layer of complexity without adding much difficulty. The usage of minimal clicks in this part allows the player to focus on other aspects of the level, without drawing too much attention to keeping their icon alive.
 
@@ -64,4 +69,3 @@ Another good example is the beginning part of `Soft Melody` by `Zoroa` . The tog
 One last example of slow gameplay is `Gloom` by `Optical` . The gameplay here includes a couple of fake portals, along with well placed black glow, forcing the player to think about the gameplay a little more.
 
 {{< youtube GqhQ0Uq1s4Y >}}
-
