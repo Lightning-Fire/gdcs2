@@ -45,7 +45,7 @@ While this feature is useful, it can be inconsistent. Arrow triggers, along with
 
 {{< img src="https://lh3.googleusercontent.com/d/1AmWZZvCI_ZCmrwvtLWOxnG0TXp2PwU5A" >}}
 
-Editor Playtest
+## Editor Playtest
 
 Editor playtesting lets you test click behaviour thoroughly while playing, which is good for syncing with the player's movement. This includes different types of synchronization such as air-time or being idle.
 
@@ -59,7 +59,7 @@ Music guidelines help you sync clicks without needing to reuse Music Line as oft
 
 Since this feature doesn’t allow for differently colored or different opacities of line, it can cause clutter quickly. This can also be affected by input/audio delay, offsetting the lines by that delay.
 
-{{< img src="https://lh3.googleusercontent.com/d/11OHwBxdqHerxPUsaC-ifdiet5crrNZ23" >}}
+{{< youtube J4fQt2YCkug >}}
 
 ## BPM Trigger
 
@@ -79,7 +79,7 @@ When making accurate sync, speed portal position should be taken into account. T
 
 Fixing this behaviour is simple: By using a Follow Player Y trigger, you can have a secondary portal that prevents the player from being able to jump over the original portal, mitigating desync.
 
-{{< img src="https://lh3.googleusercontent.com/d/1N-S4yL55R1uVNHaa54prdxQor4FwViOk" >}}
+{{< youtube -4FFe6IC9eY >}}
 
 ## Device Audio Delay
 
