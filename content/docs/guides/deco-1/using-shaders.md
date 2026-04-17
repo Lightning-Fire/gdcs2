@@ -107,7 +107,7 @@ Like we've said before, shaders are most effective when used in specific situati
 
 Shaders can be used to create quick pulses that sync on beat with the music, and it's actually very simple to set up. For example, you can combine a radial blur with a lens circle with the colour black, and set them up like this, acting as a "pulse trigger" while still having a unique effect that a pulse trigger couldn't set up. Take Nullscapes for example. It uses radial blur to simulate a sense of intensity, instead of using a standard pulse trigger.
 
-{{< youtube C-KDhWkXlvI?t=58 >}}
+{{< youtube id="C-KDhWkXlvI?t=58" start="58" >}}
 
 ## Using Them During Transitions
 
