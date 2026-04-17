@@ -204,7 +204,7 @@ For example, the 3 images below show the before and after of using an edit colou
 
 ## Colour Banding Gradient Effect
 
-Although this effect isn't very well known, it's actually used in levels like Eta Carnis. By using a gradient trigger and setting one colour pitch black (0, 0, 0,) and the other one to some very dark color that tints toward one colour, (eg. 8, 7, 7, where 8 would be the color that it's tinted towards.) we can add a saturation booster which boosts the saturation of the colour that it's tinted towards, (In this case red.) and keep the other one pitch black. (As 0, 0, 0, saturation boosted is still the same)
+Although this effect isn't very well known, it's actually used in levels like Eta Carnis. By using a gradient trigger and setting one colour pitch black (0, 0, 0,) and the other one to some very dark color that tints toward one colour, (eg. 8, 7, 7, where 8 would be the color that it's tinted towards. also check first image below.) we can add a saturation booster which boosts the saturation of the colour that it's tinted towards, (In this case red, image 2.) and keep the other one pitch black. (As 0, 0, 0, saturation boosted is still the same)
 
 {{< img-grid >}}
 {{< img src="https://lh3.googleusercontent.com/d/1GEpvA1tt22IkKo_FFEE4QbVG5qUbuJVr" >}}
@@ -215,10 +215,18 @@ Although this effect isn't very well known, it's actually used in levels like Et
 {{< img src="https://lh3.googleusercontent.com/d/1oJo-pADPmMSizJEMj6jLS9Yl0WmN735d" >}}
 {{< /img-grid >}}
 
-This creates a banding effect, despite being just one gradient trigger. It's a trippy effect that is very unstable, and very chaotic. Due to this fact, I suggest trying it out in a separate level and experimenting with it. You can also try putting black glow circles above the gradient. Enjoy ;)
+This creates a banding effect, despite being just one gradient trigger. It's a trippy effect that is very unstable, and very chaotic. Due to this fact, I suggest trying it out in a separate level and experimenting with it. You can also try putting black glow circles above the gradient to see what happens. Enjoy ;)
+
+
+
+
+
+
 
 {{< youtube ?v=LNMpe_BXtQM&t=56s >}}
 
-You might not see it at first, but the colour banding is used for the background of this part in Eta Carnis (Screenshot of it below)
+An example of this banding effect being used in Eta Carnis 
+
+You might not see it at first, but the colour banding is used for the background of this part (Screenshot of it below)
 
 {{< img src="https://lh3.googleusercontent.com/d/" >}}
