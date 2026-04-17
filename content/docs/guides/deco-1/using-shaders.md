@@ -11,13 +11,16 @@ description: learning how to use shaders
 ---
 {{< callout context="caution" title="Incomplete guide" icon="outline/info-circle" >}}
 
+
 This guide is missing the following:
 
 * Proofreading
 
+
 {{< /callout >}}
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
+
 
 * Shaders are effects that cover the whole screen.
 * They can enhance your level's atmosphere and immersion, but they do not affect gameplay itself.
@@ -25,6 +28,7 @@ This guide is missing the following:
 * Keep effects controlled and make sure they have a clear purpose. Overusing shaders can cause lag, reduce visibility, and make your level feel messy, rather than polished.
 * You can use Shaders beyond their regular "limits" to get different effects.
 * Learning how to use different shader masks and gradients
+
 
 {{< /callout >}}
 
@@ -61,9 +65,11 @@ Because of this, shaders should be treated as something you keep in mind through
 
 
 
+
 - Does the shader effect match the theme/mood of the music?
 - Does it improve the quality of the theme/mood?
 - Is it making the player's experience better and more immersive?
+
 
 
 
@@ -113,7 +119,7 @@ Like we've said before, shaders are most effective when used in specific situati
 
 Shaders can be used to create quick pulses that sync on beat with the music, and it's actually very simple to set up. For example, you can combine a radial blur with a lens circle with the colour black, and set them up like this, acting as a "pulse trigger" while still having a unique effect that a pulse trigger couldn't set up. Take Nullscapes for example. It uses radial blur to simulate intensity on the beat, instead of using a standard pulse trigger.
 
-{{< youtube id="C-KDhWkXlvI?t=58" start="58" >}}
+{{< youtube id="C-KDhWkXlvI" start="58" >}}
 
 ## Using Them During Transitions
 
