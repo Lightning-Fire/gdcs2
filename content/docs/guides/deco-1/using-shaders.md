@@ -10,51 +10,18 @@ contributors:
 description: learning how to use shaders
 ---
 {{< callout context="caution" title="Incomplete guide" icon="outline/info-circle" >}}
-
-
-
-
-
-
-
-
-
 This guide is missing the following:
-- Examples
 
-
-
-
-
-
-
-
-
-
+* Proofreading
 {{< /callout >}}
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
-
-
-
-
-
-
-
-
 * Shaders are effects that cover the whole screen.
 * They can enhance your level's atmosphere and immersion, but they do not affect gameplay itself.
 * Use shaders in key moments like drops, transitions, and intensity changes to emphasize important beats in the music and structure of your level.
 * Keep effects controlled and make sure they have a clear purpose. Overusing shaders can cause lag, reduce visibility, and make your level feel messy, rather than polished.
 * You can use Shaders beyond their regular "limits" to get different effects.
-
-
-
-
-
-
-
-
+* Learning how to use different shader masks and gradients
 {{< /callout >}}
 
 - - -
@@ -88,9 +55,11 @@ Because of this, shaders should be treated as something you keep in mind through
 
 
 
+
 - Does the shader effect match the theme/mood of the music?
 - Does it improve the quality of the theme/mood?
 - Is it making the player's experience better and more immersive?
+
 
 
 
@@ -136,9 +105,9 @@ Like we've said before, shaders are most effective when used in specific situati
 
 ## Treating Shaders as Pulses
 
-Shaders can be used to create quick pulses that sync on beat with the music, and it's actually very simple to set up. For example, you can combine a radial blur with a lens circle with the colour black, and set them up like this, acting as a "pulse trigger" while still having a unique effect that a pulse trigger couldn't set up. Take Nullscapes for example. It uses radial blur to simulate a pulse 
+Shaders can be used to create quick pulses that sync on beat with the music, and it's actually very simple to set up. For example, you can combine a radial blur with a lens circle with the colour black, and set them up like this, acting as a "pulse trigger" while still having a unique effect that a pulse trigger couldn't set up. Take Nullscapes for example. It uses radial blur to simulate a sense of intensity, instead of using a standard pulse trigger.
 
-None
+{{< youtube C-KDhWkXlvI?t=58 >}}
 
 ## Using Them During Transitions
 
@@ -216,12 +185,6 @@ Although this effect isn't very well known, it's actually used in levels like Et
 {{< /img-grid >}}
 
 This creates a banding effect, despite being just one gradient trigger. It's a trippy effect that is very unstable, and very chaotic. Due to this fact, I suggest trying it out in a separate level and experimenting with it. You can also try putting black glow circles above the gradient to see what happens. Enjoy ;)
-
-
-
-
-
-
 
 {{< youtube ?v=LNMpe_BXtQM&t=56s >}}
 
