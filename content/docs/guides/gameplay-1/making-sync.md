@@ -43,7 +43,7 @@ The music line follows the X-position of the cube unless an arrow trigger is use
 
 While this feature is useful, it can be inconsistent. Arrow triggers, along with speed portals and X-axis teleportals are likely to conflict with this feature as of 2.207. It’s also limiting when building click-sync, since some clicks may not have an impact to go along with them.
 
-{{< img src="https://lh3.googleusercontent.com/d/1AmWZZvCI_ZCmrwvtLWOxnG0TXp2PwU5A" >}}
+{{< youtube mB9StwSiZjk >}}
 
 ## Editor Playtest
 
@@ -51,7 +51,7 @@ Editor playtesting lets you test click behaviour thoroughly while playing, which
 
 Editor physics can differ from in-game physics, so do keep in mind that what you’re playtesting may not feel the same to the player; test sections of gameplay in-game occasionally to remedy this.
 
-{{< img src="https://lh3.googleusercontent.com/d/1dOh6glJwVujgV5Ye0oPockdPqGttBwgV" >}}
+{{< youtube ZA8doLPumAw >}}
 
 ## Music Guidelines
 
