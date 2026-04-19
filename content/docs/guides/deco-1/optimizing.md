@@ -33,7 +33,9 @@ There are many techniques you can use to make your object use more efficient.
 
 **Scaling** is another simple way to reduce object counts. By making one object take up more space, you can use far fewer objects to fill in a space. Note that this is much easier with scale hack. You can also use the warp function as it has more freedom, but warping it too much will bug it out a lot.
 
-*Warning: GD renders large objects differently depending on their hitboxes. Be careful with this because it can cause visual errors.*
+{{< callout context="caution" title="Warning: GD renders large objects differently depending on their hitboxes. Be careful with this because it can cause visual errors." icon="outline/info-circle" >}}
+Note: This can be remedied by enabling NoTouch to remove the hitbox.
+{{< /callout >}}
 
 **Object Types** are the strongest way to efficiently optimize, although using them requires experience. Essentially, some objects can be sufficient to maintain similar quality with far lower object counts. These objects will depend on what you’re trying to do with the objects.
 
