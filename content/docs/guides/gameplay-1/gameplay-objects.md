@@ -182,7 +182,7 @@ The blue dual portal reverts back to one player.
 
 Its Edit Special also enables Free Fly Mode which allows borderless dual gameplay. However, when switching gamemodes in the duals, you will need to also tick Free Fly Mode for that gamemode portal unless you placed a Camera Mode trigger with Free Fly Mode ticked before the duals start.
 
-The [Making Duals](https://discord.com/channels/414295025883545600/1086726744725278840/1086726744725278840) guide further elaborates more possibilities on how you can build duals.
+The [Making Duals](/docs/guides/gameplay-1/making-duals/) guide further elaborates more possibilities on how you can build duals.
 
 ## Teleport Portals
 
@@ -194,7 +194,7 @@ Because 2.2 allows horizontal teleportation, these portals can come together or 
 
 {{< img src="https://lh3.googleusercontent.com/d/1zYW9ciE_c75Kj5GaDm3nEKXZYGUsGLRk" >}}
 
-This menu is used to teleport the player to a specific location based on a Group ID. It is identical to the teleport trigger which is covered in [this guide.](https://discord.com/channels/414295025883545600/1197973300748484770/1263990611569283085)
+This menu is used to teleport the player to a specific location based on a Group ID. It is identical to the teleport trigger which is covered in [this guide.](/docs/guides/triggers-1/gravity-teleport-timewarp/)
 
 # 3: Special Letter Blocks
 

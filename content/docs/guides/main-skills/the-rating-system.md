@@ -56,9 +56,10 @@ With more rated levels, the more opportunities to establish some sort of pattern
 # 2: The Journey
 
 As the official Rating System guide already covers the technical side of the process, I’d like to cover what a typical levels journey would look like. Levels come in all shapes and sizes, but regardless, they go through the same journey. It’s similar to how the product life cycle works.
+
 ## Stage 1: Introduction
 
-Assuming that you’ve already uploaded your level publicly as per the [Sharing Levels](<https://discord.com/channels/414295025883545600/1083167651041390704/1083167651041390704>) guide, your level will be unrated :NA:. Every level ever made and will be made goes through this stage. It’s the common denominator that ties every single uploaded level, whether it’s a serious project, a collab part, a gift, or a complete joke. This is similar to how businesses do a product launch.
+Assuming that you’ve already uploaded your level publicly as per the [Sharing Levels](/docs/guides/the-editor/sharing-levels/) guide, your level will be unrated :NA:. Every level ever made and will be made goes through this stage. It’s the common denominator that ties every single uploaded level, whether it’s a serious project, a collab part, a gift, or a complete joke. This is similar to how businesses do a product launch.
 
 {{< img src="https://lh3.googleusercontent.com/d/1fGeZpIGKaFXHbDLg1_MpVuRlzhDP-zjg" >}}
 
@@ -92,8 +93,8 @@ This is where your level’s popularity is at its peak. This is usually the stag
 2. Featured (2 :CreatorPoints:)
 3. Epic (3 :CreatorPoints:)
 4. Legendary (4 :CreatorPoints:)
-
 5. Mythic (5 :CreatorPoints:)
+
 ## Popularity =/= Rate
 To resolve a misconception, a level’s stats have **no** bearing on it getting rated. While reception opens you up to opportunities, it doesn’t have much influence on the executive decision to rate levels. Many levels have taken ages to be rated despite plenty of community pressure, like Crimson Planet and Tidal Wave, while some levels have been rated almost instantly.
 

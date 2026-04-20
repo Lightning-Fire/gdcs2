@@ -51,7 +51,7 @@ During the process, it’s easy to get carried away. Remember, chaos sometimes w
 
 Playtesting is critical, as it helps gauge how well you are achieving intensity. Asking for feedback shows whether you've achieved the right intensity and balance.
 
-Intensity needs context to apply to a level, which is influenced by the intensity of prior parts. There can be a buildup at the beginning of a level to lead into intense parts later on. There can be breaks between intense parts; The level can reach a climactic end, or a relaxing one that calms the player afterwards. Think of how the song progresses and find ways to match it in the level. If you'd like, look at the [Progression](<https://discord.com/channels/414295025883545600/1099911376174059562/1099911376174059562>) guide to better understand this concept.
+Intensity needs context to apply to a level, which is influenced by the intensity of prior parts. There can be a buildup at the beginning of a level to lead into intense parts later on. There can be breaks between intense parts; The level can reach a climactic end, or a relaxing one that calms the player afterwards. Think of how the song progresses and find ways to match it in the level. If you'd like, look at the [Progression](/docs/guides/gameplay-2/progression/) guide to better understand this concept.
 
 # 4: Examples
 
