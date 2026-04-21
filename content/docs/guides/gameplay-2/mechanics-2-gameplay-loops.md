@@ -1,14 +1,19 @@
 ---
 draft: false
+authors:
+  - komatic5
 title: Mechanics 2 (Gameplay Loops)
 weight: 7020
 date: 2023-12-26T00:00:00.000Z
-description: "Ensuring player engagement throughout gameplay is crucial for any level. So, the question arises: \"How do you keep a player interested in your gameplay?\" The answer is Gameplay Loops. If you’re making a minigame, or considering how to use a custom mechanic, you should certainly read this guide. It will cover how to teach mechanics to the player in a way that feels natural, and how to make a core gameplay loop."
-authors:
-  - komatic5
 contributors:
   - etherail
   - komatic5
+description: 'Ensuring player engagement throughout gameplay is crucial for any
+  level. So, the question arises: "How do you keep a player interested in your
+  gameplay?" The answer is Gameplay Loops. If you’re making a minigame, or
+  considering how to use a custom mechanic, you should certainly read this
+  guide. It will cover how to teach mechanics to the player in a way that feels
+  natural, and how to make a core gameplay loop.'
 tags:
   - Grade 2
   - Mechanics
@@ -31,7 +36,7 @@ Gameplay loops can occur at any stage of gameplay. Basic loops include controls,
 
 For example, Geometry Dash involves a gameplay loop of playing a level, dying, and retrying, emphasizing trial and error. However, not all loops follow this pattern.
 
-*Larger gameplay loops build upon the smaller ones to work.* You may use your abilities to move and jump from one platform to another, which represents a loop. Moreover, you can determine which platforms are best to jump towards to get a coin or beat a level, which is an overarching goal.
+**Larger gameplay loops build upon the smaller ones to work.** You may use your abilities to move and jump from one platform to another, which represents a loop. Moreover, you can determine which platforms are best to jump towards to get a coin or beat a level, which is an overarching goal.
 
 *This is important to consider because a bad gameplay loop will immediately take the player out of your level*. If you’re making a custom mechanic but the controls are subpar, players will leave quickly. If you’re using existing mechanics in an unintuitive way, people will struggle and give up. If you don’t give the player a real reason to keep moving forward, they will stop and go to something more engaging.
 
@@ -55,9 +60,9 @@ It’s very easy to notice when a gameplay loop sucks, but intentionally designi
 
 A good gameplay loop must:
 
-- Be easy to understand. Do not start your gameplay loop with a complex set of actions unless it is impossible to simplify things. Otherwise, it’ll be hard for people to start playing your level.
-- Be expandable. If you’re doing the same thing over and over without getting anything interesting from it, then players who understand the loop will get bored. Keep in mind the prior guides on the Flow state; over time you should introduce extra mechanics that can make the loop more interesting.
-- Be rewarding. If you finish a game loop but don’t get anything from it, you’ll feel cheated. When the player does what you want you, reward them as soon as possible, and vice versa. This helps players finish the loop and feel motivated to continue playing.
+- **Be easy to understand**. Do not start your gameplay loop with a complex set of actions unless it is impossible to simplify things. Otherwise, it’ll be hard for people to start playing your level.
+- **Be expandable**. If you’re doing the same thing over and over without getting anything interesting from it, then players who understand the loop will get bored. Keep in mind the prior guides on the Flow state; over time you should introduce extra mechanics that can make the loop more interesting.
+- **Be rewarding**. If you finish a game loop but don’t get anything from it, you’ll feel cheated. When the player does what you want you, reward them as soon as possible, and vice versa. This helps players finish the loop and feel motivated to continue playing.
 
 For example, let’s look at Rain World’s main gameplay loop:
 
