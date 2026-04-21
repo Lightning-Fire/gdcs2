@@ -1,14 +1,17 @@
 ---
 draft: false
+authors:
+  - komatic5
 title: Progression
 weight: 7070
 date: 2023-06-26T00:00:00.000Z
-description: The last few guides have focused on how pacing works in the short term. Here, we’ll discuss how it works over the course of an entire level, and really get into the broader explanations of what makes pacing so important to the player.
-authors:
-  - komatic5
 contributors:
   - halfcookedramen
   - komatic5
+description: The last few guides have focused on how pacing works in the short
+  term. Here, we’ll discuss how it works over the course of an entire level, and
+  really get into the broader explanations of what makes pacing so important to
+  the player.
 tags:
   - Grade 2
   - Gameplay Pacing
@@ -53,7 +56,7 @@ Both of these concepts can add value to a level, but only if used correctly. The
 
 The diagram below shows the general idea behind progression, or *change*. If a level remains the same in difficulty throughout its duration, the player will have a tougher time paying attention, because nothing is challenging the player. On the other hand, if a level becomes too difficult, the player will have a bad time with the level, focusing on the frustration of failure, rather than the level’s intended experience. You want something in between these extremes, which gives you a range you can work with as shown below.
 
-None
+{{< img src="https://lh3.googleusercontent.com/d/1n_jkeQ7GgPs5BVS3dpELBL9qmezz85KG" >}}
 
 As player skill increases, so can the difficulty. Good levels should be able to challenge the player, but not enough to make the player give up.
 
