@@ -107,7 +107,7 @@ An example of this in the level 3RROR by Angel669. As you can see, the level alr
 
 {{< img src="https://lh3.googleusercontent.com/d/1OeEYkPE0HgAeKJVFT00Ssrb0PwrUSVqP" >}}
 
-# 3: Using Shaders to Mask Certain Objects
+# 4: Using Shaders to Mask Certain Objects
 
 Shader Masking gives you control over where visual effects appear in your level. Instead of applying a visual effect to everything on the screen, you can choose specific objects or areas to be affected. This allows you to make parts of the background change colour, highlight certain areas, or create effects that only appear in specific regions, all while keeping important parts of the level like the gameplay completely clear.
 
