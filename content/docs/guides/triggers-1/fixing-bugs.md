@@ -8,12 +8,7 @@ date: 2023-08-31T00:00:00.000Z
 contributors:
   - notamoderatr
   - illusion2
-description: When we are making levels, we usually expect the game's triggers to
-  always work as intended, no matter the scenario. Sadly, this is not the case.
-  Some trigger setups if configured incorrectly can cause bugs ranging from
-  incorrect movements to things like game crashes or other miscellaneous bugs.
-  In this guide, we will look at how to avoid this problem as much as possible
-  during the creating process.
+description: When we are making levels, we usually expect the game's triggers to always work as intended, no matter the scenario. Sadly, this is not the case. Some trigger setups if configured incorrectly can cause bugs ranging from incorrect movements to things like game crashes or other miscellaneous bugs. In this guide, we will look at how to avoid this problem as much as possible during the creating process.
 tags:
   - Grade 1
   - Trigger Concepts

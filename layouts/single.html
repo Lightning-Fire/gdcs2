@@ -28,12 +28,6 @@
 				</nav>
 			{{ end }}
 
-			{{ if site.Params.doks.editPage -}}
-				<div style="margin-bottom: -1rem; padding-top: 0.5rem;">
-					{{ partial "main/edit-page.html" . }}
-				</div>
-			{{ end -}}
-
 			{{- if .Params.tags -}}
 				<div style="margin-bottom: -1.2rem; margin-top: 2rem;">
 					{{- partial "main/tags.html" . -}}
@@ -41,6 +35,10 @@
 			{{- end -}}
 
 			<h1>{{ partial "main/title.html" .Title }}</h1>
+
+			{{ with .Description }}
+				<div >{{ . | markdownify}}</div>
+			{{ end }}
 
 			{{- "** **" | .Page.RenderString -}}
 
@@ -56,9 +54,19 @@
 
 			</div>
 
-			{{ with .Description }}
-				<div >{{ . | markdownify}}</div>
-			{{ end }}
+			<div class="d-flex flex-column flex-md-row justify-content-between" >
+				{{ if site.Params.doks.editPage -}}
+					<div style="padding-top: 0.5rem;">
+						{{ partial "main/edit-page.html" . }}
+					</div>
+
+				{{ end -}}
+
+				<div style="padding-top: 0.5rem;">
+					{{ partial "main/page-issue.html" . }}
+				</div>
+
+			</div>
 
 			<!-- <p class="lead">{{ .Params.lead | safeHTML }}</p> -->
 			{{ if ne .Params.toc false -}}
@@ -79,9 +87,15 @@
 				localStorage.setItem(id, "1");
 			</script>
 
+			{{- "** **" | .Page.RenderString -}}
+
 			<div class="page-footer-meta d-flex flex-column flex-md-row justify-content-between" style="padding-top: 2rem; margin-bottom: 2rem;">
 				{{ if site.Params.doks.lastMod -}}
 					{{ partial "main/last-modified.html" . }}
+				{{ end -}}
+
+				{{ if site.Params.doks.editPage -}}
+					{{ partial "main/edit-page.html" . }}
 				{{ end -}}
 			</div>
 

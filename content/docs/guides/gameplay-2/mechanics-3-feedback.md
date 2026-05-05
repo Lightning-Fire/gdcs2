@@ -8,9 +8,7 @@ date: 2025-03-01T00:00:00.000Z
 contributors:
   - illusion2
   - sparktwee
-description: This guide explains what feedback is, why it's necessary, and how
-  it can greatly influence your mechanics. Also goes over advanced applications
-  which influence things like engagement and learning curves.
+description: This guide explains what feedback is, why it's necessary, and how it can greatly influence your mechanics. Also goes over advanced applications which influence things like engagement and learning curves.
 tags:
   - Grade 2
   - Mechanics

@@ -8,9 +8,7 @@ date: 2025-03-01T00:00:00.000Z
 contributors:
   - komatic5
   - illusion2
-description: Choosing gamemodes and gameplay elements for your levels is an
-  important process, but one which many people mess up nonetheless. This guide
-  will prepare you to use gamemodes properly.
+description: Choosing gamemodes and gameplay elements for your levels is an important process, but one which many people mess up nonetheless. This guide will prepare you to use gamemodes properly.
 tags:
   - Grade 1
   - Gameplay Basics

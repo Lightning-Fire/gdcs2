@@ -8,10 +8,7 @@ date: 2023-07-25T00:00:00.000Z
 contributors:
   - halfcookedramen
   - komatic5
-description: Slow-paced gameplay can be incredibly interesting and thoughtful,
-  however it's also quite easy to mess it up or make it quite boring. This guide
-  explains how you can make quality slow-paced gameplay while avoiding these
-  pitfalls.
+description: Slow-paced gameplay can be incredibly interesting and thoughtful, however it's also quite easy to mess it up or make it quite boring. This guide explains how you can make quality slow-paced gameplay while avoiding these pitfalls.
 tags:
   - Grade 1
   - Types of Gameplay

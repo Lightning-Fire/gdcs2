@@ -7,12 +7,7 @@ weight: 6160
 date: 2026-03-05T00:00:00.000Z
 contributors:
   - theibra
-description: When making minigames, controls are a major aspect as they are what
-  the player uses to interact with your level. Making them complicated or
-  confusing can lead to the experience being less enjoyable. However, having
-  only 2 or 6 inputs can make this challenging. This guide discusses how
-  different button combinations can be used to create more actions while keeping
-  the control layout manageable.
+description: When making minigames, controls are a major aspect as they are what the player uses to interact with your level. Making them complicated or confusing can lead to the experience being less enjoyable. However, having only 2 or 6 inputs can make this challenging. This guide discusses how different button combinations can be used to create more actions while keeping the control layout manageable.
 tags:
   - Grade 2
   - Trigger Setups

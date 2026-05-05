@@ -8,10 +8,7 @@ date: 2025-04-30T00:00:00.000Z
 contributors:
   - asandboxer
   - sparktwee
-description: "Creators use animation principles to give life and visual appeal
-  to their levels. For this guide, we will go through two more animation
-  principles that focus on an object’s inertia to simulate fluid and organic
-  movements: Follow Through & Overlapping Action."
+description: "Creators use animation principles to give life and visual appeal to their levels. For this guide, we will go through two more animation principles that focus on an object’s inertia to simulate fluid and organic movements: Follow Through & Overlapping Action."
 tags:
   - Grade 2
   - Animation

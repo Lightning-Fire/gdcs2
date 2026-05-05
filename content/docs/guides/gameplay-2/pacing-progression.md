@@ -8,11 +8,8 @@ date: 2023-06-26T00:00:00.000Z
 contributors:
   - creeperiv
   - komatic5
-description: >-
-  Pacing and Progression refer to how elements of a level change over time and
-  the effects that this change can produce. Almost any gameplay element can be
-  used to create and alter pacing and progression.
-
+description: |-
+  Pacing and Progression refer to how elements of a level change over time and the effects that this change can produce. Almost any gameplay element can be used to create and alter pacing and progression.
 
   Pacing tends to refer specifically to changes in either speed or intensity, whereas progression whilst including speed and intensity can refer to any element that evolves over the course of a level.
 tags:

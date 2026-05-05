@@ -8,12 +8,7 @@ date: 2023-12-26T00:00:00.000Z
 contributors:
   - etherail
   - komatic5
-description: 'Ensuring player engagement throughout gameplay is crucial for any
-  level. So, the question arises: "How do you keep a player interested in your
-  gameplay?" The answer is Gameplay Loops. If you’re making a minigame, or
-  considering how to use a custom mechanic, you should certainly read this
-  guide. It will cover how to teach mechanics to the player in a way that feels
-  natural, and how to make a core gameplay loop.'
+description: "Ensuring player engagement throughout gameplay is crucial for any level. So, the question arises: \"How do you keep a player interested in your gameplay?\" The answer is Gameplay Loops. If you’re making a minigame, or considering how to use a custom mechanic, you should certainly read this guide. It will cover how to teach mechanics to the player in a way that feels natural, and how to make a core gameplay loop."
 tags:
   - Grade 2
   - Mechanics
