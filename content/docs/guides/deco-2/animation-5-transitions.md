@@ -56,6 +56,8 @@ Factors to consider:
 
 In [STARPUNK](https://youtu.be/-9fKSBc7naQ?si=k5JdQ8CNZDiYjvLb&t=7) by Ferdefunky, the cube transitions to the ball part with some minor glitches before an instant hard cut to the next part. The reason why this works is because the song allows this type of transition to happen.
 
+
+
 [Beachie](https://youtu.be/p4XUF_fvU5Q?si=DD4Z7ZDEUlSoiWmV&t=2)’s intro for this example has the song starting out with this glitchy voice that speaks backwards, hence used both chromatic glitch and the glitch shader to convey that voice. Once the music starts playing, that's when the colors cut into place starting the level.
 
 # 2: Fades
