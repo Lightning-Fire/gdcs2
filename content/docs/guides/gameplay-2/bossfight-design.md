@@ -8,7 +8,10 @@ date: 2024-09-18T00:00:00.000Z
 contributors:
   - illusion2
   - psytrancegd
-description: What makes a bossfight feel like one? Levels with bosses used to be quite limited, but Update 2.2 has broadened the scope of what you can make a boss do. And yet with more freedom comes more design choices, so this guide will explain how you can make bosses and what can contribute to its design.
+description: What makes a bossfight feel like one? Levels with bosses used to be
+  quite limited, but Update 2.2 has broadened the scope of what you can make a
+  boss do. And yet with more freedom comes more design choices, so this guide
+  will explain how you can make bosses and what can contribute to its design.
 tags:
   - Grade 2
   - Game Design
@@ -236,10 +239,10 @@ In addition to that, Sweetheart has a variety of strong attacks that hit every p
 {{< youtube 2D1VBDjamoA >}}
 
 # Sources
-- https://www.thegamer.com/afterimage-loss-the-galefeather-boss-battle-unlock-double-jump-ability-guide/
-- https://www.youtube.com/watch?v=Lfof1rrtTY8
-- https://www.thegamer.com/afterimage-lush-wolf-boss-battle-guide/
-- https://www.thegamer.com/afterimage-all-core-afterimages-locations-guide/
-- https://www.youtube.com/watch?v=Z3McXAS65L0
-- https://hollowknight.fandom.com/wiki/Hollow_Knight_Wiki
+- [How To Defeat Loss, The Galefeather In Afterimage](<https://www.thegamer.com/afterimage-loss-the-galefeather-boss-battle-unlock-double-jump-ability-guide/>)
+- [Afterimage PS5 - Aqil, the Pyro Goliath Boss Fight](<https://www.youtube.com/watch?v=Lfof1rrtTY8>)
+- [How To Defeat Lush Wolf In Afterimage](<https://www.thegamer.com/afterimage-lush-wolf-boss-battle-guide/>)
+- [All Core Afterimages And Where To Find Them In Afterimage](<https://www.thegamer.com/afterimage-all-core-afterimages-locations-guide/>)
+- [Afterimage - Warrior Fungus](<https://www.youtube.com/watch?v=Z3McXAS65L0>)
+- [Hollow Knight Wiki](<https://hollowknight.fandom.com/wiki/Hollow_Knight_Wiki>)
 
