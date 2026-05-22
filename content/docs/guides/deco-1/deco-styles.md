@@ -1,14 +1,16 @@
 ---
 draft: false
+authors:
+  - komatic5
 title: Deco Styles
 weight: 5200
 date: 2023-11-01T00:00:00.000Z
-description: This guide will explain what decoration styles are. Even if you don't think you have a style, it helps to be aware of what they are and if they're important at all.
-authors:
-  - komatic5
 contributors:
   - kde
   - komatic5
+description: This guide will explain what decoration styles are. Even if you
+  don't think you have a style, it helps to be aware of what they are and if
+  they're important at all.
 tags:
   - Grade 1
   - Deco Skills
@@ -37,31 +39,31 @@ During the pre-1.9 era, tools like free move and scale were not available for cr
 
 This is the general definition of classic design; __levels with tilemapped decoration that use default objects as assets__. This technical limitation is visible in every Robtop level, and levels from older creators like Hinds.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/4nzU5v1Iw7Q" frameborder="0" allowfullscreen></iframe>
+{{< youtube 4nzU5v1Iw7Q >}}
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/DKRI2lK1oYE" frameborder="0" allowfullscreen></iframe>
+{{< youtube DKRI2lK1oYE >}}
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/yDTyrOZgLDY" frameborder="0" allowfullscreen></iframe>
+{{< youtube yDTyrOZgLDY >}}
 
 # 2: Modern
 
 Once the 2.0 update was released, it became possible to make simpler designs and rely on other things like visual effects to make levels look more interesting. This made it easier to make modern levels, which __rely more on visual effects than intricate textures to look interesting, and tend to be less heavy on details__. Works from creators like Echonox, Optical, and (more recently) Knots and Xender Game are great examples of this style.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/gZZ3GhvqytI" frameborder="0" allowfullscreen></iframe>
+{{< youtube gZZ3GhvqytI >}}
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/XhJ9Bys-lQw" frameborder="0" allowfullscreen></iframe>
+{{< youtube XhJ9Bys-lQw >}}
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/dnMTpquL-mU" frameborder="0" allowfullscreen></iframe>
+{{< youtube dnMTpquL-mU >}}
 
 # 3: Custom Art
 
 With custom art, the focus is __using in-game objects to make new custom assets and art.__ While custom art has long been used for backgrounds, endscreens, and the like, only recently has it been incorporated in the foreground of the level. This is often used in a specific environment like a forest, where custom assets can play a great role. The act of decorating itself is art so we will refer to this as custom art to distinguish. You will see this done by creators like Culuc, Vulna, and me.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/fMAYifajDac" frameborder="0" allowfullscreen></iframe>
+{{< youtube fMAYifajDac >}}
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/OmjXg6aZNWw" frameborder="0" allowfullscreen></iframe>
+{{< youtube OmjXg6aZNWw >}}
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/0S2w4RKW8mM" frameborder="0" allowfullscreen></iframe>
+{{< youtube 0S2w4RKW8mM >}}
 
 There are also sub-styles to each of these genres, but they are all made of derivatives of these three main things. As an example, Glow Design uses in-game glow objects to make gradients and combines it with the tilemapped nature of classical design. Modern Art combines flat colors and visual effects with the custom asset approach of custom art.
 
@@ -72,38 +74,42 @@ So how do you actually make a style? Ultimately, it is composed of many surface-
 - *Tilemapping*: Do I want to stick to the main grid, or make more freeform shapes?
 
 **Tilemapped:** Shine (Preview) by Uriun
+
+{{< youtube pHmnRtLjJ3k >}}
+
 **Non-Tilemapped:** Culuc’s part in Abyssal Extinction
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/pHmnRtLjJ3k" frameborder="0" allowfullscreen></iframe>
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/958ZZJYUOj4" frameborder="0" allowfullscreen></iframe>
+{{< youtube 958ZZJYUOj4 >}}
 
 - *Assets*: Do I use in-game objects as assets, or make my own custom ones? These skills are the ones you learned in the prior deco guides; how to use objects to create custom shapes and fill them in.
 
 **Default Assets:** Mastermind by Hinds
+
+{{< youtube M-uoTtLRqRA >}}
+
 **Custom Assets:** Mzero’s part in Night Rider
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/M-uoTtLRqRA" frameborder="0" allowfullscreen></iframe>
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/A-uw33tlr0o" frameborder="0" allowfullscreen></iframe>
+{{< youtube A-uw33tlr0o >}}
 
 • *Details*: Do I rely more on intricate details and textures, or on visual effects? You'll learn how to make details and animations/visual effects in Deco 1.
 
 **Details:** Old Valley by Vulna
+
+{{< youtube 3a45heWkwac >}}
+
 **Visual Effects:** Key by Ilrell and Swirl
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/3a45heWkwac" frameborder="0" allowfullscreen></iframe>
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/rKBRatyipGE" frameborder="0" allowfullscreen></iframe>
+{{< youtube rKBRatyipGE >}}
 
 - *Backgrounds*: Do I need a custom background? You'll learn how to make a custom background in Deco 1 as well.
 
 **Custom Background:** Shards of Siberia by Xender Game
+
+{{< youtube lSAu5YE3TgI >}}
+
 **No Custom Background:** Fusion II by Manix648
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/lSAu5YE3TgI" frameborder="0" allowfullscreen></iframe>
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/6KvgiKA3bLQ" frameborder="0" allowfullscreen></iframe>
+{{< youtube 6KvgiKA3bLQ >}}
 
 # 5: Do Styles Matter?
 
