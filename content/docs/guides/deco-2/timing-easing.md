@@ -8,13 +8,17 @@ date: 2025-11-15T00:00:00.000Z
 contributors:
   - averageundertalefan
   - sparktwee
-description: "How does a drawing come to life? For every animation movie that you’ve watched and every crazy Geometry Dash effect that you’ve seen, there are individual objects that change positions to simulate life-like movement. For the first animation principles guide, we’ll discuss two principles that communicate an object’s speed and acceleration: Timing and Easing."
+description: "How does a drawing come to life? For every animation movie that
+  you’ve watched and every crazy Geometry Dash effect that you’ve seen, there
+  are individual objects that change positions to simulate life-like movement.
+  For the first animation principles guide, we’ll discuss two principles that
+  communicate an object’s speed and acceleration: Timing and Easing."
 tags:
   - Grade 2
   - Animation
 ---
-
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
+
 
 - Timing measures movement in terms of frames: slow moving objects have more frames in between while fast moving objects have less frames.
 - Slow timing usually communicates the following: delay, old age, heaviness, grace, timelessness, patience.
@@ -22,9 +26,10 @@ tags:
 - Easing explains how these frames are spaced out. Due to how objects tend to accelerate and decelerate when they move, it also can be translated in animation: Slow In, Slow Out.
 - Within the context of Geometry Dash, some triggers are equipped with their own easings that you can choose; some of which will have more versatile use cases than others.
 
+
 {{< /callout >}}
 
-** **
+- - -
 
 # 1: Timing
 
@@ -153,3 +158,7 @@ When choosing an easing, **think about the movement you’re trying to make**. A
 You have the freedom to use easings to communicate how an object moves and behaves. Even more, you can stack those easings to create more complex movements. For instance, by stacking Sine In and Sine Out easings, you can create curvy movements like the example below.
 
 {{< youtube SP9mU9VACjc >}}
+
+
+
+# 3. Examples
