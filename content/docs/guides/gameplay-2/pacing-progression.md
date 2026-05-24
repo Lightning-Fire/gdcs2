@@ -8,8 +8,11 @@ date: 2023-06-26T00:00:00.000Z
 contributors:
   - creeperiv
   - komatic5
-description: |-
-  Pacing and Progression refer to how elements of a level change over time and the effects that this change can produce. Almost any gameplay element can be used to create and alter pacing and progression.
+description: >-
+  Pacing and Progression refer to how elements of a level change over time and
+  the effects that this change can produce. Almost any gameplay element can be
+  used to create and alter pacing and progression.
+
 
   Pacing tends to refer specifically to changes in either speed or intensity, whereas progression whilst including speed and intensity can refer to any element that evolves over the course of a level.
 tags:
@@ -17,16 +20,16 @@ tags:
   - Gameplay Pacing
 ---
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
-* Pacing refers to the manner in which the player's attention is grabbed and maintained. Closely related to pacing is the flow state which refers to the state of extreme concentration maintained on one task.
-* Important aspects to induce flow are; Having Clear Goals and Rewards; Rapid Feedback; and Adequate Challenges.
-* Micro flow is the short-term version of flow, occurring on a second to second basis in gameplay. Important factors to creating good micro flow are Rhythm, Encouragement, and Positive Feedback.
+* Pacing refers to the manner in which the player's attention is held and maintained. Closely related to pacing is the idea of a flow state—an extremely productive state of extreme concentration maintained on one task.
+* Important aspects to induce flow include the following: clear goals, rewards, rapid feedback, and adequate challenges.
+* "Micro flow" is the short-term version of flow, occurring on a second to second basis during gameplay. Important factors to creating good micro flow are rhythm, encouragement, and positive feedback.
 {{< /callout >}}
 
 - - -
 
 # 1: The Flow State
 
-When we describe Pacing, another term related to it is the **Flow State**. The Flow State is a **mental state where you put intense concentration into one task and lose focus on everything else**. You may have heard it referred to as “the zone” before.
+When we describe Pacing, another term related to it is the **Flow State**. The Flow State is a **mental state where you put intense concentration into one task and lose focus on everything else**. You may have also heard it referred to as “the zone” before.
 
 In terms of gameplay, it’s very effective in making the player enjoy your level. Research suggests that when you’re in the zone, you’re more persistent at what you’re doing and have higher dopamine levels. This persistence and willingness to engage with the level are exactly what we want our pacing to accomplish.
 
