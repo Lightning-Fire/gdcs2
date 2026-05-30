@@ -1,20 +1,22 @@
 ---
 draft: false
+authors:
+  - tdp9
 title: Organizing Objects
 weight: 1030
 date: 2024-04-03T00:00:00.000Z
-description: In this editor guide we’ll go over things you’ll need to organize your objects. This will make creating a lot less painful in the long run.
-authors:
-  - tdp9
 contributors:
   - tdp9
   - tv_box
+description: In this editor guide we’ll go over things you’ll need to organize
+  your objects. This will make creating a lot less painful in the long run.
 tags:
   - Grade 0
   - The Editor
 seo:
   title: "Geometry Dash: Organizing Objects"
-  description: Part 3 of how to use Geometry Dash's level editor, going over editor layers, select filter, and select all.
+  description: Part 3 of how to use Geometry Dash's level editor, going over
+    editor layers, select filter, and select all.
   canonical: ""
   noindex: false
 ---
@@ -95,3 +97,5 @@ Out of the four right buttons, **the bottom right button is the only one that wo
 - **Select All**: Selects every object in the current editor layer.
 - **Select All Left**: Selects every object to the left of the center of the screen (indicated by an opaque vertical line on the screen).
 - **Select All Right**: Selects every object to the right of the center of the screen.
+
+**Each of the Select All buttons works with select filter.** If you filter for only objects of a specific type, then use select all, you will select all objects of that type on the current editor layer.
