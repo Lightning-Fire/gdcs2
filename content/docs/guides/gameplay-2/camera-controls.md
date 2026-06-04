@@ -8,10 +8,14 @@ date: 2026-02-27T00:00:00.000Z
 contributors:
   - zek.1612
   - averageundertalefan
-description: The camera in Geometry Dash is an effective tool that you can use to your advantage to make your gameplay more effective. It can be tricky to master, but it helps to convey a level's atmosphere exceptionally well. This guide explains how to create a camera for your level that conveys ideas (tone, scale) while supporting the gameplay (padding, dynamism, framing).
+description: The camera in Geometry Dash is an effective tool that you can use
+  to your advantage to make your gameplay more effective. It can be tricky to
+  master, but it helps to convey a level's atmosphere exceptionally well. This
+  guide explains how to create a camera for your level that conveys ideas (tone,
+  scale) while supporting the gameplay (padding, dynamism, framing).
 tags:
   - Grade 2
-  - Gameplay Pacing
+  - Game Design
 seo:
   canonical: camera-controls
   title: How to Use Cameras in Geometry Dash
