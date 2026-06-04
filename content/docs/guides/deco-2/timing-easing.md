@@ -93,9 +93,7 @@ When choosing an easing, **think about the movement you’re trying to make**. A
 
 {{< youtube pPfMCqZe360 >}}
 
-You have the freedom to use easings to communicate how an object moves and behaves. Even more, you can stack those easings to create more complex movements. For instance, by stacking Sine In and Sine Out easings, you can create curvy movements like the example below.
-
-{{< youtube SP9mU9VACjc&t=1s >}}
+You have the freedom to use easings to communicate how an object moves and behaves. Even more, you can stack those easings to create more complex movements. For instance, by stacking Sine In and Sine Out easings, you can create curvy movements, here
 
 # 3. Examples
 
