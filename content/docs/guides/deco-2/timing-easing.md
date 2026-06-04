@@ -93,29 +93,9 @@ When choosing an easing, **think about the movement you’re trying to make**. A
 
 {{< youtube pPfMCqZe360 >}}
 
-
-
-2. None - Completely linear and moves in a constant velocity. Usually for robotic movements or instant movements where easings are irrelevant.
-3. Ease In Out - Mildly faster velocity at the middle of the motion.
-4. Ease In - Mildly faster velocity at the end of the motion.
-5. Ease Out - Mildly faster velocity at the beginning of the motion. HOWEVER, due to how this easing was coded, it won’t accurately follow the movement in the video, even if the difference is subtle. As an alternative, you can stack 2 different move triggers where one has the Ease In and None Easing as long as the values cancel each other. (Or you can use sine out instead)
-6. Elastic In Out - Overshoots the elastic velocity at the beginning and end of the motion.
-7. Elastic In - Overshoots elastic velocity at the end of the motion. Think of this like pulling a rubber band back before letting it fly.
-8. Elastic Out - Overshoots elastic velocity at the beginning of the motion. Think of this like a car screeching to a halt; you’ll move forward as the car brakes, then backwards into your seat after.
-9. Bounce In Out - Provides bounce-back velocity at the beginning and end of the motion. Usually for chaotic and erratic movements.
-10. Bounce In - Bounce-back velocity at the end of the motion. This is usually for objects that are building up their jumps like a spring.
-11. Bounce Out - Bounce-back velocity at the beginning of the motion. Usually for objects to move into place in a more lenient and lively manner
-12. Exponential In Out - Sharp velocity at the beginning and end of the motion. Usually for smooth movements that require a large contrast in its velocities to achieve an effect, such as motion graphics.
-13. Exponential In - Sharp velocity at the end of the motion. Usually for objects accelerating as they exit.
-14. Exponential Out - Sharp velocity at the beginning of the motion. One good use of it is for air particles to swoosh quickly at a drop section.
-15. Sine In Out - Sine wave-like velocity at the beginning and end of the motion. Usually for floaty S-curved movements
-16. Sine In - Sine wave-like velocity at the end of the motion creating a gradual exit from the screen.
-17. Sine Out - Sine wave-like velocity at the beginning of the motion. Creating a gradual entrance to the screen.
-18. Back In Out - Slight anticipation and overshoot at the beginning and end of the motion. Usually for skittish or giddy movements.
-19. Back In - Slight anticipation at the beginning of the motion
-20. Back Out - Slight overshoot at the end of the motion
-
 You have the freedom to use easings to communicate how an object moves and behaves. Even more, you can stack those easings to create more complex movements. For instance, by stacking Sine In and Sine Out easings, you can create curvy movements like the example below.
+
+{{< youtube SP9mU9VACjc&t=1s >}}
 
 # 3. Examples
 
