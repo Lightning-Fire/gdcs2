@@ -9,8 +9,11 @@ contributors:
   - creeperiv
   - komatic5
   - azgamezyt
-description: |-
-  Pacing and Progression refer to how elements of a level change over time and the effects that this change can produce. Almost any gameplay element can be used to create and alter pacing and progression.
+description: >-
+  Pacing and Progression refer to how elements of a level change over time and
+  the effects that this change can produce. Almost any gameplay element can be
+  used to create and alter pacing and progression.
+
   Pacing tends to refer specifically to changes in either speed or intensity, whereas progression whilst including speed and intensity can refer to any element that evolves over the course of a level.
 tags:
   - Grade 2
@@ -77,6 +80,6 @@ Ultimately, it is fully **your choice** on how your level's pacing ends up being
 
 # Sources
 
-* <https://www.gamedeveloper.com/design/the-flow-applied-to-game-design>
-* <https://www.gamedeveloper.com/blogs/rational-design-part-1---the-player>
-* <https://www.medicalnewstoday.com/articles/flow-state#effects-on-brain>
+* [The Flow Applied to Game Design](<https://www.gamedeveloper.com/design/the-flow-applied-to-game-design>)
+* [Rational Design, Part 1 - The Player](<https://www.gamedeveloper.com/blogs/rational-design-part-1---the-player>)
+* [What a Flow State is and How to Achieve It](<https://www.medicalnewstoday.com/articles/flow-state#effects-on-brain>)
