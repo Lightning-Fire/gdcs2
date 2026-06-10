@@ -109,7 +109,7 @@ An example of tints used in GD is in this part of NEW LIGHT by cometface. This l
 
 # 5: Accents
 
-**Accents** are bursts of color that are placed for emphasis__. They are used sparingly, and should have high contrast. If used effectively, they can make your color composition pop and aid in visual flow or mood.
+**Accents** are *bursts of color that are placed for emphasis*. They are used sparingly, and should have high contrast. If used effectively, they can make your color composition pop and aid in visual flow or mood.
 
 The character below by Rino Park (@rinotuna on Instagram) has an overall red and white color palette. However, most viewers would be immediately drawn to the starkly contrasting green hair, an accent that adds a lot of depth and intrigue to the character. This makes the character’s design more memorable and interesting.
 
