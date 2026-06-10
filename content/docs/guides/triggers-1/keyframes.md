@@ -1,14 +1,16 @@
 ---
 draft: false
-title: Keyframes
-date: 2024-05-15T00:00:00.000Z
-weight: 3110
-description: This guide explains how the Keyframe System works. It allows for complex animations without needing to brute-force them with Move & Rotate triggers.
 authors:
   - theibra
+title: Keyframes
+weight: 3110
+date: 2024-05-15T00:00:00.000Z
 contributors:
   - theibra
   - komatic5
+description: This guide explains how the Keyframe System works. It allows for
+  complex animations without needing to brute-force them with Move & Rotate
+  triggers.
 tags:
   - Grade 1
   - Transformation Triggers
@@ -117,17 +119,17 @@ Keyframes can spawn Group IDs when the animated object reaches them.
 
 These settings can help with the editor workflow, like changing the appearance of keyframes inside the editor.
 
-**LineOpacity**: Changes the opacity of the line connecting this keyframe with the next one, with 0 being fully invisible and 1 being fully opaque.
-**Auto layer**: Copying a keyframe will automatically layer it on top of the previous keyframe and below the next.
+- **LineOpacity**: Changes the opacity of the line connecting this keyframe with the next one, with 0 being fully invisible and 1 being fully opaque.
+- **Auto layer**: Copying a keyframe will automatically layer it on top of the previous keyframe and below the next.
 Note: this option does not function as of 2.205/2.206. However, Dup Anim automatically layers keyframes correctly, this can be a temporary solution to Auto layer.
-**Select all**: Selects all keyframes in an animation.
-**Dup Anim**: Copies the entire animation without linking it to the original.
+- **Select all**: Selects all keyframes in an animation.
+- **Dup Anim**: Copies the entire animation without linking it to the original.
 
 The following settings are for the Art Preview feature, these replace the default looks of the keyframes to the groupID specified:
 
-**GroupID**: This setting is only available in the first keyframe (keyframe 0), objects in this groupID will be used as preview, note that this groupID must have a groupID parent.
-**Preview Art**: Enables this keyframe to use the art preview feature.
-**Update Art**: Changes to objects with GroupID will not be applied to the keyframes, use this button to update them.
+- **GroupID**: This setting is only available in the first keyframe (keyframe 0), objects in this groupID will be used as preview, note that this groupID must have a groupID parent.
+- **Preview Art**: Enables this keyframe to use the art preview feature.
+- **Update Art**: Changes to objects with GroupID will not be applied to the keyframes, use this button to update them.
 
 One useful feature of using art preview is that Keyframe animation triggers with no specified TargetID will use the AnimationID’s preview GroupID by default.
 
