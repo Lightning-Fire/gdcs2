@@ -11,7 +11,11 @@ contributors:
   - illusion2
   - intercomprehensible
   - sethlai
-description: Level design is the process of designing and building areas, or levels, for games. This majorly influences how players will experience your map, and is a crucial part of complex gameplay. This guide will delve into the fundamentals of level design, and how you can use them to influence player behavior.
+description: Level design is the process of designing and building areas, or
+  levels, for games. This majorly influences how players will experience your
+  map, and is a crucial part of complex gameplay. This guide will delve into the
+  fundamentals of level design, and how you can use them to influence player
+  behavior.
 tags:
   - Grade 2
   - Game Design
@@ -42,7 +46,6 @@ Level design generally has two main parts, being Room and World Design.
 
 **World Design** focuses on the game’s areas at large. These are designed around other principles like flow and perception, to alter the player’s *choices*, *experience*, and *emotions*. World design also helps link rooms together, creating a more cohesive product instead of a bunch of rooms carelessly thrown together.
 
-** **
 
 Together, Room and World Design work together to influence what a player feels, thinks, and does. Players will be more likely to positively recall a game when both world and room design are executed correctly.
 
@@ -76,8 +79,6 @@ Good objectives usually have these two criteria: *identifiable goals*, and *iden
 
 Once the player knows what they need to achieve, they must be able to deduce a general solution. This way, they can roughly know how to make progress. Solutions should also be interesting, have some sort of reward, and be satisfying to figure out. This way, the player is encouraged to keep solving puzzles.
 
-** **
-
 A great example of a good goal is the Rubik’s cube. The Rubik’s cube already has an identifiable goal, which is shown right when the player first finds the cube. The solution isn’t as simple though, as the cube may be very complex for a beginner. Once the player has completed the cube for their first time, they might feel rewarded, or satisfied.
 
 While there are many ways to ensure players’ solutions are valid, the most common way is to playtest your rooms. Others can provide different insights to help make your puzzles match your criteria better. They can also help you understand how the average player may feel when encountering your rooms for the first time, so always make sure that playtesting is part of your design process.
@@ -89,26 +90,26 @@ The Lock and Key principle can be used in far more complex ways. It’s very eas
 However, chaining small objectives like this can make your puzzles more disorganized, turning them into an irritating scavenger hunt instead of meaningful progress. This can be avoided by making the small objectives more complex, and chaining these complex objectives moderately.
 An example of chaining multiple locks & keys together would be this room. Here, there are multiple locks and keys chained together in order to create a small routing puzzle.
 
-** **
-
-[Video](https://cdn.discordapp.com/attachments/1285394476118052864/1308582282054860900/RPReplay_Final1725764529.mov?ex=673e77b8&is=673d2638&hm=b8bcf0136dc85b04bfe20f39140447a5970ca2e14098fceff52e2af4df4a4067&)
+{{< youtube KPIBGrwD-fg >}}
 
 First, the player should notice that they must cross the chasm. Then, the player should notice that to reach the right side, they must get launched from the top left. After that, they should figure out that they have to go to the bottom right in order to reach the top left.
 
 The Lock and Key principle can be applied to your custom mechanics. Almost any mechanic can act as a key, since mechanics help the player do things that would not be possible otherwise. Mechanics can also contribute to locks, as some mechanics can impede the player from progressing or require some sort of setup in order to use.
 
 The previous example does a fairly good job at demonstrating this. The hook can act as both a lock *and* a key. The limitations of the mechanic prevent the player from rushing through the room, while still helping them reach the desired destination with a little thinking.
+
 ## Progression
+
 **Progression** refers to the player seeing their own progress while trying to reach an objective. Making your goals feel reachable will motivate players to keep working on them, and can also push them in the right direction. This can also be referred to as Sense of Progression, which makes solutions more identifiable as stated before.
 
 Sense of Progression can be applied in two ways; letting the player know that there *is* a reachable goal beforehand, and showing the player’s progress while they’re reaching an objective. These two approaches can (and should) be used simultaneously, and can also be applied in many different ways.
 
 For example, you can directly tell the player that there is a goal and a reward. Alternatively, you can imply it more subtly by showing the reward behind some obstacle the player has to overcome. You can also use quest objectives, progress bars, or visual indicators. Ultimately it’s up to you how you implement Sense of Progression in your rooms.
 
-** **
-
 Going back to the previous Rubik’s cube example, we can see that it also satisfies these criteria as well. The goal is shown to the player right after they pick it up for the first time; they see the cube in its solved state and then start to fiddle around with it. After some time, they scramble the cube completely, and try to solve it to return it to its original state. They might also notice how the cube slowly starts to resemble its solved state, showing their progress over time.
+
 ## Central Mechanic & Critical Path.
+
 The **Central Mechanic** in a room is the main one used within that room. This helps the player learn that mechanic, and it also helps make the room feel less tedious and more cohesive. To implement a central mechanic, choose one of the mechanics in your level, and make that the main focus of that room.
 
 If your rooms use random mechanics instead of sticking to a few central ones, they could feel inconsistent and hard to learn, like the final room in The Core C-Side in *Celeste*. This room uses almost every mechanic available at this point, at the cost of being one of the least fun rooms in the game.
@@ -121,14 +122,16 @@ At the same time, these are almost never the *only* paths you can take, but just
 
 Mechanics can also be used to make interesting collectibles and secrets. This is mostly applied in the same way you’d create secrets with alternate paths. You can use mechanics in unique ways or test the player’s knowledge of them to create collectibles, like in this example made by everedeck and illusion2.
 
-[Video](https://cdn.discordapp.com/attachments/1285394476118052864/1308580774043451442/13_Pylons.mov?ex=673e7650&is=673d24d0&hm=84e8345af56b2ac4ef8c61527811767be8114013a2f24806810420298a223da1&)
+{{< youtube pP1PUqgmnIA >}}
 
 This example has an optional collectible which seems to be locked off limits. However, once the player gets comfortable with storing momentum, they might look for an opportunity to gain extra momentum. This unlocks the opportunity to jump off to get the coin. Many collectibles like these are made with the same process that was mentioned earlier, where the creator finds an unintended path and uses it to hide a collectible.
 
 # 3: World Design
 
 As mentioned before, **World Design** is the practice of designing larger areas of gameplay. These larger areas are composed of individual rooms, as you can expect. In addition to linking different rooms together, well-done world design can heavily influence a player’s emotions and decisions as well.
+
 ## Player Perception
+
 When designing large areas, it’s crucial to think about how players will see certain features in your gameplay. Keeping this in mind can help you direct players towards or away from certain spots, and make your areas more cohesive.
 
 There are many ways of influencing how the player perceives your world design, but here are a few useful ones to start with.
@@ -139,8 +142,6 @@ You can also do the opposite of occlusion, and make objects seem important by pr
 **Dissonance**: Bringing attention towards a specific point by breaking expected patterns in the area. For example, if you have a desert environment, you can introduce dissonance by placing a lush environment in the middle, complete with an oasis.
 
 This keeps your environment fresh, but it has to be balanced. Too little dissonance will make your areas feel dull and boring, making players less likely to explore them. Too much will make your area chaotic and overwhelming. The right amount will keep players interested with new content, while keeping the area familiar enough as well.
-
-** **
 
 **Positive & Negative Space**: Using an area’s scale to your advantage. Areas with lots of positive space are big and open, implying that players have lots of things they can potentially do. Areas with lots of negative space are smaller and more closed off, which can convey feelings of safety and coziness.
 
@@ -180,8 +181,6 @@ The most important tactic for fueling exploration is through **incentives**. The
 
 There are other ways to encourage exploration from players, such as using interesting world design to keep players exploring. When you make new areas fresh and exciting, this makes players curious of the possibilities in your level, instead of them expecting more of the same. This is as simple as changing the colors and details between the areas; the contrast between the areas will motivate more exploration. Of course, you still need cohesion; it would be jarring to enter a burning desert right after a frigid tundra.
 
-** **
-
 Diverting the player’s expectations can also make areas seem more interesting. If you enter a seemingly unimportant side path and get rewarded with a new area, this can motivate you to explore that area. You can also use **Scale Reveal**, where you greatly contrast the sizes of the rooms that connect two areas. This is usually done by making the new area much larger, and the one before it smaller and claustrophobic; the contrast makes the new area feel much larger.
 
 As always, make sure you don’t overwhelm the player with these tactics. Make sure you don’t have far too many connections from one area to another, and make sure that incentives like collectibles and secrets are sparse enough to keep their allure.
@@ -195,6 +194,7 @@ Alternatively, you can intentionally confuse the player if need be, and space ou
 {{< img src="https://lh3.googleusercontent.com/d/18Z0QbSZNhSf4ejnjN3v1nJ1IdUBAMrRq" >}}
 
 ## Cognitive Mapping
+
 Paths and entry points are crucial for world design because of **Cognitive Mapping** - the way people make sense of unknown spaces. Cognitive mapping usually follows a general sequence like this:
 
 - The player gets a sense of the area upon entering, forming expectations based on the first room.
@@ -208,12 +208,12 @@ The third thing to cover is Readability. You’ve probably heard this term befor
 The easiest way to make recognizable shapes and patterns is to use **Grayboxing**. This is where you block out the general map layout using simple shapes, before developing details. In addition to being a good practice for decoration, grayboxing improves the playtesting process; playtesters understand the map faster, and changes can be made more easily. More generally, grayboxing is an application of **Parti** - using your main design ideas to simplify a space down to its most important aspects. This helps others understand the intent of your areas more easily.
 
 Ultimately, cognitive mapping isn’t as simple as blindly following these principles. You’ll still need to gain a sense for what players will do in your areas. Think about what players will notice first when entering a new area, and then make an educated guess of their next move. For instance, in *Zelda: Breath of the Wild*, exiting the starting area brings you to a ledge, revealing the world with Hyrule Castle in the center. From there, players will either beeline for the castle out of curiosity, or avoid it as it looks like the final region of the game.
+
 ## Flow
+
 **Flow** is how it *feels* to progress in an area. There are many factors that influence it like gameplay speed and complexity, but it generally boils down to how it feels to move and control the player. There isn’t a “best” type of flow either; depending on what you’re trying to make, you may want fast, snappy movements for the player like *Celeste*, or calm, smooth movements like *The Planet of Lana*.
 
 Flow can also be vertical as well. **Verticality** or vertical flow is how it feels to move up or down in a level. This mostly depends on the mechanics you use - some are more suited for flat ground, others for varied terrain.
-
-** **
 
 When designing flow, keep these factors in mind:
 - **Speed**: How fast or slow should the player go through the path?
@@ -225,6 +225,8 @@ Use these factors intentionally to alter flow. You’ll want high speed and abru
 Keep your critical path in mind when controlling these factors. As with room design, the critical path here is just the most direct path through an area, so altering that path will alter the area’s flow. In addition to the concepts mentioned in Room Design, you’ll also need to consider the player’s “desired path” through your area. If the critical path is very convoluted compared to a straight path from one place to another, it may hurt your pacing and be frustrating. Some developers accommodate this by adding difficult skips that save time.
 
 For example, in Flipswap Factory by zejoant, the main gimmick features platforms quickly rotating around an axis 180° each time you jump. Later in the level, you have to use these platforms to launch you in different directions; however, if you utilize this mechanic in some earlier areas, you can use alternate paths to skip parts of the level that would otherwise take a lot of time.
+
+{{< youtube fj48fuVPsug >}}
 
 ## Pacing
 As you should know from the Pacing guide, this is how you control the gameplay’s tempo and order of events. Pacing will affect the difficulty you choose for the rooms in an area, as well as the area’s difficulty relative to the whole level. Each room in an area is equivalent to a pacing beat, or an event the player experiences.
@@ -241,8 +243,6 @@ This is a way to efficiently plan out areas. **Nodes** are specific points aroun
 
 Think of Node Based Mapping as creating the paths for one or many areas. When designing the area, you’ll employ a variety of nodes to work around the player’s potential paths, as follows:
 
-** **
-
 - **Continuance**: Designing the area around the node so players know they’re on the right path.
 - **Redirection**: Redirecting the player, either with small changes or large obstacles. These greatly alter gameplay flow, so you can use them when planning your progression.
 - **Termination**: The current path suddenly stops, either due to a dead end or a destination. You can place rewards here to make players feel accomplished, or dead ends to make them wary in the future.
@@ -254,6 +254,7 @@ Here’s an example map which uses the nodes mentioned above, grouped into spati
 {{< img src="https://lh3.googleusercontent.com/d/1vaVUrHINjTk9-8mWk8511gLnKCd9Yc_L" >}}
 
 ## Environmental Storytelling
+
 This is how you tell a story using elements in the environment. Environmental storytelling has major ties to your decoration, but it has a place in gameplay so it’s worth mentioning here.
 
 To start environmental storytelling, decide what story you’re telling and the environment you want to design, including the emotions you wish to convey. It helps to get inspiration sources and brainstorm with others during this process, as mentioned in the [Getting Ideas](/docs/guides/main-skills/getting-ideas/) guide. You may also develop concept art or sketches to assist here.
@@ -262,11 +263,9 @@ When actually developing your gameplay, it’s crucial to make the world feel **
 
 Tangibility often means researching the environment to learn what components exist in it and how they interact with each other. While doing this, you can consider logic from the real world, such as geography. For instance, prosperous cities are built around rivers more often than deserts, and deserts can occur if rain clouds are blocked by mountains. Fortresses may often be built into rough terrain which makes them easier to defend, and bodies of water like rivers always come from a source. An example of this is the City of Tears in *Hollow Knight*, which experiences constant rainfall due to being built below the Blue Lake - while this doesn’t influence gameplay at all, it shows players that you *care* about your world.
 
-** **
-
 In addition to tangibility, be aware of how you present your environment and the inferences players can draw from it. If your environment includes weathered ruins, players will conclude that a civilization used to live there. You can use [Narrative Details](/docs/guides/deco-1/creating-details/) to your advantage here by creating context clues for the player to use.
 
-When decorating, we suggest learning about color theory via the Deco 2 guides. Different color schemes can greatly impact the emotions an area gives off, and provide info about things like the climate at play. As an example, the first panel below feels boring and dull compared to the ones next to it.
+When decorating, we suggest learning about color theory via the [Deco 2 guides](/docs/guides/deco-2/color-1-basics/). Different color schemes can greatly impact the emotions an area gives off, and provide info about things like the climate at play. As an example, the first panel below feels boring and dull compared to the ones next to it.
 
 {{< img src="https://lh3.googleusercontent.com/d/12sNCw9o67Oh_4vRW40qYXeFXGfHZtnXf" >}}
 
