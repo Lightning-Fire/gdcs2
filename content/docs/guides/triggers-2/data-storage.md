@@ -49,7 +49,7 @@ This can be very useful if you need to detect when the player is in Low Detail M
 
 This also has a very straightforward setup. All you need is a toggle trigger with the “High Detail” setting enabled.
 
-{{< img src="https://lh3.googleusercontent.com/d/1x4h6mu_XJJcOvy9RQMJkI0SkDBakv5mA" >}}
+{{< gif src="https://lh3.googleusercontent.com/d/1x4h6mu_XJJcOvy9RQMJkI0SkDBakv5mA" >}}
 
 Then, all you need is the toggle trigger to toggle off a group and you should be all set! Here is an example of it working in action:
 
@@ -67,11 +67,11 @@ This is also a simple setup, although it’s more involved than LDM detection:
 
 1. Place down 2 Toggle Triggers, each with the same group (Group A). Make the second trigger Spawn & Multi Triggered with “Activate Group” enabled, and give it a Group B.
 
-{{< gif src="https://lh3.googleusercontent.com/d/1LB6iEjqRoP7--G0oWj9swk2_Z1gMYynk" >}}
+{{< gif src="https://lh3.googleusercontent.com/d/1KNi_2CgqtSkcZi_wvdJfejvGAqEzQD12" >}}
 
 2. Place an Event Link trigger. Set its Target Group to Group B, and select the “Checkpoint Respawn” option.
 
-{{< gif src="https://lh3.googleusercontent.com/d/1J9xBuugl8oTBdaAJRRsrK2y0R-LW7jnF" >}}
+{{< gif src="https://lh3.googleusercontent.com/d/14W8AIurQY8xjXo_Ia4SG_NBLLjpX0HQ2" >}}
 
 You can then add any objects to Group A and it should work if you set it up correctly. This doesn’t work in Platformer Mode if you use checkpoint objects, but you can circumvent this by using “Spawn Group” in your checkpoint objects to activate another toggle trigger, disabling Group A when respawning from them.
 
