@@ -137,7 +137,7 @@ This section is the most difficult part of this guide. If you get confused at an
 
 First, we need a way to input the save code. There are many methods for doing this, but I’ll personally use this one here.
 
-{{< img src="https://lh3.googleusercontent.com/d/175iTz7Ip73QVtzS8S7OQrKfVBW_Ok4xi" >}}
+{{< img src="https://lh3.googleusercontent.com/d/1zLUDVnD6bdNrCWd3pQQ4VfMcvYLJj8xL" >}}
 
 This system assigns a Spawn & Multi-Triggered Pickup trigger to increment each Item ID when the player touches their respective State Blocks. However, this has some drawbacks as you can see here:
 
