@@ -1,14 +1,15 @@
 ---
 draft: false
+authors:
+  - v1ewsh0t
 title: Data Storage
 weight: 6140
 date: 2024-07-31T00:00:00.000Z
-description: "This guide explains how to create the following data storage systems: Save Codes, LDM Detection, and Practice Mode/In-Editor Detection."
-authors:
-  - v1ewsh0t
 contributors:
   - komatic5
   - v1ewsh0t
+description: "This guide explains how to create the following data storage
+  systems: Save Codes, LDM Detection, and Practice Mode/In-Editor Detection."
 tags:
   - Grade 2
   - Trigger Setups
@@ -20,6 +21,7 @@ tags:
 - You can also make complex data storage systems like save codes, to save the player’s data between play sessions so they don’t lose all their progress upon exiting.
 
 {{< /callout >}}
+
 ** **
 
 Data is a useful tool for knowing what the player’s doing at a given moment, which makes it useful for many trigger setups. If you need a system to store data about the player or the game’s state, you’ll most likely use a **data storage system**. There are many types of data storage, like save codes, detectors, and data structures; we’ll go over the first two in this guide.
@@ -65,11 +67,11 @@ This is also a simple setup, although it’s more involved than LDM detection:
 
 1. Place down 2 Toggle Triggers, each with the same group (Group A). Make the second trigger Spawn & Multi Triggered with “Activate Group” enabled, and give it a Group B.
 
-{{< img src="https://lh3.googleusercontent.com/d/1LB6iEjqRoP7--G0oWj9swk2_Z1gMYynk" >}}
+{{< gif src="https://lh3.googleusercontent.com/d/1LB6iEjqRoP7--G0oWj9swk2_Z1gMYynk" >}}
 
 2. Place an Event Link trigger. Set its Target Group to Group B, and select the “Checkpoint Respawn” option.
 
-{{< img src="https://lh3.googleusercontent.com/d/1J9xBuugl8oTBdaAJRRsrK2y0R-LW7jnF" >}}
+{{< gif src="https://lh3.googleusercontent.com/d/1J9xBuugl8oTBdaAJRRsrK2y0R-LW7jnF" >}}
 
 You can then add any objects to Group A and it should work if you set it up correctly. This doesn’t work in Platformer Mode if you use checkpoint objects, but you can circumvent this by using “Spawn Group” in your checkpoint objects to activate another toggle trigger, disabling Group A when respawning from them.
 
@@ -88,7 +90,7 @@ Before making an editor detection system, you must understand two things:
 1. Place any gameplay portal and give it group A. I used a cube portal for this example.
 2. Place two collision blocks; one two blocks to the *left* and the other two blocks *down* from the portal. The collision block on the left needs a Block ID (such as 2), while the one below the portal needs another Block ID (such as 1), a Group ID (i.e. B), and the “Dynamic Block” option activated.
 
-{{< img src="https://lh3.googleusercontent.com/d/1XBb0dMeLGFuXhZTbixrRZ5PPbeswHiGA" >}}
+{{< gif src="https://lh3.googleusercontent.com/d/1XBb0dMeLGFuXhZTbixrRZ5PPbeswHiGA" >}}
 
 3. Place a rotate trigger with these settings. You can replace the groups with the specific ones in your setup, as long as they match the portal and collision blocks’ groups.
 
@@ -135,7 +137,7 @@ This section is the most difficult part of this guide. If you get confused at an
 
 First, we need a way to input the save code. There are many methods for doing this, but I’ll personally use this one here.
 
-{{< img src="https://lh3.googleusercontent.com/d/1JLcfq_gMdsUZRT0tLpj8tA0K5nRy4wIs" >}}
+{{< img src="https://lh3.googleusercontent.com/d/175iTz7Ip73QVtzS8S7OQrKfVBW_Ok4xi" >}}
 
 This system assigns a Spawn & Multi-Triggered Pickup trigger to increment each Item ID when the player touches their respective State Blocks. However, this has some drawbacks as you can see here:
 
@@ -174,14 +176,14 @@ To check if the save code entered is valid, you must check each Item ID for thei
 
 For example: If I was to check for Lives, I would first check to see if Lives is greater than 0, then if it is less than 4. If it meets those conditions, then I would increment Item ID 8 by 1.
 
-{{< img src="https://lh3.googleusercontent.com/d/1QwEW6oXCKn4OzXQMib5mRv24ZkrxFKzt" >}}
+{{< gif src="https://lh3.googleusercontent.com/d/1QwEW6oXCKn4OzXQMib5mRv24ZkrxFKzt" >}}
 
 If I were to do the same for the Level ID’s, it wouldn't work because there are two Item IDs instead of one. But in the same way, we can use another Item ID and use Item Edit triggers to do math. We can create a sequence of Item Edit triggers like this:
 I9 = I1 * 10.000 >> I9 = I9 + I2.
 
 This sequence allows us to compress both Item ID’s into one Item ID, which can then have the same comparison process as before.
 
-{{< img src="https://lh3.googleusercontent.com/d/1cjOSH1V3a92pmy5OCwfZHuDarXulU8x2" >}}
+{{< gif src="https://lh3.googleusercontent.com/d/1cjOSH1V3a92pmy5OCwfZHuDarXulU8x2" >}}
 
 If you combine both of those methods, then you can end up with something like this:
 
