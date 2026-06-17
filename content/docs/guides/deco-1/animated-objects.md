@@ -22,11 +22,12 @@ tags:
 
 ** **
 
-Animated objects can be found in the tab next to Gameplay objects. You can change their setting in the :EditSpecial: Edit Special menu for these objects.
+Animated objects can be found in the tab next to Gameplay objects. You can change their setting in the {{< img src="images/GDEmotes/Buttons/EditSpecial.png" class="emote" >}} Edit Special menu for these objects.
 
 # 1: Animation Options
 
 ## Use Speed & Randomize Start
+
 Randomize Start lets the animation start on a random frame. Use Speed lets you control the speed of the animation.
 
 {{< img src="https://lh3.googleusercontent.com/d/1lZXb_fyEKlOARX5RAYUzDANWV24Afny3" >}}
@@ -38,17 +39,21 @@ To change the speed of the animation, move the slider to the right to make it fa
 {{< img src="https://lh3.googleusercontent.com/d/1syqGAnPMdf9qtSRrYMMz9cGNMDtW0eRp" >}}
 
 {{< youtube bCEpMSTUWy0 >}}
+
 ## Disable Delayed Loop
+
 Some objects are delayed before looping; this option removes that delay. Many objects which disappear for a while before looping have this option.
 
 {{< img src="https://lh3.googleusercontent.com/d/1ETaczMt83tDPUl0EGGpJF6nZvmply6Ge" >}}
 
 ## Disable AnimShine
+
 This Disables the “white flash” shown before some animations.
 
 {{< img src="https://lh3.googleusercontent.com/d/1KbHZWg7NkTPRbaz8BSQBjf98CbUCEnq4" >}}
 
 ## Single Frame & Offset Animation
+
 Single Frame lets you pause an animation and select a specific frame from it. This can be useful if you wish to only use the shape from one frame of the object.
 
 Offset Anim resumes the animations, but they’ll start at the frame you specified.
@@ -56,6 +61,7 @@ Offset Anim resumes the animations, but they’ll start at the frame you specifi
 {{< img src="https://lh3.googleusercontent.com/d/1oYxVX0-XbRThahLGaCkZlfWnQaVcp8KZ" >}}
 
 ## Animate On Trigger & Only If Active
+
 Animate On Trigger disables the animation on the object. It will only activate when it’s added to a group activated by an Animate Trigger.
 
 Only If Active only enables animations on objects that are on-screen when the Animate Trigger activates them.

@@ -9,9 +9,7 @@ contributors:
   - delts1550
   - eyz
   - komatic5
-description: This guide explains how the UI and the Link Visible triggers work.
-  The UI trigger helps you create a UI for your level and the Link Visible
-  trigger forces objects to always render.
+description: This guide explains how the UI and the Link Visible triggers work. The UI trigger helps you create a UI for your level and the Link Visible trigger forces objects to always render.
 tags:
   - Grade 1
   - Effect Triggers
@@ -27,7 +25,7 @@ tags:
 
 # 1: UI Trigger
 
-The UI Trigger allows you to keep objects on screen at all times. This also means that any objects in the UI will not have a hitbox, so they cannot be used as center objects for triggers like :Rotate: and :GradientTrigger:. The camera guide is a good object to center your UI around as it tells you what is visible on the screen when playing.
+The {{< img src="images/GDEmotes/Triggers/UI.png" class="largeemote" >}} UI Trigger allows you to keep objects on screen at all times. This also means that any objects in the UI will not have a hitbox, so they cannot be used as center objects for triggers like {{< img src="images/GDEmotes/Triggers/Rotate.png" class="largeemote" >}} and {{< img src="images/GDEmotes/Triggers/Gradient.png" class="largeemote" >}}. The camera guide is a good object to center your UI around as it tells you what is visible on the screen when playing.
 
 {{< img src="https://lh3.googleusercontent.com/d/1IpF-Y98S5wLBUKExt4zLr8XP4IJ6Uo9D" >}}
 
@@ -61,7 +59,7 @@ Here is a practical example of how a UI could look.
 
 # 2: Link Visible
 
-The Link Visible Trigger is useful if you need to render an object regardless of its location.
+The {{< img src="images/GDEmotes/Triggers/LinkVisible.png" class="largeemote" >}} Link Visible Trigger is useful if you need to render an object regardless of its location.
 
 For this to work you must have an object that can be rendered at all times acting as a reference such as a basic block, and the object you are trying to render. In my example, I used a scaled-up basic block. As long as one object in the group is rendered, all of them will be.
 

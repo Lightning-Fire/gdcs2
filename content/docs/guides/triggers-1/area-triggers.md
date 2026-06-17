@@ -24,9 +24,9 @@ tags:
 
 ** **
 
-Area triggers affect objects depending on how far they are from a center object. This means the further from the center an object is, the less the object will be affected. This guide will teach you how to set up basic area effects using Area Move, Rotate, Scale, Fade and Tint.
+Area triggers affect objects depending on how far they are from a center object. This means the further from the center an object is, the less the object will be affected.
 
-There are 5 different area triggers: Move, Rotate, Scale, Fade (:Alpha:) and Tint (:Pulse:/:Color:). All options in area triggers work in units, where 10 units are equal to 1 block. You can find them after the keyframe object on the first page of the triggers tab.
+There are 5 different area triggers: Move {{< img src="images/GDEmotes/Triggers/AreaMove.png" class="largeemote" >}}, Rotate {{< img src="images/GDEmotes/Triggers/AreaRotate.png" class="largeemote" >}}, Scale {{< img src="images/GDEmotes/Triggers/AreaScale.png" class="largeemote" >}}, Fade {{< img src="images/GDEmotes/Triggers/AreaFade.png" class="largeemote" >}} and Tint {{< img src="images/GDEmotes/Triggers/AreaTint.png" class="largeemote" >}}. All options in area triggers work in units, where 10 units are equal to 1 block. You can find them after the keyframe object on the first page of the triggers tab.
 
 # 1: Overview
 
@@ -102,6 +102,7 @@ The rest of the options are relative to the camera:
 Now, we will discuss options specific to each area trigger.
 
 ## Area Move
+
 - **MoveDist**: The distance the target objects will move.
 - **MoveAngle**: The angle offset the objects should move. 0/360 is down, 90 is to the right, 180 is up and 270 is left. Positive values rotate anticlockwise and negative values rotate clockwise.
 - **Relative**: This option will make the objects move the “MoveDist” from the object in all directions. This option ignores any MoveAngle you input.
@@ -114,22 +115,26 @@ Also note that for static objects, if the MoveDist is larger than the Length and
 {{< youtube WFCeEl2rDf8 >}}
 
 ## Area Rotate
+
 - **Rotation**: the angle the objects should rotate at.
 
 {{< youtube TJixmnj_1us >}}
 
 ## Area Scale
+
 - **ScaleX/Y:** The size the objects should scale to. This is different to the scale trigger as the values in the scale trigger are multipliers and in Area Scale they will *set *the scale of objects.
 
 {{< youtube skUPcm8lN7Y >}}
 
 ## Area Fade
+
 - **From Opacity**: The opacity of the objects closest to the center.
 - **To Opacity**: The opacity of the objects farthest from the center.
 
 {{< youtube 0rzM0FA9RFw >}}
 
 ## Area Tint
+
 - **Color Channel**: the color channel the objects to change to when the center get near them.
 - **%**: How much of the color should be copied to the target objects. 0 being none and 1 being fully applied. This is a percentage value.
 - **Main Only/Secondary Only**: Will only affect the main or detail color of objects that have a main and detail color.
@@ -138,9 +143,11 @@ Also note that for static objects, if the MoveDist is larger than the Length and
 {{< youtube FtqWkbxEXC4 >}}
 
 ## Area Stop
-The Area Stop trigger works exactly the same as the normal :Stop: trigger, but it's specific to area triggers and works off of Effect IDs.
+
+The Area Stop trigger {{< img src="images/GDEmotes/Triggers/AreaStop.png" class="largeemote" >}} works exactly the same as the normal {{< img src="images/GDEmotes/Triggers/Stop.png" class="emote" >}} trigger, but it's specific to area triggers and works off of Effect IDs.
 
 ## Area Animate
+
 Area Animate triggers allow you to permanently change the values of one or more area triggers using either a Group ID or an Effect ID. They are found directly after the normal area triggers.
 
 Note that NA means no change to that specific option. The trash can icon next to each slider will set that value to NA.

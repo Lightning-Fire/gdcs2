@@ -10,10 +10,7 @@ contributors:
   - komatic5
   - chunlv1
   - notamoderatr
-description: Once you know basic perspective concepts like vanishing points and
-  horizon lines, it's important to learn the technical skills required to make
-  perspective work in-game. This guide explains the specific skills you'll need
-  to manually create forms like prisms, cylinders, cones, and more.
+description: Once you know basic perspective concepts like vanishing points and horizon lines, it's important to learn the technical skills required to make perspective work in-game. This guide explains the specific skills you'll need to manually create forms like prisms, cylinders, cones, and more.
 tags:
   - Grade 2
   - Perspective

@@ -29,7 +29,7 @@ seo:
 
 # 1: Custom Objects
 
-**Custom objects** are __objects that you can create, organize, and place down__. They can be found in the last tab in the editor toolbox, marked with a "C". Unlike the other tabs, this tab is empty by default, allowing room for your own objects. From there, you can organize the object orders and save them to be placed down later. To create a custom object, select all objects you want to be as a part of the custom object, go to the custom objects tab, and press the create object :GreenPlus: button to add it as an object. Now you can select this object and place it whenever you need to.
+**Custom objects** are __objects that you can create, organize, and place down__. They can be found in the last tab in the editor toolbox, marked with a "C". Unlike the other tabs, this tab is empty by default, allowing room for your own objects. From there, you can organize the object orders and save them to be placed down later. To create a custom object, select all objects you want to be as a part of the custom object, go to the custom objects tab, and press the create object {{< img src="images/GDEmotes/Buttons/+.png" class="emote" >}} button to add it as an object. Now you can select this object and place it whenever you need to.
 
 Custom objects do have their limits, though. Currently as of 2.206, each custom object can only have a maximum of 1,000 objects. With hacks this can be increased to infinity.
 
@@ -44,13 +44,14 @@ When placing down custom objects, they are placed on an anchor point. By default
 {{< youtube sYhB2zh_p_k >}}
 
 ## Merging In Collabs
+
 Custom objects can be used to merge parts of a level together for collabs. However, due to the 1000 object limit the base game has, hacks are needed to bypass this limit. The copy & paste buttons also work between levels in Update 2.2, without the object limit. To merge a part, select the part you want to merge and add it as a custom object, including a group parent object to merge parts easier, then go to your collab and place the part in the correct position. Be sure to make changes if the part doesn’t work correctly; for instance, teleport portals may not appear with the correct offsets.
 
 {{< youtube 4BP4HcsuHew >}}
 
 # 2: Autobuild
 
-**Autobuild** allows you to __automatically build block designs using a provided template.__ **As of 2.206, unintended behaviors may occur, most of which may not be described in this section.** On the last page of the blocks tab, there are 3 template blocks: a block, a slope, and a steep slope. These are blank in appearance and using Edit Special :EditSpecial: with them selected will bring you to the autobuild menu.
+**Autobuild** allows you to __automatically build block designs using a provided template.__ **As of 2.206, unintended behaviors may occur, most of which may not be described in this section.** On the last page of the blocks tab, there are 3 template blocks: a block, a slope, and a steep slope. These are blank in appearance and using Edit Special {{< img src="images/GDEmotes/Buttons/EditSpecial.png" class="emote" >}} with them selected will bring you to the autobuild menu.
 
 ## Smart Templates
 

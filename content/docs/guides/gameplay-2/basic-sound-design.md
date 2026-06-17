@@ -8,8 +8,7 @@ date: 2025-03-01T00:00:00.000Z
 contributors:
   - electrifyxd
   - notamoderatr
-description: This guide explains how you can create basic sounds using a DAW,
-  also known as an external audio-editing program.
+description: This guide explains how you can create basic sounds using a DAW, also known as an external audio-editing program.
 tags:
   - Grade 2
   - Sound Design

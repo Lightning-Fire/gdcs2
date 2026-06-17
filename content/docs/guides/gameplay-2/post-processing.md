@@ -8,11 +8,7 @@ date: 2025-10-01T00:00:00.000Z
 contributors:
   - electrifyxd
   - notamoderatr
-description: At this point you’ve created your sound, but you may notice
-  something’s off. Unless your sounds are soft or light, they likely lack any
-  room or loudness to make them stand out. This is where post processing is
-  used. This guide explains how you can edit and change your SFX afterward to
-  mix it in seamlessly or to transform it into something different.
+description: At this point you’ve created your sound, but you may notice something’s off. Unless your sounds are soft or light, they likely lack any room or loudness to make them stand out. This is where post processing is used. This guide explains how you can edit and change your SFX afterward to mix it in seamlessly or to transform it into something different.
 tags:
   - Grade 2
   - Sound Design

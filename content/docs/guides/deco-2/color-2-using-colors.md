@@ -8,9 +8,7 @@ date: 2023-11-30T00:00:00.000Z
 contributors:
   - tv_box
   - kde
-description: In this guide, we’ll explore colors further in depth. This guide
-  will touch on how to masterfully utilize the tricky-to-use greens and grays.
-  Then, it will elaborate more on color gradients, tints, and accents.
+description: In this guide, we’ll explore colors further in depth. This guide will touch on how to masterfully utilize the tricky-to-use greens and grays. Then, it will elaborate more on color gradients, tints, and accents.
 tags:
   - Grade 2
   - Light & Color

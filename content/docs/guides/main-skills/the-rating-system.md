@@ -64,7 +64,7 @@ As the official Rating System guide already covers the technical side of the pro
 
 ## Stage 1: Introduction
 
-Assuming that you’ve already uploaded your level publicly as per the [Sharing Levels](/docs/guides/the-editor/sharing-levels/) guide, your level will be unrated :NA:. Every level ever made and will be made goes through this stage. It’s the common denominator that ties every single uploaded level, whether it’s a serious project, a collab part, a gift, or a complete joke. This is similar to how businesses do a product launch.
+Assuming that you’ve already uploaded your level publicly as per the [Sharing Levels](/docs/guides/the-editor/sharing-levels/) guide, your level will be unrated {{< img src="images/GDEmotes/Icons/NA.png" class="emote" >}}. Every level ever made and will be made goes through this stage. It’s the common denominator that ties every single uploaded level, whether it’s a serious project, a collab part, a gift, or a complete joke. This is similar to how businesses do a product launch.
 
 {{< img src="https://lh3.googleusercontent.com/d/1fGeZpIGKaFXHbDLg1_MpVuRlzhDP-zjg" >}}
 
@@ -72,7 +72,7 @@ Assuming that you’ve already uploaded your level publicly as per the [Sharing 
 
 Assuming that you’re new to creating and this uploaded level is your first time, your level will lack exposure and attention from other players. This is a great time to experiment and learn because as an empty canvas, you have no reputation to uphold yet.
 
-Other players will play your level and have the ability to rate the difficulty of that level, converting the NA face to a different difficulty face. This ranges from Easy to Insane difficulty :Easy: :Insane:.
+Other players will play your level and have the ability to rate the difficulty of that level, converting the NA face to a different difficulty face. This ranges from Easy to Insane difficulty {{< img src="images/GDEmotes/Icons/Easy.png" class="emote" >}} {{< img src="images/GDEmotes/Icons/Insane.png" class="emote" >}}.
 
 {{< img src="https://lh3.googleusercontent.com/d/1DRBLbY8a8fvldwVgJe8o5mp9YwblY_gq" >}}
 
@@ -94,13 +94,14 @@ Not many mods do DM requests, in-game and otherwise. You can do this anytime, bu
 
 This is where your level’s popularity is at its peak. This is usually the stage where Rob would give that coveted notice and make an official rate. Factor in the influence from mods, Rob can provide 5 different ratings:
 
-1. Star Rate (1 :CreatorPoints:)
-2. Featured (2 :CreatorPoints:)
-3. Epic (3 :CreatorPoints:)
-4. Legendary (4 :CreatorPoints:)
-5. Mythic (5 :CreatorPoints:)
+1. Star Rate (1 {{< img src="images/GDEmotes/Icons/CreatorPoints.png" class="smallemote" >}})
+2. Featured (2 {{< img src="images/GDEmotes/Icons/CreatorPoints.png" class="smallemote" >}})
+3. Epic (3 {{< img src="images/GDEmotes/Icons/CreatorPoints.png" class="smallemote" >}})
+4. Legendary (4 {{< img src="images/GDEmotes/Icons/CreatorPoints.png" class="smallemote" >}})
+5. Mythic (5 {{< img src="images/GDEmotes/Icons/CreatorPoints.png" class="smallemote" >}})
 
 ## Popularity =/= Rate
+
 To resolve a misconception, a level’s stats have **no** bearing on it getting rated. While reception opens you up to opportunities, it doesn’t have much influence on the executive decision to rate levels. Many levels have taken ages to be rated despite plenty of community pressure, like Crimson Planet and Tidal Wave, while some levels have been rated almost instantly.
 
 This random correlation also suggests that when it comes to how levels are rated in the system, it partially boils down to creating skill and luck. Even if you made a masterpiece, it may have gone under the radar while others may not, or the level itself is fundamentally flawed. (e.g. Sonic Wave Infinity’s crash trigger) (e.g. The Vocab Quiz lack of popularity before the 100mil level, resulting in a later rate)
@@ -108,6 +109,7 @@ This random correlation also suggests that when it comes to how levels are rated
 It may also be useful to note that a handful of rated levels get placed on the featured tab, with a higher placement meaning more people will play them. If your level is placed at the top of the 1st page, more people will download and play it than if it’s placed 10 pages in.
 
 ## Stage 4: Decline
+
 Over time, some levels get unnoticed, some others receive instant popularity and leave a permanent mark in GD history, some others just permeate. Some levels get rated which will award Creator Points to its uploader, while some others never will regardless of the effort, strategy, and luck. Why is that? What’s the missing element that these creators need in order to get creator points?
 
 # 3: The Missing Element
@@ -126,7 +128,7 @@ At the end of the day, what does getting a level rated *mean?* A badge of honor 
 
 Regardless of reasoning, here’s where caution is needed: the moment you place creator points as your highest main priority to create, you’re setting yourself up for disappointment. This is for the same reason that putting your chips on any external factor beyond your control such as money will lead to a stressful life: it leads you to constantly chase them like your life depends on it. Yes, creator points have their stardom perks and get you to places you wouldn’t have known before, but once that pursuit turns to an unhealthy obsession, it’s a long road to recover from.
 
-GD incentivises a mentality where one of the achievements in this game involves getting a rated level, that achievement being a UFO. But this leads to a huge question: So what?
+GD incentivises a mentality where one of the achievements in this game involves getting a rated level, that achievement being a UFO. But this leads to a huge question: ***So what?***
 
 Aside from a number on your name, a reminder that Robtop noticed your level and a new UFO, what does having creator points ultimately mean? *The rating system at its current form merely depicts the opinions and standards of the executive branch.* If you disagree with their opinions and arguments on a level’s rate and feel that a rated level isn’t worth your attention, you don’t have to play the level. Even with the rewards and community recognition in mind, you don’t have to succumb to peer pressure if you subjectively have a level that you enjoy, even if it’s unrated. If there’s no level out there you like, build the ones you like. To quote Franz Kafka, “By believing passionately in something that still does not exist, we create it.”
 

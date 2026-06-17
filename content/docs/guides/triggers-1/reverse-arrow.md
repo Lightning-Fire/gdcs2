@@ -29,7 +29,7 @@ tags:
 
 {{< img src="https://lh3.googleusercontent.com/d/1ckqDhwTumt2IHfk_9efgvfXlxElffrf7" >}}
 
-:ReverseTrigger: This is probably one of the simplest triggers in the game. Just place it down and the player goes backwards. However, it might be too simple that it also borders on useless. For example, placing two reverse triggers like below won’t work properly if you want the rightmost trigger to activate first:
+{{< img src="images/GDEmotes/Triggers/Reverse.png" class="largeemote" >}} This is probably one of the simplest triggers in the game. Just place it down and the player goes backwards. However, it might be too simple that it also borders on useless. For example, placing two reverse triggers like below won’t work properly if you want the rightmost trigger to activate first:
 
 {{< img src="https://lh3.googleusercontent.com/d/1LZSQMhF_gTwSB8JmeVJg3vc2noc-tC9R" >}}
 
@@ -39,7 +39,7 @@ This is because the reverse trigger placed on the left activates first. While yo
 
 # 2: Reverse Option
 
-Another way to change directions is enabling the **Reverse** option in the Edit Group tab’s extras menu. It makes jump pads & orbs switch the direction you're going in, with the only exceptions being Dash and Toggle orbs.
+Another way to change directions is enabling the **Reverse** option in the {{< img src="images/GDEmotes/Buttons/EditGroup.png" class="emote" >}} Edit Group tab’s extras menu. It makes jump pads & orbs switch the direction you're going in, with the only exceptions being Dash and Toggle orbs.
 
 {{< img src="https://lh3.googleusercontent.com/d/1408NOQrNn0eCfnkc01mnL4J_IDOuqn69" >}}
 
@@ -51,7 +51,7 @@ Here's an example of this option being used in a level.
 
 # 3: Arrow Trigger
 
-The Arrow trigger :ArrowTrigger: allows you to go in any direction, not just in reverse. By changing its rotation you'll change the player’s direction.
+The Arrow trigger {{< img src="images/GDEmotes/Triggers/Arrow.png" class="emote" >}} allows you to go in any direction, not just in reverse. By changing its rotation you'll change the player’s direction.
 
 *If there are multiple arrow triggers without target channels set, the ones with the smaller X or Y value get activated first. This changes based on the rotation of the arrow trigger.*
 
@@ -79,6 +79,7 @@ Additionally, you can replace a gravity portal with this trigger. However, it is
 # 4: Cool Gameplay Applications
 
 ## Offsetting Players in Dual Mode
+
 By placing two purple jump pads next to each other, you can offset one of the icons, making the dual the more engaging and challenging. This was doable in Update 2.1, however it relied on a [bug](/docs/guides/gameplay-1/player-snap-bug/) to make it possible.
 
 This exact thing was done multiple times in Badland Full Version by MusicSounds.
@@ -90,6 +91,7 @@ You can also go crazy with this gimmick just like in a later part of the same le
 {{< youtube id=p4iYbmeWn9E start=136 >}}
 
 ## Going UP
+
 By making the player go back and forth while guiding a camera to slowly go up, you can create some interesting gameplay. This was used twice in Toxic Surge by GiaMmix.
 
 {{< youtube LhLE9MqU_SQ >}}

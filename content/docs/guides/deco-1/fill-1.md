@@ -101,7 +101,7 @@ Here's how to fill in a shape using pre-existing objects:
 
 {{< /img-grid >}}
 
-2. Fill in the rest of the space using large objects. You may have to use :FreeMove: Free Move, :Rotate: Rotate, and :Scale: Scale, especially when filling in small spaces.
+2. Fill in the rest of the space using large objects. You may have to use {{< img src="images/GDEmotes/Buttons/FreeMove.png" class="emote" >}} Free Move, {{< img src="images/GDEmotes/Buttons/RotateButton.png" class="emote" >}} Rotate, and {{< img src="images/GDEmotes/Buttons/ScaleButton.png" class="emote" >}} Scale, especially when filling in small spaces.
 
 Make sure not to limit yourself to a single object when filling up space. Some objects will be more efficient at filling in your shape.
 

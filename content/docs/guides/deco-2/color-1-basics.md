@@ -33,7 +33,7 @@ Colors are commonly represented by three concepts: **Hue, Saturation, and Value*
 
 - Value / Brightness is __how light a color is. The darker the value, the closer to black the color gets__.
 
-Each of these aspects is demonstrated by the first three sliders in the :RGB: color picker.
+Each of these aspects is demonstrated by the first three sliders in the {{< img src="images/GDEmotes/Buttons/RGB.png" class="emote" >}} color picker.
 
 {{< img src="https://lh3.googleusercontent.com/d/1YG742b1oRKnLXQm4XN-G0xLccbdYGQ07" >}}
 

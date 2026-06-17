@@ -8,9 +8,7 @@ date: 2024-05-15T00:00:00.000Z
 contributors:
   - theibra
   - komatic5
-description: This guide explains how the Keyframe System works. It allows for
-  complex animations without needing to brute-force them with Move & Rotate
-  triggers.
+description: This guide explains how the Keyframe System works. It allows for complex animations without needing to brute-force them with Move & Rotate triggers.
 tags:
   - Grade 1
   - Transformation Triggers

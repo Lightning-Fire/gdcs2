@@ -23,6 +23,7 @@ tags:
 {{< /callout >}}
 
 ** **
+
 At this point, you should be comfortable with basic perspective uses. However, once you make something more complex than just basic shapes, it becomes crucial to know how to speed up your workflow.
 
 This is where perspective tools come into play. All of these tools are useful for a more advanced understanding of perspective, like the type used to make complex objects shown in this image from Scott Robertson. Even if you don’t wish to make 3D stuff in the future, you can still benefit from thinking of shapes in a more advanced way.
@@ -40,6 +41,7 @@ A **plane** is a __flat, 2D rectangle positioned in a 3D space__. Planes are use
 Cutting forms into pieces is an important operation that’ll save you a lot of time when making constructions. Similarly, multiplying the same plane multiple times in perspective is very useful. Both of these operations work by cutting planes apart.
 
 ## Dividing & Multiplying Planes
+
 These are the most basic plane operations and are crucial for understanding the ones afterwards.
 
 To divide a rectangle into two, do the following:
@@ -59,6 +61,7 @@ To multiply a rectangle, do the following:
 {{< youtube 0oeWehyCzjw >}}
 
 ## Dividing Planes into Odd-Numbered Segments
+
 Multiplying planes an odd number of times is pretty easy; you can just repeat the same multiplication technique multiple times. However, dividing a plane into odd-numbered segments can be much trickier. This technique helps with that process.
 
 1. Make two lines which start at the VP opposite the one the plane points towards, and end on a horizontal line somewhere below the plane. Mark the points where these lines intersect.
@@ -117,7 +120,7 @@ Here your mirror plane is tilted at an angle, but your rectangle is also rotated
 
 # 3: Mirroring Curves
 
-The final discussion for this guide is how to mirror curves. This is the final major thing you’d need to understand, and is incredibly useful for making the most complex shapes. You may be able to get away with copy-pasting a curve and using the :Flip: and :2Point2: Warp options to make it in perspective (although you’d have to freehand the lines again so they keep the same thickness), but it’s important to understand WHAT makes a construction like this work as it’s the basis for more advanced perspective in the next guide.
+The final discussion for this guide is how to mirror curves. This is the final major thing you’d need to understand, and is incredibly useful for making the most complex shapes. You may be able to get away with copy-pasting a curve and using the {{< img src="images/GDEmotes/Buttons/Flip.png" class="emote" >}} Flip and {{< img src="images/GDEmotes/Buttons/Warp.png" class="emote" >}} Warp options to make it in perspective (although you’d have to freehand the lines again so they keep the same thickness), but it’s important to understand WHAT makes a construction like this work as it’s the basis for more advanced perspective in the next guide.
 
 ## Basics of Mirroring Curves (Main Techniques)
 

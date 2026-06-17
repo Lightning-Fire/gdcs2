@@ -45,6 +45,7 @@ When playtesting, you can pause the level by clicking the button on the left han
 {{< youtube SrveoQuJfCs >}}
 
 ## Music Playtest
+
 The Music Playtest button is right above the Editor Playtest button, and below the Undo/Redo buttons, once again on the left of the screen.
 
 This button plays a green line, starting from the very left of your screen. It also plays the music of the level, following along with the green line. The green line is affected by the arrow triggers, speed changes, and other gameplay altering features.
@@ -54,6 +55,7 @@ This button plays a green line, starting from the very left of your screen. It a
 # 2: Pause/Options Features
 
 These are the playtesting-related features that you’ll find by pausing the editor and/or going into the options menu.
+
 ## Pause Menu
 
 {{< img src="https://lh3.googleusercontent.com/d/1N0VgDu5MUQjNZtim33n0sQ2wso-kkDam" >}}
@@ -61,7 +63,8 @@ These are the playtesting-related features that you’ll find by pausing the edi
 - **Ignore Damage:** Allows you to playtest the level without taking damage (There are still some bugs where you can die, however).
 - **Show Hitboxes:** Allows you to see hitboxes in the editor.
 
-*Note that Hide Invisible, Preview Mode, Preview Animations, Preview Particles, Preview Shaders, and Show Ground can also apply to :Playtest:*
+*Note that Hide Invisible, Preview Mode, Preview Animations, Preview Particles, Preview Shaders, and Show Ground can also apply to {{< img src="images/GDEmotes/Buttons/Playtest.png" class="emote" >}} Playtest.*
+
 ## Options Menu (Page 1)
 
 {{< img src="https://lh3.googleusercontent.com/d/1S2qGHyKBozXaYJ-03X7tjOj7Q6nCgCBe" >}}
@@ -69,6 +72,7 @@ These are the playtesting-related features that you’ll find by pausing the edi
 - **Playtest Music:** Plays the music whenever you playtest.
 - **Playtest No Grid:** Removes the grid when playtesting.
 - **Playtest No UI:** Removes the editor's user interface (UI) when playtesting.
+
 ## Options Menu (Page 2)
 
 {{< img src="https://lh3.googleusercontent.com/d/1Ka-79HJpEeer8GE3Y6AhDx9oCCLR_Cpk" >}}
@@ -95,7 +99,6 @@ Alongside Show Hitboxes in the previous section, Show Info Label is an option th
 
 You can enable it in the in-game pause menu in the gear icon at the top right. Ticking it reveals 21 descriptions for any given level at the left side of the screen.
 
-
 {{< img src="https://lh3.googleusercontent.com/d/1UNr0YSmLQFaL1irqRmXhmD0ttqXot8of" >}}
 
 ## Normal Descriptions
@@ -116,9 +119,9 @@ You can enable it in the in-game pause menu in the gear icon at the top right. T
 
 - **Y:** Shows the player’s vertical distance from ground level. On the default ground with a normal-sized cube, the player is 105 small steps high. In mini however, that shrinks to 99 small steps.
 
-- **Active:** Displays the amount of elements on screen (e.g., the player and objects). It does not count triggers or any objects that are offscreen or invisible. However, transparent objects and objects that are assigned to a link visible trigger :LinkVisibleTrigger: do count.
+- **Active:** Displays the amount of elements on screen (e.g., the player and objects). It does not count triggers or any objects that are offscreen or invisible. However, transparent objects and objects that are assigned to a link visible trigger {{< img src="images/GDEmotes/Triggers/LinkVisible.png" class="largeemote" >}} do count.
 
-- **Gradients:** Shows how many active gradient triggers :GradientTrigger: are present on screen.
+- **Gradients:** Shows how many active gradient triggers {{< img src="images/GDEmotes/Triggers/Gradient.png" class="largeemote" >}} are present on screen.
 
 - **Particles** Displays how many particles are on screen (such as portals, pads, and even custom particles).
 
@@ -130,23 +133,23 @@ In `Coaster Mountain` by Serponge, despite the song download stating that there 
 
 ## Performance-related Descriptions
 
-- **Move:** Measures how many objects are affected by the move trigger :Move: (can sometimes apply for offscreen objects, though not guaranteed).
+- **Move:** Measures how many objects are affected by the move trigger {{< img src="images/GDEmotes/Triggers/Move.png" class="emote" >}} (can sometimes apply for offscreen objects, though not guaranteed).
 
-- **Rotate:** Calculates how many objects are affected by the rotate trigger :Rotate: .
+- **Rotate:** Calculates how many objects are affected by the rotate trigger {{< img src="images/GDEmotes/Triggers/Rotate.png" class="largeemote" >}}.
 
-- **Scale:** Estimates how many objects are affected by the scale trigger :ScaleTrigger: .
+- **Scale:** Estimates how many objects are affected by the scale trigger {{< img src="images/GDEmotes/Triggers/Scale.png" class="emote" >}}.
 
-- **Follow:** Counts how many objects are affected by the follow trigger :Follow: .
+- **Follow:** Counts how many objects are affected by the follow trigger {{< img src="images/GDEmotes/Triggers/Follow.png" class="largeemote" >}}.
 
 ## Area-related Descriptions
 
 The last 4 are different in the sense that they are expressed as fractions. The denominator increases first when an area trigger is activated. Then, once an object that was assigned to the area trigger shows up on screen, it will increase the numerator.
 
-- **Move:** Calculates how many active objects are affected by the area move trigger :AreaMove: . Colon’s Dash review provides evidence that there is a correlation between high move areas and lag.
+- **Move:** Calculates how many active objects are affected by the area move trigger {{< img src="images/GDEmotes/Triggers/AreaMove.png" class="largeemote" >}}. Colon’s Dash review provides evidence that there is a correlation between high move areas and lag.
 
-- **Rotate:** Counts how many active objects are affected by the area rotate trigger.
+- **Rotate:** Counts how many active objects are affected by the area rotate trigger {{< img src="images/GDEmotes/Triggers/AreaRotate.png" class="largeemote" >}}.
 
-- **Scale:** Measures how many active objects are affected by the area scale trigger.
+- **Scale:** Measures how many active objects are affected by the area scale trigger {{< img src="images/GDEmotes/Triggers/AreaScale.png" class="largeemote" >}}.
 
-- **ColOp:** Estimates how many active objects are affected by either the area fade or area tint trigger. If the same objects are affected by both area fade and area tint, the ColOp denominator will double.
+- **ColOp:** Estimates how many active objects are affected by either the area fade {{< img src="images/GDEmotes/Triggers/AreaFade.png" class="largeemote" >}} or area tint {{< img src="images/GDEmotes/Triggers/AreaTint.png" class="largeemote" >}} triggers. If the same objects are affected by both area fade and area tint, the ColOp denominator will double.
 

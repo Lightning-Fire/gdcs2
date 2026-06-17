@@ -8,9 +8,7 @@ date: 2024-01-08T00:00:00.000Z
 contributors:
   - komatic5
   - tdp9
-description: This guide explains how the Show/Hide Player, Player Trail, & BG
-  Effect triggers work. They let you control if the player is shown, has a trail
-  behind them, or if there are extra particles in the level background.
+description: This guide explains how the Show/Hide Player, Player Trail, & BG Effect triggers work. They let you control if the player is shown, has a trail behind them, or if there are extra particles in the level background.
 tags:
   - Grade 1
   - Gameplay Triggers
@@ -23,9 +21,10 @@ tags:
 {{< /callout >}}
 
 ** **
+
 # 1: Show/Hide Player Triggers
 
-The :ShowPlayer: :HidePlayer: Show/Hide Player triggers are the 24th and 25th triggers in the triggers page. Their appearance consists of an icon with the words "show" or "hide" above it.
+The {{< img src="images/GDEmotes/Triggers/ShowPlayer.png" class="largeemote" >}} {{< img src="images/GDEmotes/Triggers/HidePlayer.png" class="largeemote" >}} Show/Hide Player triggers are the 24th and 25th triggers in the triggers page. Their appearance consists of an icon with the words "show" or "hide" above it.
 
 The Hide Player trigger makes the player icon invisible during gameplay.
 
@@ -45,7 +44,7 @@ The Hide Player Trail trigger makes the trail invisible. This state is the defau
 
 # 3: BG Effect On/Off Triggers
 
-The :BGEffectOn: :BGEffectOff: BG Effect On/Off triggers are the 26th and 27th triggers in the triggers page. Their appearance consists of the words "BG Effect ON/OFF".
+The {{< img src="images/GDEmotes/Triggers/BGEffectOn.png" class="largeemote" >}} {{< img src="images/GDEmotes/Triggers/BGEffectOff.png" class="largeemote" >}} BG Effect On/Off triggers are the 26th and 27th triggers in the triggers page. Their appearance consists of the words "BG Effect ON/OFF".
 
 The BG Effect On trigger makes the BG Effect visible. This can only be seen during normal gameplay. This effect shows particles that fly around when you are in the Ship, UFO, and Wave game modes. This is the default state of all levels.
 

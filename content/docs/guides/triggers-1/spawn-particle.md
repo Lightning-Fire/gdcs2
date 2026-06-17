@@ -21,7 +21,7 @@ tags:
 
 ** **
 
-The :SpawnParticleTrigger: Spawn Particle trigger copies particles in the group you specify, and spawns them at a new location without moving the particle objects. *Note that this trigger requires your particles to have finite duration to work.*
+The {{< img src="images/GDEmotes/Triggers/SpawnParticle.png" class="largeemote" >}} Spawn Particle trigger copies particles in the group you specify, and spawns them at a new location without moving the particle objects. *Note that this trigger requires your particles to have finite duration to work.*
 
 # 1: Spawn Particle
 

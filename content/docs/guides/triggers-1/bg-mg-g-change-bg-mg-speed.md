@@ -8,10 +8,7 @@ date: 2024-01-21T00:00:00.000Z
 contributors:
   - komatic5
   - eyz
-description: This guide explains how the BG/MG/G Change & BG/MG Speed triggers
-  work. They're triggers that let you change your level's background, midground,
-  and ground, the speed of your background or midground, and the position of the
-  midground.
+description: This guide explains how the BG/MG/G Change & BG/MG Speed triggers work. They're triggers that let you change your level's background, midground, and ground, the speed of your background or midground, and the position of the midground.
 tags:
   - Grade 1
   - Effect Triggers
@@ -32,13 +29,13 @@ In case you haven't read the editor guides, here is a quick recap of how backgro
 
 {{< youtube 9bkYAJDwna0 >}}
 
-To change any of these options, go to the :Settings: Level Settings page and set them through the UI given. Note that if you're playing on version 2.200 (such as being on mobile), adding a MG to your level will permanently lock you out of the editor.
+To change any of these options, go to the {{< img src="images/GDEmotes/Buttons/Settings.png" class="emote" >}} Level Settings page and set them through the UI given. Note that if you're playing on version 2.200 (such as being on mobile), adding a MG to your level will permanently lock you out of the editor.
 
 {{< youtube jOQVZ_QocTw >}}
 
 # 2: BG, MG, & G Change Triggers
 
-:BGChangeTrigger: These triggers let you change the BG, MG, and G currently in your level. Their UIs all look somewhat like this when you click :EditObject: Edit Object.
+{{< img src="images/GDEmotes/Triggers/BGChange.png" class="largeemote" >}} {{< img src="images/GDEmotes/Triggers/MGChange.png" class="largeemote" >}} {{< img src="images/GDEmotes/Triggers/GChange.png" class="largeemote" >}} These triggers let you change the BG, MG, and G currently in your level. Their UIs all look somewhat like this when you click go to the {{< img src="images/GDEmotes/Buttons/EditObject.png" class="emote" >}} Edit Object.
 
 {{< img src="https://lh3.googleusercontent.com/d/1LEq4LkGM-QMV_RgkJx-hPArIky8tkdsx" >}}
 
@@ -48,13 +45,13 @@ When you click on the button in the middle, you'll be able to select a new BG, M
 
 # 3: BG & MG Speed Triggers
 
-:BGSpeedTrigger: These triggers let you change the speed at which your BG and MG move.
+{{< img src="images/GDEmotes/Triggers/BGSpeed.png" class="largeemote" >}} {{< img src="images/GDEmotes/Triggers/MGSpeed.png" class="largeemote" >}} These triggers let you change the speed at which your BG and MG move.
 
 {{< img src="https://lh3.googleusercontent.com/d/12W9r6DeNBNT3k-_VbFYT4zG_valVURiz" >}}
 
 The **Mod X** and **Mod Y** values are the same as in the Follow trigger and set the speed of the BG and MG. A value of 1 makes the BG move at the camera's speed, while a value of 0 makes it stop entirely.
 
-By default these are set to 0.1, but there are other criteria which determine how fast they move - most notably the :TimeWarpTrigger: Timewarp trigger and your speed changes.
+By default these are set to 0.1, but there are other criteria which determine how fast they move - most notably the {{< img src="images/GDEmotes/Triggers/TimeWarp.png" class="largeemote" >}} Timewarp trigger and your speed changes.
 
 {{< youtube jjLmU5pvNfU >}}
 

@@ -32,7 +32,7 @@ The Event Link trigger {{< img src="images/GDEmotes/Triggers/EventLink.png" clas
 Its features are as follows:
 
 - **Group ID:** This is the assigned group that will activate once a certain action takes place.
-- **Extra ID:** Activates if the player interacts with a corresponding object that matches its Material ID. You can set an object's Material ID in :EditGroup: -> Extra2.
+- **Extra ID:** Activates if the player interacts with a corresponding object that matches its Material ID. You can set an object's Material ID in {{< img src="images/GDEmotes/Buttons/EditGroup.png" class="emote" >}} EditGroup -> Extra2.
 - **Extra ID2:** Useful If you want to use the 2 player mode in order to access all 6 different inputs.
  - 0 = Can be activated by both players
  - 1 = Activated by P1

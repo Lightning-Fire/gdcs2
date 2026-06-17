@@ -9,13 +9,7 @@ date: 2025-01-16T00:00:00.000Z
 contributors:
   - sparktwee
   - xplode09
-description: It can be argued that Geometry Dash stood out from its inspiration,
-  The Impossible Game, partly due to its unique gameplay objects. While static
-  objects serve as the foundation of gameplay, gameplay objects serve to spice
-  up a level’s gameplay. For example, If you were to compare Stereo Madness with
-  Clutterfunk, you can see and feel how Clutterfunk has more variation in its
-  gameplay. This guide will explain how each of these objects function in
-  Classic Mode & Platformer Mode.
+description: It can be argued that Geometry Dash stood out from its inspiration, The Impossible Game, partly due to its unique gameplay objects. While static objects serve as the foundation of gameplay, gameplay objects serve to spice up a level’s gameplay. For example, If you were to compare Stereo Madness with Clutterfunk, you can see and feel how Clutterfunk has more variation in its gameplay. This guide will explain how each of these objects function in Classic Mode & Platformer Mode.
 tags:
   - Grade 1
   - Gameplay Basics

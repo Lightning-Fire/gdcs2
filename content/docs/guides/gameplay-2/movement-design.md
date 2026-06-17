@@ -9,9 +9,7 @@ contributors:
   - interestex
   - illusion2
   - psytrancegd
-description: Movement is a core aspect of any game, and can make or break a
-  game’s immersion and enjoyability. This guide will cover many fundamental
-  details in the process of designing good movement systems.
+description: Movement is a core aspect of any game, and can make or break a game’s immersion and enjoyability. This guide will cover many fundamental details in the process of designing good movement systems.
 tags:
   - Grade 2
   - Game Design

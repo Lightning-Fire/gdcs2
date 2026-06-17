@@ -70,13 +70,13 @@ However, black blending can still be a very useful color channel because pulse t
 
 {{< img src="https://lh3.googleusercontent.com/d/1VZry1K6A_Dr3eC9YvGbXeO4asST58wS-" >}}
 
-To assign an object to a color channel, select the object and click :EditObject:. The following menu will open.
+To assign an object to a color channel, select the object and click {{< img src="images/GDEmotes/Buttons/EditObject.png" class="emote" >}} Edit Object. The following menu will open.
 
 {{< img src="https://lh3.googleusercontent.com/d/1v7JcZCHilUD95ktQTT8l6Zk7O354d8vj" >}}
 
 Once again, here is a list of all the features.
 
-* **Base & Detail**: These options only appear within objects where you can change 2 colors; not all objects have a Base or Detail. If an object has both, swap between these tabs to change the color channels of different parts of the object. You can use the :Settings: button to choose if your object is treated as a Base or Detail color when using :PasteState: or :RGB:.
+* **Base & Detail**: These options only appear within objects where you can change 2 colors; not all objects have a Base or Detail. If an object has both, swap between these tabs to change the color channels of different parts of the object. You can use the {{< img src="images/GDEmotes/Buttons/Settings.png" class="emote" >}} Settings button to choose if your object is treated as a Base or Detail color when using {{< img src="images/GDEmotes/Buttons/PasteState.png" class="emote" >}} or {{< img src="images/GDEmotes/Buttons/RGB.png" class="emote" >}}.
 * **Copy & Paste**: These buttons copy the color channel(s) and the HSV settings of the object, allowing you to paste it onto other objects.
 * **Color Channels**: Represented by the table of numbers, these let you select any color channel to give the object. If you click on channel 10, a counter appears on the right where you can select any channel above 10.
 * **P-Col 1 & P-Col 2**: Player color 1 and player color 2 respectively; however, they both have blending enabled by default so it would be more accurate to make your own color channel with those options.
@@ -100,7 +100,7 @@ While active, clicking that same button again turns it into an HSV button which 
 
 **Trigger order** **allows for gameplay objects to activate in the correct order**. These objects include anything that affects the green music line when you play the song in the editor, such as arrow triggers and speed changes. It’s important to use trigger order rather than applying “Touch Trigger” to everything because the triggers no longer rely on where the player touches the trigger’s hitbox, which might make your gameplay out of sync.
 
-When selecting a trigger and clicking on :EditGroup:, a menu appears. We only need to pay attention to the two counters below the Z layer buttons.
+When selecting a trigger and clicking on {{< img src="images/GDEmotes/Triggers/Arrow.png" class="emote" >}} Edit Group, a menu appears. We only need to pay attention to the two counters below the Z layer buttons.
 
 {{< img src="https://lh3.googleusercontent.com/d/1RZ3ho1phswAgN7KSBZYFjIIuBpS4XTZ8" >}}
 
@@ -112,7 +112,7 @@ Keep in mind that reversed orbs and teleport orbs all affect the music line but 
 
 {{< callout context="caution" title="Important" icon="outline/info-circle" >}}
 
-Using trigger order on :ArrowTrigger: arrow triggers only works if you enable “Change Channel.” Select the arrow trigger, click :EditObject:, and check the corresponding box. We don’t know why you need to enable this, but the level will break otherwise.
+Using trigger order on arrow triggers only works if you enable “Change Channel.” Select the arrow trigger, click Edit Object, and check the corresponding box. We don’t know why you need to enable this, but the level will break otherwise.
 
 {{< /callout >}}
 
@@ -120,16 +120,16 @@ Using trigger order on :ArrowTrigger: arrow triggers only works if you enable �
 
 ## Trigger Channels
 
-Using the menu above in the :ArrowTrigger:, you can change the target channel of the level. The level constantly runs on a certain channel, and triggers will only be able to activate *if their channel matches the current channel*.
+Using the menu above in the {{< img src="images/GDEmotes/Triggers/Arrow.png" class="emote" >}} arrow trigger, you can change the target channel of the level. The level constantly runs on a certain channel, and triggers will only be able to activate *if their channel matches the current channel*.
 
 To change the level’s channel, open the menu of the arrow trigger, enable “Change Channel,” and select your channel using the counter that appears below.
 
-You can set the channel of triggers with the “CH” counter in the :EditGroup: menu, next to the “ORD” counter. If you ever wonder why your triggers aren’t activating, check to make sure they’re on the correct channel. *Only arrow triggers can change the level’s channel*, not reverse triggers or reversed orbs.
+You can set the channel of triggers with the “CH” counter in the {{< img src="images/GDEmotes/Buttons/EditGroup.png" class="emote" >}} Edit Group menu, next to the “ORD” counter. If you ever wonder why your triggers aren’t activating, check to make sure they’re on the correct channel. *Only arrow triggers can change the level’s channel*, not reverse triggers or reversed orbs.
 
 {{< youtube OZnDpqJ8T0M >}}
 
 {{< callout context="note" title="Note" icon="outline/clipboard-text" >}}
 
-Note: Both orders and channels require the “EDP” or "Playtest" box checked in the :EditGroup: menu.
+Note: Both orders and channels require the “EDP” or "Playtest" box checked in the Edit Group menu.
 
 {{< /callout >}}

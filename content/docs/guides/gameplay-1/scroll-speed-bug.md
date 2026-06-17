@@ -10,10 +10,7 @@ contributors:
   - tv_box
   - mateussdev
   - unknown
-description: The Scroll Speed Bug is something you'll encounter when making very
-  long levels, and it's impossible to fix. However, it's still important to know
-  about as you create. This guide explains everything you need to know about the
-  Scroll Speed Bug.
+description: The Scroll Speed Bug is something you'll encounter when making very long levels, and it's impossible to fix. However, it's still important to know about as you create. This guide explains everything you need to know about the Scroll Speed Bug.
 tags:
   - Grade 1
   - Gameplay Features

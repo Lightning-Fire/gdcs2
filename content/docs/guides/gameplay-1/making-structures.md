@@ -21,6 +21,7 @@ tags:
 {{< /callout >}}
 
 ** **
+
 # 1: Why Structure?
 
 Structures are important for many reasons. They can help guide the player through your gameplay and influence how intuitive it feels to play.
@@ -57,6 +58,6 @@ If all else fails, put a wall of spikes at the floor and ceiling of your level. 
 
 # 4: Tips for Decoration
 
-Avoid structuring using :FreeMove: Free Move, as this can be quite annoying for decorators. Try :Snap: snapping your structures to the grid, or aligning them with the half or quarter sized grids.
+Avoid structuring using {{< img src="images/GDEmotes/Buttons/FreeMove.png" class="emote" >}} Free Move, as this can be quite annoying for decorators. Try {{< img src="images/GDEmotes/Buttons/Snap.png" class="emote" >}} snapping your structures to the grid, or aligning them with the half or quarter sized grids.
 
 Additionally, try to make your structures using simple shapes, like blocks and slopes. Leave more complex details up to the decorator.

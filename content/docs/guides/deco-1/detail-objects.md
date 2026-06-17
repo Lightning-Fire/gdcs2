@@ -105,7 +105,7 @@ There are many ways to use objects in the editor; however, many of these techniq
 
 {{< img src="https://lh3.googleusercontent.com/d/1OaRXjF6EvEkFjedTPH0YN-ROP7IqA-Kz" >}}
 
-- Text objects (found in the :YellowOrb: Gameplay Objects tab) are also interesting as they let you get a near-limitless amount of new shapes. You'll see these fairly often in works from people like Bli and Galofuf.
+- Text objects (found in the {{< img src="images/GDEmotes/Objects/YellowOrb.png" class="emote" >}} Gameplay Objects tab) are also interesting as they let you get a near-limitless amount of new shapes. You'll see these fairly often in works from people like Bli and Galofuf.
 
 {{< img src="https://lh3.googleusercontent.com/d/1uyDWtEA8IMh3BVAP2qw22D2tFNuSfgL3" >}}
 

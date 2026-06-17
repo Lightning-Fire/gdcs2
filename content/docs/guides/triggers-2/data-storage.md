@@ -8,8 +8,7 @@ date: 2024-07-31T00:00:00.000Z
 contributors:
   - komatic5
   - v1ewsh0t
-description: "This guide explains how to create the following data storage
-  systems: Save Codes, LDM Detection, and Practice Mode/In-Editor Detection."
+description: "This guide explains how to create the following data storage systems: Save Codes, LDM Detection, and Practice Mode/In-Editor Detection."
 tags:
   - Grade 2
   - Trigger Setups
