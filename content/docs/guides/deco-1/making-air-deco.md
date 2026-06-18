@@ -1,35 +1,36 @@
 ---
 draft: false
+authors:
+  - komatic5
 title: Making Air Deco
 weight: 5100
 date: 2023-03-18T00:00:00.000Z
-description: Air Deco is a neat way to make your work look more lively and fill in space that might be really empty otherwise. This guide will go over some common types of air deco and how to make them.
-authors:
-  - komatic5
 contributors:
   - komatic5
+description: Air Deco is a neat way to make your work look more lively and fill
+  in space that might be really empty otherwise. This guide will go over some
+  common types of air deco and how to make them.
 tags:
   - Grade 1
   - Deco Skills
 ---
-
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
-- Air deco helps empty spaces feel less empty. Don’t use it to remove empty spaces, but to fill them a *bit*.
-- There are four main air deco types: Arrows, Connectors, Particles, and Overlays.
-- Arrows point the player in a direction.
-- Connectors link blocks and other objects to each other.
-- Particles are small objects that fill space.
-- Overlays are full-screen effects that can make empty spaces look more interesting.
-
+* Air deco helps empty spaces feel less empty. Don’t use it to remove empty spaces, but to fill them up and make the level feel more complete
+* There are four main air deco types: Arrows, Connectors, Particles, and Overlays.
+* Arrows point the player in a direction.
+* Connectors link blocks and other objects to each other.
+* Particles are small objects that fill space.
+* Overlays are full-screen effects that can make empty spaces look more interesting.
 {{< /callout >}}
 
-** **
+- - -
+
 # 1: Do You Need Air Deco?
 
 Before we get started, it’s important to know what air deco is and when you should use it.
-**Air deco** is a __minor decoration type that should make empty spaces look less empty__. *If you want a space to not be empty, fill it with larger shapes and do not use air deco.* You also don’t have to use every type of air deco listed here, although it helps to know how to make all of them.
+**Air deco** is a **minor decoration type that should make empty spaces look less empty**. *If you want a space to not be empty, fill it with larger shapes and do not use air deco.* You also don’t have to use every type of air deco listed here, although it helps to know how to make all of them.
 
-Make sure you don’t use it as a crutch either. Since it’s a minor type of decoration, you shouldn’t dedicate a lot of time to it before everything else is done. Additionally, air deco should be simple; if you want something to be more complex, consider making it a larger object such as a block or part of the background. That way, it’d be more appreciated.
+Make sure you don’t use it as a crutch either. Since it’s a minor type of decoration, you shouldn’t dedicate a lot of time to it before everything else is done. Additionally, air deco should be simple; if you want something to be more complex, consider making it a larger object such as a block or part of the background. That way, it can be more appreciated.
 
 # 2: Arrows
 
@@ -64,9 +65,9 @@ The glowing squares connect the top cluster of blocks to the one on the bottom. 
 
 # 4: Particles
 
-Particles are small objects that just fill up space. You can use the rotating squares in the saw tab, small glow circles, the P arrow blocks in the orb tab, or pretty much anything else to make them.
+Particles are small objects that just fill up space. You can use the rotating squares in the saw tab, small glow circles, the P arrow blocks in the orb tab, or anything else to make them. You can also make use of 2.2's new particle system to customise these how you like.
 
-Animating your particles (i.e. having them move, change opacity, etc) will make them a lot more interesting and fill space better. The more varied the movements are, for example, the better.
+Animating your particles (i.e. making them move, change opacity, etc) will make them a lot more interesting and fill space better. The more varied the movements are, for example, the better.
 Not only can you use particles to fill up space, but they can also be super helpful for making animations. Look at a game like Hollow Knight or a well-animated movie like Puss in Boots to see an example of this.
 
 An example from Geometry Dash is `White Space` by `Xender Game` . You’ll notice a lot of small details, like how the particles blow in the wind after the train passes by, or get pushed all over the place if a structure moves quickly. The level is full of particles, so I recommend dissecting it to see all the places they get used.
@@ -87,15 +88,15 @@ Two minutes and nine seconds in, you can see particles that are used for specifi
 
 # 5: Overlays
 
-Overlays are full-screen visual effects that are, well, laid over everything else. An example would be a full-screen flash, or a gradient that you make out of glow and put on the T3 layer.
+Overlays are full-screen visual effects that are, well laid over everything else. An example would be a full-screen flash, or a gradient that you make out of glow and put on the T3 layer.
 
-You could argue that many overlays don’t function as air deco; however, I think it depends on how you make and use them. A rain effect like the one in `Culuc`’s `Black Flag` part counts as an overlay; so do motion lines like in `Fuel` by `Bli` . Even a full-screen gradient can make your colors look more interesting and direct attention away from empty parts.
+You could argue that many overlays don’t function as air deco; however, it depends on how you make and use them. A rain effect like the one in `Culuc`’s `Black Flag` part counts as an overlay; so do motion lines like in `Fuel` by `Bli` . Even a full-screen gradient can make your colors look more interesting and direct attention away from empty parts.
 
 {{< youtube 03OC6MzgASc >}}
 
 {{< youtube sdDSnr7o1uc >}}
 
-When making overlays, make sure they stay as a minor detail. They shouldn’t overpower everything else, but they also should be impactful enough to be worth the objects. I recommend adding them at the very end of your deco process so you can see how they affect the finished product.
+When making overlays, make sure they stay as a minor detail. They shouldn’t overpower everything else, but they also should be impactful enough to be worth the objects. It is recommended to add them at the very end of your deco process so you can see how they affect the finished product.
 
 Here are some examples from other levels.
 
@@ -105,5 +106,4 @@ Twenty-nine seconds in, there’s a strong glow overlay on the screen. This is s
 
 {{< youtube EmKT01hDUyY >}}
 
-You most certainly can see the overlay in this part, but you may not be able to tell what it’s made of. Here, there’s a combination of gradient lines and large cloud objects, all of which are on low opacity. Occasionally a spiral saw object is also used on a pulse. Finally, there’s a glow overlay which makes the part feel very bright.
-
+You most certainly can see the overlay in this part, but you may not be able to tell what it’s made of. Here, there’s a combination of gradient lines and large cloud objects, all of which are on low opacity. Occasionally, a spiral saw object is also used on a pulse. Finally, there’s a glow overlay which makes the part feel very bright.
