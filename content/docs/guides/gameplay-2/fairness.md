@@ -8,11 +8,7 @@ date: 2024-07-31T00:00:00.000Z
 contributors:
   - notamoderatr
   - tdp9
-description: When you think of playing a level, you would expect it to be
-  enjoyable to play and even if you die multiple times, you can get right back
-  into the level without any hassle. Sometimes these ideas aren’t met and you
-  end up with unfair or otherwise unenjoyable gameplay. In this guide, we will
-  look at the concept of fairness and how it applies to your gameplay.
+description: When you think of playing a level, you would expect it to be enjoyable to play and even if you die multiple times, you can get right back into the level without any hassle. Sometimes these ideas aren’t met and you end up with unfair or otherwise unenjoyable gameplay. In this guide, we will look at the concept of fairness and how it applies to your gameplay.
 tags:
   - Grade 2
   - Gameplay Pacing

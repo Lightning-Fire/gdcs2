@@ -8,53 +8,18 @@ date: 2025-11-15T00:00:00.000Z
 contributors:
   - averageundertalefan
   - sparktwee
-description: "How does a drawing come to life? For every animation movie that
-  you’ve watched and every crazy Geometry Dash effect that you’ve seen, there
-  are individual objects that change positions to simulate life-like movement.
-  For the first animation principles guide, we’ll discuss two principles that
-  communicate an object’s speed and acceleration: Timing and Easing."
+description: "How does a drawing come to life? For every animation movie that you’ve watched and every crazy Geometry Dash effect that you’ve seen, there are individual objects that change positions to simulate life-like movement. For the first animation principles guide, we’ll discuss two principles that communicate an object’s speed and acceleration: Timing and Easing."
 tags:
   - Grade 2
   - Animation
 ---
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 - Timing measures movement in terms of frames: slow moving objects have more frames in between while fast moving objects have less frames.
 - Slow timing usually communicates the following: delay, old age, heaviness, grace, timelessness, patience.
 - Fast timing usually communicates the following: responsiveness, youth, lightweight, flashiness, rush hour, deadlines.
 - Easing explains how these frames are spaced out. Due to how objects tend to accelerate and decelerate when they move, it also can be translated in animation: Slow In, Slow Out.
 - Within the context of Geometry Dash, some triggers are equipped with their own easings that you can choose; some of which will have more versatile use cases than others.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 {{< /callout >}}
@@ -73,9 +38,13 @@ While time is measured in seconds, animation is measured in **frames**, *which a
 
 Sequences that use more frames result in slower timings; movements are stretched out, allowing the viewer to focus on the subtle details and nuances of a structure’s animation or the surrounding environment, like the background. This is often used to convey a range of emotions, like tranquillity, suspense, or weight. By prolonging the action, **the viewer’s attention is more drawn to the emotional or physical significance of an element**, developing atmosphere and helping to anticipate what comes next, which enhances the contrast of dramatic moments that can be done with its counterpart: fast timings.
 
-For example, in [Shadow of the Colossus](https://www.youtube.com/watch?v=7YHHYthPIc4), notice how slowly the 3rd colossus, Gaius, takes its time waking up before going to a fighting stance. This gives the impression that it is old, gigantic and heavy. In addition, due to how slow its anticipation is when it is preparing to attack, it clearly signals the player on how powerful the attack is, prompting them to avoid it.
+For example, in **Shadow of the Colossus**, notice how slowly the 3rd colossus, Gaius, takes its time waking up before going to a fighting stance. This gives the impression that it is old, gigantic and heavy. In addition, due to how slow its anticipation is when it is preparing to attack, it clearly signals the player on how powerful the attack is, prompting them to avoid it.
 
-Applying this to Geometry Dash, [alas](https://www.youtube.com/watch?v=rtTFemGXReQ&t=41s) by Tohey also creates the same impression thanks to how slow the timing is in its setpieces. From the airplane to the dragon flapping its wings and how the plane ditches into the sea.
+{{< youtube 7YHHYthPIc4 >}}
+
+Applying this to Geometry Dash, **alas** by Tohey also creates the same impression thanks to how slow the timing is in its setpieces. From the airplane to the dragon flapping its wings and how the plane ditches into the sea.
+
+{{< youtube id="rtTFemGXReQ" start="41" >}}
 
 ## Fast Timing
 
@@ -85,7 +54,9 @@ A great example is the contrast shown with Gaius and the adventurer that you’r
 
 This fragility also applies to how Hollow Knight handles its own animation and fights. With the player being much smaller and nimbler compared to the bosses, notice how the controls use faster timings to communicate responsiveness. Not to mention, due to how tiny these bugs are, it also communicates the game’s scale and scope accordingly.
 
-In GD, most flashy effects fall into fast timings since most Newgrounds songs facilitate fast beats ranging from dubstep to EDMs. But one example that uses fast timings especially well is in [Circus Dash](https://www.youtube.com/watch?v=eKXN8qzT6gU&t=15s) by MCAASJ. Combining how the characters are rigged and how nonstop their movements are, it creates an energetic, whimsical, and chaotic atmosphere fitting its circus theme cleanly.
+In GD, most flashy effects fall into fast timings since most Newgrounds songs facilitate fast beats ranging from dubstep to EDMs. But one example that uses fast timings especially well is in **Circus Dash** by MCAASJ. Combining how the characters are rigged and how nonstop their movements are, it creates an energetic, whimsical, and chaotic atmosphere fitting its circus theme cleanly.
+
+{{< youtube id="eKXN8qzT6gU" start="15" >}}
 
 # 2: Easing
 
@@ -99,7 +70,9 @@ Most living beings move like this. They slowly gain speed in, then slowly lose s
 
 Animals rarely move in a normal straight line because when it comes to living things (large and small), their limbs have to move in arcs. This explains part of why the “None” Easing is rarely used.
 
-On the other hand, if the aim is to communicate a more industrial/factory setting where precision is key, having zero easings can be a more fitting choice, such as in [Alika](https://www.youtube.com/watch?v=UpOfN5UrT4Y) by 2003Devin.
+On the other hand, if the aim is to communicate a more industrial/factory setting where precision is key, having zero easings can be a more fitting choice, such as in **Alika** by 2003Devin.
+
+{{< youtube UpOfN5UrT4Y >}}
 
 ## Trigger Easings
 
@@ -107,23 +80,29 @@ Some triggers in the Geometry Dash editor such as the move trigger, rotate trigg
 
 When choosing an easing, **think about the movement you’re trying to make**. Are you making a heavy object that needs a lot of time to start or stop moving? Is there a “wind-up” where the object must “charge” up its speed before rapidly moving, or is it suddenly screeching to a halt? Do you want a more natural or a more robotic movement? Keeping this in mind will help you use the easings below for intentional reasons.
 
-### Easing Options
+Use the video below to visualize each easing option in Geometry Dash.
 
 {{< youtube pPfMCqZe360 >}}
 
-You have the freedom to use easings to communicate how an object moves and behaves. Even more, you can stack those easings to create more complex movements. For instance, by stacking Sine In and Sine Out easings, you can create curvy movements, [here.](https://www.gdcreatorschool.com/docs/guides/triggers-1/stacking/#3-combined-effects)
+You have the freedom to use easings to communicate how an object moves and behaves. Even more, you can stack those easings to create more complex movements. For instance, by stacking Sine In and Sine Out easings, you can create curvy movements, [as shown here.](https://www.gdcreatorschool.com/docs/guides/triggers-1/stacking/#3-combined-effects)
 
 # 3. Examples
 
 Here we will explore many examples of timing and easing and explain them in depth.
 
+## Example 1: Ganondorf
+
 {{< gif src="https://ssb.wiki.gallery/images/thumb/0/00/GanondorfFSmashSSBU.gif/300px-GanondorfFSmashSSBU.gif" >}}
 
 Take this attack animation for example. Because the sword is extremely heavy, Ganondorf cannot swing it immediately, due to the inertia. The animation shows this by exaggerating the ease-in of the animation, to show him fighting against the sword's weight, before violently striking the ground from gravity.
 
+## Example 2: Sonic
+
 {{< gif src="https://media1.tenor.com/m/tvWglgD9r8cAAAAd/sonic-the-hedgehog-sonic.gif" >}}
 
 You can also take Sonic's sudden halt for example. Because he runs faster than the speed of light, he cannot just "stop moving" (Unless you break the laws of physics, of course.) That is why he goes into a dramatic sliding animation to fight his intense forward force and momentum. It mimics friction and the sudden deceleration of speed, making the viewer see how fast Sonic was before the stop.
+
+## Example 3: Squidward
 
 You can even show emotion through timing.
 
@@ -135,7 +114,9 @@ As you can see, Squidward clearly looks happy and relaxed, as he plops into the 
 
 Or even here, where  Squidward is annoyed and quickly packs up his lawn chair. If it had a smooth, slow ease, it would probably look like he was gently packing up everything, looking happy and calm. If it didn't have any real timing at all, the movement would look robotic, like an emotionless task being completed. Because it starts slow and Squidward rushes back to his house, it tells us he is doing that out of pure spite and annoyance.
 
-Aside from all of that, you can even leave a big impact on the viewer as well. I will use Jiequan from Nine Sols as an example.
+## Example 4: Jiequan
+
+Aside from all of that, you can even leave a big impact on the viewer as well. I will use **Jiequan from Nine Sols** as an example.
 
 Take a look at these attacks. When Jiequan leaps into the air slowly, it makes it feel as if the attack is slow and won't be very powerful. But in reality, the attack suddenly accelerates with immense force, which catches the player off guard. To make the strike feel heavy and powerful, the actual dash downward is only a few frames, compared to the startup with light movement. It creates high tension, a sense of danger, and strength.
 
@@ -146,11 +127,7 @@ Another example of this is when Jiequan uses one of his Crimson Attacks, where y
 {{< img-grid >}}
 {{< img src="https://lh3.googleusercontent.com/d/1fqOwMFflmPkeVASNPqhzIGlY04mZopLE" >}}
 
-
-
 {{< img src="https://lh3.googleusercontent.com/d/1o3K5CUcu9QN0CySpYDkmxKB4AXFaL8_l" >}}
-
-
 
 {{< img src="https://lh3.googleusercontent.com/d/1oegJsiWJckg5qOgyEFay_LrnHomc9iHg" >}}
 {{< /img-grid >}}

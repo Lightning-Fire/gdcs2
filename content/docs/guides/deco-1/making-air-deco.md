@@ -7,9 +7,7 @@ weight: 5100
 date: 2023-03-18T00:00:00.000Z
 contributors:
   - komatic5
-description: Air Deco is a neat way to make your work look more lively and fill
-  in space that might be really empty otherwise. This guide will go over some
-  common types of air deco and how to make them.
+description: Air Deco is a neat way to make your work look more lively and fill in space that might be really empty otherwise. This guide will go over some common types of air deco and how to make them.
 tags:
   - Grade 1
   - Deco Skills
