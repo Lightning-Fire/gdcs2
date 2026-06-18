@@ -21,9 +21,11 @@ tags:
 ---
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 
+
 - The game uses hitboxes that are not the same as the sprites that they represent.
 - The player has 3 hitboxes, with an extra one for slopes. The main Hitbox collides with mostly spikes and the floor/ceiling, the small - - Hitbox collides with solid objects, and the rotated Hitbox collides with everything that is rotated.
 - The game will check for collisions 4 times between processing, which are called sub-frames.
+
 
 
 {{< /callout >}}
@@ -40,9 +42,9 @@ You most likely know that hitboxes in GD are not perfect, however you may be int
 
 # 1: The Player Hitbox
 
-The player hitbox consists of three main parts: the **main hitbox** (AKA the AABB hitbox), the **small hitbox** (AKA The Solid hitbox/The Blue hitbox) and the **rotational hitbox** (OBB hitbox).
+The player hitbox consists of three main parts: the **main hitbox** (AKA the AABB hitbox), the **small hitbox** (AKA The Solid hitbox/The Blue hitbox) and the **rotation hitbox** (OBB hitbox).
 
-There is also an extra hitbox-like area that’s calledthe **slope hitbox.**
+There is also an extra hitbox-like area that’s called the **slope hitbox.**
 
 Each of these hitboxes have different conditions for collision and registering events.
 
