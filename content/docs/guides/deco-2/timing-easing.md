@@ -32,11 +32,17 @@ tags:
 
 
 
+
+
+
 - Timing measures movement in terms of frames: slow moving objects have more frames in between while fast moving objects have less frames.
 - Slow timing usually communicates the following: delay, old age, heaviness, grace, timelessness, patience.
 - Fast timing usually communicates the following: responsiveness, youth, lightweight, flashiness, rush hour, deadlines.
 - Easing explains how these frames are spaced out. Due to how objects tend to accelerate and decelerate when they move, it also can be translated in animation: Slow In, Slow Out.
 - Within the context of Geometry Dash, some triggers are equipped with their own easings that you can choose; some of which will have more versatile use cases than others.
+
+
+
 
 
 
@@ -115,21 +121,17 @@ Here we will explore many examples of timing and easing and explain them in dept
 
 Take this attack animation for example. Because the sword is extremely heavy, Ganondorf cannot swing it immediately, due to the inertia. The animation shows this by exaggerating the ease-in of the animation, to show him fighting against the sword's weight, before violently striking the ground from gravity.
 
-
 {{< gif src="https://media1.tenor.com/m/tvWglgD9r8cAAAAd/sonic-the-hedgehog-sonic.gif" >}}
-
 
 You can also take Sonic's sudden halt for example. Because he runs faster than the speed of light, he cannot just "stop moving" (Unless you break the laws of physics, of course.) That is why he goes into a dramatic sliding animation to fight his intense forward force and momentum. It mimics friction and the sudden deceleration of speed, making the viewer see how fast Sonic was before the stop.
 
 You can even show emotion through timing.
 
-
 {{< gif src="https://media.tenor.com/hKhRBbx1Oi8AAAAM/squidward-squidward-meme.gif" >}}
-
 
 As you can see, Squidward clearly looks happy and relaxed, as he plops into the chair with fast movement. The fast timing directly correlates to the positive energy. The quick motion and the way he "plops" onto the chair and bounces shows that he feels good, rather then it being instantaneous with a hard impact where he just plummets onto it. On the other hand, if Squidward were tired, he'd probably get on the chair slowly, instead of quickly.
 
-{{< gif src="https://media1.tenor.com/m/8UmntBwQJSsAAAAd/spongebob-spongebob-squarepants.gif "squidward annoyed putting back chair" >}}
+{{< gif src="https://media1.tenor.com/m/8UmntBwQJSsAAAAd/spongebob-spongebob-squarepants.gif" >}}
 
 Or even here, where  Squidward is annoyed and quickly packs up his lawn chair. If it had a smooth, slow ease, it would probably look like he was gently packing up everything, looking happy and calm. If it didn't have any real timing at all, the movement would look robotic, like an emotionless task being completed. Because it starts slow and Squidward rushes back to his house, it tells us he is doing that out of pure spite and annoyance.
 
@@ -137,24 +139,24 @@ Aside from all of that, you can even leave a big impact on the viewer as well. I
 
 Take a look at these attacks. When Jiequan leaps into the air slowly, it makes it feel as if the attack is slow and won't be very powerful. But in reality, the attack suddenly accelerates with immense force, which catches the player off guard. To make the strike feel heavy and powerful, the actual dash downward is only a few frames, compared to the startup with light movement. It creates high tension, a sense of danger, and strength.
 
-{{< img src="{{<" >}}
+{{< img src="https://lh3.googleusercontent.com/d/1X_FuM2jEpouaLWqbLUOlOH-y_rx_zStg" >}}
 
-" >}}
-
-Another example of this is when Jiequan uses one of his Crimson Attacks, where you are forced to use the Unbounded Counter to deflect the attack, or suffer heavy damage. The Unbounded Counter takes around 0.5 seconds to charge, and Jiequan goes into a stance for around 2 seconds. (Image 1) This allows the player to start charging up their Unbounded Counter, treating it like a grace period. The timing forces you to master it, because Jiequan is the first bossfight you do after unlocking the Unbounded Counter.
+Another example of this is when Jiequan uses one of his Crimson Attacks, where you are forced to use the Unbounded Counter to deflect the attack, or suffer heavy damage. The Unbounded Counter takes around 0.5 seconds to charge, and Jiequan goes into a stance for around 2 seconds. (Image 1) This allows the player to start charging up their Unbounded Counter, treating it like a grace period. (Image 3) The timing forces you to master it, because Jiequan is the first bossfight you do after unlocking the Unbounded Counter.
 
 {{< img-grid >}}
-{{< img src="{{< img src="https://lh3.googleusercontent.com/d/1fqOwMFflmPkeVASNPqhzIGlY04mZopLE" >}}" >}}
+{{< img src="https://lh3.googleusercontent.com/d/1fqOwMFflmPkeVASNPqhzIGlY04mZopLE" >}}
 
-{{< img src="{{< img src="https://lh3.googleusercontent.com/d/1o3K5CUcu9QN0CySpYDkmxKB4AXFaL8_l" >}}" >}}
 
-{{< img src="{{< img src="https://lh3.googleusercontent.com/d/1oegJsiWJckg5qOgyEFay_LrnHomc9iHg" >}}" >}}
+
+{{< img src="https://lh3.googleusercontent.com/d/1o3K5CUcu9QN0CySpYDkmxKB4AXFaL8_l" >}}
+
+
+
+{{< img src="https://lh3.googleusercontent.com/d/1oegJsiWJckg5qOgyEFay_LrnHomc9iHg" >}}
 {{< /img-grid >}}
 
 Finally, take a look at this attack where Jiequan throws mines at the player where they explode soon after. Unlike his quick and striking blade attacks, the mines follow unpredictable movements which can catch the player off guard. The mines themselves ease in, then start falling to the ground relatively slowly, which gives the player time to react. Instead of testing the player's reaction time, the slow timing makes the player think. It gives them time to ask themselves: "Where can I move without being hit?" This creates clear contrast due to the clear opposition in comparison to his agile strikes.
 
-{{< img src="{{<" >}}
-
-" >}}
+{{< img src="https://lh3.googleusercontent.com/d/1Sw_ylLWvFuYBAKHAURCxNshHGVRbw0-O" >}}
 
 Now that you know how Timing and Easing works, I highly suggest you try to implement it into any level or try playing around with it.
