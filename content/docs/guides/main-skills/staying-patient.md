@@ -10,12 +10,7 @@ contributors:
   - komatic5
   - sparktwee
   - calibratorworks
-description: Geometry Dash is a challenging game that requires a lot of skill
-  and patience to succeed. If you want to create appealing levels, it's
-  important to have a solid understanding of the game mechanics and the
-  motivation to pay attention to small details. Patience is a key factor in this
-  process, and in this guide, we will explore why patience is so important for
-  creating in Geometry Dash.
+description: Geometry Dash is a challenging game that requires a lot of skill and patience to succeed. If you want to create appealing levels, it's important to have a solid understanding of the game mechanics and the motivation to pay attention to small details. Patience is a key factor in this process, and in this guide, we will explore why patience is so important for creating in Geometry Dash.
 tags:
   - Grade 0
   - Your Mindset

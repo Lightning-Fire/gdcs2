@@ -8,8 +8,7 @@ date: 2024-03-11T00:00:00.000Z
 contributors:
   - tv_box
   - tdp9
-description: This guide explains how the Screen Filter triggers work. These
-  triggers place various screen filters or shaders on the level.
+description: This guide explains how the Screen Filter triggers work. These triggers place various screen filters or shaders on the level.
 tags:
   - Grade 1
   - Effect Triggers

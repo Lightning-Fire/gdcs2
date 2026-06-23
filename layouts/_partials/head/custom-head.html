@@ -3,7 +3,11 @@
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5410467857105222"
      crossorigin="anonymous"></script>
 
-     
+{{ partial "analytics.html" . }}
+<link rel="stylesheet" href="/vendor/cookieconsent/cookieconsent.css">
+
+{{ partial "consent.html" . }}
+
 {{ if .Params.math }}
   {{ partial "math.html" . }}
 {{ end }}

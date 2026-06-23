@@ -8,13 +8,7 @@ date: 2025-01-16T00:00:00.000Z
 contributors:
   - e.clypse
   - psytrancegd
-description: Human inputs are never perfect. Clicks will always vary between
-  attempts, and levels will always have to account for a certain margin of
-  error. When creating gameplay, consistency and fairness should be emphasized
-  so that the player’s experience with the level is as good as possible. This
-  guide explains the main factors behind consistent gameplay (Margin of Error,
-  Punishment, Bugfixing, and Transitions), as well as how players should use
-  these to make their gameplay consistent.
+description: Human inputs are never perfect. Clicks will always vary between attempts, and levels will always have to account for a certain margin of error. When creating gameplay, consistency and fairness should be emphasized so that the player’s experience with the level is as good as possible. This guide explains the main factors behind consistent gameplay (Margin of Error, Punishment, Bugfixing, and Transitions), as well as how players should use these to make their gameplay consistent.
 tags:
   - Grade 1
   - Types of Gameplay

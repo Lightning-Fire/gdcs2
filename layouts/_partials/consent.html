@@ -1,0 +1,48 @@
+<script defer src="/vendor/cookieconsent/cookieconsent.umd.js"></script>
+<script>
+  window.addEventListener('load', function () {
+    if (typeof CookieConsent === 'undefined') return;
+
+    function syncGtagConsent() {
+      if (typeof gtag !== 'function') return;
+      gtag('consent', 'update', {
+        analytics_storage: CookieConsent.acceptedCategory('analytics') ? 'granted' : 'denied'
+      });
+    }
+
+    CookieConsent.run({
+      guiOptions: { consentModal: { layout: 'box wide', position: 'bottom right' } },
+      categories: {
+        necessary: { enabled: true, readOnly: true },
+        analytics: { autoClear: { cookies: [ { name: /^_ga/ }, { name: '_gid' } ] } }
+      },
+      onFirstConsent: syncGtagConsent,
+      onConsent: syncGtagConsent,
+      onChange: syncGtagConsent,
+      language: {
+        default: 'en',
+        translations: {
+          en: {
+            consentModal: {
+              title: 'We use cookies',
+              description: 'Analytics stay off until you accept. See the <a href="/privacy">Privacy page</a>.',
+              acceptAllBtn: 'Accept',
+              acceptNecessaryBtn: 'Reject',
+              showPreferencesBtn: 'Manage preferences'
+            },
+            preferencesModal: {
+              title: 'Cookie preferences',
+              acceptAllBtn: 'Accept all',
+              acceptNecessaryBtn: 'Reject all',
+              savePreferencesBtn: 'Save preferences',
+              sections: [
+                { title: 'Strictly necessary', description: 'These cookies are used for site features, such as the search bar and the site\'s appearance.', linkedCategory: 'necessary' },
+                { title: 'Analytics', description: 'We collect anonymous data on website usage. For more info, see the Privacy Policy.', linkedCategory: 'analytics' }
+              ]
+            }
+          }
+        }
+      }
+    });
+  });
+</script>

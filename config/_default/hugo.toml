@@ -107,6 +107,5 @@ copyRight = "Copyright (c) 2026 Geometry Dash Creator School"
   quality = 85
   resampleFilter = "Lanczos"
 
-[services]
-  [services.googleAnalytics]
-    ID = 'G-BQTM4KS0M7'
+[params.analytics]
+  ga4 = 'G-BQTM4KS0M7'
