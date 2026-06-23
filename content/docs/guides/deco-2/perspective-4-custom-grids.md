@@ -119,6 +119,10 @@ LightPotatoDev decided to create an alleyway scene for a transition in their upc
 
 {{< img src="https://lh3.googleusercontent.com/d/1MnieaOZYBOAw43LtiUdpxyiiJ3LKW4xY" >}}
 
-"Wall" by Vegtam and fJud 
+"Wall" by Vegtam and fJud has an endscreen, and it has a background full of city buildings made with 2-point perspective. The horizon line is low, making it seem as if the camera is angled up slightly.
+
+{{< img src="https://lh3.googleusercontent.com/d/1G6B62TMHG3qG-gs9T0MYxwDttOYU1QXt" >}}
+
+"entropie" by empsea
 
 {{< youtube dFI8pEitf9M >}}
