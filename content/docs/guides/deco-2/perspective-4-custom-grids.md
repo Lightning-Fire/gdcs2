@@ -35,13 +35,13 @@ The __Cone of Vision__ (abbreviated as “**CoV**”) defines a space on the pic
 
 {{< img src="https://lh3.googleusercontent.com/d/1aUbd20r_YiMfWESsKhsRVTz6hi_GnjU1" >}}
 
-The 45° Vanishing Point, also called the diagonal vanishing point (abbreviated as “DVP”), helps make a perfect cube or square in perspective without relying on guesswork. This can be made by tilting two lines to the left and right respectively by 45°, with the station point as your pivot point. The points where those lines intersect the horizon line represent your vanishing points.
+The __45° Vanishing Point__, also called the __diagonal vanishing point__ (abbreviated as “**DVP**”), helps make a perfect cube or square in perspective without relying on guesswork. This can be made by tilting two lines to the left and right respectively by 45°, with the station point as your pivot point. The points where those lines intersect the horizon line represent your vanishing points.
 
 {{< img src="https://lh3.googleusercontent.com/d/10mv5V55Fus5IhfQAIUi6zlU-RJVsLycU" >}}
 
 ## 1-Point Perspective Grids
 
-1-point grids are the most commonly found in Geometry Dash levels, especially ones with dynamic perspective; it’s generally the simplest and least complicated. This type of grid requires lines on the z-axis to point towards the sole vanishing point, which is typically in the middle of the screen. A __50° Cone of Vision__ is recommended here, meaning you must rotate two vertical lines by 25° in each direction, with the station point being your pivot point.
+__One-point grids__ are most commonly found in Geometry Dash levels, especially ones with dynamic perspective; it’s generally the simplest and least complicated. This type of grid requires lines on the z-axis to point towards the sole vanishing point, which is typically in the middle of the screen. A __50° Cone of Vision__ is recommended here, meaning you must rotate two vertical lines by 25° in each direction, with the station point being your pivot point.
 
 To create a 1-point perspective grid in Geometry Dash, do the following:
 
@@ -55,7 +55,7 @@ To create a 1-point perspective grid in Geometry Dash, do the following:
 
 ## 2-Point Perspective Grids
 
-In Geometry Dash, 2-point grids can be found in still images like transitions or endscreens, and they help add a lot of depth to them. This type of grid has two vanishing points on either side of the picture plane, and lines on the x- and z-axis point to each one respectively. Note that the initial square will have a corner facing towards the viewer, so the CVP will be called the DVP instead. A __60° Cone of Vision__ is recommended here, meaning you must rotate two vertical lines by 30° in each direction, with the station point being your pivot point.
+In Geometry Dash, __two-point grids__ can be found in still images like transitions or endscreens, and they help add a lot of depth to them. This type of grid has two vanishing points on either side of the picture plane, and lines on the x- and z-axis point to each one respectively. Note that the initial square will have a corner facing towards the viewer, so the CVP will be called the DVP instead. A __60° Cone of Vision__ is recommended here, meaning you must rotate two vertical lines by 30° in each direction, with the station point being your pivot point.
 
 To create a 2-point perspective grid in Geometry Dash, do the following:
 1. Establish the essentials such as the picture plane, horizon line, station point, and DVP. Additionally, place a vanishing point to the left *and* right of the DVP, spacing them equally. These will be called the left vanishing point (abbreviated as “LVP”) and the right vanishing point (abbreviated as “RVP”).
@@ -119,13 +119,13 @@ LightPotatoDev decided to create an alleyway scene for a transition in their upc
 
 {{< img src="https://lh3.googleusercontent.com/d/1MnieaOZYBOAw43LtiUdpxyiiJ3LKW4xY" >}}
 
-"Wall" by Vegtam and fJud has an endscreen, and it has a background full of city buildings made with 2-point perspective. The horizon line is low, making it seem as if the camera is angled up slightly.
+"Wall" by Vegtam and fJud has an endscreen with a background full of city buildings made with 2-point perspective. The horizon line is low, making it seem as if the camera is angled up slightly.
 
 {{< img src="https://lh3.googleusercontent.com/d/1G6B62TMHG3qG-gs9T0MYxwDttOYU1QXt" >}}
 
 There are cases in which you can use both types of perspective in a single situation. At the 0:41 mark in "entropie" by empsea, a cutscene transition utilizes both one- and two- point perspective as the camera moves around the bridge.
 
-{{< youtube dFI8pEitf9M >}}
+{{< youtube id="dFI8pEitf9M" start="41" >}}
 
 # Sources
 - Scott Robertson: How to Draw, Chapter 4
