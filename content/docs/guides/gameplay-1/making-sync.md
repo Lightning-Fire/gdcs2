@@ -8,7 +8,10 @@ date: 2025-01-14T00:00:00.000Z
 contributors:
   - e.clypse
   - notamoderatr
-description: Sync is one of the most intuitive appeal factors in gameplay. As such, it's important that you understand how to introduce sync in your gameplay. This guide will explain how you can create sync using the tools in the editor.
+description: Sync is one of the most intuitive appeal factors in gameplay. As
+  such, it's important that you understand how to introduce sync in your
+  gameplay. This guide will explain how you can create sync using the tools in
+  the editor.
 tags:
   - Grade 1
   - Types of Gameplay
@@ -26,11 +29,11 @@ tags:
 
 One of Geometry Dash’s core mechanics is the inclusion of music to go along with the gameplay; it helps keep the experience engaging for the player. You may notice that elements in the song sometimes line up with visuals or mechanics in a level, which is referred to as sync. In this guide, we will cover why it matters, how to properly sync gameplay to the music, and what things to consider when making sync.
 
-# 1: Why does sync matter?
+# 1: Why Does Sync Matter?
 
 Sync is an essential component for classic gameplay, since it keeps the level engaging for the player. It’s also useful for giving the player a “foundation” for their clicks.
 
-There are many ways you can convey sync — and in turn energy — in your gameplay through syncing by clicks or syncing with the player's movement. The energy of a song can be conveyed this way if actions match the song’s rhythm, but you need to be selective on what you want to sync with. This can include the melody, bass, or with percussion. Patterns will form from this and are what players enjoy since they match with the song. This can be taken further by having extra clicks sync with extra notes, although this is usually done with slower songs as it’s much clearer to the player.
+There are many ways you can convey sync — and in turn energy — in your gameplay through syncing by clicks or syncing with the player's movement. The energy of a song can be conveyed this way if actions match the song’s rhythm, but **you need to be selective on what you want to sync with**. This can include the melody, bass, or with percussion. Patterns will form from this and are what players enjoy since they match with the song. This can be taken further by having extra clicks sync with extra notes, although this is usually done with slower songs as it’s much clearer to the player.
 
 # 2: Ways to Make Sync
 
@@ -72,7 +75,7 @@ Speed Hack can be useful for increasing precision with sync. This is mostly used
 
 ## Speed Portal Positions
 
-When making accurate sync, speed portal position should be taken into account. The Music Line ignores its perpendicular axis, which affects objects like speed portals; The speed will always change at a predetermined point. While playtesting, the spot in which the player collides with a speed portal changes the speed.
+When making accurate sync, **speed portal position should be taken into account**. The Music Line ignores its perpendicular axis, which affects objects like speed portals; The speed will always change at a predetermined point. While playtesting, the spot in which the player collides with a speed portal changes the speed.
 
 Fixing this behaviour is simple: By using a Follow Player Y trigger, you can have a secondary portal that prevents the player from being able to jump over the original portal, mitigating desync.
 
@@ -82,7 +85,7 @@ Fixing this behaviour is simple: By using a Follow Player Y trigger, you can hav
 
 ### Bluetooth Devices
 
-Bluetooth Audio Devices are likely to introduce delay to your level, since it takes longer for information to reach the speaker than by wire. You should avoid using these for level building when possible, since they may create up to 2 or more blocks of delay.
+Bluetooth Audio Devices are likely to introduce delay to your level, since it takes longer for information to reach the speaker than by wire. **You should avoid using these for level building when possible**, since they may create up to 2 or more blocks of delay.
 
 ### Device Click Delay
 
@@ -90,4 +93,4 @@ This problem is common for mobile devices due to bad polling rate from the devic
 
 ## Thorough Playtesting
 
-Using only one method of playtesting is generally not a good idea since many factors can affect the sync in noticeable ways. Using multiple methods to check for consistency helps greatly. Speed portals are one of the most important cases to use this, since the point where the player collides can drastically change the sync of the song.
+Using only one method of playtesting is generally not a good idea since many factors can affect the sync in noticeable ways. Using multiple methods to check for consistency helps greatly. **You should be specially wary of Speed portals, Arrow triggers and Teleport triggers placements**, since the point where the player interacts with these can drastically change the sync of the song.
