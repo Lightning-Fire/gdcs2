@@ -111,4 +111,14 @@ Now, what if your form is elevated or in the ground? For this kind of positionin
 
 Due to the nature of the game, Geometry Dash creators are able to get creative with how they do perspective.
 
-In the first part of "Alien Dream Emulator" by kira9999, 
+In the first part of "Alien Dream Emulator" by kira9999, different statues in the background are scaled down with the sole vanishing point as the centerpoint. This technique is an efficient and simple way to scale things in perspective, and it's used frequently in levels like these.
+
+{{< img src="https://lh3.googleusercontent.com/d/1lqaaBU2FbJc38WNgZQ0DNotOcpnBZvhH" >}}
+
+LightPotatoDev decided to create an alleyway scene for a transition in their upcoming level "Hyperheist", which is a perfect setup for 1-point perspective. You'll notice that objects outside the Cone of Vision are simple, unobtrusive forms that won't look strange or unnatural. The main subjects of the scene reside almost entirely within the Cone of Vision.
+
+{{< img src="https://lh3.googleusercontent.com/d/1MnieaOZYBOAw43LtiUdpxyiiJ3LKW4xY" >}}
+
+"Wall" by Vegtam and fJud 
+
+{{< youtube dFI8pEitf9M >}}
