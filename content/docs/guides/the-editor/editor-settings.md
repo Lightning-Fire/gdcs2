@@ -1,19 +1,22 @@
 ---
 draft: false
+authors:
+  - tdp9
 title: Editor Settings
 weight: 1040
 date: 2024-05-15T00:00:00.000Z
-authors:
-  - tdp9
 contributors:
   - tdp9
   - sparktwee
+description: This guide explains all available Level & Editor settings.
 tags:
   - Grade 0
   - The Editor
 seo:
   title: Geometry Dash Editor Guide (Part 4)
-  description: Part 4 of how to use Geometry Dash's level editor, going over how to customize your editor's settings and layout, level settings, and keybinds.
+  description: Part 4 of how to use Geometry Dash's level editor, going over how
+    to customize your editor's settings and layout, level settings, and
+    keybinds.
   canonical: ""
   noindex: false
 ---
