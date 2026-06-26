@@ -9,16 +9,13 @@ contributors:
   - naem.less
   - notamoderatr
   - icefire100062
-description: Collectables are interactive objects that have a lot of
-  miscellaneous properties and interesting use cases. This guide will explain
-  how to use them.
+description: Collectables are interactive objects that have a lot of miscellaneous properties and interesting use cases. This guide will explain how to use them.
 tags:
   - Grade 0
   - Advanced Editor
 seo:
   title: How to Use Keys in Geometry Dash
-  description: A full explanation of collectable objects in Geometry Dash, such as
-    keys and coins.
+  description: A full explanation of collectable objects in Geometry Dash, such as keys and coins.
   canonical: ""
   noindex: false
 ---

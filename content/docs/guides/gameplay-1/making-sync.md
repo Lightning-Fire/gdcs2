@@ -8,10 +8,7 @@ date: 2025-01-14T00:00:00.000Z
 contributors:
   - e.clypse
   - notamoderatr
-description: Sync is one of the most intuitive appeal factors in gameplay. As
-  such, it's important that you understand how to introduce sync in your
-  gameplay. This guide will explain how you can create sync using the tools in
-  the editor.
+description: Sync is one of the most intuitive appeal factors in gameplay. As such, it's important that you understand how to introduce sync in your gameplay. This guide will explain how you can create sync using the tools in the editor.
 tags:
   - Grade 1
   - Types of Gameplay

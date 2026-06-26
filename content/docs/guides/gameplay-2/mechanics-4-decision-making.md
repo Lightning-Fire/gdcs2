@@ -10,17 +10,11 @@ contributors:
   - illusion2
   - psytrancegd
   - komatic5
-description: Have you ever wondered how game designers make compelling decisions
-  that leave you thinking for hours on end? Maybe you’ve spent a lot of time
-  carefully optimizing your gear and accessories, or maybe you were stumped by a
-  puzzle that ended up clicking in a satisfying way. These are examples of
-  decision making, which we’ll cover the fundamentals of in this guide.
+description: Have you ever wondered how game designers make compelling decisions that leave you thinking for hours on end? Maybe you’ve spent a lot of time carefully optimizing your gear and accessories, or maybe you were stumped by a puzzle that ended up clicking in a satisfying way. These are examples of decision making, which we’ll cover the fundamentals of in this guide.
 tags:
   - Grade 2
   - Mechanics
-desccription: This guide explains different kinds of choices (obvious,
-  uninformed, and interested), how you can promote further strategy with
-  tradeoffs, and the concept of Risk vs Reward.
+desccription: This guide explains different kinds of choices (obvious, uninformed, and interested), how you can promote further strategy with tradeoffs, and the concept of Risk vs Reward.
 ---
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}

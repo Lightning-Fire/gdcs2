@@ -4,6 +4,11 @@ Disallow: /tags/
 Disallow: /contributors/
 Sitemap: {{ "/sitemap.xml" | absURL }}
 
+User-agent: Mediapartners-Google
+User-agent: Google-Display-Ads-Bot
+
+Allow: /
+Disallow: /admin
 
 User-agent: AI2Bot
 User-agent: Ai2Bot-Dolma

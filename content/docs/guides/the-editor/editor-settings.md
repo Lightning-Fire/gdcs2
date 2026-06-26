@@ -14,9 +14,7 @@ tags:
   - The Editor
 seo:
   title: Geometry Dash Editor Guide (Part 4)
-  description: Part 4 of how to use Geometry Dash's level editor, going over how
-    to customize your editor's settings and layout, level settings, and
-    keybinds.
+  description: Part 4 of how to use Geometry Dash's level editor, going over how to customize your editor's settings and layout, level settings, and keybinds.
   canonical: ""
   noindex: false
 ---
