@@ -3,21 +3,24 @@ draft: false
 authors:
   - interestex
 title: Game Design 2 (Movement Design)
-seo:
-  title: How to Design Better Movement in Geometry Dash
-  description: Learn the fundamentals of movement design and how responsive, enjoyable movement can improve immersion and gameplay in Geometry Dash.
-  canonical: ""
-  noindex: false
 weight: 7190
 date: 2024-11-30T00:00:00.000Z
 contributors:
   - interestex
   - illusion2
   - psytrancegd
-description: Movement is a core aspect of any game, and can make or break a game’s immersion and enjoyability. This guide will cover many fundamental details in the process of designing good movement systems.
+description: Movement is a core aspect of any game, and can make or break a
+  game’s immersion and enjoyability. This guide will cover many fundamental
+  details in the process of designing good movement systems.
 tags:
   - Grade 2
   - Game Design
+seo:
+  title: How to Design Better Movement in Geometry Dash
+  description: Learn the fundamentals of movement design and how responsive,
+    enjoyable movement can improve immersion and gameplay in Geometry Dash.
+  canonical: ""
+  noindex: false
 ---
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 
@@ -49,7 +52,7 @@ If you want your player to feel like their inputs are WORKING in your game, you�
 
 <span style="color: gray; font-size: 13px">*When swapping directions, you don’t immediately reverse which can lead to unintended results like falling off the platform at the end.*</span>
 
-This can be incredibly important depending on the game you’re making. For instance, if you want to make a precise platformer, you need your controls to be responsive to the point where the action happens *immediately* after the button is pressed. Input delay would make the game seem extremely unfair and annoying (which probably isn't fun). It isn’t a be-all end-all, though, because unresponsive controls can feel more limiting, which will need new forms of gameplay as mentioned later on in the guide and also in [Mechanics 5](/docs/guides/gameplay-2/mechanics-5-limitations-strategy/), as long as it feels intended and still fun to use.
+This can be incredibly important depending on the game you’re making. For instance, if you want to make a precise platformer, you need your controls to be responsive to the point where the action happens *immediately* after the button is pressed. Input delay would make the game seem extremely unfair and annoying (which probably isn't fun). It isn’t a be-all end-all, though, because unresponsive controls can feel more limiting, which will need new forms of gameplay as mentioned later on in the guide and also in {{< img src="images/GDEmotes/CustomGuideIcons/IntermediateGameplay/mechanics-5-limitations-strategy.png" class="emote" >}} [Mechanics 5](/docs/guides/gameplay-2/mechanics-5-limitations-strategy/), as long as it feels intended and still fun to use.
 
 ## Consistency
 
@@ -65,11 +68,11 @@ This might seem easy to do, but it really depends on how your mechanics are made
 
 Level design comes into play when you have a certain mechanic you want to use in the level. If you want your movement to seem like it's actually *useful* in your game, make sure the level requires them to use it when needed. If I have a dash mechanic, and nowhere in the level does it feel useful, why would I ever need it (if not to wave dash back and forth whenever I get bored ???) For every mechanic, there should be areas in the game where the player would find that “X mechanic works best here.”
 
-There are plenty more layers to level design, but that’s outside the scope of this guide, so instead I’ll link you to the [Level Design](/docs/guides/gameplay-2/level-design/) guide.
+There are plenty more layers to level design, but that’s outside the scope of this guide, so instead I’ll link you to the {{< img src="images/GDEmotes/CustomGuideIcons/IntermediateGameplay/game-design-1-level-design.png" class="emote" >}} [Level Design](/docs/guides/gameplay-2/level-design/) guide.
 
 ## Player Feedback
 
-**Player feedback** is **the visual/audible response given to the player after executing a certain input**. Although not as important, you should 100% keep this in mind to make it more obvious that input was performed successfully, instead of observing just off of movement alone. This especially comes into play when you want the player to execute several actions consecutively, by letting them know what the input was and when it happens. This is covered more in [Mechanics 3](/docs/guides/gameplay-2/mechanics-3-feedback/) as well.
+**Player feedback** is **the visual/audible response given to the player after executing a certain input**. Although not as important, you should 100% keep this in mind to make it more obvious that input was performed successfully, instead of observing just off of movement alone. This especially comes into play when you want the player to execute several actions consecutively, by letting them know what the input was and when it happens. This is covered more in {{< img src="images/GDEmotes/CustomGuideIcons/IntermediateGameplay/mechanics-3-feedback.png" class="emote" >}}[Mechanics 3](/docs/guides/gameplay-2/mechanics-3-feedback/) as well.
 
 {{< youtube W2uyB0gc6Zc >}}
 
@@ -83,7 +86,7 @@ For example, if I was to make a platformer that uses different abilities consecu
 
 **Limitations/Freedoms**: Limitations and Freedoms are 100% necessary for well-balanced movement, basically referring to what the player can (and can’t) do with their movement (i.e. I shouldn’t be able to skip whole parts of a level due to how broken a certain mechanic is). Limitations allow you to construct your main gameplay around a balanced movement system, allowing for some creativity when it comes to applying it to a game.
 
-It is also pretty important to balance the player’s freedoms and limits in a game. There shouldn't be too many limits to the point where the player has no freedom in executing something (making the game seem like a chore), and there shouldn't be too many freedoms to the point where the player can do literally everything, making them overlook your intended way of playing the game. For more on this, see the [Limitations](/docs/guides/gameplay-2/mechanics-5-limitations-strategy/) guide.
+It is also pretty important to balance the player’s freedoms and limits in a game. There shouldn't be too many limits to the point where the player has no freedom in executing something (making the game seem like a chore), and there shouldn't be too many freedoms to the point where the player can do literally everything, making them overlook your intended way of playing the game. For more on this, see the {{< img src="images/GDEmotes/CustomGuideIcons/IntermediateGameplay/mechanics-5-limitations-strategy.png" class="emote" >}}[Limitations](/docs/guides/gameplay-2/mechanics-5-limitations-strategy/) guide.
 
 **Manageability**: Manageability is **the idea of how manageable the required inputs are for an average player**. The player should be able to accurately execute controls that relate to what they want to do without it seeming confusing. If somebody had to press 2 or more different keys or press several keys at the same time, like it’s Mortal Kombat to do a simple jump or dash, that wouldn't be very fair or manageable. The controls for your game should be simple and fair to execute, especially with the limited amount of keys GD has for platformer mode.
 
